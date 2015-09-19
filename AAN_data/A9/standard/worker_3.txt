@@ -1,0 +1,15 @@
+We propose a new phrase-based translationmodel and decoding algorithm that enablesus to evaluate and compare several, previ-ously proposed phrase-based translation mod-els
+Surpris-ingly, learning phrases longer than three wordsand learning phrases from high-accuracy word-level alignment models does not have a strongimpact on performance
+Within our framework, we carry out alarge number of experiments to understand bet-ter and explain why phrase-based models out-perform word-based models
+Our empirical re-sults, which hold for all examined languagepairs, suggest that the highest levels of perfor-mance can be obtained through relatively sim-ple means: heuristic learning of phrase trans-lations from word-based alignments and lexi-cal weighting of phrase translations
+, 2003) present convincing evidence that restricting phrasal translation to syntactic constituents yields poor translation performance the ability to translate nonconstituent phrases (such as there are, note that, and according to) turns out to be critical and pervasive
+1 Introduction Recent work in statistical machine translation (MT) has sought to overcome the limitations of phrasebased models (Marcu and Wong, 2002; Koehn et al
+Most stateof-the-art SMT systems treat grammatical elements in exactly the same way as content words, and rely on general-purpose phrasal translations and target language models to generate these elements (e
+Grammar rules were induced with the syntaxbased SMT system SAMT described in (Zollmann and Venugopal, 2006), which requires initial phrase alignments that we generated with GIZA++ (Koehn et al
+A phrase-based translation model is one of the modern approaches which exploits a phrase, a contiguous sequence of words, as a unit of translation (Koehn et al
+An alternate translation probability estimate not subject to data sparsity issues is the so-called lexical weight estimate (Koehn et al
+However, utilizing syntactic translational equivalences alone for machine translation loses the capability of modeling non-syntactic phrases (Koehn et al
+1 Introduction A phrase-based SMT system takes a source sentence and produces a translation by segmenting the sentence into phrases and translating those phrases separately (Koehn et al
+We word-align the strings of 1-best segmentations and target strings with GIZA++ (Och and Ney, 2000) and apply the refinement method grow-diag-final-and (Koehn et al
+2 SMT and TM systems We use a standard log-linear PB-SMT model (Och and Ney, 2002): GIZA++ implementation of IBM word alignment model 4, the phrase-extraction heuristics described in (Koehn et al
+, 2003), minimum-error-rate training (Och, 2003), a 5-gram language model with Kneser-Ney smoothing trained with SRILM (Stolcke, 2002) on the English side of the training data, and Moses (Koehn et al

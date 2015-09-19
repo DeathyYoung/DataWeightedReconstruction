@@ -1,0 +1,15 @@
+Following the edge based factorization method of Eisner (1996), the score of a dependency tree in the first order version is defined as the sum of the scores of all edges in the tree
+Note that it is straightforward to calculate these expected counts using a variant of the inside-outside algorithm (Baker, 1979) applied to the (Eisner, 1996) dependency-parsing data structures (Paskin, 2001) for projective dependency structures, or the matrix-tree theorem (Koo et al
+Decoding can be carried out using Viterbistyle dynamic-programming algorithms, for example the O(n3) algorithm of Eisner (1996)
+667 Givenann-wordinput sentence, theparser begins by scoring each of the O(n2) possible edges, and then seeks the highest-scoring legal dependency tree formed by any n1 of these edges, using an O(n3) dynamic programming algorithm (Eisner, 1996) for projective trees
+The best projective parse tree is obtained using the Eisner algorithm (Eisner, 1996) with the scores, and the best non-projective one is obtained using the ChuLiu-Edmonds (CLE) algorithm (McDonald et al
+We employ the second-order projective graphbased parsing model of Carreras (2007), which is an extensionof the projective parsing algorithm of Eisner (1996)
+The two main approaches to data-driven dependency parsing are transition based dependency parsing (Nivre, 2003; Yamada and Matsumoto, 2003; Titov and Henderson, 2007) and maximum spanning tree based dependency parsing (Eisner, 1996; Eisner, 2000; McDonald and Pereira, 2006)
+A major benefit of this choice is computational efficiency: an exhaustive search over all projective structures can be done in cubic, greedy parsing in linear time (Eisner, 1996; Nivre, 2003)
+Using this representation, the parsing algorithm of Eisner (1996) is sufficient for searching over all projective trees in O(n3) time
+3 The Probability Model The DAG-like nature of the dependency structures makes it difficult to apply generative modelling techniques (Abney, 1997; Johnson et al
+Various types of DGs are used in existing systems according to these classifications, such as non-label word DG(Lee and Choi, 1997; Eisner, 1996; McDonald et al
+, 2005)4, syntactic-label word DG (Maruyama, 1990), semantic-label word DG(Hirakawa, 2001), non-label WPP DG(Ozeki, 1994; Katoh and Ehara, 1989), syntactic-label WPP DG(Wang and Harper, 2004), semantic-label concept DG(Harada and Mizuno, 2001)
+Dependency-based statistical language modeling and analysis have also become quite popular in statistical natural language processing (Lafferty et al
+Most researchers have used an n-gram model (Eisner, 1996; Charniak, 2000) or more general Markov model (Alshawi, 1996) to model the sequence of nonterminals in the RHS
+Eisner (1996) introduced a data-driven dependency parser and compared several probability models on (English) Penn Treebank data

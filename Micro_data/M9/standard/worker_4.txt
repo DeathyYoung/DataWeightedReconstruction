@@ -1,0 +1,15 @@
+XML documents have recently become ubiquitous because of their varied applicability in a number of applications
+Classification is an important problem in the data mining domain, but current classification methods for XML documents use IR-based methods in which each document is treated as a bag of words
+TreeMiner was also used in building a structural classifier for XML data [39]
+XRules [55] assigns the documents to categories through a rule based classiflcation approach that relates the presence of a particular structural pattern in an XML document to its likelihood of belonging to a particular category
+Towards this end, we adopt and evaluate three statistical measures: Weighted Confidence[24]: An eset X may appear too frequently in some categories, and too rarely in others
+Several researchers have developed association rule mining algorithms, and structure classiers for XML documents based on their subtree structures [16, 26]
+Mining top-k LTP so f each tree (TkLTPs): One naive way of mining TkLTPs is to first find the set P of patterns satisfying a user specified minimum support minsup using the previous algorithms for mining frequent subtrees, e
+XRules [9] extend TreeMiner to find all frequent trees, and it is cost-sensitive and uses Bayesian rule based class decision making
+Our method integrates the XRules approach [9], that takes into account the XML structure only, and the Bag of Words text classification approach [6], that exploits only the contents of XML documents
+The first experiment is performed using the web access trees from the computer science department of the Rensselaer Polytechnic Institute previously used in [30] for evaluating the XRules structural classifier
+The framework of our algorithm is similar to that of algorithm (Zaki & Aggarwal 2003): it first discovers tree patterns of size 1 (containing 1 node), then extends them to generate tree patterns of size 2 (containing 2 nodes), and so on; this process continues until further extension will not generate TkLTPs
+To our knowledge, sequential patterns are used to identify comparative sentences (Jindal & Liu 2006) and tree patterns are employed to classify XML data (Zaki & Aggarwal 2003)
+A crucial issue for semi-structured document classication, though, is how to exploit their structures [2][4][9][5][13] [16][17]
+With the development of frequent tree miners, classication methods using frequent trees appeared (Zaki & Aggarwal, 2003)
+Mining frequent subtrees is an important problem that has many applications, such as aggregating multicast trees from different groups[7] and classifying XML documents[22]

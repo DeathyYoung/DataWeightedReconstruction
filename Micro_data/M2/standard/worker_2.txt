@@ -1,0 +1,15 @@
+This paper describes a system that leads us to believe in the feasibility of constructing natural spoken dialogue systems in task-oriented domains
+It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors
+Robustness is achieved by a combination of statistical error post-correction, syntactically- and semantically-driven robust parsing, and extensive use of the dialogue context
+The other goal is the modification of the natural language processing capabilities into speaker-independence for limited domains and vocabularies, and the processing of spoken language [10] (cf
+As pointed out in [1], it is better to have a dialogue system that tries to guess a specific interpretation in case of ambiguity rather than ask the user for a clarification
+Single salient words (such as “red”) may be interpreted as ellipses by the interpreter and passed on to the dialogue manager
+As pointed out in [AMRS96] it is better to have a dialogue system that tries to guess a specificinterpretation in case of ambiguity rather than ask the user for a clarification
+Several projects have explored the development of speech and language interfaces for cooperative dialogues with agent-like systems, in particular TRAINS and TRIPS for cooperative route planning (Traum et al
+There has been much related work on implementing collaborative dialogues in the context of specific applications, based either on discourse planning techniques (Chu-Carroll & Carberry 1995; Ahn et al
+Most common for the task of robust language understanding are context free grammars (CFGs) [2] and finite state transducers (FSTs) [3],[4],[5]
+The authors thank Eugene Charniak for his modifications to his probabilistic parser, Charles Prosser for his assistance in extracting multiple texts from ViaVoice, and James Allen for permission to use and modify the transcripts from the TRAINS project [1]
+For instance, in the TRAINS project (University of Rochester, 1990-1996), there were several cycles of data collection, theory formation, system buildi ng, and evaluation [6, 7]
+It is studied in Artificial Intelligence in a variety of research domains such as discourse understanding [2], spoken dialogue [3, 4], intelligent human computer interaction [5], situation assessment [6], and so on
+Previous spoken dialogue systems do not start speaking unless the user explicitly notifies the system of the end of his/her utterance by using clues such as long pauses or special keywords or the mouse [2, 3, 13, 17]
+Most spoken dialogue systems that have been developed, such as airline information systems (Levin et al

@@ -1,0 +1,15 @@
+Ensemble methods like bagging and boosting that combine the decisions of multiple hypotheses are some of the strongest existing machine learning methods
+This paper presents a new method for generating ensembles that directly constructs diverse hypotheses using additional artificially-constructed training exam- ples
+The technique is a simple, general meta- learner that can use any strong learner as a base classifier to build diverse committees
+Experimen- tal results using decision-tree induction as a base learner demonstrate that this approach consistently achieves higher predictive accuracy than both the base classifier and bagging (whereas boosting can occasionally decrease accuracy), and also obtains higher accuracy than boosting early in the learning curve when training data is limited
+Introducing artificial training examples [37] to preserve diversity might reduce the tendency of cotraining algorithms to degenerate to self-training with the addition of more and more unlabeled data
+Using an ensemble of classifiers from DECORATE[15] and decision trees, they were able to improve the accuracy prediction of semantic ratings by 50 % on average despite the variability in the radiologists¡¯ interpretation
+Melville and Mooney proposed a data-partitioning-based ensemble method [9], DECORATE, which focuses on reducing the error of the entire ensemble by increasing diversity
+Melville and Mooney [11] present a new metalearner (DECORATE, Diverse Ensemble Creation by Oppositional Re-labeling of Artificial Training Examples) that uses an existing ¡°strong¡± learner (one that provides high accuracy on the training data) to build a diverse committee
+classifiers in Decorate is provided by adding different randomly constructed examples to the training set when building new members of ensemble [15]
+Usually the nominal attributes are generated from a multinomial distribution whose parameters are estimated from the training data
+Melville and Mooney [6] built a training set for each new classifier by adding artificially constructed samples to the original training data
+Mooney[8] concluded that artificial size is related to diversity of generated artificial example
+The DECORATE algorithm [47] constructs artificial data samples within estimated data distribution in order to increase diversity in the ensemble
+One of the recently proposed ensemble building techniques that could also be seen as a somehow alternative approach as it significantly differs from the above described techniques is called DECORATE (Diverse Ensemble Creation by Oppositional Relabeling of Artificial Training Examples) [16]
+In Decorate [30], an ensemble is generated iteratively during each of which a classifier is learned and added to the current ensemble - initialized to contain classifier trained on given training data

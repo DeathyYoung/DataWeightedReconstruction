@@ -1,0 +1,15 @@
+Close to the problem studied here is Jing and McKeowns (Jing and McKeown, 2000) cut-and-paste method founded on EndresNiggemeyers observations
+Jing and McKeown (2000) first extract sentences, then remove redundant phrases, and use (manual) recombination rules to produce coherent output
+But it remains an open question whether sentence ordering is non-trivial for single-document summarization, as it has long been recognized as an actual strategy taken by human summarizers (Jing, 1998; Jing and McKeown, 2000) and acknowledged early in work on sentence ordering for multi-document summarization (Barzilay et al
+Previous research has addressed revision in single-document summaries [Jing & McKeown, 2000] [Mani et al, 1999] and has suggested that revising summaries can make them more informative and correct errors
+1 Introduction Text-to-text generation is an emerging area of research in NLP (Chandrasekar and Bangalore, 1997; Caroll et al
+Additionally, some research has explored cutting and pasting segments of text from the full document to generate a summary (Jing and McKeown 2000)
+Our work in sentence reformulation is different from cut-and-paste summarization (Jing and McKeown 2000) in many ways
+, 2002; Erkan and Radev, 2004; Mihalcea and Tarau, 2004; Daume III and Marcu, 2006) but, not surprisingly, text (re)generation has been a major challange despite some work on sub-sentential modification (Jing and McKeown, 2000; Knight and Marcu, 2000; Barzilay and McKeown, 2005)
+, 1994), compression of sentences with Automatic Translation approaches (Knight and Marcu, 2000), Hidden Markov Model (Jing and McKeown, 2000), Topic Signatures based methods (Lin and Hovy, 2000, Lacatusu et al
+Our abstractors performed the same cut-and-paste operations that Jing and McKeown noted in their work, and we think that our two-step model will be a reasonable starting point for our subsequent research
+(1999) proposed a summarization system based on the draft and revision
+Automatic text summarization approaches have offered reasonably well-performing approximations for identifiying important sentences (Lin and Hovy, 2002; Schiffman et al
+83 Table 4: Mean ratings for automatic compressions nally, we added a simple baseline compression algorithm proposed by Jing and McKeown (2000) which removed all prepositional phrases, clauses, toinfinitives, and gerunds
+Jing and McKeown (2000) proposed a system based on extraction and cut-and-paste generation
+Our work includes a statistically based sentence decom- position program that identifies where the phrases of a summary originate in the original document, pro- ducing an aligned corpus of summaries and articles which we used to develop the summarizer

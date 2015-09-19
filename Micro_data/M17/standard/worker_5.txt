@@ -1,0 +1,15 @@
+We introduce the contour spectrum, a user interface component that improves qualitative user interactionand provides real-time exact quantification in the visualizationof isocontours. 
+The contour spectrum is asignature consisting of a variety of scalar data and contourattributes, computed over the range of scalar valuesw 2 !. 
+We explore the use of surface area, volume, and gradient integral of the contour that are shown to be univariate B-spline functions of the scalar value w for...
+...Bajaj et al. [2] compute geometric statistics of isolines and isosurfaces and display them in an interface to assist users performing discovery visualization tasks... Luke J. Gosink,?et al. An Application of Multivariate Statistical Analysis for Query-Driven V... ...Bajaj et al. [2] compute geometric statistics of isolines and isosurfaces and display them in an interface to assist users performing discovery visualization tasks...
+Contour spectrum [2] visually summarizes the space of isosurfaces in terms of metrics like surface area and mean gradient magnitude, thereby guiding the choice of isovalue for isosurfacing, and also providing information useful for transfer function generations... Jianlong Zhou,?et al. Automatic Transfer Function Generation Using Contour Tree Controlled R
+The Contour Spectrum [2] is an automatic analysis emphasizing appropriate values for isosurfacing
+Bajaj et al. [2] proposed the display of the contour tree to provide the user with insights into the topological structures of the isosurfaces embedded in the volume data
+The Contour Spectrum [4] provides quantitative metrics of a volume to help us select two suitable isovalues for the interval volume.
+The contour spectrum algorithm computes metrics over the data values of a dataset and the resulting spectrum is displayed within the user interface as a collection of signature curves, each representing a different attribute ? Bajaj et al. 
+For Isocontouring, a wireframe surface was divided into tetrahedral subcomponents whose volumes were automatically estimated by using a B-spline function (Bajaj et al ., 1997)...
+The contour spectrum, as proposed by Bajaj et al. [1] uses more general criteria such as contour area and gradient integral to select a transfer function.
+A more data-centric approach is the Contour Spectrum [1], which visually summarizes the space of isosurfaces in terms of metrics like surface area and mean gradient magnitude, thereby guiding the choice of isovalue for isosurfacing, and also providing information useful for transfer function generation
+Vladimir Pekar,?et al. Fast detection of meaningful isosurfaces for volume data visualization ...
+Bajaj et al. [2] discuss using other volume function information to find isovalues of interest; these functions include the volume enclosed by an isosurface, the isosurface area, and the isosurface gradient
+Isovalue-dependent statistics are introduced in [5], where surface area, volume, and gradient integral of contours are plotted to provide the user quantitative measures for parameter selection

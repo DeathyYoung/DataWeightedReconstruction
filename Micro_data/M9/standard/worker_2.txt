@@ -1,0 +1,15 @@
+Classification is an important problem in the data mining domain, but current classification methods for XML documents use IR-based methods in which each document is treated as a bag of words
+In this paper we discuss the problem of rule based classification of XML data by using frequent discriminatory substructures within XML documents
+Structure only learning tasks on XML documents correspond to classification or clustering using the structural description of XML documents alone [35], [55], [8], [19], which can only apply to XML data sets that are naturally classified by structures
+The results are compared with the XRules structural classifier [30], which discovers association rules based on the algorithm for discovering frequent ordered embedded subtrees [12]
+Please note that the XRules approach, consists of several phases namely the XMiner engine based on [12] which discovers the rules to be used for classification which then need to be evaluated by finding the default class in training and accuracy in testing, as discussed in [30]
+XRules [9] extend TreeMiner to find all frequent trees, and it is cost-sensitive and uses Bayesian rule based class decision making
+The first method is a naive approach to extend XRules [9] by adding content leaf nodes into XML structure trees without additional preprocessing
+In order to mine XML data, a large amount of work, frequent substructure mining [1, 2, 3, 4], classification [5] and association rule mining [6], which focuses on the snapshot XML data has been done
+Frequent tree mining is also found to be useful in analyzing XML repositories [44], in designing caching policies for XML indices [41], in designing automatic language parsers [8], in examining parse trees [4], and in many other applications
+Mining tree-structured data has gained tremendous interest in recent times due to the widespread occurrence of tree patterns in applications like bioinformatics, web mining, semi-structured data mining, and so on
+Existing work on mining tree-structured data can be broadly classified into three categories: association rule mining [3], frequent substructure mining [2,15], and classification/clustering [10,16]
+1 Data Sets We performed the experiments on two real datasets namely the CSLOG dataset created and used by Zaki and Aggarwal [21] and a subset of the Wikipedia XML dataset [10]
+The performance of this classifier is compared with Xrules [21] a rule based classifier for tree structured data and decision trees, that uses frequent patterns as binary features
+As we reviewed in Section 2, XRULE [41] is a classifler that classifles XML documents according to the discriminatory structures extracted from each class of XML documents by some algorithm of frequent subtree mining
+Many XML documents are modeled as trees or graphs and it is important to build automated classifiers for XML data [43]

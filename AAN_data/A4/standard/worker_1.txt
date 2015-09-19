@@ -1,0 +1,15 @@
+In order to produce, a good summary, one has to identify the most relevant portions of a given text
+We describe in this t)at)er a method for au- tomatically training tel)it, signatures--sets of related words, with associated weights, organized around head topics and illustrate with signatm'es we cre- ;tt
+A topic signature, as described in (Lin and Hovy, 2000), is a list of terms that can be used to signal the membership of a text in the relevant topic or category
+2 Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000)
+More advanced methods for query expansion use topic signatures words and grammatically related pairs of words that model the query and even the expected answer from sets of documents marked as relevant or not (Lin & Hovy, 2000; Harabagiu, 2004)
+Vectors contain only topic signatures from the input and all words of the summary Topic signatures are words highly descriptive of the input, as determined by the application of loglikelihood test (Lin and Hovy, 2000)
+In summarization, such words are called signature terms and are thought to be descriptive of the input; they can be identified using the log-likelihood ratio of each word (Lin and Hovy, 2000; Gupta et al
+Under this approach, topic representations like those introduced in (Lin and Hovy, 2000) and (Harabagiu, 2004) are used to identify a set of text passages that are relevant to a users domain of interest
+Such words are called signature terms in Lin and Hovy (2000) who were the first to introduce the log-likelihood weighting scheme for summarization
+The idea of topic signature terms was introduced by Lin and Hovy (Lin and Hovy, 2000) in the context of single document summarization, and was later used in several multi-document summarization systems (Conroy et al
+For single document summarization, the sentence score is usually computed by empirical combination of a number of statistical and linguistic feature values, such as term frequency, sentence position, cue words, stigma words, topic signature (Luhn 1969; Lin and Hovy, 2000)
+Lin and Hovy (2000) describe a Topic Signature as a list of words highly correlated with a target concept, and use a 2 estimator over labeled data to decide as to the allocation of a word to a topic
+In order to generate QUABs automatically, documents identified from FERRETs automatic Q/A system are first submitted to a Topic Representation module, which computes both topic signatures (Lin and Hovy, 2000) and enhanced topic signatures (Harabagiu, 2004) in order to identify a set of topic-relevant passages
+(2005), which uses Topic Signatures (Lin and Hovy, 2000) constructed around the target individuals name to identify sentences to be included in the biography
+Two methods are used: topic signature (Lin and Hovy, 2000): a topic signature is a family of related terms {topic, signature}, where topic is the target concept and signature is a vecto related s

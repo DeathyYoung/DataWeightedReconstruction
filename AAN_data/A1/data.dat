@@ -1,0 +1,87 @@
+Title:A00-2019		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Chodorow (City University of New York-Hunter College, New York NY);Claudia Leacock (Educational Testing Service, Princeton NJ)
+We present an unsupervised method for detecting grammatical errors by inferring negative evidence from edited textual corpora. The system was developed and tested using essay-length responses to prompts on the Test of English as a Foreign Language (TOEFL). The error- recognition system, ALEK, performs with about 80% precision and 20% recall.
+
+Title:W03-0209		Conference:Workshop On Building Educational Applications Using Natural Language Processing		Author:Deryle Lonsdale (Brigham Young University, Provo UT);Diane Strong-Krause
+Finally, mirroring noteworthy progress in other NLP fields involving data-driven methods, recent work has involved essay grading via exemplar-based machine learning techniques (Chodorow and Leacock, 2000)
+
+Title:P06-1031		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Ryo Nagata (Hyogo University of Teacher Education, Hyogo Japan);Atsuo Kawai (Mie University, Mie Japan);Koichiro Morihiro;Naoki Isu
+However, a drawback to it is that there are differences in character between general corpora and the writing of non-native learners of English (Granger, 1998; Chodorow and Leacock, 2000).
+
+Title:P06-1031		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Ryo Nagata (Hyogo University of Teacher Education, Hyogo Japan);Atsuo Kawai (Mie University, Mie Japan);Koichiro Morihiro;Naoki Isu
+For instance, Chodorow and Leacock (2000) point out that the word concentrate is usually used as a noun in a general corpus whereas it is a verb 91% of the time in essays written by non-native learners of English.
+
+Title:P06-1032		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Chris Brockett (Microsoft Research, Redmond WA);William B. Dolan;Michael Gamon
+Some researchers have begun to apply statistical techniques to identify learner errors in the context of essay evaluation (Chodorow & Leacock, 2000; Lonsdale & Strong-Krause, 2003), to detect non-native text (Tomokiyo & Jones, 2001), and to support lexical selection by ESL learners through first-language translation (Liu et al. , 2000).
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+In addition, we compared our technique with two other methods of checking errors, Microsoft Word03 and ALEK method (Chodorow and Leacock, 2000).
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+Our method outperforms Microsoft Word03 and ALEK (Chodorow and Leacock, 2000) from Educational Testing Service (ETS) in some cases.
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+An unsupervised method (Chodorow and Leacock, 2000) is employed to detect grammatical errors by inferring negative evidence from TOEFL administrated by ETS.
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+We realize that the grammar checker of Word is a general tool and the performance of ALEK (Chodorow and Leacock, 2000) can be improved if larger training data is used.
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+In this paper, we compare our technique with the grammar checker of Microsoft Word03 and the ALEK (Chodorow and Leacock, 2000) method used by ETS.
+
+Title:P07-1011		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Guihua Sun (Chongqing University, Chongqing China);Xiaohua Liu (Microsoft Research Asia, Beijing China);Gao Cong (Massachusetts Institute of Technology, Cambridge MA);Ming Zhou;Zhongyang Xiong;John Lee;Chin-Yew Lin
+Instead of asking experts to write hand-crafted rules, statistical approaches (Chodorow and Leacock, 2000; Izumi et al. , 2003; Brockett et al. , 2006; Nagata et al. , 2006) build statistical models to identify sentences containing errors.
+
+Title:D07-1012		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Joachim Wagner (Dublin City University, Dublin Ireland);Jennifer Foster;Josef van Genabith
+N-gram-based approaches to the problem of error detection have been proposed and implemented in various forms by Atwell(1987), Bigert and Knutsson (2002), and Chodorow and Leacock (2000) amongst others.
+
+Title:D07-1012		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Joachim Wagner (Dublin City University, Dublin Ireland);Jennifer Foster;Josef van Genabith
+Chodorow and Leacock (2000) use a mutual information measure in addition to raw frequency of ngrams.
+
+Title:W07-1607		Conference:Workshop on Prepositions		Author:Rachele De Felice (Oxford University, Oxford UK);Stephen G. Pulman
+Chodorow and Leacock (2000) try to identify errors on the basis of context, as we do here, and more speci cally a 2 word window around the word of interest, from which they consider function words and POS tags.
+
+Title:W08-0904		Conference:Innovative Use of NLP for Building Educational Applications		Author:Ryo Nagata (Konan University, Kobe Japan);Jun-ichi Kakegawa (Hyogo University of Teacher Education, Hyogo Japan);Hiromi Sugimoto (Japan Institute for Educational Measurement Inc., Tokyo Japan);Yukiko Yabuta
+In error detection, most methods such as Chodorow and Leacock (2000), Izumi et al.
+
+Title:W09-2108		Conference:Innovative Use of NLP for Building Educational Applications		Author:Nai-Lung Tsao (National Central University, Taoyuan Taiwan);David Wible
+2 Related Work Among the many works on error detection, recently unsupervised error detection approaches have been proposed, such as [Chodorow and Leacock, 2000] and [Quixal and Badia 2008].
+
+Title:C10-2103		Conference:International Conference on Computational Linguistics		Author:Ryo Nagata;Kazuhide Nakatani
+Chodorow and Leacock (2000) and Chodorow et al.
+
+Title:C10-2103		Conference:International Conference on Computational Linguistics		Author:Ryo Nagata;Kazuhide Nakatani
+1 Introduction To reduce the efforts taken to correct grammatical errors in English writing, there has been a great deal of work on grammatical error detection (Brockett et al., 2006; Chodorow and Leacock, 2000; Chodorow and Leacock, 2002; Han et al., 2004; Han et al., 2006; Izumi et al., 2003; Nagata et al., 2004; Nagata et al., 2005; Nagata et al., 2006).
+
+Title:W11-1422		Conference:Innovative Use of NLP for Building Educational Applications		Author:Michael Gamon
+Chodorow and Leacock (2000) utilized mutual information and chi-square statistics to identify typical contexts for a small set of targeted words from a large well-formed corpus.
+
+Title:P11-4005		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Chung-chi Huang;Mei-hua Chen;Shih-ting Huang;Jason S. Chang
+For example, Chodorow and Leacock (2000) exploit bigrams and trigrams of function words and partof-speech (PoS) tags, while Sun et al.
+
+Title:P11-4005		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Chung-chi Huang;Mei-hua Chen;Shih-ting Huang;Jason S. Chang
+Among unsupervised checkers, Chodorow and Leacock (2000) exploits negative evidence from edited textual corpora achieving high precision but low recall, while Tsao and Wible (2009) uses general corpus only.
+
+Title:P11-1121		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Ryo Nagata;Edward Whittaker;Vera Sheinman
+An example is the error detection method (Chodorow and Leacock, 2000), which identi es unnatural sequences of POSs as grammatical errors in the writing of learners.
+
+Title:P11-1121		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Ryo Nagata;Edward Whittaker;Vera Sheinman
+Error-tagged learner corpora are crucial for developing and evaluating error detection/correction algorithms such as those described in (Rozovskaya and Roth, 2010b; Chodorow and Leacock, 2000; Chodorow et al., 2007; Felice and Pulman, 2008; Han et al., 2004; Han et al., 2006; Izumi et al., 2003b; Lee and Seneff, 2008; Nagata et al., 2004; Nagata et al., 2005; Nagata et al., 2006; Tetreault et al., 2010b).
+
+Title:W11-1412		Conference:Innovative Use of NLP for Building Educational Applications		Author:Chung-chi Huang;Mei-hua Chen;Shih-ting Huang;Hsien-Chin Liou;Jason S. Chang
+For example, unsupervised systems of (Chodorow and Leacock, 2000) and (Tsao and Wible, 2009) leverage word distributions in general and/or word-specific corpus for detecting erroneous usages while (Hermet et al., 2008) and (Gamon and Leacock, 2010) use Web as a corpus.
+
+Title:W11-2111		Conference:Workshop on Statistical Machine Translation		Author:Kristen Parton;Joel R. Tetreault;Nitin Madnani;Martin Chodorow
+The grammar feature covers errors such as sentence fragments, verb form errors and pronoun errors (Chodorow and Leacock, 2000). 
+
+Title:D12-1055		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Su-Youn Yoon;Suma Bhat
+POS tag distribution has been used in various tasks such as text genre classification (Feldman et al., 2009); in a language testing context, it has been used in grammatical error detection (Chodorow and Leacock, 2000; Tetreault and Chodorow, 2008) andessay scoring
+
+Title:W12-2027		Conference:Workshop On Building Educational Applications Using NLP		Author:Joel R. Tetreault;Michael Heilman;Aoife Cahill
+Many of the details have been reported previously (Chodorow and Leacock, 2000; Han et al, 2004; Han et al, 2006; Chodorow et al, 2007; Tetreault and Chodorow, 2008), so here we will only give brief summaries of these modules
+
+Title:W12-2027		Conference:Workshop On Building Educational Applications Using NLP		Author:Joel R. Tetreault;Michael Heilman;Aoife Cahill
+3.2.1 Filter-based system The filter-based system combines unsupervised detection of a set of possible errors (Chodorow and Leacock, 2000) with hand-crafted filters designed to reduce this set to the largest subset of correctly flagged errors and the smallest possible number of false positives
+
+Title:W12-2027		Conference:Workshop On Building Educational Applications Using NLP		Author:Joel R. Tetreault;Michael Heilman;Aoife Cahill
+Chodorow and Leacock (2000) found that low-frequency bigrams (sequences of two lexical categories with a negative log-likelihood) are quite reliable predictors of grammatical errors
+

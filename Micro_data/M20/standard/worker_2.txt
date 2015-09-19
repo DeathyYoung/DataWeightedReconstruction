@@ -1,0 +1,15 @@
+Libraries have traditionally used manual image annotation for indexing and then later retrieving their image collections
+However, manual image annotation is an expensive and labor intensive procedure and hence there has been great interest in coming up with automatic ways to retrieve images based on content
+Here, we propose an automatic approach to annotating and retrieving images based on a training set of images
+We assume that regions in an image can be described using a small vocabulary of blobs
+Blobs are generated from image features using clustering
+Given a training set of images with annotations, we show that probabilistic models allow us to predict the probability of generating a word given the blobs in an image
+Our approach shows the usefulness of using formal information retrieval models for the task of image annotation and retrieval
+Such a system, which models visual structure as a mixture of features, can represent complex objects as the co-occurrence of distinctive parts within an image [6], [8], [13], [17], [21], [23]
+Many algorithms have been proposed for automatic image tagging, varying from building classiflers for individual semantic labels [13, 14] to learning relevance models between images and keywords [15, 16]
+The crossmedia relevance model (CMRM) assumes that images may be described from small vocabulary of blobs and learns the joint distribution of blobs and words from a training set of annotated images [17]
+The aforementioned annotation methods may also be categorized into two branches; region-based requiring a preliminary step of image segmentation [12, 13], and holistic [8, 21] operating directly on the whole image space
+A cross-media relevance model is used in [10], which finds annotated images in the training set that are similar to the query image and uses their annotations for the query image
+The approach was originally developed for alleviating the problem of vocabulary mismatch in Information Retrieval [6], and has since been applied to problems ranging from automatic tagging of images [4] to recovering missing values in database records [9]
+[5] proposed cross-media relevance model (CMRM) to estimate the joint probability of keywords and image using discrete blobs to represent regions
+Automatic Image Annotation(AIA) has attracted a great deal of research interests [11,7,6,10,13], due to its critical role in keyword based image retrieval and browsing

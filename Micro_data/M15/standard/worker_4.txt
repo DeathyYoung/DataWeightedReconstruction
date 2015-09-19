@@ -1,0 +1,15 @@
+This paper describes a question answering system that is designed to capitalize on the tremendous amount of data that is now available online
+Experimental results show that question answering accuracy can be greatly improved by analyzing more and more matching passages
+Simple passage ranking and n-gram extraction techniques work well in our system making it efficient to use with many backend retrieval engines
+MULDER [12] and AskMSR [5, 9] use the Web to answer questions, exploiting the fact that most important facts are stated multiple times in different ways , which licenses the use of simple syntactic processing
+[6] presented another open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted rules (semantic filters) to achieve a remarkable accuracy on the TREC test set: Mean Reciprocal Rank (MRR) of 0
+The Internet has billions of pages of electronic text, which is great lager than those in TREC Question Answering Track corpus [1]
+Question answering systems aim to retrieve \answers" to questions rather than full documents or even best-matching passages as most information retrieval systems currently do [6]
+This extraction and ranking of answer candidates is traditionally based on [6,7,8] frequency counting, pattern matching and detecting different orderings of query words, called paraphrases
+In our method, information from multiple documents is employed by adding the scores for the candidate answers extracted from the various documents [2, 18]
+al [2] presented an open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted semantic filters to achieve a striking accuracy: Mean Reciprocal Rank (MRR) of 0
+al [3] presented open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted semantic filters to achieve a striking accuracy: Mean Reciprocal Rank (MRR) of 0
+Recent research in question answering systems has looked at systems for answering fact-based, short-answer questions such as ¡°Who killed Abraham Lincoln? ¡±o r ¡°How tall is Mount Everest?¡± While many systems use sophisticated natural language technologies to tackle this problem, some researchers have used much simpler techniques (Brill et al
+Many groups working on question answering have followed the AI road, enhancing their works by progresses in natural language processing, information retrieval, information extraction and machine learning, and built QA systems to retrieve ¡°answers¡± to questions rather than full documents or even best-matching passages as most information retrieval systems currently do [4][6]
+Anyway, the key feature of any QA system is constituted by the knowledge resources employed in order to find the answer
+(2002) propose a method based on answer redundancy for answer selection in QA system, and their experimental results show that the method is quite effective [4]

@@ -1,0 +1,15 @@
+In this paper, we propose a new approach to discover informative contents from a set of tabular documents (or Web pages) of a Web site
+Our system, InfoDiscoverer, first partitions a page into several content blocks according to HTML tag in a Web page
+Based on the occurrence of the features (terms) in the set of pages, it calculates entropy value of each feature
+According to the entropy value of each feature in a content block, the entropy value of the block is defined
+By analyzing the information measure, we propose a method to dynamically select the entropy-threshold that partitions blocks into either informative or redundant
+Informative content blocks are distinguished parts of the page, whereas redundant content blocks are common parts
+[19] proposed algorithms to extract content blocks from HTML pages using a DOM (Document Object Model)-based approach and an information theoretic approach, respectively
+In particular, Lin assumed that the <TABLE> tag is widely used to make the structure of a Web page, and proposed a method primarily using the <TABLE> tag to extract blocks from a Web page [3]
+Current research uses priori knowledge or supervised learning to detect frequent templates [2], coherent content blocks [15], and site style trees [35]
+Most approaches used priori knowledge or supervised learning to detect coherent content blocks [6] and site style tree [7]
+Entropy measures [6] and "visually" based methods [7] have been devised for identifying content blocks
+For example, Lin and Ho (2002) extract content blocks based on a similar document analysis approach, but their classification is based on entropy values
+The structure-based IE [4, 7-9] relies on inherent structural features of HTML documents, such as informative content blocks [8, 10-14] and content template [15-18]
+The format detection also applies to information retrieval [3], discovering important content blocks [11], eliminating noisy information from Web pages [8,14], Web page clustering and classification [14], and information extraction [2,4©\7,10,13]
+According to the statistic in [17], large percent of web pages are organized with <TABLE >< \ TABLE> tags as to support their presentation layouts (70% for dot-com web pages, and 55% for dot-edu web pages)

@@ -1,0 +1,15 @@
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data
+Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below
+While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts
+This makes them difficult and expensive to apply
+The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking
+Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions
+It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples
+We then attempt to learn a linear SVM-based scoring function that reflects these preferences, using the implementation of ordinal ranking in the SVMlight toolkit (Joachims 2002)
+,The new phenomenon discovered in this paper is that user preferences of certain domains to others is beyond what can be explained due to relevance, and creates a bias similar in spirit to position bias [11] and snippet bias [23]
+Researchers around the world have explored many dierent learning paradigms for web-search ranking data, including neural networks [7], support vector machines [18], random forests [4, 22] and gradient boosted regression trees [34]
+We adopt the ranking SVM with linear kernel to train the ranking model, and the RankSVM tool is from SVM-light [5]
+Joachims[31] proposed to use implicit feedback to substitute human judgment, and proposed a click-through based ranking method
+The authors bring together the idea of generalizing the Markov chain model to network? ow models [77] and maximum margin optimization to learn rankings [42]
+For example, RankSVM [12] uses support vector machines; RankBoost [9] applies the idea of boosting from weak learners; GBrank [23] uses gradient boosting with decision tree; RankNet [4] uses gradient boosting with neural network
+Moreover, we adopt a learning-to-rank approach and integrate the ranking principles into a state-of-the-art ranking model, RankSVM [7], by encoding the context information as features

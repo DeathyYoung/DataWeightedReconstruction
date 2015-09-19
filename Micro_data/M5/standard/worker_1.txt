@@ -1,0 +1,15 @@
+Using an open-source, Java toolkit of name-matching methods, we experimentally compare string distance metrics on the task of matching entity names
+We inves- tigate a number of different metrics proposed by differ- ent communities, including edit-distance metrics, fast heuristic string comparators, token-based distance met- rics, and hybrid methods
+Naive methods for entity resolution are based on string similarity [25, 13]
+An important task in data integration is Entity Resolution (ER), also called De-duplication [3, 8]
+Suggested methods span from string similarity metrics [3], to similarity methods using transformations [20, 21], and relationships between data [6, 12, 14]
+Similarity metrics like q-gram and Levenshtein distance [7] and typical operations of text processing like stemming are applied in order to establish a first set of matches between the two ontologies
+Jaccard and Dice’s coefficients can also be used as string similarity metrics, by seeing the strings as sets of characters or even as sets of word tokens [8]
+We have used a string distance metric to overcome spelling mistakes, called Jaro-Winkler-TFIDF [3]
+So, we take advantage of the relatively mature field of String metrics to find the distance between strings using an open-source available library with different algorithms implementations [17]
+Token-based methods are usually an order of magnitude faster than character-based methods [8]
+Typically, a dataspace system employs a set of mechanisms for semantic integration, such as schema matching [25] and entity resolution [7], to determine semantic equivalences between elements in the dataspace
+Traditionally, algorithms for computing string similarity have largely relied on the syntactic representation of the strings, most popular of them being variants of edit distance [19] and variants of TF-IDF cosine similarity [11]
+In CRC, for a given pair of nodes we use the normalized similarity between the node entity attributes of the input graph nodes for the feature similarity (e
+The Monge-Elkan string similarity function (Monge & Elkan, 1996) is used for objects, and the Levenshtein string edit-distance function is used for relations (Cohen, Ravikumar, & Fienberg, 2003)
+Evidence source Similarity functions Syntactic similarity Variants of edit distance, cosine similarity [19, 11] Search engine logs Similarity based on clickthrough and session co-occurrence [22, 6] Search engine results Snippet-based similarity (web kernels) [31, 37]

@@ -1,0 +1,15 @@
+Ensemble methods like bagging and boosting that combine the decisions of multiple hypotheses are some of the strongest existing machine learning methods
+The diversity of the members of an ensemble is known to be an important factor in determining its generalization error
+Using an ensemble of classifiers from DECORATE[15] and decision trees, they were able to improve the accuracy prediction of semantic ratings by 50 % on average despite the variability in the radiologists¡¯ interpretation
+Introducing artificial training examples [37] to preserve diversity might reduce the tendency of cotraining algorithms to degenerate to self-training with the addition of more and more unlabeled data
+Diversity is a measure that defines the disagreement degree in the output of the individual classified machines in the ensemble [11]
+Diversity can be described as ¡°disagreement¡± of the classifiers [3]
+Therefore, this paper adopted the diversity measure method proposed by Melville and Mooney [9], which focused directly the goal of maximizing diversity
+Melville and Mooney [6] built a training set for each new classifier by adding artificially constructed samples to the original training data
+Since the generalization accuracy of the ensemble also depends on the diversity of the classifiers, they should be different from each other, producing different errors on the input samples [6-11]
+Since a diverse set of classifiers is essential for achieving improved accuracies [7, 10], by taking into account the improvements achieved using GeneticBoost, it can be argued that the diversity requirement is achieved up to some extent
+Decorate [9, 10] is a recently introduced ensemble meta-learner that directly constructs diverse committees by employing specially-constructed artificial 1 An ensemble meta-learner, like Bagging and AdaBoost, takes an arbitary base
+Learning curve analysis provides a powerful tool to inspect the dynamics of an ensemble learning method [25]
+where increasing the size of the ensemble increases the accuracy until a saturation point is reached (Hansen and Salamon 1990; Melville and Mooney 2003; Opitz and Maclin 1999)
+The only method which translates the Fpenalty term_ idea to general base classifiers and zero©\one loss is DECORATE [12], which creates artificial data and labels it probabilistically in opposition to the current ensemble prediction
+We adopt the measure of diversity proposed by [9], and construct the ensemble classifier by using attribute selection and diversity measure of entire ensemble

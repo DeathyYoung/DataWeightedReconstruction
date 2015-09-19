@@ -1,0 +1,15 @@
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data
+Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below
+While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts
+The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking
+Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions
+From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework
+It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples
+We then attempt to learn a linear SVM-based scoring function that reflects these preferences, using the implementation of ordinal ranking in the SVMlight toolkit (Joachims 2002)
+In addition to QE, search logs have also been used for other Web search tasks, such as document ranking (Joachims 2002; Agichtein et al
+,The web community has long recognized the importance of clicks as a source of signal for learning relevance, and there are many studies on how to learn relevance in the presence of position bias [2, 7, 11]
+, [6, 7, 17, 19, 22, 31]) are designed to optimize loss functions loosely related to the IR performance measures, not loss functions directly based on the measures
+RankSVM [5] is an algorithm designed for such a problem, which converts a ranking problem to a classification problem and optimizes it with existing solvers
+Machine-learned ranking refers to the automatic construction of a ranking function which optimizes retrieval performance metrics [4, 5, 9, 10, 12, 21, 23, 16]
+Implicit user feedback, specically, click-through data, is valuable for optimizing search engine results [2, 10, 14]
+After the document preference pairs are obtained, a Ranking SVM (RSVM) [10] is employed to learn the user behavior model as a set of weighted features

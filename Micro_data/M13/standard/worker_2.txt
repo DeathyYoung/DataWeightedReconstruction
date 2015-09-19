@@ -1,0 +1,15 @@
+Current specialized planners for query processing are designed to work in local, reliable, and predictable environments
+However, a numberof problems arise in gathering information fromlarge networks of distributed information
+Inthis environment, the same information may residein multiple places, actions can be executedin parallel to exploit distributed resources, newgoals come into the system during execution,actions may fail due to problems with remotedatabases or networks, and
+, Ariadne [30], TSIMMIS [8], and Whirl [9]) extend the database querying models using combinations of templates or menu-based forms to incorporate queries that are restricted to a single domain (or a set of domains)
+Similarly, Ariadne [30] interprets the user-specifled conditions as a sequence of LOOM statements that are combined to generate a single query
+Research in query answering and information retrieval has dealt, among others, with using multiple information sources to gather the requested (or relevant) information (cf
+Query planning (Knoblock 1995) involves generating a set of sub-queries from a high-level user query based on the data source locations that have parts of the required information to answer the query
+The task execution agent¡¯s approach to interleaved task plan execution and instantiation is also similar to systems such as [10, 23], which support interleaved use of ¡°sensing¡± operators with plan generation
+The RETSINA planner has some similarities with Knoblock¡¯s Sage [7], mainly in the concurrency of planning and information gathering and the close connection between the planner and the execution monitor through monitoring fla ws
+Knoblock [7] discusses replanning in information gathering
+Similarly, Ariadne [30] interprets the user-specifled conditions as a sequence of LOOM statements that are combined to generate a single query
+The task execution agent¡¯s approach to interleaved task plan execution and instantiation is also similar to systems such as [10, 23], which support interleaved use of ¡°sensing¡± operators with plan generation
+Nevertheless, the two planners differ in many important respects: while Sage is a partial order planner that
+In earlier papers (Knoblock 1994; 1995) we addressed various issues related to planning for information gathering, such as simultaneous actions, integrating planning and execution, replanning, and sensing
+These capabilities have been provided in previous planning research by allowing special ¡°run-time variables¡± to appear in action preconditions and effects [11] and this work has been extended to address other issues related to planning in the absence of complete information about the world [12, 13]

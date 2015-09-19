@@ -1,0 +1,15 @@
+This paper addresses the problem of extending an adaptive information filtering system to make decisions about the novelty and redundancy of relevant documents
+It argues that relevance and redundance should each be modelled explicitly and separately
+In information retrieval, where novelty typically refers to the new information contained in the document (and is thus close to our definition of serendipity), Zhang et al
+Here, we use a mixture language model [31] to measure the similarity between documents while filtering out the general and common information from the request
+where KL is the Kullback¨CLeibler divergence (which is a distributional similarity measure [32]) and ¦ÈC(di) is the context model for di
+By measuring the novelty of an incoming document we want to gauge the quantity of new information that a document provides, relative to the currently known information about an interest (Gabrilovich et al
+834 We use MMR as a baseline because MMR was reported to work well in non-redundant text summarization 835 (Carbonell & Goldstein, 1998), novelty detection at document filtering (Zhang, Callan et al
+in [25] address the problem of extending an adaptive information filtering system to make decisions about the novelty and redundancy of relevant items in the context of document retrieval
+Existing methods to improve diversity in ranking include maximum marginal relevance (MMR) (Carbonell & Goldstein, 1998), cross-sentence informational subsumption (Radev, 2000), mixture models (Zhang et al
+news novelty, intended as the amount of novel content in the news with respect to the contents of the already analysed news [25]
+We use MMR as our fourth and main baseline because MMR was reported to work well in non-redundant text summarization [23], novelty detection at document filtering [13] and subtopic retrieval [17]
+[31] They estimate language models in a layered fashion by first defining the background language model, and then defining document models or relevance models using standard expectation maximization (EM-) estimation [2] taking the fixed background and a fixed mixture parameter into account
+[33] indicated that although similarity such as cosine similarity was proven to be effective experimentally [29], when one sentence¡¯s meanings were covered by another, this relation is not necessarily symmetric, because sentences may contain multiple meanings
+Of course, both paradigms of relevance and novelty are not objective, but depend on the actual user (and even on her current context and specific information needs
+In this work, the authors suggested that the tasks of topic detection and novelty detection are tangential, and thus require different modeling and computational techniques

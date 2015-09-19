@@ -1,0 +1,15 @@
+In this paper, we propose a new approach to discover informative contents from a set of tabular documents (or Web pages) of a Web site
+Our system, InfoDiscoverer, first partitions a page into several content blocks according to HTML tag in a Web page
+Based on the occurrence of the features (terms) in the set of pages, it calculates entropy value of each feature
+According to the entropy value of each feature in a content block, the entropy value of the block is defined
+By analyzing the information measure, we propose a method to dynamically select the entropy-threshold that partitions blocks into either informative or redundant
+Informative content blocks are distinguished parts of the page, whereas redundant content blocks are common parts
+Most of web sites employ visible and invisible tables in conjunction with Cascading Style Sheets (CSS) to arrange their logical structures by using HTML table tags [18]
+That is, using the approach, informative blocks (news articles) of these sites can be automatically separated from semantically redundant contents such as advertisements, banners, navigation panels, news categories, etc
+[19] proposed algorithms to extract content blocks from HTML pages using a DOM (Document Object Model)-based approach and an information theoretic approach, respectively
+Earlier work on web content extraction is dominated by the construction of wrappers [12] ¨C handcrafted solutions which exploit properties of the document object model (DOM), either on page-level, by applying tag-based heuristics [7, 6], or on site-level, by identifying frequent patterns, or templates [15, 14, 23]
+One of common web segmentation techniques is the VIPS algorithm [5] which segments web pages based on visual representation
+In [6], only <TABLE> tag is used to partition a page into several blocks, its offspring as a content block and it uses entropy based approach to discover informative ones
+There are three methods to compare content: (1) compare the shingle (flngerprint of a string) of the content [1, 2]; (2) compare the keywords [3]; (3) exactly match the contents by word [4]
+Entropy analysis proposed in [21] discriminates the informative authorities of pages by dividing a page into several authority blocks with different authority values weighted by the information of each block
+The study of block importance model is mainly motivated by the urge to improve Web information retrieval performance, thus its direct application lies in the area [1][11]

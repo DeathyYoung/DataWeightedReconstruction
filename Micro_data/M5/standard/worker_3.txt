@@ -1,0 +1,15 @@
+Using an open-source, Java toolkit of name-matching methods, we experimentally compare string distance metrics on the task of matching entity names
+Naive methods for entity resolution are based on string similarity [25, 13]
+There are extensive and comprehensive [33,64,85] reviews regarding similarity functions to compare textual values
+Jaccard and Dice’s coefficients can also be used as string similarity metrics, by seeing the strings as sets of characters or even as sets of word tokens [8]
+Such methods use similarity join measurements such as edit distance [9], SoftTfIdf [7], Jaccard similarity [14], Jaro [15], q-grams [10][11], Soundex [12], and Jaro-Winkler [16]
+We treat the problem as a ‘string-distance comparison’ to leverage and improve existing stochastic string-distance methods [1, 2, 3]
+From this library, we use the SoftTFIDF approach [7], a hybrid approach combining the Jaro-Winkler metric [36] (a measure based on how many characters the strings have in common and their ordering) with TF-IDF similarity
+Traditionally, algorithms for computing string similarity have largely relied on the syntactic representation of the strings, most popular of them being variants of edit distance [19] and variants of TF-IDF cosine similarity [11]
+Similarity measures that can be used to estimate a semantic similarity between named entities or terms have been extensively studied ([6])
+Traditional schema matching methods based on string distance techniques [10] do not permit to automatically discover that there exists, for example, a synonym relationship between the two schema elements “amount” and “quantity”, as their labels share only few characters
+Pattern-matching techniques are commonly used in approximate string matching [8, 9, 10], which is used for data linkage [11, 12], duplicate detection [13], information retrieval [14] and correction of spelling errors [4, 8, 15]
+An important task in data integration is Entity Resolution (ER) or data de-duplication [2], [3]
+Similarity metrics like q-gram and Levenshtein distance [7] and typical operations of text processing like stemming are applied in order to establish a first set of matches between the two ontologies
+SoftTFIDF considers similar tokens between compared documents (attribute values), not just the exact tokens as in TF-IDF
+Each record in the authority file is considered a document and the number of different records in which a word appears in the string field is used as the word’s occurrence count [5]

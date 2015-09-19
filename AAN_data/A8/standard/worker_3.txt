@@ -1,0 +1,15 @@
+, 2003; Och and Ney, 2004) prove to be the stateof-the-art as they have delivered translation performance in recent machine translation evaluations
+2 Exploiting Scrolling Queries Decoders with integrated language models (Och and Ney, 2004; Chiang, 2005) score partial translation hypotheses in an incremental way
+Finally, we evaluated our bidirectional model in a large-scale end-to-end phrase-based machine translation system from Chinese to English, based on the alignment template approach (Och and Ney, 2004)
+For algorithms whose packed representations are graphs, such as Hidden Markov Models and other nitestate methods, Ratnaparkhis MXPARSE parser (Ratnaparkhi, 1997), and many stack-based machine translation decoders (Brown et al
+, 1995; Och and Ney, 2004), the k-best paths problem is well-studied in both pure algorithmic context (see (Eppstein, 2001) and (Brander and Sinclair, 1995) for surveys) and NLP/Speech community (Mohri, 2002; Mohri and Riley, 2002)
+44 language models (Och and Ney, 2004; Tillman, 2004), are too weak to help a phrase-based decoder reorder the target phrases into grammatical outputs
+Phrase-based Statistical Machine Translation (SMT) systems analyze large quantities of bilingual parallel texts in order to learn translational alignments between pairs of words and phrases in two languages (Och and Ney, 2004)
+1 Introduction Phrase-based approaches (Och and Ney, 2004) to statistical machine translation (SMT) have recently achieved impressive results, leading to significant improvements in accuracy over the original IBM models (Brown et al
+Similarly, the machine translation system of Och and Ney uses log-probabilities of phrasal translations and other events as features in a log-linear model (Och and Ney, 2002; Och and Ney, 2004)
+com Abstract The paper presents an extension of a dynamic programming (DP) decoder for phrase-based SMT (Koehn, 2004; Och and Ney, 2004) that tightly integrates POS-based re-order rules (Crego and Marino, 2006) into a left-to-right beam-search algorithm, rather than handling them in a pre-processing or re-order graph generation step
+Nowadays, the majority of the researches has being centered around the phrase-based statistical MT (PB-SMT) approach such as (Koehn et al
+After word alignment, standard Moses phrase extraction tool (Och and Ney, 2004) is used to build the translation models and finally Moses (Koehn et
+1 Baseline MT System: Alignment Templates Our baseline MT system is the alignment template system described in detail by Och, Tillmann, and Ney (1999) and Och and Ney (2004)
+Obviously, the NPA is a special case of the phrase extractor in (Och and Ney, 2004) in that it considers only one phrase alignment rather than all possible ones
+Recently, many phrase reordering methods have been proposed, ranging from simple distancebased distortion model (Koehn et al

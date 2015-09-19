@@ -1,0 +1,15 @@
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data
+Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below
+While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts
+This makes them difficult and expensive to apply
+The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking
+Such clickthrough data is available in abundance and can be recorded at very low cost
+Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions
+From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework
+Furthermore, it is shown to be feasible even for large sets of queries and features
+The theoretical results are verified in a controlled experiment
+It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples
+,The web community has long recognized the importance of clicks as a source of signal for learning relevance, and there are many studies on how to learn relevance in the presence of position bias [2, 7, 11]
+Similarly, Joachims [11] proposes using user click-through data as training data to learn a general search retrieval function, which can then be used to produce personalized rankings for individual users or groups of users
+Here we consider the following two measures as an example: A will be taken as Normalized Discounted Cumulative Gain [13], and B will be a click-based measure [10, 14, 16]
+Ranking: In case of ranking, we compare our approach against several standard ranking algorithms including rankSVM [12], rankBoost [7], Direct Optimization of Ranking Measures(DORM) [18] and TagProp [9], using code that was publicly available 1

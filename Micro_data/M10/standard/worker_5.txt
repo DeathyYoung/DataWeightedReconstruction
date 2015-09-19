@@ -1,0 +1,15 @@
+In this paper, we propose a new approach to discover informative contents from a set of tabular documents (or Web pages) of a Web site
+Our system, InfoDiscoverer, first partitions a page into several content blocks according to HTML tag in a Web page
+Based on the occurrence of the features (terms) in the set of pages, it calculates entropy value of each feature
+According to the entropy value of each feature in a content block, the entropy value of the block is defined
+That is, using the approach, informative blocks (news articles) of these sites can be automatically separated from semantically redundant contents such as advertisements, banners, navigation panels, news categories, etc
+Regarding the method used for the information block discovery, most the existing approaches are based on some predefined heuristic rules used for recognizing block purpose [2], [4], [1]
+There are some solutions [18,19,2,5] proposed to analyze Web sites and divide their pages into logical blocks from HTML DOM tree
+Entropy analysis proposed in [18] discriminates the informative authorities of pages by dividing a page into several authority blocks with different authority values weighted by the information of each block
+The DOM tree is a tree that represents the structure of a Web page and is usually adopted in research related to the analysis of page structure [13, 10]
+There are at least two main modern branches of algorithms for content retrieval from HTML pages: methods based on DOM tree analysis [7, 12, 10], and methods based on HTML page visual representation [5, 10, 3, 11]
+Most of web sites employ visible and invisible tables in conjunction with Cascading Style Sheets (CSS) to arrange their logical structures by using HTML table tags [18]
+Current research used priori knowledge or supervised learning to detect frequent templates [6], coherent content blocks [7] and site style tree [8] tied to this task
+In recent years, several similar research studies have been done on Web page cleaning, including detection of informative blocks in Web pages [5], detection of a frequent template or patterns of Web pages [6], and assignment of different weights to different blocks in Web pages [7], etc
+A common approach to reconstruct such structures is Web page segmentation, which has been proved effective to improve mobile browsing experience [1, 4, 7], and can also benefit Web information retrieval and data mining tasks [2, 3, 5, 8, 9]
+Template detection algorithms [23, 33, 21, 10, 7, 9] are a different approach to content extraction in which collections of training documents based on the same template are used to learn a common structure

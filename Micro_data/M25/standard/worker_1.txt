@@ -1,0 +1,15 @@
+A method of determining the similarity of nouns on the basis of a metric derived from the distribution of subject, verb and object in a large text corpus is described
+[74] proposed unsupervised clustering techniques to identify relationships among entities, based on the observation that natural language has restrictions on which noun phrases can occur as subject or object of a given verbal phrase
+All of these metrics are based on the underlying assumption, called the Distributional Hypothesis, that ¡°Similar objects appear in similar contexts
+The major methods of word clustering are word distribution-based methods [6, 11] and decompositionbased methods [12, 10, 5]
+This operation is based on the assumption that semantically similar words share similar contexts, which was also employed in Hindle¡¯s work [7] and has been shown to be considerably plausible
+Words appearing in similar grammatical contexts are assumed to be similar, and therefore classified into the same class (Lin, 1998; Grefenstette, 1994, 1992; Ruge, 1992; Hindle, 1990)
+Word association is measured by mutual information, following earlier work on word similarity by Hindle (1990)
+There are two different method to extract thesaural relationships from corpora predicate-argument (also called head-modifier) method [6, 5, 8, 7, 13] and co-occurrence statistical method [1, 2, 12, 15]
+Hindle (1990) proposed a method dealing with the data-sparseness problem of low-frequency words that estimates the likelihood of unseen events from that of "similar" events that have been seen before
+Empirical investigation [ 14] suggests that lexical preferences play an important role in disambiguation, and Hindle and Rooth [5] have demonstrated that these preferences can be acquired and utilized using lexical co-occurrence statistics
+In natural language processing some approaches have been made to finding similarities among nouns, ttindle [7] uses mutual information between a verb and its object as a measure of degree of the association between the verb and an object
+Hindle [5] uses a mutual-information based metric derived from the distribution of subject, verb and object in a large corpus to classify nouns, and claims this metric reflects semantic relatedness
+Hindle [14] proposed an automatic method based on the representation of terms through frequent syntactic features, and thus he determined similarity between nouns
+A common approach (Philips, 1985; Hindle, 1990) is to represent the context a word appears in by the words occurring in that context, weighting more heavily the context elements that cooccur more often than expected for random cooccurrences
+Classes are produced by clustering techniques based on similar word contexts ¨C which describe words that are likely to be found in the immediate vicinity of a given word (Church and Hanks, 1990; Smadja, 1993) ¨C or on similar distributional contexts ¨C which reveal words that share the same syntactic environments (Hindle, 1990; Grefenstette, 1994)

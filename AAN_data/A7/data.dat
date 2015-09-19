@@ -1,0 +1,57 @@
+Title:H05-1079		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Bos, Johan; Markert, Katja
+We use logical inference techniques forrecognising textual entailment. As theperformance of theorem proving turnsout to be highly dependent on not read-ily available background knowledge, weincorporate model building, a techniqueborrowed from automated reasoning, andshow that it is a useful robust method toapproximate entailment. Finally, we usemachine learning to combine these deepsemantic analysis techniques with simpleshallow word overlap; the resulting hy-brid model achieves high accuracy on theRTE testset, given the state of the art. Ourresults also show that the different tech-niques that we employ perform very dif-ferently on some of the subsets of the RTEcorpus and as a result, it is useful to use thenature of the dataset as a feature.
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+These transformations are logical rules in (Bos and Markert, 2005) or sequences of allowed rewrite rules in (de Salvo Braz et al. , 2005).
+
+Title:W06-1621		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Glickman, Oren; Shnarch, Eyal; Dagan, Ido
+(Bos and Markert, 2005; Corley and Mihalcea, 2005; Jijkoun and de Rijke, 2005; Glickman et al. , 2006)) applied or utilized lexical based word overlap measures.
+
+Title:N06-1006		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:MacCartney, Bill; Grenager, Trond; de Marneffe, Marie-Catherine; Cer, Daniel; Manning, Christopher D.
+We show comparable results from recent systems based on lexical similarity (Jijkoun and de Rijke, 2005), graph alignment (Haghighi et al. , 2005), weighted abduction (Raina et al. , 2005), and a mixed system including theorem proving (Bos and Markert, 2005).
+
+Title:N06-1006		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:MacCartney, Bill; Grenager, Trond; de Marneffe, Marie-Catherine; Cer, Daniel; Manning, Christopher D.
+Finally, a few efforts (Akhmatova, 2005; Fowler et al. , 2005; Bos and Markert, 2005) have tried to 42 translate sentences into formulas of first-order logic, in order to test logical entailment with a theorem prover.
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+For example, two high-accuracy systems are those described in (Tatu and Moldovan, 2005), achieving 60.4% accuracy with no task-specific information, and (Bos and Markert, 2005), which achieves 61.2% task-dependent accuracy, i.e. when able to use the specific task labels as input.
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+Many previous approaches have used a logical form representation of the text and hypothesis sentences, focusing on deriving a proof by which one can infer the hypothesis logical form from the text logical form (Bayer et al. , 2005; Bos and Markert, 2005; Raina et al. , 2005; Tatu and Moldovan, 2005).
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+Attempts have been made to remedy this deficit through various techniques, including modelbuilding (Bos and Markert, 2005) and the addition of semantic axioms (Tatu and Moldovan, 2005).
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+The RTE problem as presented in the PASCAL RTE dataset is particularly attractive in that it is a reasonably simple task for human annotators with high inter-annotator agreement (95.1% in one independent labeling (Bos and Markert, 2005)), but an extremely challenging task for automated systems.
+
+Title:P06-2105		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Tatu, Marta; Moldovan, Dan
+(Bos and Markert, 2005) represents a1 and a0 into a first-order logic translation of the DRS language used in Discourse Representation Theory (Kamp and Reyle, 1993) and uses a theorem prover and a model builder with some generic, lexical and geographical background knowledge to prove the entailment between the two texts.
+
+Title:J07-3004		Conference:Computational Linguistics		Author:Hockenmaier, Julia; Steedman, Mark
+(2004) and Bos (2005) have demonstrated that the output of CCGbank parsers can be successfully translated into Kamp and Reyles (1993) Discourse Representation Theory structures, to support question answering and the textual entailment task (Bos and Markert 2005).
+
+Title:C08-1028		Conference:International Conference On Computational Linguistics		Author:Fowler, Timothy A. D.
+Impressive results have been achieved culminating in the state-of-the-art parser of Clark and Curran (2004) which has been used as the parser for the Pascal Rich Textual Entailment Challenge entry of Bos and Markert (2005).
+
+Title:W08-2004		Conference:Coling 2008: Proceedings of the workshop on Speech Processing for Safety Critical Translation and Pervasive Applications		Author:Moschitti, Alessandro; Zanzotto, Fabio Massimo
+Several models, ranging from the simple lexical similarity between T and H to advanced Logic Form Representations, have been proposed (Corley and Mihalcea, 2005; Glickman and Dagan, 2004; de Salvo Braz et al., 2005; Bos and Markert, 2005).
+
+Title:D10-1074		Conference:EMNLP		Author:Zhang, Chen; Chai, Joyce
+Different approaches have been developed, for example, based on logic proving (Tatu and Moldovan, 2005; Bos and Markert, 2005; Raina et al., 2005) and graph match (Haghighi et al., 2005; de Salvo Braz et al., 2005; MacCartney et al., 2006).
+
+Title:N10-1146		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Mehdad, Yashar; Moschitti, Alessandro; Zanzotto, Fabio Massimo
+Early deep semantic models (e.g., (Norvig, 1987)) as well as more recent ones (e.g., (Tatu and Moldovan, 2005; Bos and Markert, 2005; Roth and Sammons, 2007)) rely on specific world knowledge encoded in rules for drawing decisions.
+
+Title:P11-1059		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Blanco, Eduardo; Moldovan, Dan
+Some NLP applications deal indirectly with negation, e.g., machine translation (van Munster, 1988), text classification (Rose et al., 2003) and recognizing entailments (Bos and Markert, 2005).
+
+Title:W11-0112		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Garrette, Dan; Erk, Katrin; Mooney, Raymond J.
+Bos and Markert (2005) describe a system for Recognizing Textual Entailment (RTE) that uses Boxer to convert both the premise and hypothesis of an RTE pair into first-order logical semantic representations and then uses a theorem prover to check for logical entailment.
+
+Title:W11-0112		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Garrette, Dan; Erk, Katrin; Mooney, Raymond J.
+Note that when running an example in the theorem prover, weights are not possible, so any rule that would be weighted in an MLN is simply treated as a hard clause following Bos and Markert (2005).
+
+Title:W11-0112		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Garrette, Dan; Erk, Katrin; Mooney, Raymond J.
+They, therefore, tend to have high precision at the cost of low recall (Bos and Markert, 2005).
+

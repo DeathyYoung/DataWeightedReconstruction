@@ -1,0 +1,15 @@
+This paper describes a question answering system that is designed to capitalize on the tremendous amount of data that is now available online
+Simple passage ranking and n-gram extraction techniques work well in our system making it efficient to use with many backend retrieval engines
+Other applications, where automatically constructed Web corpora have been used to train statistical models, include machine translation [19] and question-answering systems [20]
+The research [11] expresses that the recalled abstracts by the search engine include much effective information and are feasible to extract the answer
+Beyond implementation dierences, such QA systems send queries to external Web search engines, fetch the top search results (documents or snippets) locally, and mine the documents for candidate answers [14, 6, 19, 24]
+com perform question-answering on the Web, but are limited to performing simple linguistic transformations on a question and then extracting the answer from a single matching sentence
+When developing the answer extraction system, the following functioning principles are used that distinguish this system among its analogues (AskMSR [1], AnSel [2], ExactAnswer [3]): §Ñ) The system helps the user to formulate such a question that definitely has an answer in the texts the system has access to
+As in [23], we formulate several queries by rewriting the question Q , and submit these queries to a search engine like Google (http://www
+In such cases, using multiple documents for prediction would generate a better answer than using only one document for question answering systems [1, 2, 5, 16]
+Roussinov & Robles [8] studied a pattern based system that extends the redundancy based approach tried in [9] with the completely automatically learned patterns
+Our work expands [2] by allowing automatic identification and training a set of patterns, which are more powerful than simple re-writes
+Also, the test set for [2] included mostly clearly defined answers, the scenario where our triangulation mechanism does not have much of an advantage over simple frequency count
+We believe that the lower results are due to our use of AltaVista instead of Google and due to the fact that we did not use any manually crafted semantic filters
+(2002) propose a method based on answer redundancy for answer selection in QA system, and their experimental results show that the method is quite effective [4]
+A recent work by [9] presented an open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted semantic filters to

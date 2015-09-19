@@ -1,0 +1,15 @@
+1 Introduction Text-to-text generation is an emerging area of research in NLP (Chandrasekar and Bangalore, 1997; Caroll et al
+We analyzed a set of articles and identified six major operations that can be used for editing the extracted sentences, including removing extraneous phrases from an extracted sentence, combining a reduced sentence with other sentences, syntactic transformation, substituting phrases in an extracted sentence with their paraphrases, substituting phrases with more general or specific descriptions, and reordering the extracted sentences (Jing and McKeown, 1999; Jing and McKeown, 2000)
+We present a cut and paste based text summa- rizer, which uses operations derived from an anal- edits extracted sentences, using reduction to remove inessential phrases and combination to merge re- suiting phrases together as coherent sentences
+Our work includes a statistically based sentence decom- position program that identifies where the phrases of a summary originate in the original document, pro- ducing an aligned corpus of summaries and articles which we used to develop the summarizer
+Starting from the early work of Jing & McKeown (2000), in the last decade SC has received considerable attention in the NLP community
+Jing and McKeown (2000) proposed a system based on extraction and cut-and-paste generation
+ Our abstractors performed the same cut-and-paste operations that Jing and McKeown noted in their work, and we think that our two-step model will be a reasonable starting point for our subsequent research
+(1999) proposed a summarization system based on the draft and revision
+, 1994), compression of sentences with Automatic Translation approaches (Knight and Marcu, 2000), Hidden Markov Model (Jing and McKeown, 2000), Topic Signatures based methods (Lin and Hovy, 2000, Lacatusu et al
+, 2006) are among the most popular techniques that have been used in the summarization systems of this category
+Because of this, it is generally accepted that some kind of postprocessing should be performed to improve the final result, by shortening, fusing, or otherwise revising the material (Grefenstette 1998; Mani, Gates, and Bloedorn 1999; Jing and McKeown 2000; Barzilay et al
+Additionally, some research has explored cutting and pasting segments of text from the full document to generate a summary (Jing and McKeown 2000)
+Our work in sentence reformulation is different from cut-and-paste summarization (Jing and McKeown 2000) in many ways
+Jing and McKeown (2000) first extract sentences, then remove redundant phrases, and use (manual) recombination rules to produce coherent output
+But it remains an open question whether sentence ordering is non-trivial for single-document summarization, as it has long been recognized as an actual strategy taken by human summarizers (Jing, 1998; Jing and McKeown, 2000) and acknowledged early in work on sentence ordering for multi-document summarization (Barzilay et al

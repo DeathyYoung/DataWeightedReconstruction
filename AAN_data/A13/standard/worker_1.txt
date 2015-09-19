@@ -1,0 +1,15 @@
+2005; McDonald and Pereira 2006) and is now known as spanning tree parsing, because the problem of nding the most probable tree under this type of model is equivalent to nding an optimum spanning tree in a dense graph containing all possible dependency arcs
+1 Introduction The Maximum Spanning Tree algorithm1 was recently introduced as a viable solution for nonprojective dependency parsing (McDonald et al
+, 2005) assume a series of dependency tree candidates for a sentence and the goal is to find the dependency tree with highest score
+In fact, some structured prediction algorithms, such as the MIRA algorithm used in dependency parsing (McDonald et al
+, 2005) on the standard WSJ training corpus, which is converted from constituent trees to dependency trees by several heuristic rules6
+Currently, the work on conditional parsing models appears to have culminated in large margin training approaches (Taskar et al
+We present an effective training al-gorithm for linearly-scored dependencyparsers that implements online large-margin multi-class training (Crammer andSinger, 2003; Crammer et al, 2003) ontop of efficient parsing techniques for de-pendency trees (Eisner, 1996)
+For standard scoring functions, parsing requires an a72a58a4a6a73a75a74a12a17 dynamic programming algorithm to compute a projective tree that obtains the maximum score (Eisner and Satta, 1999; Wang et al
+The best projective parse tree is obtained using the Eisner algorithm (Eisner, 1996) with the scores, and the best non-projective one is obtained using the ChuLiu-Edmonds (CLE) algorithm (McDonald et al
+, 2005b) is applied for non-projective parsing and the Eisners method is used for projective language data
+In particuler, Single-best MIRA (McDonald et al, 2005) uses only the single margin constraint for the runner up y with the highest score
+MIRA has been used successfully for both sequence analysis (McDonald et al
+, 2007) was used to POS tag the source sentencesand the parses were obtained using the first order MST parser (McDonald et al
+One sees this clear trend in the supervised NLP literature examples include the Perceptron algorithm for tagging (Collins, 2002), MIRA for dependency parsing (McDonald et al
+The training algorithm we propose in this paper is based on the K-best MIRA algorithm which has been used earlier in structured prediction problems (McDonald et al

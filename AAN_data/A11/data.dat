@@ -1,0 +1,351 @@
+Title:P02-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Ravichandran, Deepak; Hovy, Eduard
+In this paper we explore the power of surface text patterns for open-d main question answering systems.  In order to obtain an optimal set of patterns, we have developed a method for learning such patterns automatically. A tagged corpus is built from the Internet in a bootstrapping process by providing a few hand-crafted examples of each question type to Altavista. Patterns are then automatically extracted from the returned documents and standardized. We calculate the precision of each pattern, and the average precision for each question type. These patterns are then applied to find answers to new questions.  Using the TREC-10 question set, we report results for two cases: answers determined from the TREC-10 corpus and from the web.  
+
+Title:W02-1111		Conference:Workshop On SEMANET: Building And Using Semantic Networks		Author:Mann, Gideon S.
+Ravichandran and Hovy (2002) present an alternative ontology for type preference and describe a method for using this alternative ontology to extract particular answers using surface text patterns.
+
+Title:C02-1042		Conference:International Conference On Computational Linguistics		Author:Hovy, Eduard; Hermjakob, Ulf; Lin, Chin-Yew; Ravichandran, Deepak
+For example, the year of birth of a person is typically expressed using one of these phrases: was born in () We have developed a method to learn such patterns automatically from text on the web (Ravichandran and Hovy, 2002). (self citation)
+
+Title:P03-1001		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Fleischman, Michael; Hovy, Eduard; Echihabi, Abdessamad
+These patterns could be manually generated, such as the ones described here, or learned from text, as described in Ravichandran and Hovy (2002). (self citation)
+
+Title:W03-0908		Conference:Workshop On Text Meaning		Author:van Durme, Benjamin; Huang, Yifen; Kupsc, Anna; Nyberg, Eric H.
+Although semantics-poor techniques, such as surface pattern matching (Soubbotin, 2002; Ravichandran and Hovy, 2002) or statistical methods (Ittycheriah et al. , 2002), have been successful in answering factoid questions, more complex tasks require a consideration of text meaning.
+
+Title:W03-0405		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Mann, Gideon S.; Yarowsky, David
+String Patterns with and Extractions where is a year Extraction graded by #correct extractions/#total extractions ( dddd) dddd was born in ( b. Extractions of with potential Web Pages w/ and Sentences with and Substrings with and Web Pages with Sentences with 1642 1685 1869 1770 1899 Ludwig van Beethoven Humphrey Bogart Mohandas Gandhi John Sebastian Bach Isaac Newton Figure 1: Learning Extraction Patterns from Filled Templates and Web Pages In the late 90s, there was a substantial body of research on learning information extraction patterns from templates (Huffman, 1995; Brin, 1998; Califf and Mooney, 1998; Freitag and McCallum, 1999; Yangarber et al. , 2000; Ravichandran and Hovy, 2002).
+
+Title:W03-0405		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Mann, Gideon S.; Yarowsky, David
+In this paper, we employ and extend the method described by Ravichandran and Hovy (2002) shown in Figure 1.
+
+Title:W03-0405		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Mann, Gideon S.; Yarowsky, David
+In particular, the methodology proposed by Ravichandran and Hovy (2002) requires no parsing or other language specific resources, so is an ideal candidate for multilingual use.
+
+Title:N03-2029		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Ravichandran, Deepak; Ittycheriah, Abraham; Roukos, Salim
+This method was first described in Ravichandran and Hovy (2002). (self citation)
+
+Title:N03-2029		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Ravichandran, Deepak; Ittycheriah, Abraham; Roukos, Salim
+1 Introduction Several QA systems have investigated the use of text patterns for QA (Soubbotin and Soubbotin, 2001), (Soubbotin and Soubbotin, 2002), (Ravichandran and Hovy, 2002). (self citation)
+
+Title:W03-1609		Conference:International Workshop On Paraphrasing IWP		Author:Shinyama, Yusuke; Sekine, Satoshi
+(Ravichandran and Hovy, 2002) used pairs of questions and answers to obtain varied patterns which give the same answer.
+
+Title:P04-1053		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Hasegawa, Takaaki; Sekine, Satoshi; Grishman, Ralph
+Ravichandran also explored a similar method for question answering (Ravichandran and Hovy, 2002).
+
+Title:C04-1188		Conference:International Conference On Computational Linguistics		Author:Jijkoun, Valentin; Mur, Jori; de Rijke, Maarten
+The use of lexical patterns to identify answers in corpus-based QA received lots of attention after a team taking part in one of the earlier QA Tracks at TREC showed that the approach was competitive at that stage (Soubbotin and Soubbotin, 2002; Ravichandran and Hovy, 2002).
+
+Title:P05-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Mann, Gideon S.; Yarowsky, David
+For the special case of Rote extractors, a more attractive alternative has been proposed by Brin (1998), Agichtein and Gravano (2000), and Ravichandran and Hovy (2002).
+
+Title:P05-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Mann, Gideon S.; Yarowsky, David
+3Following (Ravichandran and Hovy, 2002).
+
+Title:W05-0205		Conference:Workshop On Building Educational Applications Using NLP		Author:Xuan, Weijian; Zhang, Meilan
+While some QA systems are promising (Harabagiu, et al. , 2000; Ravichandran and Hovy, 2002), they can only handle factual questions as in TREC (Voorhees, 2001), and the context for the whole task is largely not considered.
+
+Title:H05-1039		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Peng, Fuchun; Weischedel, Ralph M.; Licuanan, Ana; Xu, Jinxi
+Automatic pattern derivation is more appealing (Ravichandran and Hovy, 2002).
+
+Title:P05-1014		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhitomirsky-Geffet, Maayan; Dagan, Ido
+Most works that attempt to learn such concrete lexical semantic relations employ a co-occurrence pattern-based approach (Hearst, 1992; Ravichandran and Hovy, 2002; Moldovan et al. , 2004).
+
+Title:P05-1014		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhitomirsky-Geffet, Maayan; Dagan, Ido
+A few recent works (Ravichandran and Hovy, 2002; Keller et al. , 2002; Chklovski and Pantel, 2004) used the web to collect statistics on word cooccurrences.
+
+Title:W05-1207		Conference:Workshop On Empirical Modeling Of Semantic Equivalence And Entailment		Author:Zanzotto, Fabio Massimo; Pazienza, Maria Teresa; Pennacchiotti, Marco
+These retrieved text fragments are then considered good candidate for paraphrasing X bought Y. Anchor-based learning methods have been used to investigate many semantic relations ranging from very general ones as the isa relation in (Morin, 1999) to very specific ones as in (Ravichandran and Hovy, 2002) where paraphrases of question-answer pairs are searched in the web or as in (Szpektor et al. , 2004) where a method to scan the web for searching textual entailment prototype relations is presented.
+
+Title:H05-1088		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Sauri, Roser; Knippen, Robert; Verhagen, Marc; Pustejovsky, James
+In this field as well, the use of pre-defined sets of relation patterns has proved fairly reliable, particularly in the case of factoid type queries (Brill et al. , 2002; Ravichandran and Hovy, 2002; Hovy et al. , 2002; Soubbotin and Soubbotin, 2002).
+
+Title:H05-1075		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Feng, Donghui; Hovy, Eduard
+Ravichandran and Hovy (2002) proposed automatically learning surface text patterns for answer extraction. (self citation)
+
+Title:H05-1075		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Feng, Donghui; Hovy, Eduard
+But it is almost impossible to learn such surface text patterns following (Ravichandran and Hovy, 2002). (self citation)
+
+Title:P06-1100		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pennacchiotti, Marco; Pantel, Patrick
+Many recent efforts have also focused on extracting binary semantic relations between entities, such as entailments (Szpektor et al. 2004), is-a (Ravichandran and Hovy 2002), part-of (Girju et al. 2003), and other relations.
+
+Title:W06-3807		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Molla Aliod, Diego
+For example, Ravichandran and Hovy (2002) learns rules based on simple surface patterns.
+
+Title:W06-3807		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Molla Aliod, Diego
+To obtain such a corpus Ravichandran and Hovy (2002) mine the Web to gather the relevant data.
+
+Title:E06-1052		Conference:Conference Of The European Association For Computational Linguistics		Author:Romano, Lorenza; Kouylekov, Milen; Szpektor, Idan; Dagan, Ido; Lavelli, Alberto
+(Ravichandran and Hovy, 2002).
+
+Title:E06-1052		Conference:Conference Of The European Association For Computational Linguistics		Author:Romano, Lorenza; Kouylekov, Milen; Szpektor, Idan; Dagan, Ido; Lavelli, Alberto
+Ravichandran and Hovy (2002) evaluated the performance of a QA system that is based solely on paraphrases, an approach resembling ours.
+
+Title:P06-1136		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Chen, Yi; Zhou, Ming; Wang, Shilong
+i.e., for Who is ? question, we add the word biography; and for What is ? question, we add the word is usually, refers to, etc. We learn these clue words using the similar method proposed in (Ravichandran and Hovy, 2002).
+
+Title:N06-1039		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Shinyama, Yusuke; Sekine, Satoshi
+Several existing works have tried to extract a certain type of relation by manually choosing different pairs of entities (Brin, 1998; Ravichandran and Hovy, 2002).
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+Many recent efforts have also focused on extracting semantic relations between entities, such as entailments (Szpektor et al. 2004), is-a (Ravichandran and Hovy 2002), part-of (Girju et al. 2006), and other relations.
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+We chose the state of the art algorithm described in (Ravichandran and Hovy 2002) with the following slight modification.
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+Ravichandran and Hovy (2002) focus on scaling relation extraction to the Web.
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+As in the original algorithm, all substrings linking terms x and y are then extracted from S x,y, and overall frequencies are computed to form P. Pattern Ranking/Selection In (Ravichandran and Hovy 2002), a frequency threshold on the patterns in P is set to select the final patterns.
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+RH02: The algorithm by Ravichandran and Hovy (2002) described in Section 2.
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+The approach followed for the generalisation is the one described by (Alfonseca et al. , 2006a; Ruiz-Casado et al. , in press), which has a few modifications with respect to Ravichandran and Hovy (2002)s, such as the use of the wildcard * to represent any sequence of words, and the addition of part-of-speech and Named Entity labels to the patterns.
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+Several similar approaches have been proposed (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002), with various applications: Question-Answering (Ravichandran and Hovy, 2002), multi-document Named Entity Coreference (Mann and Yarowsky, 2003), and generating biographical information (Mann and Yarowsky, 2005).
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+This may just be the m characters to the left or to the right (Brin, 1998), the longest common substring of several contexts (Agichtein and Gravano, 2000), or all substrings obtained with a suffix tree constructor (Ravichandran and Hovy, 2002).
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+For example, the following patterns are reported by Ravichandran and Hovy (2002) for identifying the relations Inventor, Discoverer and Location: Relation Prec.
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+We assume that the system has used the seed list to extract and generalise a set of patterns for each of the relations using training corpora (Ravichandran and Hovy, 2002; Alfonseca et al. , 2006a).
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+Consequently, rote extractors (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002) have been identified as an appropriate method to look for textual contexts that happen to convey a certain relation between two concepts.
+
+Title:W06-0507		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Alfonseca, Enrique; Ruiz-Casado, Maria; Okumura, Manabu; Castells, Pablo
+In order to train a Rote extractor from the web, this procedure is mostly used (Ravichandran and Hovy, 2002): 1.
+
+Title:W06-1656		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Feldman, Ronen; Rosenfeld, Benjamin
+(Ravichandran and Hovy 2002) also use bootstrapping, and learn simple surface patterns for extracting binary relations from the Web.
+
+Title:W06-1656		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Feldman, Ronen; Rosenfeld, Benjamin
+This makes URES patterns much more general, and allows to recognize instances in sentences inaccessible to the simple surface patterns of systems such as (Brin 1998; Riloff and Jones 1999; Ravichandran and Hovy 2002).
+
+Title:P06-2075		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Mirkin, Shachar; Dagan, Ido; Zhitomirsky-Geffet, Maayan
+In addition to their use for learning lexical semantic relations, patterns were commonly used to learn instances of concrete semantic relations for Information Extraction (IE) and QA, as in (Riloff and Shepherd, 1997; Ravichandran and Hovy, 2002; Yangarber et al. , 2000).
+
+Title:P06-1116		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Abdalla, Rashid M.; Teufel, Simone
+From these, we a for of a new to the In this section, we the of the in this paper is to the after Figure 8: Examples of patterns extracted using Ravichandran and Hovys (2002) method Method Correct sentences Our system with bootstrapping 88 (73%) Ravichandran and Hovy (2002) 58 (48%) Our system, no bootstrapping, WordNet 50 (41%) Our system, no bootstrapping, seeds only 37 (30%) Figure 9: Gold standard evaluation: results the precision of each pattern was calculated by dividing the number of strings matching the pattern instantiated with both the goal-verb and all WordNet synonyms of the goal-noun, by the number of strings matching the patterns instantiated with the goal-verb only.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+Several similar approaches have been proposed (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002), with various applications: Question-Answering (Ravichandran and Hovy, 2002), multi-document Named Entity Coreference (Mann and Yarowsky, 2003), and generating 15 biographical information (Mann and Yarowsky, 2005).
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+On the other hand, we have rerun Ravichandran and Hovy (2002)s algorithm on our corpus.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+(1) HOOK,/, returned|travelled|born/VBN to|in/IN TARGET It is interesting that, among the three relationships with the smaller number of extracted patterns, one of them did not produce any result, and Ravichandran Relation Our approach and Hovys Actor-film 76.84% 1.71% Writer-book 28.13% 8.55% Birth-year 79.67% 49.49% Birth-place 14.56% 88.66% Country-capital 72.43% 24.79% Country-president 81.40% 16.13% Death-year 96.71% 35.35% Director-film 84.91% 1.01% Painter-picture 0.85% Player-team 52.50% 44.44% Table 5: Inclusion precision on the same test corpus for our approach and Ravichandran and Hovy (2002)s. the two others attained a low precision.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+An interesting approach is that of rote extractors (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002), which look for textual contexts that happen to convey a certain relationship between two concepts.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+In this case, Ravichandran and Hovy (2002)s patterns resulted more precise as they do not contain disjunctions or wildcards.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+It is interesting to note that, as could be expected, for those targets for which there is no entity type defined (films, books and pictures), Ravichandran and Hovy (2002)s extracts many errors, because it is not possible to apply the Named Entity Recognizer to clean up the results, and the accuracy remains below 10%.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+This may just be the m characters to the left or to the right, (Brin, 1998), the longest common substring of several contexts (Agichtein and Gravano, 2000), or all substrings obtained with a suffix tree constructor (Ravichandran and Hovy, 2002).
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+Ravichandran and Hovy (2002) have noted that this might be dangerous if the wildcard matches unrestrictedly incorrect sentences.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+In order to train a Rote extractor from the web, this procedure is usually followed (Ravichandran and Hovy, 2002): 1.
+
+Title:P06-2002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Alfonseca, Enrique; Castells, Pablo; Okumura, Manabu; Ruiz-Casado, Maria
+For instance, Ravichandran and Hovy (2002) report the following patterns for the relationships Inventor, Discoverer and Location: Relation Prec.
+
+Title:W06-2208		Conference:Workshop On Adaptive Text Extraction And Mining ATEM		Author:Tomita, Junji; Soderland, Stephen; Etzioni, Oren
+This idea is based on that of (Ravichandran and Hovy, 2002) for a QA system.
+
+Title:W06-0208		Conference:Workshop On Information Extraction Beyond The Document		Author:Patwardhan, Siddharth; Riloff, Ellen
+Many research ideas have exploited the Web in unsupervised or weakly supervised algorithms for natural language processing (e.g. , Resnik (1999), Ravichandran and Hovy (2002), Keller and Lapata (2003)).
+
+Title:W06-0208		Conference:Workshop On Information Extraction Beyond The Document		Author:Patwardhan, Siddharth; Riloff, Ellen
+Indeed, many researchers have recently tapped the Web as a data-source for improving performance on NLP tasks (e.g. , Resnik (1999), Ravichandran and Hovy (2002), Keller and Lapata (2003)).
+
+Title:W06-0503		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Suchanek, Fabian M.; Ifrim, Georgiana; Weikum, Gerhard
+For example, the simple subordinate clause in the following example (taken from (Ravichandran and Hovy, 2002)) can already prevent a surface pattern matcher from discovering a relation between London and the river Thames: London, which has one of the busiest airports in the world, lies on the banks of the river Thames. 1.3 Contribution This paper presents LEILA (Learning to Extract Information by Linguistic Analysis), a system that can extract instances of an arbitrary given binary relation from natural language Web documents without human intervention.
+
+Title:W06-0503		Conference:Workshop On Ontology Learning And Population: Bridging The Gap Between Text And Knowledge		Author:Suchanek, Fabian M.; Ifrim, Georgiana; Weikum, Gerhard
+The only group that can learn arbitrary binary relations is the group of pattern matching systems (Etzioni et al. , 2004; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002; Brin, 1999; Soderland, 1999; Xu et al. , 2002; Ruiz-Casado et al. , 2005; Mann and Yarowsky, 2005).
+
+Title:W06-2201		Conference:Workshop On Adaptive Text Extraction And Mining ATEM		Author:Geleijnse, Gijs; Korst, Jan
+As referred to in the introduction, Ravichandran and Hovy (2002) present a method to identify surface text patterns using a web search engine.
+
+Title:P06-1107		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Pennacchiotti, Marco; Pazienza, Maria Teresa
+More recently this method has been applied for structuring terminology in isa hierarchies (Morin, 1999) and for learning question-answering patterns (Ravichandran and Hovy, 2002).
+
+Title:P07-1076		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Rosenfeld, Benjamin; Feldman, Ronen
+Ravichandran and Hovy (Ravichandran and Hovy 2002) also use bootstrapping, and learn simple surface patterns for extracting binary relations from the Web.
+
+Title:P07-1076		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Rosenfeld, Benjamin; Feldman, Ronen
+This makes SRES patterns more general, and allows to recognize instances in sentences inaccessible to the simple surface patterns of systems such as (Brin 1998; Riloff and Jones 1999; Ravichandran and Hovy 2002).
+
+Title:P07-1058		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Szpektor, Idan; Shnarch, Eyal; Dagan, Ido
+2.2 Evaluation of Acquisition Algorithms Many methods for automatic acquisition of rules have been suggested in recent years, ranging from distributional similarity to finding shared contexts (Lin and Pantel, 2001; Ravichandran and Hovy, 2002; Shinyama et al. , 2002; Barzilay and Lee, 2003; Szpektor et al. , 2004; Sekine, 2005).
+
+Title:P07-1058		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Szpektor, Idan; Shnarch, Eyal; Dagan, Ido
+One approach which was used for evaluating automatically acquired rules is to measure their contribution to the performance of specific systems, such as QA (Ravichandran and Hovy, 2002) or IE (Sudo et al. , 2003; Romano et al. , 2006).
+
+Title:N07-2032		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers		Author:Nguyen, Dat P. T.; Matsuo, Yutaka; Ishizuka, Mitsuru
+Some other works (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002) rely on the abundance of web data to obtain easy patterns and learn such patterns based mostly on lexical information.
+
+Title:N07-1042		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Mann, Gideon S.
+5 Related Work Techniques for information extraction from minimally supervised data have been explored by Brin (1998), Agichtein and Gravano (2000), and Ravichandran and Hovy (2002).
+
+Title:W07-0909		Conference:Workshop on Language Technology for Cultural Heritage Data (LaTeCH 2007)		Author:Szpektor, Idan; Dagan, Ido; Lavie, Alon; Shacham, Danny; Wintner, Shuly
+Automatically Learning Entailment Rules from the Web Many algorithms for automatically learning paraphrases and entailment rules have been explored in recent years (Lin and Pantel, 2001; 1http://jakarta.apache.org/lucene/docs/index.html 67 Ravichandran and Hovy, 2002; Shinyama et al. , 2002; Barzilay and Lee, 2003; Sudo et al. , 2003; Szpektor et al. , 2004; Satoshi, 2005).
+
+Title:W07-0909		Conference:Workshop on Language Technology for Cultural Heritage Data (LaTeCH 2007)		Author:Szpektor, Idan; Dagan, Ido; Lavie, Alon; Shacham, Danny; Wintner, Shuly
+Although knowledge-bases of entailment-rules and paraphrases learned by acquisition algorithms were used in other NLP applications, such as QA (Lin and Pantel, 2001; Ravichandran and Hovy, 2002) and IE (Sudo et al. , 2003; Romano et al. , 2006), to the best of our knowledge the output of such algorithms was never applied to IR before.
+
+Title:N07-1017		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Gliozzo, Alfio Massimiliano; Pennacchiotti, Marco; Pantel, Patrick
+To do so, Espresso uses a slight modification of the state of the art algorithm described in (Ravichandran and Hovy, 2002).
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+For instance, Ravichandran and Hovy (2002) defined a question taxonomy for their QA system.
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+Ravichandran and Hovy (2002) did not directly evaluate the precision of the paraphrase patterns extracted using their method.
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+The examples of obtained para(1) X solves Y Y is solved by X X finds a solution to Y (2) born in , was born on , ( (3) ORGANIZATION decides ORGANIZATION confirms Table 1: Examples of paraphrase patterns extracted with the methods of Lin and Pantel (2001), Ravichandran and Hovy (2002), and Shinyama et al.
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+Paraphrases are important in plenty of natural language processing (NLP) applications, such as question answering (QA) (Lin and Pantel, 2001; Ravichandran and Hovy, 2002), machine translation (MT) (Kauchak and Barzilay, 2006; Callison-Burch et al., 2006), multi-document summarization (McKeown et al., 2002), and natural language generation (Iordanskaja et al., 1991).
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+In paraphrase generation, a text unit that matches a pattern P can be rewritten using the paraphrase patterns of P. Avarietyofmethodshavebeenproposedonparaphrase patterns extraction (Lin and Pantel, 2001; Ravichandran and Hovy, 2002; Shinyama et al., 2002; Barzilay and Lee, 2003; Ibrahim et al., 2003; Pang et al., 2003; Szpektor et al., 2004).
+
+Title:P08-1089		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting; Li, Sheng
+Some methods only extract paraphrase patternsusingnewsarticlesoncertaintopics(Shinyama et al., 2002; Barzilay and Lee, 2003), while some others need seeds as initial input (Ravichandran and Hovy, 2002).
+
+Title:C08-1107		Conference:International Conference On Computational Linguistics		Author:Szpektor, Idan; Dagan, Ido
+Some works take the combination of the two variable instantiations in each template occurrence as a single complex feature, e.g. {X-Y=SCO-IBM}, and compare between these complex features of t and tprime (Ravichandran and Hovy, 2002; Szpektor et al., 2004; Sekine, 2005).
+
+Title:W08-0628		Conference:Proceedings of the Workshop on Current Trends in Biomedical Natural Language Processing		Author:Feng, Donghui; Burns, Gully; Hovy, Eduard
+2.1 Choosing Learning Approach via F1 A natural way to label sentences is to obtain (by hand or learning) patterns characterizing each field (Feng et al., 2006; Ravichandran and Hovy, 2002). (self citation)
+
+Title:P08-1077		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Bhagat, Rahul; Ravichandran, Deepak
+For example, in question answering, paraphrases have been used to find multiple patterns that pinpoint the same answer (Ravichandran and Hovy, 2002); in statistical machine translation, they have been used to find translations for unseen source language phrases (Callison-Burch et al., 2006); in multi-document summarization, they have been used to identify phrases from different sentences that express the same information (Barzilay et al., 1999); in information retrieval they have been used for query expansion (Anick and Tipirneni, 1999). (self citation)
+
+Title:P08-1077		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Bhagat, Rahul; Ravichandran, Deepak
+To compare the quality of the extraction patterns, and relation instances, we use the method presented by Ravichandran and Hovy (2002) as the baseline. (self citation)
+
+Title:P08-1077		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Bhagat, Rahul; Ravichandran, Deepak
+Ravichandran and Hovy (2002) used seed instances of a relation to automatically obtain surface patterns by querying the web. (self citation)
+
+Title:I08-2124		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Feng, Donghui; Burns, Gully; Zhu, Jingbo; Hovy, Eduard
+Pattern-based IE approaches employ seed data to learn useful patterns to pinpoint required fields values (e.g. Ravichandran and Hovy, 2002; Mann and Yarowsky, 2005; Feng et al., 2006). (self citation)
+
+Title:P08-1116		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Zhao, Shiqi; Niu, Cheng; Zhou, Ming; Liu, Ting; Li, Sheng
+In QA, Lin and Pantel (2001) and Ravichandran and Hovy (2002) paraphrased the answer patterns to enhance the recall of answer extraction.
+
+Title:P08-1116		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Zhao, Shiqi; Niu, Cheng; Zhou, Ming; Liu, Ting; Li, Sheng
+For example, Ravichandran and Hovy (2002) retrieved paraphrase patterns from the web using hand-crafted queries.
+
+Title:P08-1078		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Szpektor, Idan; Dagan, Ido; Bar-Haim, Roy; Goldberger, Jacob
+Recently, several algorithms were proposed for automatically learning entailment rules and paraphrases (viewed as bi-directional entailment rules) (Lin and Pantel, 2001; Ravichandran and Hovy, 2002; Shinyama et al., 2002; Szpektor et al., 2004; Sekine, 2005).
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+The second and more closely related class deals with extracting specific facts such as birthplace, occupation, etc. For this task, the primary theme of work in the literature has been to treat the task as a general semantic-class learning problem where one starts with a few seeds of the semantic relationship of interest and learns contextual patterns such as was born in or (born ) (Hearst, 1992; Riloff, 1996; Thelen and Riloff, 2002; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002; Mann and Yarowsky, 2003; Jijkoun et al., 2004; Mann and Yarowsky, 2005; Alfonseca et al., 2006; Pasca et al., 2006).
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+We first showed an improvement to the standard Ravichandran and Hovy (2002) model utilizing untethered contextual pattern models, followed by a document position and sequence-based approach to attribute modeling.
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+Given the attribute values of the seed names and their text articles, the probability of a relationship r(Attribute Name), given the surrounding context A1 p A2 q A3, where p and q are and respectively, is given using the rote extractor model probability as in (Ravichandran and Hovy, 2002; Mann and Yarowsky 2005): 2The seed examples were chosen randomly, with a bias against duplicate attribute values to increase training diversity.
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+The rows with subscript RH02in Table 4 shows the performance of this Ravichandran and Hovy (2002) model with additional attribute domain modeling for each attribute, and Table 3 shows the average performance across all attributes.
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+Such templatic patterns can be learned using seed examples of the attribute in question and, there has been a plethora of work in the seed-based bootstrapping literature which addresses this problem (Ravichandran and Hovy, 2002; Thelen and Riloff, 2002; Mann and Yarowsky, 2005; Alfonseca et al., 2006; Pasca et al., 2006) Thus for our baseline we implemented a standard Ravichandran and Hovy (2002) pattern learning model using 100 seed2 examples from an online biographic database called NNDB (http://www.nndb.com) for each of the biographic attributes: Birthdate, Birthplace, Deathdate, Gender, Nationality, Occupation and Religion.
+
+Title:E09-1035		Conference:EACL		Author:Garera, Nikesh; Yarowsky, David
+An improvement to the Ravichandran and Hovy (2002) algorithm based on Partially Untethered Contextual Pattern Models 2.
+
+Title:W09-2201		Conference:Proceedings of the NAACL HLT 2009 Workshop on Semi-supervised Learning for Natural Language Processing		Author:Carlson, Andrew; Betteridge, Justin; Hruschka Junior, Estevam Rafael; Mitchell, Tom M.
+Bootstrapping approaches to information extraction can yield impressive results with little initial human effort (Brin, 1998; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002; Pasca et al., 2006).
+
+Title:P09-1031		Conference:ACL-IJCNLP		Author:Yang, Hui; Callan, James, P.
+The most commonly used technique in pattern-based approaches is bootstrapping (Hearst, 1992; Etzioni et al., 2005; Girju et al., 2003; Ravichandran and Hovy, 2002; Pantel and Pennacchiotti, 2006).
+
+Title:P09-1031		Conference:ACL-IJCNLP		Author:Yang, Hui; Callan, James, P.
+Other types of relations that have been studied by pattern-based approaches include questionanswer relations (such as birthdates and inventor) (Ravichandran and Hovy, 2002), synonyms and antonyms (Lin et al., 2003), general purpose analogy (Turney et al., 2003), verb relations (including similarity, strength, antonym, enablement and temporal) (Chklovski and Pantel, 2004), entailment (Szpektor et al., 2004), and more specific relations, such as purpose, creation (Cimiano and Wenderoth, 2007), LivesIn, and EmployedBy (Bunescu and Mooney , 2007).
+
+Title:P09-1113		Conference:ACL-IJCNLP		Author:Mintz, Mike; Bills, Steven; Snow, Rion; Jurafsky, Daniel
+A third approach has been to use a very small number of seed instances or patterns to do bootstrap learning (Brin, 1998; Riloff and Jones, 1999; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002; Etzioni et al., 2005; Pennacchiotti and Pantel, 2006; Bunescu and Mooney, 2007; Rozenfeld and Feldman, 2008).
+
+Title:P09-1113		Conference:ACL-IJCNLP		Author:Mintz, Mike; Bills, Steven; Snow, Rion; Jurafsky, Daniel
+such as Ravichandran and Hovy (2002) and Pantel and Pennacchiotti (2006) use the same formalism of learning regular expressions over words and part-of-speech tags to discover patterns indicating a variety of relations.
+
+Title:C10-2137		Conference:COLING - POSTERS		Author:Sun, Ang; Grishman, Ralph
+This iterative procedure has been successfully applied to a variety of NLP tasks, such as hypernym/hyponym extraction (Hearst, 1992), word sense disambiguation (Yarowsky, 1995), question answering (Ravichandran and Hovy, 2002), and information extraction (Brin, 1998; Collins and Singer, 1999; Riloff and Jones, 1999; Agichtein and Gravano, 2000; Yangarber et al., 2000; Chen and Ji, 2009).
+
+Title:J10-3003		Conference:Computational Linguistics		Author:Madnani, Nitin; Dorr, Bonnie Jean
+For example: Original : simultaneous measurements Variant : concurrent measures Original : development area Variant : area of growth Ravichandran and Hovy (2002) use semi-supervised learning to induce several paraphrastic patterns for each question type and use them in an open-domain question answering system.
+
+Title:D10-1035		Conference:EMNLP		Author:McIntosh, Tara
+1 Introduction Automatically acquiring semantic lexicons from text is essential for overcoming the knowledge bottleneck in many NLP tasks, e.g. question answering (Ravichandran and Hovy, 2002).
+
+Title:C10-1148		Conference:COLING		Author:Zhao, Shiqi; Wang, Haifeng; Liu, Ting
+As an alternative, researchers have tried to acquire paraphrases from large-scale web corpora (Lin and Pantel, 2001; Pasca and Dienes, 2005; Bhagat and Ravichandran, 2008) or directly based on web mining (Ravichandran and Hovy, 2002).
+
+Title:W10-0908		Conference:Proceedings of the NAACL HLT 2010 First International Workshop on Formalisms and Methodology for Learning by Reading		Author:Freedman, Marjorie; Loper, Edward; Boschee, Elizabeth; Weischedel, Ralph M.
+Ravichandran and Hovy (2002) reported experimental results for automatically generating surface patterns for relation identification; others have explored similar approaches (e.g. Agichtein & Gravano 2000 or Pantel & Pennacchiotti, 2006).
+
+Title:C10-1057		Conference:COLING		Author:Jain, Alpa; Pantel, Patrick
+Recent work has also explored extraction-related issues such as, scalability (Pasca et al., 2006; Ravichandran and Hovy, 2002; Pantel et al., 2004; Etzioni et al., 2004), learning extraction schemas (Cafarella et al., 2007a; Banko et al., 2007), and organizing extracted facts (Cafarella et al., 2007b).
+
+Title:P10-1067		Conference:ACL		Author:Li, Shasha; Lin, Chin-Yew; Song, Young-In; Li, Zhoujun
+This pattern definition is inspired by the work of Ravichandran and Hovy (2002).
+
+Title:P10-1067		Conference:ACL		Author:Li, Shasha; Lin, Chin-Yew; Song, Young-In; Li, Zhoujun
+Pattern Generation To generate sequential patterns, we adapt the surface text pattern mining method introduced in (Ravichandran and Hovy, 2002).
+
+Title:P10-1067		Conference:ACL		Author:Li, Shasha; Lin, Chin-Yew; Song, Young-In; Li, Zhoujun
+Bootstrapping methods have been shown to be very effective in previous information extraction research (Riloff, 1996; Riloff and Jones, 1999; Ravichandran and Hovy, 2002; Mooney and Bunescu, 2005; Kozareva et al., 2008).
+
+Title:D11-1135		Conference:EMNLP		Author:Yao, Limin; Haghighi, Aria; Riedel, Sebastian; McCallum, Andrew
+For instance, knowing that the entity Steve Balmer bears the leaderOf relation to the entity Microsoft, would facilitate question answering (Ravichandran and Hovy, 2002), data mining, and a host of other end-user applications.
+
+Title:W11-2705		Conference:Proceedings of the UCNLG+Eval: Language Generation and Evaluation Workshop		Author:Curto, S&eacute;rgio; Mendes, Ana Cristina; Coheur, Lu&iacute;sa
+Pattern Learning Our approach to pattern learning is inspired by the work of Ravichandran and Hovy (2002), who propose a method to learn patterns based on a two-step technique: the first acquires patterns from the Web given a set of seeds and the second validates the patterns.
+
+Title:W11-2705		Conference:Proceedings of the UCNLG+Eval: Language Generation and Evaluation Workshop		Author:Curto, S&eacute;rgio; Mendes, Ana Cristina; Coheur, Lu&iacute;sa
+The use of patterns is a widely accepted as an effective approach in the field of Natural Language Processing (NLP), in tasks like Question-Answering (QA) (Soubbotin, 2001; Ravichandran and Hovy, 2002) or Question Generation (QG) (Wyse and Piwek, 2009; Mendes et al., 2011).
+
+Title:D11-1133		Conference:EMNLP		Author:Freedman, Marjorie; Ramshaw, Lance A.; Boschee, Elizabeth; Gabbard, Ryan; Kratkiewicz, Gary; Ward, Nicolas; Weischedel, Ralph M.
+Agichtein & Gravano (2000) and Ravichandran & Hovy (2002) reported results for generating surface patterns for relation identification; others have explored similar approaches (e.g. Pantel & Pennacchiotti, 2006).
+
+Title:D11-1133		Conference:EMNLP		Author:Freedman, Marjorie; Ramshaw, Lance A.; Boschee, Elizabeth; Gabbard, Ryan; Kratkiewicz, Gary; Ward, Nicolas; Weischedel, Ralph M.
+Most approaches to automatic pattern generation have focused on precision, e.g., Ravichandran and Hovy (2002) report results in TREC QA, where extracting one instance of a relation can be sufficient, rather than detecting all instances.
+
+Title:W11-1708		Conference:Proceedings of the 2nd Workshop on Computational Approaches to Subjectivity and Sentiment Analysis (WASSA 2.011)		Author:van de Camp, Matje; van den Bosch, Antal
+Relation types and labels are then deduced from the most common patterns (Ravichandran and Hovy, 2002; Culotta et al, 2006).
+
+Title:P11-2050		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Gabbard, Ryan; Freedman, Marjorie; Weischedel, Ralph M.
+Agichtein & Gravano (2000) and Ravichandran & Hovy (2002) reported results for generating surface patterns for relation identification; others have explored similar approaches (e.g. Pantel & Pennacchiotti, 2006).
+
+Title:P11-2050		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Gabbard, Ryan; Freedman, Marjorie; Weischedel, Ralph M.
+Most approaches to automatic pattern generation have focused on precision, e.g., Ravichandran and Hovy (2002) report results in the Text Retrieval Conference (TREC) Question Answering track, where extracting one text of a relation instance can be sufficient, rather than detecting all texts.
+
+Title:D11-1108		Conference:EMNLP		Author:Ganitkevitch, Juri; Callison-Burch, Chris; Napoles, Courtney; van Durme, Benjamin
+Paraphrase generation can be used for query expansion in information retrieval and question answering systems (McKeown, 1979; Anick and Tipirneni, 1999; Ravichandran and Hovy, 2002; Riezler et al., 2007).
+
+Title:P11-1109		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Hashimoto, Chikara; Torisawa, Kentaro; De Saeger, Stijn; Kazama, Jun'ichi; Kurohashi, Sadao
+Accordingly, many researchers have recognized that automatic paraphrasing is an indispensable component of intelligent NLP systems (Iordanskaja et al., 1991; McKeown et al., 2002; Lin and Pantel, 2001; Ravichandran and Hovy, 2002; Kauchak and Barzilay,2006; Callison-Burchetal.,2006)andhavetried to acquire a large amount of paraphrase knowledge, which is a key to achieving robust automatic paraphrasing, fromcorpora(LinandPantel, 2001; Barzilay and McKeown, 2001; Shinyama et al., 2002; Barzilay and Lee, 2003).
+

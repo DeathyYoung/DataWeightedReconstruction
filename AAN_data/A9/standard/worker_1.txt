@@ -1,0 +1,15 @@
+2 Discriminative Reordering Model Basic reordering models in phrase-based systems use linear distance as the cost for phrase movements (Koehn et al
+We propose a new phrase-based translationmodel and decoding algorithm that enablesus to evaluate and compare several, previ-ously proposed phrase-based translation mod-els
+4 Experiments Phrase-based SMT systems have been shown to outperform word-based approaches (Koehn et al
+A similar use of the term phrase exists in machine translation, where phrases are often pairs of word sequences consistent with word-based alignments (Koehn et al
+One popular approach arguably the most successful so far is Statistical Phrase-based Machine Translation (PBMT), which learns phrase translation rules from aligned bilingual text corpora (Och et al
+Therefore, while phrase-based SMT moves from words to phrases as the basic unit of translation, implying effective local reordering within phrases, it suffers when determining phrase reordering, especially when phrases are longer than three words (Koehn et al
+It combines a phrase translation model (which is based on the noisy channel model) and a phrase-based decoder in order to find the most probable translation e of a foreign sentence f (Koehn et al
+The basic phrase reordering model is a simple unlexicalized, context-insensitive distortion penalty model (Koehn et al
+Word alignment and phrase extraction We used the GIZA++ word alignment software 3 to produce initial word alignments for our miniature bilingual corpus consisting of the source French file and the English reference file, and the refined word alignment strategy of (Och and Ney, 2003; Koehn et al
+To generate phrase pairs from a parallel corpus, we use the "diag-and" phrase induction algorithm described in (Koehn et al, 2003), with symmetrized word alignments generated using IBM model 2 (Brown et al, 1993)
+On the other hand, models that deal with structures or phrases instead of single words have also been proposed: the syntax translation models are described in (Yamada and Knight, 2001), alignment templates are used in (Och, 2002), and the alignment template approach is re-framed into the so-called phrase based translation (PBT) in (Marcu and Wong, 2002; Zens et al
+Surpris-ingly, learning phrases longer than three wordsand learning phrases from high-accuracy word-level alignment models does not have a strongimpact on performance
+The inclusion of phrases longer than three words in translation resources has been avoided, as it has been shown not to have a strong impact on translation performance [Koehn et al
+, 2003) applies a simple distance-based distortion penalty to model the phrase movements
+, 2003) in two basic issues: rst, training data is monotonously segmented into bilingual units; and second, the model considers n-gram probabilities instead of relative frequencies

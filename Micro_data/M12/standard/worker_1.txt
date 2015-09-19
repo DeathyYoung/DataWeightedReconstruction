@@ -1,0 +1,15 @@
+The Scatter/Gather document browsing method uses fast document clustering to produce table-of-contents-like outlines of large document collections
+Previous work [1] developed linear-time document clustering algorithms to establish the feasibility of this method over moderately large collections
+However, even linear-time algorithms are too slow to support interactive browsing of very large collections such as Tipster, the DARPA standard text retrieval evaluation collection
+This involves the construction of a cluster hierarchy
+Many researchers have attempted to employ the techniques of traditional text/document clustering (referred as long text clustering) [4,10,13,35,46,47] to reorganize search results, and then use cluster labeling method [7,9,36,37] to assign a readable label to each cluster
+This system divides a document corpus into groups and allows users to iteratively examine the resultant document groups or sub-groups for content navigation
+The Scatter/Gatherer system by Cutting et al [3, 4, 6] utilizes the Buckshot and Fractionation algorithms to define document cluster centers, given Figure 1
+Each item in the focus set represents one or many documents and contains their most relevant features (in [2], the term frequencies of the most frequent terms, the number of documents represented, and some example documents)
+Clustering a set of points into a few groups is frequently used for statistical analysis and classification in numerous applications, including information retrieval [10], [11], [12], [31], facility location [15], [34], data mining [2], [33], spatial data bases [13], [25], [30], data compression [28], image processing [24], [32], astrophysics [27], and scientific computing [9]
+Unsupervised clustering problem has been addressed in the context of many disciplines, including pattern recognition, artiflcial intelligence, information retrievalanddatamining
+Hearst and Pedersen [HP961 m-examine the cluster hypothesis by focusing on the Scatter/Gather system [CKP93] and conclude that it holds for browsing tasks
+Systems like Scatter/Gather [CKP93] provide a mechanism for user-driven organization of data into a fixed number of clusters, but user feedback is required and the computed clusters do not have accuracy guarantees
+In particular, it would be very interesting to see how to combine our fixedneighborhood search with the ideas of scatter/gather [16]
+Also, our approach of computing context-dependent document signatures to aid search and browsing appears to be a new extension to the scattergather type of retrieval interface [12]
+One of the best clustering methods is the Scatter/Gather browsing paradigm [2,3,6] which clusters documents into topically-coherent groups

@@ -1,0 +1,129 @@
+Title:A00-1043		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Hongyan Jing (Columbia University, New York NY)
+We present a novel sentence reduction system for automatically removing extraneous phrases from sentences that are extracted from a document for summarization purpose. The system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed, including syn- tactic knowledge, context information, and statistics computed from a corpus which consists of examples written by human professionals. Reduction can sig- nificantly improve the conciseness of automatic sum- maries. 1 Motivation Current automatic summarizers usually rely on sen- tence extraction to produce summaries. Human pro- fessionals also often reuse the input documents to generate summaries; however, rather than simply extracting sentences and stringing them together, as most current summarizers...
+
+Title:C00-2140		Conference:International Conference on Computational Linguistics		Author:Klaus Zechner (Carnegie Mellon University, Pittsburgh PA);Alex Waibel
+Since we only use shallow methods for textual analysis that do not generate a. dependency structure, we cannot use complex methods for text reduction as described, e.g., in (Jing, 2000).
+
+Title:A00-2024		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Hongyan Jing (Columbia University, New York NY);Kathleen R. McKeown
+The evaluation of sentence reduction (see (Jing, 2000) for details) used a corpus of 500 sentences and their reduced forms in human-written abstracts. 
+
+Title:A00-2024		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Hongyan Jing (Columbia University, New York NY);Kathleen R. McKeown
+4.2 Sentence reduction The task of the sentence reduction module, described in detail in (Jing, 2000), is to remove extraneous phrases from extracted sentences. 
+
+Title:P02-1057		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Hal Daum¨¦ III (University of Southern California, Marina del Rey CA);Daniel Marcu
+Sentence simplification systems (Chandrasekar et al. , 1996; Mahesh, 1997; Carroll et al. , 1998; Grefenstette, 1998; Jing, 2000; Knight and Marcu, 2000) are capable of compressing long sentences by deleting unimportant words and phrases.
+
+Title:J02-4005		Conference:Computational Linguistics Journal		Author:Horacio Saggion (University of Sheffield, Sheffield UK);Guy Lapalme (University of Montreal, Montreal QU)
+Jing and McKeown (2000) and Jing (2000) propose a cut-and-paste strategy as a computational process of automatic abstracting and a sentence reduction strategy to produce concise sentences.
+
+Title:J02-4005		Conference:Computational Linguistics Journal		Author:Horacio Saggion (University of Sheffield, Sheffield UK);Guy Lapalme (University of Montreal, Montreal QU)
+Jing (2000) proposes a novel algorithm for sentence reduction that takes into account different sources of information to decide whether or not to remove a particular component from a sentence to be included in a summary.
+
+Title:W03-1119		Conference:Workshop On Information Retrieval With Asian Languages		Author:Minh Le Nguyen (Japan Advanced Institute of Science and Technology, Nomi Japan);Susumu Horiguchi
+Jing and McKeown(H. Jing, 2000) studied a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removed.
+
+Title:W03-1101		Conference:Workshop On Information Retrieval With Asian Languages		Author:Chin-Yew Lin (University of Southern California, Marina del Rey CA)
+For example, Jing (2000) trained her system on a set of 500 sentences from the Benton Foundation (http://www.benton.org) and their reduced forms written by humans.
+
+Title:N03-1026		Conference:Human Language Technologies		Author:Stefan Riezler (Palo Alto Research Center, Palo Alto CA);Tracy Holloway King;Richard Crouch;Annie Zaenen
+Depending on the chosen task, such systems either generate single-sentence headlines for multi-sentence text (Witbrock and Mittal, 1999), or they provide a sentence condensation module designed for combination with sentence extraction systems (Knight and Marcu, 2000; Jing, 2000).
+
+Title:N03-1026		Conference:Human Language Technologies		Author:Stefan Riezler (Palo Alto Research Center, Palo Alto CA);Tracy Holloway King;Richard Crouch;Annie Zaenen
+To overcome this problem, linguistic parsing and generation systems are used in the sentence condensation approaches of Knight and Marcu (2000) and Jing (2000).
+
+Title:N03-1026		Conference:Human Language Technologies		Author:Stefan Riezler (Palo Alto Research Center, Palo Alto CA);Tracy Holloway King;Richard Crouch;Annie Zaenen
+In addition, an automatic evaluation method based on context-free deletion decisions has been proposed by Jing (2000).
+
+Title:C04-1129		Conference:International Conference on Computational Linguistics		Author:Advaith Siddharthan (Columbia University, New York NY);Ani Nenkova;Kathleen R. McKeown
+Since then, Jing (2000), Riezler et al.
+
+Title:J05-4004		Conference:Computational Linguistics Journal		Author:Hal Daum¨¦ III (University of Southern California, Marina del Rey CA);Daniel Marcu
+Between these two extremes, there has been a relatively modest amount of work in sentence simplification (Chandrasekar, Doran, and Bangalore 1996; Mahesh 1997; Carroll et al. 1998; Grefenstette 1998; Jing 2000; Knight and Marcu 2002) and document compression (Daume III and Marcu 2002; Daume III and Marcu 2004; Zajic, Dorr, and Schwartz 2004) in which words, phrases, and sentences are selected in an extraction process.
+
+Title:P06-2019		Conference:Annual Meeting of the Association of Computational Linguistics		Author:James Clarke (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Examples include text summarisation (Jing 2000), subtitle generation from spoken transcripts (Vandeghinste and Pan 2004) and information retrieval (Olivers and Dolan 1999).
+
+Title:P06-2019		Conference:Annual Meeting of the Association of Computational Linguistics		Author:James Clarke (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Our constraints are linguistically and semantically motivated in a similar fashion to the grammar checking component of Jing (2000).
+
+Title:P06-2019		Conference:Annual Meeting of the Association of Computational Linguistics		Author:James Clarke (University of Edinburgh, Edinburgh UK);Mirella Lapata
+In contrast to Jing (2000), the bulk of the research on sentence compression relies exclusively on corpus data for modelling the compression process without recourse to extensive knowledge sources (e.g. , WordNet).
+
+Title:P06-1048		Conference:Annual Meeting of the Association of Computational Linguistics		Author:James Clarke (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Many algorithms exploit parallel corpora (Jing 2000; Knight and Marcu 2002; Riezler et al. 2003; Nguyen et al. 2004a; Turner and Charniak 2005; McDonald 2006) to learn the correspondences between long and short sentences in a supervised manner, typically using a rich feature space induced from parse trees.
+
+Title:P06-1048		Conference:Annual Meeting of the Association of Computational Linguistics		Author:James Clarke (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Ziff-Davis Corpus Most previous work (Jing 2000; Knight and Marcu 2002; Riezler et al. 2003; Nguyen et al. 2004a; Turner and Charniak 2005; McDonald 2006) has relied on automatically constructed parallel corpora for training and evaluation purposes.
+
+Title:D07-1008		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Trevor Cohn (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Sentence compression producesasummaryofasinglesentencethatretainsthe most important information while remaining grammatical (Jing, 2000).
+
+Title:N07-1023		Conference:Human Language Technologies		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown
+Given the need to ensure grammatical sentences, a number of researchers have used syntax-directed approaches that perform transformations on the output of syntactic parsers (Jing, 2000; Dorr et al. , 2003).
+
+Title:P08-1040		Conference:Annual Meeting of the Association of Computational Linguistics		Author:David Vickrey (Stanford University, Stanford CA);Daphne Koller
+Anothergroupofrelatedworkfocusesonsummarizing sentences through a series of deletions (Jing, 2000; Dorr et al., 2003; Galley & McKeown, 2007).
+
+Title:P08-1035		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Tadashi Nomoto (National Institute of Japanese Literature, Tokyo Japan)
+Our approach is broadly in line with prior work (Jing, 2000; Dorr et al., 2003; Riezler et al., 2003; Clarke and Lapata, 2006), in that we make use of some form of syntactic knowledge to constrain compressions we generate.
+
+Title:C08-1018		Conference:International Conference on Computational Linguistics		Author:Trevor Cohn (University of Edinburgh, Edinburgh UK);Mirella Lapata
+In fact, professional abstractors tend to use these operations to transform selected sentences from an article into the corresponding summary sentences (Jing, 2000).
+
+Title:C08-1018		Conference:International Conference on Computational Linguistics		Author:Trevor Cohn (University of Edinburgh, Edinburgh UK);Mirella Lapata
+Examples include the generation of subtitles from spoken transcripts (Vandeghinste and Pan, 2004), the display of text on small screens such as mobile phones or PDAs (Corston-Oliver, 2001), and, notably, summarisation (Jing, 2000; Lin, 2003).
+
+Title:E09-1017		Conference:Annual Meeting of The European Chapter of The Association of Computational Linguistics		Author:Jieun Chae (University of Pennsylvania, Philadelphia PA);Ani Nenkova
+Considerations of sentence fluency are also key in sentence simplification (Siddharthan, 2003), sentence compression (Jing, 2000; Knight and Marcu, 2002; Clarke and Lapata, 2006; McDonald, 2006; Turner and Charniak, 2005; Galley and McKeown, 2007), text re-generation for summarization (Daume III and Marcu, 2004; Barzilay and McKeown, 2005; Wan et al., 2005) and headline generation (Banko et al., 2000; Zajic et al., 2007; Soricut and Marcu, 2007).
+
+Title:N10-1131		Conference:Human Language Technologies		Author:Dimitrios Galanis;Ion Androutsopoulos
+1 Introduction Sentence compression is the task of producing a shorter form of a single given sentence, so that the new form is grammatical and retains the most important information of the original one (Jing, 2000).
+
+Title:N10-1131		Conference:Human Language Technologies		Author:Dimitrios Galanis;Ion Androutsopoulos
+Most of the existing compression methods are extractive (Jing, 2000; Knight and Marcu, 2002; McDonald, 2006; Clarke and Lapata, 2008; Cohn and Lapata, 2009).
+
+Title:J10-3005		Conference:Computational Linguistics Journal		Author:James Clarke;Mirella Lapata
+Jing (2000) uses information from the local context as evidence for and against the removal of phrases during sentence compression.
+
+Title:D10-1050		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Kristian Woodsend;Yansong Feng;Mirella Lapata
+The conciseness can be improved when sentence extraction is interfaced with sentence compression, where words and clauses are deleted based on rules typically operating over parsed input (Jing, 2000; Daume III and Marcu, 2002; Lin, 2003; Daume III, 2006; Zajic et al., 2007; Martins and Smith, 2009).
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+J05-4004:18 Between these two extremes, there has been a relatively modest amount of work in sentence simplification (Chandrasekar, Doran, and Bangalore 1996; Mahesh 1997; Carroll et al 1998; Grefenstette 1998; Jing 2000; Knight and Marcu 2002) and document compression (Daume III and Marcu 2002; Daume III and Marcu 2004; Zajic, Dorr, and Schwartz 2004) in which words, phrases, and sentences are selected in an extraction process.
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+P06-2019:5 Jing (2000) was perhaps the first to tackle the sentence compression problem.
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+Then using these 899 Summary generated using bigram-based keyphrases ID Sentence P06-1048:1 Ziff-Davis Corpus Most previous work (Jing 2000; Knight and Marcu 2002; Riezler et al 2003; Nguyen et al 2004a; Turner and Charniak 2005; McDonald 2006) has relied on automatically constructed parallel corpora for training and evaluation purposes.
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+N03-1026:17 To overcome this problem, linguistic parsing and generation systems are used in the sentence condensation approaches of Knight and Marcu (2000) and Jing (2000).
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+Table 5 shows a 5sentence summary created using algorithm 1 for the paper A00-1043 (Jing, 2000).
+
+Title:C10-1101		Conference:International Conference on Computational Linguistics		Author:Vahed Qazvinian;Dragomir R. Radev;Arzucan ?zg¨¹r
+A00-2024:9 The evaluation of sentence reduction (see (Jing, 2000) for details) used a corpus of 500 sentences and their reduced forms in human-written abstracts.
+
+Title:P10-1058		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Kristian Woodsend;Mirella Lapata
+Interfacing extractive summarization with a sentence compression module could improve the conciseness of the generated summaries and render them more informative (Jing, 2000; Lin, 2003; Zajic et al., 2007).
+
+Title:N10-1044		Conference:Human Language Technologies		Author:Kathleen R. McKeown;Sara Rosenthal;Kapil Thadani;Coleman Moore
+Furthermore, since research in the related task of sentence compression has benefited from the availability of training data (Jing, 2000; Knight and Marcu, 2002; McDonald, 2006; Cohn and Lapata, 2008), we expect that the creation of this corpus might encourage the development of supervised learning techniques for automated sentence fusion.
+
+Title:N10-1044		Conference:Human Language Technologies		Author:Kathleen R. McKeown;Sara Rosenthal;Kapil Thadani;Coleman Moore
+Figure 1: Examples of intersection and union 2 Related Work The combination of fragments of sentences on a common topic has been studied in the domain of single document summarization (Jing, 2000; Daume III and Marcu, 2002; Xie et al., 2008).
+
+Title:P10-1096		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Elif Yamangil;Stuart M. Shieber
+2 Sentence compression Sentence compression is the task of summarizing a sentence while retaining most of the informational content and remaining grammatical (Jing, 2000).
+
+Title:W11-1611		Conference:Proceedings of the Workshop on Monolingual Text-To-Text Generation		Author:Courtney Napoles;Benjamin van Durme;Chris Callison-Burch
+A syntactic approach considers the alignment over parse trees (Jing, 2000), and a similar technique has been used with dependency trees to evaluate the quality of sentence fusions (Marsi and Krahmer, 2005).
+
+Title:W11-2701		Conference:Proceedings of the UCNLG+Eval: Language Generation and Evaluation Workshop		Author:Dimitrios Galanis;Ion Androutsopoulos
+1 Introduction Sentence compression is the task of producing a shorter form of a grammatical source (input) sentence, so that the new form will still be grammatical and it will retain the most important information of the source (Jing, 2000).
+
+Title:W11-2701		Conference:Proceedings of the UCNLG+Eval: Language Generation and Evaluation Workshop		Author:Dimitrios Galanis;Ion Androutsopoulos
+Extractive methods are generally simpler and have dominated the sentence compression literature (Jing, 2000; Knight and Marcu, 2002; McDonald, 2006; Cohn and Lapata, 2007; Clarke and Lapata, 2008; Cohn and Lapata, 2009; Nomoto, 2009; Galanis and Androutsopoulos, 2010; Yamangil and Shieber, 2010).
+

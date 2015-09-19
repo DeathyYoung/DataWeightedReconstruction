@@ -1,0 +1,15 @@
+This paper describes a new statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+Standard bigram probability estimation techniques are extended to calculate probabilities of dependencies between pairs of words
+A PCFG can be lexicalized by associating each non-terminal in a parse tree with its head word; thus far, [10] and [6], which both make heavy use of lexical information, have reported the best statistical parsing performance on Wall Street Journal text
+Local environment information is regarded as an important means to WSD in sentence structure all along [10]
+Nodes of the parse tree show how the sentence is composed of phrases; in each node, its phrase tag determines the type of the phrase – S for sentence, VP for verb phrase, NP (or NPB) for (basic) noun phrase
+It can be calculated from the parse tree, if the dependency information among phrases is attached to each rule of the context-free grammar (CFG), which defines the phrase structure [5]
+While the models of Collins (1996) and Eisner (1996) restricted the fragments to the locality of head-words, later models showed the importance of including context from higher nodes in the tree (Charniak 1997; Johnson 1998a)
+This section describes Collins’ method of mapping from a syntactic structure to the word dependencies shortly (Collins, 1996)
+The use of statistical language models in computational linguistics has proved to be extremely successful in developing broad-coverage models, which can accurately estimate the most likely parse (Collins, 1996;
+Following the techniques suggested by (Collins, 1996), a parse tree can subsequently be described as a set of dependencies
+As a result, the emerging standard for judging a syntactic parser in computational linguistics is to measure its ability to produce a unique parse tree for a sentence that agrees with the parse tree assigned by a human judge (Periera & Shabes, 1992; Brill, 1993; Magerman, 1995; Collins, 1996; Goodman, 1996)
+Another similarity between ExtrAns and Falcon is that both build a semantic form starting from a dependency-based representation of the questions, although the syntactic analysis in Falcon is based on a statistical parser [5] while we use a dependency parser
+Dependency events were sourced from the events file of the Collins parser package [12], which contains the dependency events found in training Sections 2–22 of the corpus
+Given the gap between words and denoted , similar to [15], we use the two words to the left and right of and their POS tags for predicting the tag of
+Shallow parsers are also typically used to reduce the search space for full-blown, ‘deep’ parsers [Col96]

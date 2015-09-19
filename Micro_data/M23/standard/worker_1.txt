@@ -1,0 +1,15 @@
+We develop a method for predicting query performance by computing the relative entropy between a query language model and the corresponding collection language model
+The resulting clarity score measures the coherence of the language usage in documents whose models are likely to generate the query
+We suggest that clarity scores measure the ambiguity of a query with respect to a collection of documents and show that they correlate positively with average precision in a variety of TREC test sets
+Thus, the clarity score may be used to identify ineffective queries, on average, without relevance information
+We develop an algorithm for automatically setting the clarity score threshold between predicted poorly-performing queries and acceptable queries and validate it using TREC data
+In particular, we compare the automatic thresholds to optimum thresholds and also check how frequently results as good are achieved in sampling experiments that randomly assign queries to the two classes
+In the field of IR, the predicted query difficulty was found to correlate strongly with the average precision (AP) [9]
+(2002) propose to predict query performance by computing the relative entropy (clarity score) between a query language model and the corresponding collection language model (static prediction)
+These include predicting the quality (or performance) of queries using either pre-retrieval indicators like Query Scope [10], or post-retrieval indicators like Query Clarity [7]
+This column contains the values of some popular query quality predictors for each of the sub-queries: Query Clarity [7], average inverse collection term frequency (AvICTF) [10], average inverse document frequency (AvIDF), and query scope (QS) [10]
+Research making use of estimates of the number of topics present in a group of documents has been carried out in association with query performance prediction [7,8]
+A clarity score has been proposed [6] to measure the coherence of a list of retrieved documents by the KL-divergence between the query model and the collection model
+One signiflcant contribution in query performance prediction is clarity score [1]
+On the other hand, postretrieval predictors such as Query Clarity[3] base their predictions on the ranked list of results, which provides more information to the predictor, making accurate predictions easier to achieve
+For example, the clarity score [6] measures the coherence of a list of documents by the KL-divergence between the query model and the collection model

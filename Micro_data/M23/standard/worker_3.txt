@@ -1,0 +1,15 @@
+We develop a method for predicting query performance by computing the relative entropy between a query language model and the corresponding collection language model
+The resulting clarity score measures the coherence of the language usage in documents whose models are likely to generate the query
+We suggest that clarity scores measure the ambiguity of a query with respect to a collection of documents and show that they correlate positively with average precision in a variety of TREC test sets
+Thus, the clarity score may be used to identify ineffective queries, on average, without relevance information
+We develop an algorithm for automatically setting the clarity score threshold between predicted poorly-performing queries and acceptable queries and validate it using TREC data
+It is inspired by the clarity score proposed for query performance prediction in adhoc information retrieval for textual documents [2]
+Query performance prediction is to predict the effectiveness of a keyword query in retrieving relevance documents from a document collection [2]
+Averaged Inverse Document Frequency (AvIDF) [18] assumes the more discriminative the query terms on average, the better the query will perform
+[7] this postretrieval predictor is the Kullback-Leibler divergence of the query model from the collection model
+Query clarity score is proposed in [4] to evaluate the topical cohesiveness among the documents matching a given query and its effectiveness was well supported by the experiments
+Measures such as clarity [4], Jensen-Shannon divergence [1], and weighted information gain [26] have been developed to predict the performance on a query (as measured by average precision or mean reciprocal rank, for example) using characteristics of the query and/or result sets
+[5] computed the query clarity score by measuring the information-theoretic distance between the query language model and the collection language model, and showed that clarity scores are correlated with query difficulty
+[2] extended the clarity score approach [5] to a more comprehensive distance measure which includes the pairwise information-theoretic distances between distributions associated with the collection, the set of relevant documents, and the query
+[1] proposed to use the relative entropy between a query and the collection to quantify query clarity, but the score is not easily aligned to concepts in human¡¯s mind
+One of these is through determining the query clarity, which is a way of quantifying the possible ambiguity in a query [1, 3, 7]

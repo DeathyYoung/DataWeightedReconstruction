@@ -1,0 +1,15 @@
+We present a multi-document summarizer, called MEAD, which generates summaries using cluster centroids produced by a topic detection and tracking system. 
+We also describe two new techniques, based on sentence utility and subsumption, which we have applied to the evaluation of both single and multiple document summaries. Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+Relative Utility Following (Radev et al. , 2000), we used relative utility as our metric. (self citation)
+However, this experiment differs from prior work in that we use judges to determine the relevance of sentences to sub-events rather than to evaluate summaries (Radev et al. , 2000). (self citation)
+MEAD (Radev et al. , 2000): MEAD is a centroid-based extractive summarizer that scores sentences based on sentence-level and inter-sentence features which indicate the quality of the sentence as a summary sentence. (self citation)
+Topic-oriented multi-document summarization has already been studied in other evaluation initiatives which provide testbeds to compare alternative approaches (Over, 2003; Goldstein et al. , 2000; Radev et al. , 2000).
+4 Summarizer for Science Education We have implemented an extractive summarizer for educational science content, COGENT, based on MEAD version 3.11 (Radev et al., 2000).
+This strategy is commonly used in multi-document summarization (Barzilay et al., 1999; Goldstein et al., 2000; Radev et al., 2000), where the combination step eliminates the redundancy across selected excerpts.
+Sentence clustering has therefore often been used as an early step in MDS (Hatzivassiloglou et al., 2001; Marcu and Gerber, 2001; Radev et al., 2000).
+A common approach is to measure similarity between all pairs of sentences and then use clustering to identify themes of common information (McKeown et al. 1999; Radev, Jing, and Budzikowska 2000; Marcu and Gerber 2001). (self citation)
+We have designed and implemented an extractive summarizer for educational science content, called COGENT, based on MEAD version 3.11 (Radev et al., 2000).
+These summarizers have been found to produce quantitatively similar results, and both significantly outperform a baseline summarizer, which is the MEAD summarization framework with all options set to the default (Radev et al., 2000).
+3.2 Extractive Summarizer: MEAD* The extractive approach is represented by MEAD*, which is adapted from the open source summarization framework MEAD (Radev et al., 2000).
+Finally, MEAD is a widely used MDS and evaluation platform (Radev et al., 2000).

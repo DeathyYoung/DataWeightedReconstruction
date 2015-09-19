@@ -1,0 +1,15 @@
+We present a framework for statistical machine translation of natural languages based on direct maximum entropy mod- els, which contains the widely used sour- ce-channel approach as a special case
+All knowledge sources are treated as feature functions, which depend on the source language sentence, the target language sentence and possible hidden variables
+This approach allows a baseline machine translation system to be extended easily by adding new feature functions
+During the training of a phrase-based statistical machine translation system, typically the bi-lingual parallel corpus is aligned at the word-level, and a table of bi-lingual phrase-pairs is extracted from this word-level alignment using heuristics [15]
+log-linear interpolation [7] to combine the LM, TM, and joint probabilities, thus capturing this frequency information
+In addition to the tuple n-gram translation model, our system implements seven additional features functions which are linearly combined following a discriminative modeling framework (Och and Ney 2002):
+Minimum Error Rate Training (MERT: Och 2003) is effective in boosting translation performance in log-linear models of phrase-based statistical machine translation (PB-SMT: Och and Ney 2002) according to both automatic and human judgments
+We directly model the posterior probability with a loglinear model [28] and choose the translation with the highest probability according to the following decision criterion:
+Och (2003) introduced minimum error rate training (MERT) as an alternative training regime to the conditional likelihood objective previously used with log-linear translation models (Och & Ney, 2002)
+The best performing translation systems are based on various types of statistical approaches [1], including example-based methods [2], finite-state transducers [3] and other data driven approaches
+Och used maximum entropy models to combine features into a log-linear model and improve the AT approach in [8] [9]
+The log linear model [8] provides a natural framework to integrate many components and to weigh them based on their performance by maximizing the likelihood on a parallel training corpus f S
+Och used an exchange algorithm to obtain an optimization criterion for bilingual word classes by applying a maximum-likelihood approach to the joint probability of a parallel corpus [8]
+Our system employs minimum error rate training to optimize parameter weights for each of the individual model components that are summarized in table 1
+Och and Ney (2000a) have suggested estimating word-class based transition models so as to provide more detailed transition probabilities

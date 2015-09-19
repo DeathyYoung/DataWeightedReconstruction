@@ -1,0 +1,15 @@
+Our MT system uses a phrase-based decoder and the log-linear model described in (Zens and Ney, 2004)
+Our approach to phrase-table smoothing contrasts to previous work (Zens and Ney, 2004) in which smoothed phrase probabilities are constructed from word-pair probabilities and combined in a log-linear model with an unsmoothed phrase-table
+We experimented with two levels of distortion: monotonic, where the phrasal alignment is monotonic (but word reordering is still possible within a phrase) and limited distortion, where only adjacent phrases are allowed to exchange positions (Zens and Ney, 2004)
+Above the phrase level, some models perform no reordering (Zens and Ney 2004; Kumar, Deng, and Byrne 2006), some have a simple distortion model that reorders phrases independently of their content (Koehn, Och, and Marcu 2003; Och and Ney 2004), and some, for example, the Alignment Template System (Och et al
+Therefore, we search for the best pronunciation over all segmentations of the word, adapting the monotone search algorithm proposed by Zens and Ney (2004) for phrase-based machine translation
+The following methods were investigated: (Monotone) Phrase-based MT on character level: A state-of-the-art phrase-based SMT system (Zens and Ney, 2004) was used for name transliteration, i
+The log-linear model is also based on standard features: conditional probabilities and lexical smoothing of phrases in both directions, and phrase penalty (Zens and Ney, 2004)
+Yet this approach loses the advantage of context-sensitive lexical selection: the word translation model depends only on the word classes to subcategorize for translations, which leads to less accurate lexical choice in practice (Zens & Ney, 2004)
+3 Document and Name Translation We use a statistical, phrase-based MT system (Zens and Ney, 2004) to translate Chinese documents into English for Type A Approaches
+For tractability, we followed standard practice with this technique and considered only monotonic alignments when decoding (Zens and Ney, 2004)
+Each includes relative frequency estimates and lexical estimates (based on Zens and Ney, 2004) of forward and backward conditional probabilities
+In order to complete the conversion from a pipeline approach to a joint approach, we fold our input segmentation step into the exact search framework by replacing a separate segmentation module (#2) with a monotone phrasal decoder (Zens and Ney, 2004)
+We describe a highly ef-ficient monotone search algorithm with a com-plexity linear in the input sentence length
+2 Review of the Phrase-Based Translation System For the confidence measures which will be introduced in Section 5
+1 Introduction Todays statistical machine translation systems rely on high quality phrase translation pairs to acquire state-of-the-art performance, see (Koehn et al

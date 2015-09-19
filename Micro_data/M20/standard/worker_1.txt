@@ -1,0 +1,15 @@
+Libraries have traditionally used manual image annotation for indexing and then later retrieving their image collections
+However, manual image annotation is an expensive and labor intensive procedure and hence there has been great interest in coming up with automatic ways to retrieve images based on content
+Here, we propose an automatic approach to annotating and retrieving images based on a training set of images
+We assume that regions in an image can be described using a small vocabulary of blobs
+Given a training set of images with annotations, we show that probabilistic models allow us to predict the probability of generating a word given the blobs in an image
+Much of this excitement centers around utilizing the machine learning techniques to learn the mapping between the image contents and semantic tags based on a collection of precisely labeled training images and then use the learnt model to predict the tags of those unlabeled images
+(2003) found that the images from Corel Stock Photo cds had six blobs (objects) in common while most of these images had four or five word annotations (Duygulu et al
+Along this direction, a variety of statistical learning techniques, such as relevance models [20], [22], have been applied to model the relationships of words and regions/blobs
+A fixed number of mixture components over visual features per keyword can be used [4], or a mixture model can be defined by using the training images as components over visual features and keywords [8, 18, 19]
+[21] reformulate the problem as cross-lingual information retrieval, and propose a cross-media relevance model to the image annotation task
+In [7,8,3], similarity between the new image and images already stored is calculated and tags that similar images have are used to annotate the new image
+The crossmedia relevance model (CMRM) assumes that images may be described from small vocabulary of blobs and learns the joint distribution of blobs and words from a training set of annotated images [17]
+Assigning automatic annotations to images has been proposed to link visual image features to semantic categories [13], [7]
+[2] introduced a cross-media relevance model that learns the joint distribution of a set of regions and a set of keywords rather than the correspondence between a single region and a single keyword
+However, although encouraging advances have been achieved in automatic tagging technology, currently these methods can still hardly obtain satisfactory performance for real-world photos that contain highly varying content

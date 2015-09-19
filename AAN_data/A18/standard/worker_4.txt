@@ -1,0 +1,15 @@
+This paper describes a method for linear text seg- mentation which is twice as accurate and over seven times as fast as the state-of-the-art (Reynar, 1998). 
+Inter-sentence similarity is replaced by rank in the local context. 
+Boundary locations are discovered by divisive clustering.
+Choi (2000) used the rank of the cosine, rather than the cosine itself, to measure the similarity of sentences.
+Some evaluations circumvent this difficulty by detecting boundaries in sets of concatenated documents, where there can be no disagreements about the fact of the matter (Reynar 1994; Choi 2000); others have several human judges make ratings to produce a gold standard. The second difficulty with evaluating these algorithms is that for different applications of text segmentation, different kinds of errors become important.
+Previous research has analyzed various facets of lexical distribution, including lexical weighting, similarity computation, and smoothing (Hearst, 1994; Utiyama and Isahara, 2001; Choi, 2000; Reynar, 1998; Kehagias et al. , 2003; Ji and Zha, 2003).
+We use the publicly available implementation of the system and optimize the system on a range of mask-sizes and different parameter settings described in (Choi, 2000) on a heldout development set of three lectures.
+Traditionally, algorithms for segmentation have relied on textual cues (Hearst, 1997; Miller et al. 1998; Beeferman et al, 1999; Choi, 2000).
+Since the work of Choi (Choi, 2000), the evaluation framework he proposed has become a kind of standard for the evaluation of topic segmentation algorithms.
+One set consists of concatenated news stories, following the approach of Choi (2000) and others since; the other consists of closed captions for twelve U.S. commercial television programs.
+Existing methods for topic segmentation typically assume that fragments of text (e.g. sentences or sequences of words of a fixed length) with similar lexical distribution are about the same topic; the goal of these methods is to find the boundaries where the lexical distribution changes (e.g. Choi (2000), Malioutov and Barzilay (2006)).
+Though related to the task of topic segmentation which stimulated a large number of studies (Hearst, 1997; Choi, 2000; Galley et al. , 2003, inter alia), paragraph segmentation has not been thoroughly investigated so far.
+In this paper, we selected for comparison three systems based merely on the lexical reiteration feature: TextTiling (Hearst, 1997), C99 (Choi, 2000) and TextSeg (Utiyama and Isahara, 2001).
+4.1 Components of LetSum Thematic segmentation for which we performed some experiments with two statistic segmenters: one described by Hearst for the TexTiling system (Hearst, 1994) and the C99 segmenter described by Choi (Choi, 2000), both of which apply a clustering function on a document to find classes divided by theme.
+We follow Choi (2000) and compute the mean segment length used in determining the parameter k on each reference text separately.

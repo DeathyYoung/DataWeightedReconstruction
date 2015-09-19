@@ -1,0 +1,15 @@
+We propose a method for identifying diathesis alter- nations where a particular argument type is seen in slots which have different grammatical roles in the alternating forms. 
+The method uses selectional pref- erences acquired as probability distributions over WordNet. 
+Preferences for the target slots are com- pared using a measure of distributional similarity. 
+The method is evaluated on the causative and cona- tive alternations, but is generally applicable and does not require a priori knowledge specific to the alternation.
+Other work has attempted to learn deeper semantic properties such as selectional restrictions (Resnik 1996; Riloff and Schmelzenbach 1998), verbal aspect (Klavans and Chodorow 1992; Siegel 1999), or lexical-semantic verb classes such as those proposed by Levin (1993) (Aone and McKee 1996; McCarthy 2000; Lapata and Brew 1999; Schulte im Walde 2000).
+To do this, counts of training data were percolated up the semantic hierarchy in a technique similar to that of, for example, McCarthy (2000).
+Previous work has considered how to estimate probabilities using classes from WordNet in the context of acquiring selectional preferences (Resnik 1998; Ribas 1995; Li and Abe 1998; McCarthy 2000), and this previous work has also addressed the question of how to determine a suitable level of generalization in the hierarchy.
+McCarthy (2000), Merlo and Stevenson (2001), and Schulte im Walde (2000) have evaluated their systems accuracy against human judgments of verb classification, with the comprehensive verb classes of Levin (1993) often serving as a gold standard.
+Probabilities can be defined in terms of senses from a semantic hierarchy by exploiting the fact that the senses can be grouped into classes consisting of semantically similar senses (Resnik 1993; Clark and Weir 2001; McCarthy 2000; Li and Abe 1998).
+Other, more sophisticated class-based methods do away with the simplifying assumption that the argument co-occurring with a given predicate (adjective, noun, verb) is distributed evenly across its conceptual classes and attempt to find the right level of generalization in a concept hierarchy, by discounting, for example, the contribution of very general classes (Clark and Weir 2001; McCarthy 2000; Li and Abe 1998).
+We illustrate with an example the differences between our measure and both McCarthys (2000) method and general vector distance measures.
+(Note that we did not hand-verify that individual verbs allowed or disallowed the alternation, as McCarthy (2000) had done, because we wanted to evaluate our method in the presence of noise of this kind.)
+In contrast to comparing head nouns directly, McCarthy (2000) instead compares the selectional preferences for each of the two slots (captured by a probability distribution over WordNet).
+This means that the kind of straightforward propagation method used by McCarthy (2000) is not applicable to selectional profiles of this type.
+The mapping for the dependents in the alternation can be taken from existing lexical resources (Dorr, 1997), learned from corpora (McCarthy, 2000) or learned from existing lexicons (Bond et al. , 2002).

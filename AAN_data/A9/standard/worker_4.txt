@@ -1,0 +1,15 @@
+D-2: The extracted phrasal paraphrases (including self-paraphrases) are stored in a phrase table, in which each phrase pair has 4 scores measuring their alignment confidence (Koehn et al
+, 2003) start-out from a wordaligned parallel corpus working with (in principle) arbitrarily large phrase pairs (also called blocks) acquired from word-aligned parallel data under a simple definition of translational equivalence (Zens et al
+, 2003) translate sentences by maximising the translation probability as defined by the log-linear combination of a number of feature functions, whose weights are chosen to opti457 mise translation quality (Och, 2003)
+Phrase pairs are extracted up to a fixed maximum length, since very long phrases rarely have a tangible impact during translation (Koehn et al
+2 SMT and TM systems We use a standard log-linear PB-SMT model (Och and Ney, 2002): GIZA++ implementation of IBM word alignment model 4, the phrase-extraction heuristics described in (Koehn et al
+, 2003), minimum-error-rate training (Och, 2003), a 5-gram language model with Kneser-Ney smoothing trained with SRILM (Stolcke, 2002) on the English side of the training data, and Moses (Koehn et al
+The corresponding foreign phrase (festgenommen) is identified using word alignment and phrase extraction techniques from phrase-based statistical machine translation (Koehn et al
+Practitioners of both phrasebased and syntax-based SMT have reported severe grammar coverage issues when rules are required to exactly match parse constituents (Koehn et al
+One popular approach arguably the most successful so far is Statistical Phrase-based Machine Translation (PBMT), which learns phrase translation rules from aligned bilingual text corpora (Och et al
+The lowercased and tokenized training data was then filtered for length and aligned using the GIZA++ implementation of IBM Model 4 (Och and Ney, 2003) to obtain one-to-many alignments in both directions and symmetrized by combining both into a single alignment using the grow-diagfinal-and method (Koehn et al
+2 Architecture of the system The goal of statistical machine translation (SMT) is to produce a target sentence e from a source sentence f
+To generate phrase pairs from a parallel corpus, we use the "diag-and" phrase induction algorithm described in (Koehn et al, 2003), with symmetrized word alignments generated using IBM model 2 (Brown et al, 1993)
+However, attempts to retrofit syntactic information into the phrase-based paradigm have not met with enormous success (Koehn et al
+As for the SMT system, we use a standard log-linear PB-SMT model (Och and Ney, 2002): GIZA++ implementation of IBM word alignment model 4,1 the refinement and phraseextraction heuristics described in (Koehn et al
+We ran GIZA++ (Och and Ney, 2000) on the training corpus in both directions with IBM model 4, and then applied the refinement rule described in (Koehn et al

@@ -1,0 +1,159 @@
+Title:C00-1072		Conference:International Conference On Computational Linguistics		Author:Lin, Chin-Yew; Hovy, Eduard
+In order to produce, a good summary, one has to identify the most relevant portions of a given text. We describe in this t)at)er a method for au- tomatically training tel)it, signatures--sets of related words, with associated weights, organized around head topics and illustrate with signatm'es we cre- ;tt.ed with 6,194 TREC collection texts over 4 se- lected tot)ics. We descril)e the l)ossible integration of' tolli(: signatures with ontoh)gies and its evaluaton on an automate(l text summarization system. 
+
+Title:C02-1130		Conference:International Conference On Computational Linguistics		Author:Fleischman, Michael; Hovy, Eduard
+A topic signature, as described in (Lin and Hovy, 2000), is a list of terms that can be used to signal the membership of a text in the relevant topic or category. (self citation)
+
+Title:C02-1130		Conference:International Conference On Computational Linguistics		Author:Fleischman, Michael; Hovy, Eduard
+We implemented the algorithm described in (Lin and Hovy, 2000) with the addition of a cutoff, such that the topic signatures for a term are only included if the p1/p2 for that term is greater than the mean p1/p2 over all terms. (self citation)
+
+Title:P02-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Lin, Chin-Yew; Hovy, Eduard
+This is similar to the idea of topic signature introduced in (Lin and Hovy 2000). (self citation)
+
+Title:W03-1101		Conference:International Workshop On Information Retrieval With Asian Languages		Author:Lin, Chin-Yew
+These n-gram key concepts are called topic signatures (Lin and Hovy 2000). (self citation)
+
+Title:N03-1037		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhou, Liang; Hovy, Eduard
+Two methods are used: topic signature (Lin and Hovy, 2000): a topic signature is a family of related terms {topic, signature}, where topic is the target concept and signature is a vecto related s. The topic in e formula is assigned with the domain e. To nstruct the set of related words, we consider N 2 N 3 N 1 e s E 2 E 3 E 1 Figure 3. (self citation)
+
+Title:W04-1018		Conference:Workshop On Text Summarization Branches Out		Author:Hu, Po; He, Tingting; Donghong, Ji
+To deal with a lot of Chinese documents which have free style of writing and flexible themes, a sentence-extraction summarization method created by detecting thematic areas is tried following such work as (Nomoto and Matsumoto, 2001; Salton et al. , 1996; Salton et al. , 1997; Carbonell and Goldstein, 1998; Lin and Hovy, 2000).
+
+Title:W04-0906		Conference:Workshop On Text Meaning And Interpretation		Author:Beale, Stephen; Lavoie, Benoit; McShane, Marjorie; Nirenburg, Sergei; Korelsky, Tanya
+These are essentially scripts that provide information that is very useful in general reasoning as well as reasoning for NLP (e.g. , Schank and Abelson 1977, Lin and Hovy 2000, Clark and Porter 2000).
+
+Title:W04-1017		Conference:Workshop On Text Summarization Branches Out		Author:Filatova, Elena; Hatzivassiloglou, Vasileios
+Other systems exploit the co-occurrence of particular concepts (Barzilay and Elhadad, 1997; Lin and Hovy, 2000) or syntactic constraints between concepts (McKeown et al. , 1999).
+
+Title:W04-1017		Conference:Workshop On Text Summarization Branches Out		Author:Filatova, Elena; Hatzivassiloglou, Vasileios
+2 General Summarization Model Many summarization systems (e.g. , (Teufel and Moens, 1997; McKeown et al. , 1999; Lin and Hovy, 2000)) include two levels of analysis: the sentence level, where every textual unit is scored according to c1 c2 c3 c4 c5 t1 1 1 0 1 1 t2 1 0 0 1 0 t3 0 1 0 0 1 t4 1 0 1 1 1 Table 1: Matrix for Summarization Model the concepts or features it covers, and the text level, where, before being added to the final output, textual units are compared to each other on the basis of those features.
+
+Title:C04-1077		Conference:International Conference On Computational Linguistics		Author:Hirao, Tsutomu; Fukusima, Takahiro; Okumura, Manabu; Nobata, Chikashi; Nanba, Hidetsugu
+This is an extension of Lins method (Lin and Hovy, 2000).
+
+Title:P05-1026		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Harabagiu, Sanda M.; Hickl, Andrew; Lehmann, John; Moldovan, Dan
+The notion of topic signatures was first introduced in (Lin and Hovy, 2000).
+
+Title:P06-1015		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pantel, Patrick; Pennacchiotti, Marco
+To date, researchers have harvested, with varying success, several resources, including concept lists (Lin and Pantel 2002), topic signatures (Lin and Hovy 2000), facts (Etzioni et al. 2005), and word similarity lists (Hindle 1990).
+
+Title:W06-0705		Conference:Workshop On Task-Focused Summarization And Question Answering		Author:Harabagiu, Sanda M.; Hickl, Andrew
+While (Harabagiu et al. , 2005) used topic signatures (Lin and Hovy, 2000; Scenario Description The customer has commissioned a research project looking at the impact of the outsourcing of American jobs on the United States relationship with India.
+
+Title:W06-0705		Conference:Workshop On Task-Focused Summarization And Question Answering		Author:Harabagiu, Sanda M.; Hickl, Andrew
+sembled, topic signatures (Lin and Hovy, 2000; Harabagiu 2004) are computed which identify the set of topic-relevant concepts and relations between concepts that are found in the relevant set of documents.
+
+Title:W06-3004		Conference:Interactive Question Answering Workshop		Author:Hickl, Andrew; Harabagiu, Sanda M.
+In order to generate QUABs automatically, documents identified from FERRETs automatic Q/A system are first submitted to a Topic Representation module, which computes both topic signatures (Lin and Hovy, 2000) and enhanced topic signatures (Harabagiu, 2004) in order to identify a set of topic-relevant passages.
+
+Title:W06-1663		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Cuadros, Montse; Rigau, German
+2.2 Automatically retrieved Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000).
+
+Title:W06-1910		Conference:Workshop On Multilingual Question Answering MLQA		Author:Ferres, Daniel; Rodr&iacute;quez, Horacio
+Using these sets we obtained a set of Topic Signatures (TS) (Lin and Hovy, 2000) for the Spanish geography domain and another set of TS for the non-Spanish geography domain.
+
+Title:P06-4007		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Interactive Presentation Sessions		Author:Hickl, Andrew; Wang, Patrick; Lehmann, John; Harabagiu, Sanda M.
+Under this approach, topic representations like those introduced in (Lin and Hovy, 2000) and (Harabagiu, 2004) are used to identify a set of text passages that are relevant to a users domain of interest.
+
+Title:W07-2070		Conference:Fourth International Workshop on Semantic Evaluations (SemEval-2007)		Author:Anaya-Sanchez, Henry; Pons-Porrata, Aurora; Berlanga-Llavori, Rafael
+2.1 Sense Representation For clustering purposes, word senses are represented as topic signatures (Lin and Hovy, 2000).
+
+Title:W07-2015		Conference:Fourth International Workshop on Semantic Evaluations (SemEval-2007)		Author:Cuadros, Montse; Rigau, German
+3.1 Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000).
+
+Title:P07-1070		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Wan, Xiaojun; Yang, Jianwu; Xiao, Jianguo
+The scores are usually computed based on a combination of statistical and linguistic features, including term frequency, sentence position, cue words, stigma words, topic signature (Hovy and Lin, 1997; Lin and Hovy, 2000), etc. Machine learning methods have also been employed to extract sentences, including unsupervised methods (Nomoto and Matsumoto, 2001) and supervised methods (Kupiec et al. , 1995; Conroy and OLeary, 2001; Amini and Gallinari, 2002; Shen et al. , 2007).
+
+Title:P07-2049		Conference:45th Annual Meeting of the Association for Computational Linguistics Companion Volume Proceedings of the Demo and Poster Sessions		Author:Gupta, Surabhi; Nenkova, Ani; Jurafsky, Daniel
+Such words are called signature terms in Lin and Hovy (2000) who were the first to introduce the log-likelihood weighting scheme for summarization.
+
+Title:P07-2049		Conference:45th Annual Meeting of the Association for Computational Linguistics Companion Volume Proceedings of the Demo and Poster Sessions		Author:Gupta, Surabhi; Nenkova, Ani; Jurafsky, Daniel
+First, two estimates of importance on words have been used very successfully both in generic and query-focused summarization: frequency (Luhn, 1958; Nenkova et al. , 2006; Vanderwende et al. , 2006) and loglikelihood ratio (Lin and Hovy, 2000; Conroy et al. , 2006; Lacatusu et al. , 2006).
+
+Title:P08-1090		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chambers, Nathanael; Jurafsky, Daniel
+In summarization, topic signatures are a set of terms indicative of a topic (Lin and Hovy, 2000).
+
+Title:C08-1124		Conference:International Conference On Computational Linguistics		Author:Wong, Kam-Fai; Wu, Mingli; Li, Wenjie
+Lin and Hovy (2000) identified signature terms that were strongly associated with documents based on statistics measures.
+
+Title:C08-1124		Conference:International Conference On Computational Linguistics		Author:Wong, Kam-Fai; Wu, Mingli; Li, Wenjie
+Recently, content features were also well studied, including centroid (Radev et al., 2004), signature terms (Lin and Hovy, 2000) and high frequency words (Nenkova e t al., 2006).
+
+Title:P08-1092		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Biadsy, Fadi; Hirschberg, Julia; Filatova, Elena
+(2005), which uses Topic Signatures (Lin and Hovy, 2000) constructed around the target individuals name to identify sentences to be included in the biography.
+
+Title:I08-1016		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Nenkova, Ani
+2 NP-rewrite enhanced frequency summarizer Frequency and frequency-related measures of importance have been traditionally used in text summarization as indicators of importance (Luhn, 1958; Lin and Hovy, 2000; Conroy et al., 2006).
+
+Title:D08-1080		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Nastase, Vivi
+More advanced methods for query expansion use topic signatures words and grammatically related pairs of words that model the query and even the expected answer from sets of documents marked as relevant or not (Lin & Hovy, 2000; Harabagiu, 2004).
+
+Title:P08-1094		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Nenkova, Ani; Louis, Annie
+The idea of topic signature terms was introduced by Lin and Hovy (Lin and Hovy, 2000) in the context of single document summarization, and was later used in several multi-document summarization systems (Conroy et al., 2006; Lacatusu et al., 2004; Gupta et al., 2007).
+
+Title:W08-2207		Conference:Semantics in Text Processing. STEP 2008 Conference Proceedings		Author:Cuadros, Montse; Rigau, German
+2 Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000).
+
+Title:C08-1021		Conference:International Conference On Computational Linguistics		Author:Cuadros, Montse; Rigau, German
+2 Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000).
+
+Title:W08-1902		Conference:Coling 2008: Proceedings of the workshop on Knowledge and Reasoning for Answering Questions		Author:Zock, Michael; Schwab, Didier
+Our next steps will be to take a closer look at the following work: clustering of similar words (Lin, 1998), topic signatures (Lin and Hovy, 2000) and Kilgariffs sketch engine (Kilgarriff et al., 2004).
+
+Title:D09-1032		Conference:EMNLP		Author:Louis, Annie; Nenkova, Ani
+Vectors contain only topic signatures from the input and all words of the summary Topic signatures are words highly descriptive of the input, as determined by the application of loglikelihood test (Lin and Hovy, 2000).
+
+Title:E09-1062		Conference:EACL		Author:Louis, Annie; Nenkova, Ani
+Log-likelihood ratio for words in the input Number of topic signature words (Lin and Hovy, 2000; Conroy et al., 2006) and percentage of signature words in the vocabulary.
+
+Title:P09-2030		Conference:ACL-IJCNLP: Short Papers		Author:Wei, Furu; Li, Wenjie; He, Yanxiang
+Among them, query relevance, centroid (Radev et al., 2004) and signature term (Lin and Hovy, 2000) are most remarkable.
+
+Title:W09-1312		Conference:Proceedings of the BioNLP 2009 Workshop		Author:Jin, Feng; Huang, Minlie; Lu, Zhiyong; Zhu, Xiaoyan
+In this regard, we use a method similar to Lin and Hovy (2000) to identify signature terms and subsequently use them 2 http://ir.ohsu.edu/genomics/ to discard sentences that contain none or few such terms.
+
+Title:W09-1312		Conference:Proceedings of the BioNLP 2009 Workshop		Author:Jin, Feng; Huang, Minlie; Lu, Zhiyong; Zhu, Xiaoyan
+System overview 3.1 Signature Terms Extraction There are signature terms for different topic texts (Lin and Hovy, 2000).
+
+Title:W09-1312		Conference:Proceedings of the BioNLP 2009 Workshop		Author:Jin, Feng; Huang, Minlie; Lu, Zhiyong; Zhu, Xiaoyan
+Lin and Hovy (2000) first introduced topic signatures which are topic relevant terms for summarization.
+
+Title:P09-1023		Conference:ACL-IJCNLP		Author:Ye, Shiren; Chua, Tat-Seng; Lu, Jie
+In addition, infobox could be considered as topic signature (Lin and Hovy, 2000) or keywords about the topic.
+
+Title:N10-1131		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Galanis, Dimitrios; Androutsopoulos, Ion
+In summarization, such words are called signature terms and are thought to be descriptive of the input; they can be identified using the log-likelihood ratio of each word (Lin and Hovy, 2000; Gupta et al., 2007).
+
+Title:J10-1003		Conference:Computational Linguistics		Author:Kazantseva, Anna; Szpakowicz, Stan
+6.3ComparingtheMachine-MadeSummariesandtheManuallyCreatedExtracts Measuring sentence co-selection between extractive summaries created by humans and those created by automatic summarizers has a long tradition in the text summarization community (Lin and Hovy 2000; Marcu 2000), but this family of measures has a number of well-known shortcomings.As many have remarked on previous occasions (Mani 2001; Radev et al.2003), co-selection measures do not provide a complete assessment of the quality of a summary.First of all, when a summary in question contains sentences that do not appear in any of the model extracts, one may not be sure that those sentences are uninformative or inappropriate for inclusion in a summary.In addition, documents have internal discourse structure and sentences are often inter-dependent.Therefore, even if a summary contains sentences found in one or more reference summaries, it does not always mean that it is advisable to include those sentences in the summary in question.
+
+Title:W10-3411		Conference:Proceedings of the 2nd Workshop on Cognitive Aspects of the Lexicon		Author:Zock, Michael; Schwab, Didier; Rakotonanahary, Nirina
+While there is shortage of some document types needed, there are nevertheless quite a few sources one may consider to begin with: Wikipedia, domain taxonomies, topic signatures, (Lin and Hovy, 2000), a database like (http://openrdf.org), etc. Topic sensitivity Weights are important, but they tend to change dynamically with time and the topic.
+
+Title:P10-1094		Conference:ACL		Author:Wan, Xiaojun; Li, Huiying; Xiao, Jianguo
+For single document summarization, the sentence score is usually computed by empirical combination of a number of statistical and linguistic feature values, such as term frequency, sentence position, cue words, stigma words, topic signature (Luhn 1969; Lin and Hovy, 2000).
+
+Title:N10-2002		Conference:Proceedings of the NAACL HLT 2010 Demonstration Session		Author:Cai, Congxing; Hovy, Eduard
+We implemented a topicrelated headline generator based on our previous work (Lin and Hovy, 2000) by incorporating a topic-based selector. (self citation)
+
+Title:N10-2002		Conference:Proceedings of the NAACL HLT 2010 Demonstration Session		Author:Cai, Congxing; Hovy, Eduard
+It is therefore important to deploy topic recognition (Lin and Hovy, 2000) and/or topic clustering (Osinski and Weiss, 2005) to identify and group relevant pieces of each text into single-topic chunks. (self citation)
+
+Title:P11-1155		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Wan, Xiaojun
+In the task of single document summarization, various features have been investigated for ranking sentences in a document, including term frequency, sentence position, cue words, stigma words, and topic signature (Luhn 1969; Lin and Hovy, 2000).
+
+Title:W11-1402		Conference:Proceedings of the Sixth Workshop on Innovative Use of NLP for Building Educational Applications		Author:Xiong, Wenting; Litman, Diane J.
+Our domain topic set contains 288 words extracted from the collection of student papers using topic-lexicon extraction software5; our feature (domainWord) 5The software extracts topic words based on topic signatures (Lin and Hovy, 2000), and was kindly provided by Annie Louis.
+
+Title:P11-2118		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Petinot, Yves; McKeown, Kathleen R.; Thadani, Kapil
+Lin and Hovy (2000) describe a Topic Signature as a list of words highly correlated with a target concept, and use a 2 estimator over labeled data to decide as to the allocation of a word to a topic.
+
+Title:P11-2118		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Petinot, Yves; McKeown, Kathleen R.; Thadani, Kapil
+The discriminative power of a term with respect to node N is formalized based on one of the following measures: Entropy of the a posteriori children category distribution for a given w. Ent(w) = summationdisplay CSub(N) p(C|w)log(p(C|w) (3) Cross-Entropy between the a priori children category distribution and the a posteriori children categories distribution conditioned on the appearance of w. CrossEnt(w) = summationdisplay CSub(N) p(C)log(p(C|w)) (4) 2 score, similar to Lin and Hovy (2000) but applied to classification tasks that can involve an arbitrary number of (sub-)categories.
+
+Title:P11-2118		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Petinot, Yves; McKeown, Kathleen R.; Thadani, Kapil
+Lastly, while most recent developments have been based on unsupervised data, it is also worth mentioning earlier approaches like Topic Signatures (Lin and Hovy, 2000) where words (or phrases) characteristic of a topic are identified using a statistical test of dependence.
+
+Title:P11-2088		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Xiong, Wenting; Litman, Diane J.
+The categories are learned in a semi-supervised way based on syntactic and semantic functions, such as suggestion dents papers using topic signature (Lin and Hovy, 2000) software kindly provided by Annie Louis.
+

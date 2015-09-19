@@ -1,0 +1,141 @@
+Title:W03-0301		Conference:Workshop On Building And Using Parallel Texts: Data Driven Machine Translation And Beyond		Author:Mihalcea, Rada; Pedersen, Ted
+Denton, TX 76203rada@cs.unt.eduTed PedersenDepartment of Computer ScienceUniversity of MinnesotaDuluth, MN 55812
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+HLT-03 best F is Ralign.EF.1 and best AER is XRCE.Nolem.EF.3 (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+We use the data provided for the French-English shared task of the 2003 HLTNAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+HLT-03 best is XRCE.Nolem (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+We also compared the performance on the 447 test sentences to 1/ the intersection of the alignments produced by the top IBM4 alignments in either directions, and 2/ the best systems from (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+HLT-03 best is Ralign.EF.1 (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+and Using Parallel Texts (Mihalcea and Pedersen, 2003).
+
+Title:P04-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Goutte, Cyril; Yamada, Kenji; Gaussier, Eric
+The evaluation is done using the performance measures described in (Mihalcea and Pedersen, 2003): precision, recall and F-score on the probable and sure alignments, as well as the Alignment Error Rate (AER), which in our case is a weighted average of the recall on the sure alignments and the precision on the probable.
+
+Title:C04-1051		Conference:International Conference On Computational Linguistics		Author:Dolan, William B.; Quirk, Chris; Brockett, Chris
+While these models have proven effective at the word alignment task (Mihalcea & Pedersen 2003), there are significant practical limitations in their output.
+
+Title:C04-1031		Conference:International Conference On Computational Linguistics		Author:Tiedemann, J&ouml;rg
+In some approaches such relations are constructed in form of an exhaustive set of links between all word pairs included in both expressions (Melamed, 1998; Mihalcea and Pedersen, 2003).
+
+Title:P04-3014		Conference:Annual Meeting Of The Association For Computational Linguistics - Interactive Poster And Demonstration Sessions		Author:Drabek, Elliott Franco; Yarowsky, David
+2 Prior Work The 2003 HLT-NAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003) reflected the increasing importance of the wordalignment task, and established standard performance measures and some benchmark tasks.
+
+Title:P04-3014		Conference:Annual Meeting Of The Association For Computational Linguistics - Interactive Poster And Demonstration Sessions		Author:Drabek, Elliott Franco; Yarowsky, David
+6 Conclusions We have developed a system to improve the performance of bitext word alignment between English and a source language by first reordering parsed English into an order more closely resembling that 1Hindi training: news text from the LDC for the 2003 DARPA TIDES Surprise Language exercise; Hindi testing: news text from Rebecca Hwa, then at the University of Maryland; Hindi dictionary: The Hindi-English Dictionary, v. 2.0 from IIIT (Hyderabad) LTRC; Korean training: Unbound Bible; Korean testing: half from Penn Korean Treebank and half from Universal declaration of Human Rights, aligned by Woosung Kim at the Johns Hopkins University; Korean dictionary: EngDic v. 4; Chinese training: news text from FBIS; Chinese testing: Penn Chinese Treebank news text aligned by Rebecca Hwa, then at the University of Maryland; Chinese dictionary: from the LDC; Romanian training and testing: (Mihalcea and Pedersen, 2003).
+
+Title:P04-3014		Conference:Annual Meeting Of The Association For Computational Linguistics - Interactive Poster And Demonstration Sessions		Author:Drabek, Elliott Franco; Yarowsky, David
+It has increasingly attracted attention as a task worthy of study in its own right (Mihalcea and Pedersen, 2003; Och and Ney, 2000).
+
+Title:P04-1023		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Callison-Burch, Chris; Talbot, David; Osborne, Miles
+Mihalcea and Pedersen (2003) described a shared task where the goal was to achieve the best AER.
+
+Title:P04-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Moore, Robert C.
+7 Training and Evaluation We trained and evaluated our various modifications to Model 1 on data from the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+
+Title:W05-0809		Conference:Workshop On Building And Using Parallel Texts		Author:Martin, Joel; Mihalcea, Rada; Pedersen, Ted
+This years shared task follows on the success of the previous word alignment evaluation that was organized during the HLT/NAACL 2003 workshop on Building and Using Parallel Texts: Data Driven Machine Translation and Beyond (Mihalcea and Pedersen, 2003). (self citation)
+
+Title:W05-0809		Conference:Workshop On Building And Using Parallel Texts		Author:Martin, Joel; Mihalcea, Rada; Pedersen, Ted
+This is the same training data set as used in the 2003 word alignment evaluation (Mihalcea and Pedersen, 2003). (self citation)
+
+Title:H05-1010		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Taskar, Ben; Lacoste-Julien, Simon; Klein, Dan
+3 Experiments We applied this matching algorithm to wordlevel alignment using the English-French Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+
+Title:W05-0812		Conference:Workshop On Building And Using Parallel Texts		Author:Lopez, Adam; Resnik, Philip
+It was the basis for a system that performed very well in a comparison of several alignment systems (Dejean et al. , 2003; Mihalcea and Pedersen, 2003).
+
+Title:H05-1011		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Moore, Robert C.
+5 Data and Methodology for Evaluation We evaluated our models using data from the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+
+Title:W05-0813		Conference:Workshop On Building And Using Parallel Texts		Author:Brown, Ralf D.; Kim, Jae Dong; Jansen, Peter J.; Carbonnell, Jaime G.
+3 Results and Conclusions Table 1 compares the performance of SPA on what is now the development data against the submissions with the best AER values reported by (Mihalcea and Pedersen, 2003) for the participants in the 2003 workshop, including CMU, MITRE, RALI, University of Alberta, and XRCE 1.
+
+Title:W05-0801		Conference:Workshop On Building And Using Parallel Texts		Author:Moore, Robert C.
+2 Data and Methodology for these Experiments The experiments reported here were carried out using data from the workshop on building and using parallel texts held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+
+Title:W05-0818		Conference:Workshop On Building And Using Parallel Texts		Author:Caseli, Helena M.; Das Gracas Volpe Nunes, Maria; Forcada, Mikel L.
+The evaluation was run with respect to precision, recall, F-measure, and alignment error rate (AER) considering sure and probable alignments but not NULL ones (Mihalcea and Pedersen, 2003).
+
+Title:P06-2084		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Pecina, Pavel; Schlesinger, Pavel
+They have a wide spectrum of applications in the field of natural language processing and computational linguistics such as automatic collocation extraction (Manning and Schtze, 1999), bilingual word alignment (Mihalcea and Pedersen, 2003) or dependency parsing.
+
+Title:E06-1020		Conference:Conference Of The European Association For Computational Linguistics		Author:Tufi&scaron;, Dan; Ion, Radu; Ceau&scedil;u, Alexandru; &Scedil;tef&#x103;nescu, Dan
+The alignments produced by MEBA were compared to the ones produced by YAWA and evaluated against the Gold Standard (GS)1 annotations used in the Word Alignment Shared Tasks (Romanian-English track) organized at HLT-NAACL2003 (Mihalcea and Pedersen 2003).
+
+Title:P06-1123		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Wellington, Benjamin; Waxmonsky, Sonjia; Melamed, I. Dan
+The French/English data were those used by Mihalcea and Pedersen (2003).
+
+Title:N06-1013		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Ayan, Necip Fazil; Dorr, Bonnie Jean
+4 From (Mihalcea and Pedersen, 2003).
+
+Title:P06-1009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Blunsom, Philip; Cohn, Trevor
+For parameter tuning, we used the 17 sentence trial set from the Romanian-English corpus in the 2003 NAACL task (Mihalcea and Pedersen, 2003).
+
+Title:P06-1009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Blunsom, Philip; Cohn, Trevor
+This data set was used for the 2003 NAACL shared task (Mihalcea and Pedersen, 2003), where the word-aligned sentences weresplitintoa37sentencetrialsetanda447sentence testing set.
+
+Title:P06-1065		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Moore, Robert C.; Yih, Scott Wen-Tau; Bode, Andreas
+7 Evaluation We used the same training and test data as in our previous work, a subset of the Canadian Hansards bilingual corpus supplied for the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+
+Title:P06-1065		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Moore, Robert C.; Yih, Scott Wen-Tau; Bode, Andreas
+Cherry and Lins (2003) method obtained an AER of 5.7% as reported by Mihalcea and Pedersen (2003), the previous lowest reported error rate for a method that makes no use of the IBM models.
+
+Title:W06-3107		Conference:Workshop On Statistical Machine Translation		Author:Rodriguez, Luis; Garc&iacute;a-Varea, Ismael; Gamez, Jose A.
+All of them are taken from the two shared tasks in word alignments developed in HLT/NAACL 2003 (Mihalcea and Pedersen, 2003) and ACL 2005 (Joel Martin, 2005).
+
+Title:W06-3107		Conference:Workshop On Statistical Machine Translation		Author:Rodriguez, Luis; Garc&iacute;a-Varea, Ismael; Gamez, Jose A.
+As a result of this, different task on aligments in statistical machine translation have been proposed in the last few years (HLTNAACL 2003 (Mihalcea and Pedersen, 2003) and ACL 2005 (Joel Martin, 2005)).
+
+Title:W06-3107		Conference:Workshop On Statistical Machine Translation		Author:Rodriguez, Luis; Garc&iacute;a-Varea, Ismael; Gamez, Jose A.
+The results achieved by the technique proposed in this paper are compared with the best results presented in the shared tasks described in (Mihalcea and Pedersen, 2003) (Joel Martin, 2005).
+
+Title:N06-1015		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Lacoste-Julien, Simon; Taskar, Ben; Klein, Dan; Jordan, Michael I.
+4 Experiments We applied our algorithms to word-level alignment using the English-French Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+
+Title:P06-2014		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Cherry, Colin; Lin, Dekang
+Our training set for the discriminative aligners is the first 100 sentence pairs from the FrenchEnglish gold standard provided for the 2003 WPT workshop (Mihalcea and Pedersen, 2003).
+
+Title:D07-1089		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Schwartz, Ariel S.; Divoli, Anna; Hearst, Marti A.
+As a point of comparison, the SMT community has been evaluating performance of word-alignment systems on an even smaller dataset of 447 pairs of non-overlapping sentences (Mihalcea and Pedersen, 2003).
+
+Title:N07-2053		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers		Author:Zettlemoyer, Luke; Moore, Robert C.
+4 Experiments In this section, we report experiments conducted with Canadian Hansards data from the 2003 HLTNAACL word-alignment workshop (Mihalcea and Pedersen, 2003).
+
+Title:W07-0715		Conference:Workshop on Statistical Machine Translation		Author:Moore, Robert C.; Quirk, Chris
+Our decoder is a reimplementation in Perl of the algorithm used by the Pharaoh decoder as described by Koehn (2003).2 The data we used comes from an English-French bilingual corpus of Canadian Hansards parliamentary proceedings supplied for the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+
+Title:W08-0303		Conference:Proceedings of the Third Workshop on Statistical Machine Translation		Author:Niehues, Jan; Vogel, Stephan
+The data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003) was used.
+
+Title:P09-1016		Conference:ACL-IJCNLP		Author:Pervouchine, Vladimir; Li, Haizhou; Lin, Bo
+They indicate how close the alignment under investigation is to the gold standard alignment (Mihalcea and Pedersen, 2003).
+
+Title:P09-1104		Conference:ACL-IJCNLP		Author:Haghighi, Aria; Blitzer, John; DeNero, John; Klein, Dan
+Our first is the English-French Hansards data set from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+
+Title:E09-1020		Conference:EACL		Author:Cromier&egrave;s, Fabien; Kurohashi, Sadao
+Evaluation was done with the scripts and gold standard provided during the workshop HLT-NAACL 20031 (Mihalcea and Pedersen, 2003).
+
+Title:J10-3002		Conference:Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+HLT/NAACL 2003 shared task (Mihalcea and Pedersen 2003).
+
+Title:P10-2025		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Shindo, Hiroyuki; Fujino, Akinori; Nagata, Masaaki
+4 Experiments 4.1 Experimental Setting For an empirical evaluation of the proposed method, we used a bilingual parallel corpus of English-French Hansards (Mihalcea and Pedersen, 2003).
+
+Title:P11-1042		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Dyer, Chris; Clark, Jonathan H.; Lavie, Alon; Smith, Noah A.
+To choose the regularization strength and the initial learning rate 0,3 we trained several models on a 10,000-sentence-pair subset of the FrenchEnglish Hansards, and chose values that minimized the alignment error rate, as evaluated on a 447 sentence set of manually created alignments (Mihalcea and Pedersen, 2003).
+
+Title:P11-2030		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Lin, Hui; Bilmes, Jeff A.
+5 Experiments We evaluated our approaches using the EnglishFrench Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+

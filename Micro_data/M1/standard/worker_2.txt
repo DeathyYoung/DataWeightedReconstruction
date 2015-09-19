@@ -1,0 +1,15 @@
+We propose a formal model of Cross-Language Information Retrieval that does not rely on either query translation or document translation
+Our approach leverages recent advances in language modeling to directly estimate an accurate topic model in the target language, starting with a query in the source language
+The main contribution of this work is the unified formal model which integrates techniques that are essential for effective Cross-Language Retrieval
+Translation probabilities are widely used in CLIR for handling translation ambiguities or are even built as a part of the statistical language modeling for CLIR [6, 9, 14]
+Some methods for CLIR based on corpus that have been reported are relevance model techniques by Victor Lavrenko [10], combination approach for multilingual information retrieval by Martin Braschler [3] and bilingual corpora for translingual information retrieval by Yiming Yang et al
+Apart from these approaches, the extension of monolingual IR techniques such as vector based models, relevance modeling techniques [4] etc
+Adding the translated queries with relevant terms (known as query expansion) has been shown to improve CLIR effectiveness [1, 3]
+[11] proposed a cross-lingual information retrieval model based on relevance models [12]
+It has been shown that expanding the query (for example, as in relevance models [9]) remediates this eect by making the probability distribution of the words in the query more comparable to the probability distribution of the words in the document
+Other methods include the cross-lingual relevance model [14], which integrates popular techniques of disambiguation and query expansion
+Some recent projects applied crosslingual approaches to environments with very few or none training documents in a language for which documents need be classified [2, 8]
+Apart from translation methods, there exist few non-translation methods, such as cognate matching [2], latent semantic indexing [10], and relevance models [4]
+Specifically, our work departs from the original relevance model [6] and its cross-lingual counterpart [5] in the way Dirichlet priors are associated with the both representations
+The task of Cross-Language Information Retrieval (CLIR) addresses a situation when a query is posed in one language but the system is expected to return the documents written in another language [11]
+However, all these methods are very time-consuming and it’s hard to acquire large parallel bilingual corpus, especially of minor languages

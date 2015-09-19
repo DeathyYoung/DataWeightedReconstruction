@@ -1,0 +1,15 @@
+Classification is an important problem in the data mining domain, but current classification methods for XML documents use IR-based methods in which each document is treated as a bag of words
+In this paper we discuss the problem of rule based classification of XML data by using frequent discriminatory substructures within XML documents
+An effective rule-based classifier for XML is XRules (Zaki & Aggarwal, 2003) , a method that uses a set of structural rules for XML document
+XRules [55] assigns the documents to categories through a rule based classiflcation approach that relates the presence of a particular structural pattern in an XML document to its likelihood of belonging to a particular category
+The XML data mining research can be divided in two main areas: mining frequent pattern from XML data [1,10] and classifying XML data [11,12]
+Classication and clustering: The work presented in [17] uses a frequent tree mining algorithm to extract frequent substructures of XML data, the data is then classied according to its structure
+In [17], a method is proposed that is based on the frequent sub-structures contained in XML documents
+Tree mining can lead to many practical applications in the areas of computer networks [6], bioinformatics [7], [8], and XML documents databases mining [9], [10] and hence have received a lot of attention from the research community in recent years
+Existing work on mining tree-structured data can be broadly classified into three categories: association rule mining [3], frequent substructure mining [2,15], and classification/clustering [10,16]
+Zaki and Aggarwal [11] present an effective rule based classifier for XML data by using frequent discriminatory sub-structures within XML documents
+The results are compared with the XRules structural classifier [30], which discovers association rules based on the algorithm for discovering frequent ordered embedded subtrees [12]
+Structure only learning tasks on XML documents correspond to classification or clustering using the structural description of XML documents alone [35], [55], [8], [19], which can only apply to XML data sets that are naturally classified by structures
+The discovered frequent substructures are further explored to improve other applications such as XML querying and XML classiflcation [11] etc
+Recently, with the increasing amount of XML data available, knowledge engineering from XML data becomes an issue of great importance [1,5,9,10]
+Therefore, we use another metric weighted confidence, defined in [9], which weighs the absolute support of a pattern in a class with the class probability

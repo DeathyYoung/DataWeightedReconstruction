@@ -1,0 +1,15 @@
+Current specialized planners for query processing are designed to work in local, reliable, and predictable environments
+, Ariadne [30], TSIMMIS [8], and Whirl [9]) extend the database querying models using combinations of templates or menu-based forms to incorporate queries that are restricted to a single domain (or a set of domains)
+Similarly, Ariadne [30] interprets the user-specifled conditions as a sequence of LOOM statements that are combined to generate a single query
+Ariadne¡¯s Theseus [30] pre-compiles part of the integration model and uses a local search method for generating query plans across a large number of sources
+A speculative execution method is described in [24] for generating informationgathering plans in order to retrieve, combine, and manipulate data located in remote sources
+First, our problem is similar to contingent planning problem with partial observability, such as planning with information gathering and with sensing action [5, 14] and conditional planning [23]
+The language for the operators in PbR is the same as in Sage (Knoblock, 1995, 1994b), which is an extension of UCPOP (Penberthy & Weld, 1992)
+Query planning [11,12] involves generating a set of sub-queries from a high-level user query based on the data source locations that have parts of the required information to answer the query
+As discussed in [8], our problem shares some aspects of the contingent planning problem with partial observability [7], [14], [15]
+Research in query answering and information retrieval has dealt, among others, with using multiple information sources to gather the requested (or relevant) information (cf
+Currently, wrappers [30] are typically employed by most frameworks for the extraction of heterogeneous data
+Some of these are planners, such as I PEM [1] and SAGE [14], that allow for the interleaving of action execution during the plannin g process
+In earlier papers (Knoblock 1994; 1995) we addressed various issues related to planning for information gathering, such as simultaneous actions, integrating planning and execution, replanning, and sensing
+The planner (Knoblock 1994; 1995; 1996) is implemented in a version of UCPOP (Penberthy & Weld 1992; Barrett eta/
+To address this issue, researchers have proposed interleaving query planning and execution so that the query processor can use intermediate data to refine the part of the query plan that has not been completely executed [9], [12], [13]

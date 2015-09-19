@@ -1,0 +1,15 @@
+Nivre and Nilsson (2005) showed how the restriction to projective dependency graphs could be lifted by using graph transformation techniques to preprocess training data and post-process parser output, so-called pseudo-projective parsing
+Except these three languages, we use software of projectivization/deprojectivization provided by Nivre and Nilsson (2005) for other languages
+To simplify implementation, we instead opted for the pseudo-projective approach (Nivre and Nilsson, 2005), in which nonprojective links are lifted upwards in the tree to achieve projectivity, and special trace labels are used to enable recovery of the nonprojective links at parse time
+We used a pseudo-projective edge label encoding to handle nonprojectivity (Nivre and Nilsson, 2005)
+Nivre and Nilsson (2005) observe that most non-projective dependency structures appearing in practice are close to being projective, since they contain only a small proportion of nonprojective arcs
+This is in contrast to other non-projective methods, such as that of Nivre and Nilsson (2005), who implement non-projectivity in a pseudo-projective parser with edge transformations
+In order to realize the full potential ofdependency-based syntactic parsing, it isdesirable to allow non-projective depen-dency structures
+Recently, dependency parsing has gained popularity as a simpler, computationally more efficient alternative to constituency parsing and has spurred several supervised learning approaches (Eisner, 1996; Yamada and Matsumoto, 2003a; Nivre and Nilsson, 2005; McDonald et al
+Since only projective sequences can be handled by the shift-reduce scheme, we apply the pseudoprojective transformation introduced by (Nivre and Nilsson, 2005) to projectivize those non-projective sequences
+In order to avoid losing the benets of higher-order parsing, we considered applying pseudo-projective transformation (Nivre and Nilsson, 2005)
+For treebanks with non-projective trees we use the pseudo-projective parsing technique to transform the treebank into projective structures (Nivre and Nilsson, 2005)
+The projectivization algorithm (Nivre and Nilsson, 2005) iteratively moves each nonprojective arc upward in the tree until the whole tree is projective
+, 2006), the encoding scheme called HEAD in (Nivre and Nilsson, 2005) was used to encode the original non-projective dependencies in the labels of the projectivized dependency tree
+Although the parser only derives projective graphs, the fact that these graphs are labeled allows non-projective dependencies to be captured using the pseudo-projective approach of Nivre and Nilsson (2005) (section 3
+In addition to CFG-oriented approaches, a number of richer treebank-based grammar acquisition and parsing methods based on HPSG (Miyao et al

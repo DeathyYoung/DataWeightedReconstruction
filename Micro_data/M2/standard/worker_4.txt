@@ -1,0 +1,15 @@
+This paper describes a system that leads us to believe in the feasibility of constructing natural spoken dialogue systems in task-oriented domains
+It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors
+Robustness is achieved by a combination of statistical error post-correction, syntactically- and semantically-driven robust parsing, and extensive use of the dialogue context
+Alternatively, the system developer might pursue the more rigorous approach based on discourse theory, attempting to model in the implemented system an understanding of the purpose behind the user’s utterance { whether it is a query, a conrmation and so on { and then getting the system to respond appropriately (Allen, Miller, Ringger and Sikorski 1996)
+Previous spoken dialogue systems do not start speaking unless the user explicitly notifies the system of the end of his/her utterance by using clues such as long pauses or special keywords or the mouse [2, 3, 13, 17]
+Rich turn-taking has not been implemented in most previous spoken dialogue systems; they can only deal with orderly turn-taking [2, 3, 13, 17]
+For example, in the TRAINS project [8], the user and the system collaborate to construct an agreed executable plan that has to be developed incrementally in order to incorporate new constraints that arise during the course of the dialogue
+Our approach is related to other recent work on incremental language processing for dialogue systems (Allen et al
+The other goal is the modification of the natural language processing capabilities into speaker-independence for limited domains and vocabularies, and the processing of spoken language [10] (cf
+As stated by Allen [3], two methods can be considered for processing NL commands: the top-down and the bottom-up approach
+As pointed out in [2] it is better to have a dialogue system that tries to guess a specific interpretation in case of ambiguity rather than ask the user for a clarification
+Dialogue development in industry is usually focused on the delivery of a working system, requiring a set sequence of information items that have to b e filled, h ence the predominance of structured finite state dialogues where the initiative in the dialogue is kept solely by the system and the user is prompted to respond to qu estions in a specific order and expected to use a set of predetermined limited responses [1,2,3]
+There has been much related work on implementing collaborative dialogues in the context of specific applications, based either on discourse planning techniques (Chu-Carroll & Carberry 1995; Ahn et al
+This is the model that details all the possibilities that can occur in the simulation Although being examined in particular are semi-structured dialogues such as conversations and interviews, the modeling of these types of simulations are considerably complex [1]
+Though most of them deal with database retrieval and transaction processing, the target of spoken dialogue systems has been extended to cover other tasks, such as planning [3] and tutoring [4]

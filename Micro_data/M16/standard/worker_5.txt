@@ -1,0 +1,15 @@
+This paper addresses the problem of extending an adaptive information filtering system to make decisions about the novelty and redundancy of relevant documents
+It argues that relevance and redundance should each be modelled explicitly and separately
+The experimental results demonstrate that the cosine similarity metric and a redundancy measure based on a mixture of language models are both effective for identifying redundant documents
+In information retrieval, where novelty typically refers to the new information contained in the document (and is thus close to our definition of serendipity), Zhang et al
+Specifically, we used cosine similarity, which had been shown to work effectively in [39], to remove near duplicate documents of which the similarity score passes a pre-specified redundancy threshold
+presented four redundancy measures, which are ¡°set difference¡±, ¡°geometric distance¡±, ¡°distributional similarity¡± and ¡°a mixture model¡± [7]
+On the other hand, if we wish to find out how well the system can detect non-novel or redundant documents, redundancyprecision (RP), redundancy-recall (RR) and redundancy Fscore (RF) can be used instead [16]
+In order to meet user needs in diversity, the recommendation list of relevant visual documents should be diversified [2], [21]
+The most related work to our research in novelty/redundancy detection at the document and sentence level are [4,6,7]
+Novelty/redundancy detection has been explored in text information retrieval from the event level [4, 33] to the document/sentence level [3, 39]
+As demonstrated in [13], cosine similarity is effective on information novelty detection and outperforms KL divergence in several experiments
+In this paper, we focus on document-level novelty detection, which identifies novel documents from a given group of relevant documents [29]
+Similarly, other work has incorporated the notion of novelty detection into information filtering, with the goal of finding documents that not only fit a user¡¯s pro file but that also contain novel information that the user has not yet seen [11]
+[13] Novelty and redundancy detection distinguishes among relevant documents that contain new (novel) information and relevant documents that do not
+For filtering these redundant documents, novelty-detection researchers [21] define a novel document as a document that includes new information that is relevant according to the user profile

@@ -1,0 +1,15 @@
+We use the data provided for the French-English shared task of the 2003 HLTNAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003).
+We also compared the performance on the 447 test sentences to 1/ the intersection of the alignments produced by the top IBM4 alignments in either directions, and 2/ the best systems from (Mihalcea and Pedersen, 2003).
+While these models have proven effective at the word alignment task (Mihalcea & Pedersen 2003), there are significant practical limitations in their output.
+2 Prior Work The 2003 HLT-NAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003) reflected the increasing importance of the wordalignment task, and established standard performance measures and some benchmark tasks.
+Mihalcea and Pedersen (2003) described a shared task where the goal was to achieve the best AER.
+This years shared task follows on the success of the previous word alignment evaluation that was organized during the HLT/NAACL 2003 workshop on Building and Using Parallel Texts: Data Driven Machine Translation and Beyond (Mihalcea and Pedersen, 2003). (self citation)
+2 Data and Methodology for these Experiments The experiments reported here were carried out using data from the workshop on building and using parallel texts held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+As a result of this, different task on aligments in statistical machine translation have been proposed in the last few years (HLTNAACL 2003 (Mihalcea and Pedersen, 2003) and ACL 2005 (Joel Martin, 2005)).
+4 Experiments We applied our algorithms to word-level alignment using the English-French Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+As a point of comparison, the SMT community has been evaluating performance of word-alignment systems on an even smaller dataset of 447 pairs of non-overlapping sentences (Mihalcea and Pedersen, 2003).
+4 Experiments 4.1 Experimental Setting For an empirical evaluation of the proposed method, we used a bilingual parallel corpus of English-French Hansards (Mihalcea and Pedersen, 2003).
+To choose the regularization strength and the initial learning rate 0,3 we trained several models on a 10,000-sentence-pair subset of the FrenchEnglish Hansards, and chose values that minimized the alignment error rate, as evaluated on a 447 sentence set of manually created alignments (Mihalcea and Pedersen, 2003).
+We also compared the performance on the 447 test sentences to 1/ the intersection of the alignments produced by the top IBM4 alignments in either directions, and 2/ the best systems from (Mihalcea and Pedersen, 2003).
+7 Training and Evaluation We trained and evaluated our various modifications to Model 1 on data from the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+5 Data and Methodology for Evaluation We evaluated our models using data from the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).

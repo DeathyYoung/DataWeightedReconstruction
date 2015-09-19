@@ -1,0 +1,15 @@
+Linguists, including computational linguists, have always been fond of talking about trees
+In this paper, we outline a theory of linguistic structure which talks about talking about trees; we call this theory computational
+This paper will focus primarily on one set of motivations for this theory, those engendered by attempts to handle certain syntactic phenomena within the framework of deterministic parsing
+We have adopted, in this project, the straightforward view of incremental parsing as a process of repeatedly adding3 to partial structural descriptions of sentence-initial fragments (Barton & Berwick, 1985; Marcus, Hindle, & Fleck, 1983; Weinberg, 1993)
+In this paper we express dominance constraints [15,19,4,5,1] in stratified context unification (CU) [20,13]
+Grammar formalisms have been proposed which derive logical descriptions of trees representing the syntax of a string [18, 22, 8]
+Pure dominance constraints are a fragment of dominance constraints with set operators [18, 3, 7] which have applications both in syntax and in semantics of computational linguistics [22, 12, 9]
+(1983), where certain parsing anomalies were avoided by taking descriptions of phrase structure trees, not the trees themselves, as the output of a parsing algorithm
+The "D-theory" approach of Marcus, Hindle, & Fleck (1983), in which the parser maintains a description of the utterance being parsed, seems especially amenable to formulation as a logical system
+(1983) assumes that raising revisions are always costly, because they involve destruction of domination relations between nodes
+The parser used by our semantic interpreter leaves structural syntactic relations underspecified along the lines of D-Theory (Marcus, Hindle, & Fleck 1983) and minimal commitment parsers (Weinberg 1993)
+The semantic component of a grammar usually outputs representations which at least determine truth-conditions, but we shall move from truth-conditions to descriptions of truth-conditions, just as Marcus et al
+In computational linguistics, the importance of dominance based tree descriptions for deterministic parsing was discovered at the beginning of the eighties [9]
+This approach amounts to the strategy sometimes known as Reanalysis As a Last Resort(RALR) (Fodor & Frazier, 1980; Frazier, 1990; Frazier & Clifton, 1998); it also appears under the heading of monotonic parsing (Gorrell, 1995; Marcus, Hindle, & Fleck, 1983; Weinberg, 1993), and it has been implemented in activation-based parallel models in the form of lateral inhibition mechanisms (Vosse & Kempen, 1999)
+For an interestingly different reason, a preference for local attachment in (3) is also predicted by a number of proposals in the framework of D(escription)-theory (Marcus et al

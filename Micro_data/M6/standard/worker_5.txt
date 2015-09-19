@@ -1,0 +1,15 @@
+Unification-based grammar formalisms use structures containing sets of features to describe linguistic objects
+Although computational algorithms for unification of feature structures have been worked out in experimental research, these algorithms become quite complicated, and a more precise description of feature structures is desirable
+We have developed a model in which descriptions of feature structures can be regarded as logical formulas, and interpreted by sets of directed graphs which satisfy them
+This semantics for feature structures extends the ideas of Pereira and Shieber [11], by providing an interpretation for values which are specified by disjunctions and path values embedded within disjunctions
+To deal with this complexity, we describe how disjunctive values can be specified in a way which delays expansion to disjunctive normal form
+Feature structures are easy-to-understand forms, while logical formulas have merits such as providing a way to perform unification precisely [6]
+There have been several proposal for a formal specication of feature structures, one of the most influential being [KR86], where the semantics of feature descriptions, possibly consisting of atoms, features, conjunction, disjunction, and path equivalences is dened relative to the domain of feature structures, which are labeled graphs
+Work on overcoming this limitation is currently in progress, and builds on the well-known similarity between feature structures and automata, when viewed as directed graphs (Kasper and Rounds 1986)
+Kasper and Rounds (1986) show general disjunctive unification to be intractable, since it involves an exponentially complex step of expansion to disjunctive normal form
+Instead of providing entities in the interpretation that serve as the denotation for "disjunctive" or "negative" features, we follow Kasper and Rounds (1986, 1990), Moshier and Rounds (1987), and Johnson (1988, 1990) in permitting disjunction and negation only in the constraint language
+The feature description logic (FDL) of Kasper and Rounds [Kas86] provides a coherent framework to give a precise interpretation for conditional descriptions
+Central to our formalism is the notion of a feature term coined by [KR86] and extended and generalized by [Smo88, Smo89]
+Feature algebras are a generalization of the usual feature structures as formalized for example as a special kind of nite automata in [KR86]
+The (stronger) subsumption ordering between feature structures [10, 24, 5] is omnipresent in linguistic theories like HPSG [19]
+However, for feature structures, the usage of row-variables are limited, so ecient unication algorithms exist

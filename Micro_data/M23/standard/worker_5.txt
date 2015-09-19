@@ -1,0 +1,15 @@
+We develop a method for predicting query performance by computing the relative entropy between a query language model and the corresponding collection language model
+We develop an algorithm for automatically setting the clarity score threshold between predicted poorly-performing queries and acceptable queries and validate it using TREC data
+More effective predictors have been defined on formal probabilistic grounds based on language models by the so-called clarity score, which captures the (lack of) ambiguity in a query with respect to the collection, or a specific result set [7,23,24] (the second case thus falling in the category of post-retrieval prediction)
+Cronen-Townsend et al showed that clarity is correlated with performance, because the less ambiguous a query, the more chances are that the system will return a good result in response [7]
+While being indicative of a positive trend, and not far from previous results in query performance [5], observed correlation values still leave room for further elaboration and refinements of the proposed predictor and alternative ones, as well as the NG metric itself, in order to match the best findings in query performance [7]
+(Similarity Collection Query) [8] and query clarity [1], we can substantially improve the ranking of reformulated queries in terms of the quality of the reformulations in the top two ranks (measured by NDCG@2), which then leads to significant improvements in retrieval effectiveness
+Measures such as query clarity [6], Jensen-Shannon divergence [4], and weighted information gain [23] have been developed to predict performance on a query (as measured by average precision, for example)
+Averaged Inverse Document Frequency (AvIDF) [5] assumes the more discriminative the query terms on average, the better the query will perform
+Query clarity score is proposed in [4] to evaluate the topical cohesiveness among the documents matching a given query and its effectiveness was well supported by the experiments
+We compare the performance of three dierent query difficulty prediction approaches: Query Clarity (QC) [1], Maximum IDF (MI) [4], and Maximum Variability (MV) [6]
+We use both pre-retrieval and post-retrieval query performance predictors, which include: AvICTF, 1, 2 and QS [7]; AvIDF and AvPMI [6]; WIG and QF [13]; CS [3]
+Clarity Score [4] relies on the difference between the language model of the collection and the language model of the top retrieved documents
+[3] propose to predict query performance by computing the relative entropy (clarity score) between a query language model and the corresponding collection language model (static prediction)
+However, the intuitive ideas presented in [4] for evaluating the degree of vagueness of a query are helpful in formulating the proposed vague-ranking method
+[6] introduced the clarity score which effectively measures the ambiguity of the query with respect to a collection, and they show that clarity scores are correlated with query difficulty

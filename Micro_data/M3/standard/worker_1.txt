@@ -1,0 +1,15 @@
+We present a method to construct real-time systems using as components anytime algo- rithms whose quality of results degrades grace­ fully as computation time decreases
+Introduc­ ing computation time as a degree of freedom defines a scheduling problem involving the ac­ tivation and interruption of the anytime com­ ponents
+We introduce a framework to measure the performance of anytime algo­ rithms and solve the problem of constructing interruptible algorithms by a mathematical re­ duction to the problem of constructing con­ tract algorithms, which require the determi­ nation of the total run-time when activated
+(Bernstein, Finkelstein, and Zilberstein 2003) showed an optimal simulation under the restrictive, but natural assumption that the schedule has a cyclic format
+Many existing planning algorithms can be considered contract algorithms, and depth-limited planning is one of them (Zilberstein & Russell 1995, Russell & Zilberstein 1991)
+Since the mid 1980s, the artificial intelligence (AI) research community has produced a large body of work on incremental problem solving techniques such as anytime algorithms [4,18] and flexible computation [10,11]
+Anytime algorithms[23] differs from design-to-time scheduling [27] in the assumption that all methods are anytime algorithms with well behaved performance profiles and in the limitation of interactions to those possible through the direct sharing of inputs/outputs
+In the anytime algorithm approach[3, 13] there is a single iterative refinement method for each task that returns an answer with monotonically increasing value as the method is given more processing time
+Many real-time search methods have the following advantageous properties: First, they allow for fine-grained control over how much planning to do between plan executions and thus are any-time contract methods (Russell and Zilberstein 1991)
+One possible architecture to implement the para-metareasoning is a system with interruptible anytime algorithms [44]
+Anytime Property: Any-time contract algorithms are planning methods that can solve planning tasks for any given bound on their planning time, and their solution quality increases with the available planning time (Russell and Zilberstein 1991)
+So we observe the performance profile of the search, that is the quality improvement over time [20], in order to deduce an appropriate termination criterion
+Design-to-Criteria [61‐63] is a domain independent realtime, flexible computation [13,29,53] approach to task scheduling
+We can do this without loss of generality, since [8] shows that such contract-algorithms can be converted to interruptable algorithms at the cost of a constant factor of 4
+Since the individual trucks employ polynomial-insertion algorithms for computing their bids within the ECNP, the time bound for the ECNP is polynomial

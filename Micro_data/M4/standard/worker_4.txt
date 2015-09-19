@@ -1,0 +1,15 @@
+This paper proposes a two-phase example-based machine translation methodology which develops translation templates from examples and then translates using template matching
+This method improves translation quality and facilitates customization of machine translation systems
+A translation template is a bilingual pair of sentences in which corresponding units (words and pharases) are coupled and replaced with variables
+Syntactic ambiguity and ambiguity in correspondence between units are simultaneously resolved
+All of the translation templates generated from a bilingual corpus are grouped by their source language part, and then further refined to resolved conflicts among templates whose source language parts are the same but whose target language parts are different
+By using the proposed method, not only transfer rules but also knowledge for lexical selection is effectively extracted from a bilingual corpus
+[16] makes use of syntactic phrases from parsed trees but the templates created are less controllable as the method collapses phrases only by linguistic phrase labels
+Translation equivalences are very useful in a variety of applications such as bilingual lexicography [1], machine translation system [2] and cross-lingual information retrieval [3]
+Whereas some approaches store structured representations for all concrete examples [2], others explicitly use variables to produce generalized templates [5, 13]
+, 1996 and Tanaka, 1995); (2) approaches using structural matching: to obtain transfer rules, several search methods have been proposed for maximal structural matching between trees obtained by parsing bilingual sentences (Kitamura and Matsumoto, 1996; Meyers et
+Kaji [5] defines a translation template as “a bilingual pair of sentences in which corresponding units (words and phrases) are coupled and replaced with variables”
+Initial in-depth structure alignment methods attempt to identify complex, hierarchical structures such as phrase structures (Kaji et al
+ID3 learning algorithm is applied to obtain transfer rules from case-frame representations of simple sentences with a thesaurus for generalization (Akiba et
+Brown [3], Sadler [14] and Kaji [9] have tackled the problem of establishing correspondences between words and phrases in bilingual texts
+Utilizing templates is more flexible as compared to word-for-word translation [4] and to pre-defined rules which would be hard to modify at a later time

@@ -1,0 +1,543 @@
+Title:C96-1058		Conference:International Conference On Computational Linguistics		Author:Eisner, Jason M.
+Alter presenting a novel O(n a) parsing al- gorithm for dependency grammar, we de- velop three contrasting ways to stochasticize it. We propose (a) a lexical atfinity mode\] where words struggle to modify each other, (b) a sense tagging model where words tluc- tuate randomly in their selectional prefer- ences, and (e) a. generative model where the speaker fleshes ()tit each word's syntactic and concep{.ual structure without regard to the implications :for the hearer. W(! also give preliminary empirical results from evaluat- ing the three models' p;Lrsing performance on annotated Wall Street Journal trMning text (derived fi'om the Penn Treebank). in these results, the generative model performs significantly better than the others, and does about equally well at assigning pa.rt- of-speech tags. 
+
+Title:W97-0105		Conference:Workshop On Very Large Corpora		Author:Black, Ezra W.; Eubank, Stephen; Kashioka, Hideki; Magerman, David M.
+In all other respects, our work departs from previous research on broad--coverage 16 I t I I I I I i ! I i I I I I I I I I I I I i I 1, I. I I I I i I 1 I I I I probabilistic parsing, which either attempts to learn to predict gr~rarn~tical structure of test data directly from a training treebank (Brill, 1993; Collins, 1996; Eisner, 1996; Jelinek et al. , 1994; Magerman, 1995; S~kine and Orishman, 1995; Sharman et al. , 1990), or employs a grammar and sometimes a dictionary to capture linguistic expertise directly (Black et al. , 1993a; GrinBerg et al. , 1995; Schabes; 1992), but arguably at a less detailed and informative level than in the research reported here.
+
+Title:W97-0107		Conference:Workshop On Very Large Corpora		Author:Lee, Seungmi; Choi, Key-Sun
+Eisner (Eisner, 1996) proposed an O(n 3) parsing algorithm for PDG.
+
+Title:A97-1011		Conference:Applied Natural Language Processing Conference		Author:Tapanainen, Pasi; Jarvinen, Timo
+This kind of restriction is present in many dependency-based parsing systems (McCord, 1990; Sleator and Temperley, 1991; Eisner, 1996).
+
+Title:A97-1011		Conference:Applied Natural Language Processing Conference		Author:Tapanainen, Pasi; Jarvinen, Timo
+A similar measure precision recall broadcast 93.4 % 88.0 % literature 96.0 % 88.6 % newspaper 95.3 % 87.9 % Figure 7: Percentages of heads correctly attached broadcast precision recall N subjects 95 % 89 % 244 objects 89 % 83 % 140 predicatives 96 % 86 % 57 literature precision recall N subjects 98 % 92 % 195 objects 94 % 91% 118 predicatives 97 % 93 % 72 newspaper precision recall N subjects 95 % 83 % 136 objects 94 % 88 % 103 predicatives 92 % 96 % 23 Figure 8: Rates for main functional dependencies is used in (Eisner, 1996) except that every word has a head, i.e. the precision equals recall, reported as 79.2%.
+
+Title:W97-0307		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Brants, Thorsten; Skut, Wojciech; Krenn, Brigitte
+(Collins, 1996), (Eisner, 1996)).
+
+Title:P98-1106		Conference:COLING-ACL		Author:Kahane, Sylvain; Nasr, Alexis; Rambow, Owen
+See for example (Lombardi, 1996; Eisner, 1996), who also discuss Early-style parsers for projective dependency grammars.
+
+Title:P98-2130		Conference:COLING-ACL		Author:Lombardo, Vincenzo; Lesmo, Leonardo
+Also, a number of parsers have been developed for some dependency frameworks (Covington 1990) (Kwon, Yoon 1991) (Sleator, Temperley 1993) (Hahn et al. 1994) (Lombardo, Lesmo 1996), including a stochastic treatment (Eisner 1996) and an object-oriented parallel parsing method (Neuhaus, Hahn 1996).
+
+Title:P98-2130		Conference:COLING-ACL		Author:Lombardo, Vincenzo; Lesmo, Leonardo
+And, in fact, it is possible to devise O(n 3) parsers for this formalism (Lombardo, Lesmo 1996), or other projective variations (Milward 1994) (Eisner 1996).
+
+Title:P99-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Oflazer, Kemal
+Dependency-based statistical language modeling and analysis have also become quite popular in statistical natural language processing (Lafferty et al. , 1992; Eisner, 1996; Chelba and et al. , 1997).
+
+Title:A00-2015		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Utsuro, Takehito; Nishiokayama, Shigeyuki; Fujio, Masakazu; Matsumoto, Yuji
+(1992), Eisner (1996), and Collins (1996) in English analysis.
+
+Title:P00-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Sui, Zhifang; Jun, Zhao; Wu, Dekai
+Many probabilistic evaluation models have been published inspired by one or more of these feature types [Black, 1992] [Briscoe, 1993] [Charniak, 1997] [Collins, 1996] [Collins, 1997] [Magerman, 1995] [Eisner, 1996], but discrepancies between training sets, algorithms, and hardware environments make it difficult, if not impossible, to compare the models objectively.
+
+Title:P00-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Sui, Zhifang; Jun, Zhao; Wu, Dekai
+1 Introduction In the field of statistical parsing, various probabilistic evaluation models have been proposed where different models use different feature types [Black, 1992] [Briscoe, 1993] [Brown, 1991] [Charniak, 1997] [Collins, 1996] [Collins, 1997] [Magerman, 1991] [Magerman, 1992] [Magerman, 1995] [Eisner, 1996].
+
+Title:P01-1010		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Bod, Rens
+While early head-lexicalized grammars restricted the fragments to the locality of headwords (e.g. Collins 1996; Eisner 1996), later models showed the importance of including context from higher nodes in the tree (Charniak 1997; Johnson 1998).
+
+Title:P01-1010		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Bod, Rens
+context-free rules Charniak (1996) Collins (1996), Eisner (1996) context-free rules, headwords Charniak (1997) context-free rules, headwords, grandparent nodes Collins (2000) context-free rules, headwords, grandparent nodes/rules, bigrams, two-level rules, two-level bigrams, nonheadwords Bod (1992) all fragments within parse trees Scope of Statistical Dependencies Model Figure 4.
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+In order to avoid sparse data problems, we make the simplifying assumption (similar to the one presented in (Eisner, 1996)) that the attachment of nucleus a5a28a51 a6 to nucleus a5 a0a7a6 depends only on the set of indices of the preceding dependency relations (in order to avoid cycles and crossing dependencies) and on the three nuclei a5a28a51 a6, a5 a0a7a6 and a5a52a22 a47 a6, where a5a53a22 a47 a6 denotes the last nucleus being attached to a5 a0a7a6 . a5a53a22 a47 a6 is thus the closest sibling of a5a28a51 a6 . Conditioning attachment on it the attachment of a5a28a51 a6 allows capturing the fact that the object of a verb may depend on its subject, that the indirect object may depend on the direct object, and other similar indirect dependencies.
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+For more details concerning the parser, see (Eisner, 1996).
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+The proposed model was used to assign probability estimates to dependency links between nuclei in our own implementation of the parser described in (Eisner, 1996).
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+From the models proposed in (Eisner, 1996), we retain only the model referred to as model C in this work, since the best results were obtained with it.
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+This extension could be used in our case too, but, since the input to our processing chain consists of tagged words (unless the input of the stochastic dependency parser of (Eisner, 1996)), we do not think it necessary.
+
+Title:P02-1042		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Clark, Stephen; Hockenmaier, Julia; Steedman, Mark
+3 The Probability Model The DAG-like nature of the dependency structures makes it difficult to apply generative modelling techniques (Abney, 1997; Johnson et al. , 1999), so we have defined a conditional model, similar to the model of Collins (1996) (see also the conditional model in Eisner (1996b)).
+
+Title:P02-1042		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Clark, Stephen; Hockenmaier, Julia; Steedman, Mark
+One solution is to consider only the normal-form (Eisner, 1996a) derivation, which is the route taken in Hockenmaier and Steedman (2002b).1 Another problem with the non-standard surface derivations is that the standard PARSEVAL performance measures over such derivations are uninformative (Clark and Hockenmaier, 2002).
+
+Title:W02-1009		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Eisner, Jason M.
+Most researchers have used an n-gram model (Eisner, 1996; Charniak, 2000) or more general Markov model (Alshawi, 1996) to model the sequence of nonterminals in the RHS. (self citation)
+
+Title:P03-2006		Conference:Annual Meeting Of The Association For Computational Linguistics - Student Research Workshop		Author:Jijkoun, Valentin
+For every occurrence of a pattern and for every word of this occurrence, we extract the following features: a17 pos, the POS tag of the word; a17 class, the simplified word class (similar to (Eisner, 1996)); a17 fin, whether the word is a verb and a head of a finite verb cluster (as opposed to infinitives, gerunds or participles); a17 subj, whether the word has a dependent (probably not included in the pattern) with a dependency label NP-SBJ; and a17 obj, the same for NP-OBJ label.
+
+Title:P03-2006		Conference:Annual Meeting Of The Association For Computational Linguistics - Student Research Workshop		Author:Jijkoun, Valentin
+A similar modification was used by Eisner (1996) for the study of dependency parsing models.
+
+Title:J03-4003		Conference:Computational Linguistics		Author:Collins, Michael John
+Eisner (1996b) originally used POS tags to smooth a generative model in this way.
+
+Title:J03-4001		Conference:Computational Linguistics		Author:Oflazer, Kemal
+Dependency-based statistical language modeling and parsing have also become quite popular in statistical natural language processing (Lafferty, Sleator, and Temperley 1992; Eisner 1996; Chelba et al. 1997; Collins 1996; Collins et al. 1999).
+
+Title:P03-1015		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Schiehlen, Michael
+For one, the task could be simplified by focusing on unlabelled dependency structure (measured in unlabelled precision and recall (Eisner, 1996; Lin, 1995)), which is, however, in general not sufficient for further semantic processing.
+
+Title:C04-1040		Conference:International Conference On Computational Linguistics		Author:Isozaki, Hideki; Kazawa, Hideto; Hirao, Tsutomu
+Eisner (1996) proposed probabilistic models of dependency parsing.
+
+Title:P04-1061		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Klein, Dan; Manning, Christopher D.
+First, in supervised models, a head outward process is modeled (Eisner, 1996; Collins, 1999).
+
+Title:C04-1002		Conference:International Conference On Computational Linguistics		Author:Sassano, Manabu
+In English as well as in Japanese, dependency analysis has been studied (e.g. , (Lafferty et al. , 1992; Collins, 1996; Eisner, 1996)).
+
+Title:J04-4004		Conference:Computational Linguistics		Author:Bikel, Daniel M.
+Bilexical statistics (Eisner 1996), as represented by the maximal context of the P L w and P R w parameters, serve as a proxy for such semantic preferences, where the actual modifier word (as opposed to, say, merely its part of speech) indicates the particular semantics of its head.
+
+Title:W04-2407		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens
+Unlike most previous work on data-driven dependency parsing (Eisner, 1996; Collins et al. , 1999; Yamada and Matsumoto, 2003; Nivre, 2003), we assume that dependency graphs are labeled with dependency types, although the evaluation will give results for both labeled and unlabeled representations.
+
+Title:W04-2407		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens
+More precisely, parsing accuracy is measured by the attachment score, which is a standard measure used in studies of dependency parsing (Eisner, 1996; Collins et al. , 1999).
+
+Title:W04-2407		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens
+However, since most previous studies instead use the mean attachment score per word (Eisner, 1996; Collins et al. , 1999), we will give this measure as well.
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+We use two measures, the first one (%Words) was proposed by Lin (1995) and was the one reported in (Eisner, 1996).
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+They are central to many parsing models (Charniak, 1997; Collins, 1997, 2000; Eisner, 1996), and despite their simplicity n-gram models have been very successful.
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+N-grams have been used extensively for this purpose (Collins 1996, 1997; Eisner, 1996).
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+All sentences containing CC tags are filtered out, following (Eisner, 1996).
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+Unlabeled attachment score (UAS): The proportion of words that are assigned the correct head (or no head if the word is a root) (Eisner, 1996; Collins et al. , 1999).
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+As far as we know, this makes it different from all previous systems for dependency parsing applied to the Penn Treebank (Eisner, 1996; Yamada and Matsumoto, 2003), although there are systems that extract labeled grammatical relations based on shallow parsing, e.g. Buchholz (2002).
+
+Title:W05-1516		Conference:International Workshop On Parsing Technology		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+In many dependency parsing models such as (Eisner, 1996) and (MacDonald et al. , 2005), the score of a dependency tree is the sum of the scores of the dependency links, which are computed independently of other links.
+
+Title:W05-1505		Conference:International Workshop On Parsing Technology		Author:Hall, Keith; Nov&aacute;k, V&aacute;clav
+(Bilexical models were also proposed by Eisner (Eisner, 1996)).
+
+Title:P05-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Nivre, Joakim; Nilsson, Jens
+This is true of the widely used link grammar parser for English (Sleator and Temperley, 1993), which uses a dependency grammar of sorts, the probabilistic dependency parser of Eisner (1996), and more recently proposed deterministic dependency parsers (Yamada and Matsumoto, 2003; Nivre et al. , 2004).
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+Using this representation, the parsing algorithm of Eisner (1996) is sufficient for searching over all projective trees in O(n3) time.
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+2.2.2 Projective Trees It is well known that projective dependency parsing using edge based factorization can be handled with the Eisner algorithm (Eisner, 1996).
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+This algorithm has a runtime of O(n3) and has been employed successfully in both generative and discriminative parsing models (Eisner, 1996; McDonald et al. , 2005).
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+This formalization generalizes standard projective parsing models based on the Eisner algorithm (Eisner, 1996) to yield efficient O(n2) exact parsing methods for nonprojective languages like Czech.
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+Most previous dependency parsing models have focused on projective trees, including the work of Eisner (1996), Collins et al.
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+Yet, they can be parsed in O(n3) time (Eisner, 1996).
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+c2005 Association for Computational Linguistics Online Large-Margin Training of Dependency Parsers Ryan McDonald Koby Crammer Fernando Pereira Department of Computer and Information Science University of Pennsylvania Philadelphia, PA {ryantm,crammer,pereira}@cis.upenn.edu Abstract We present an effective training algorithm for linearly-scored dependency parsers that implements online largemargin multi-class training (Crammer and Singer, 2003; Crammer et al. , 2003) on top of efficient parsing techniques for dependency trees (Eisner, 1996).
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+Eisner (1996) made the observation that if the head of each chart item is on the left or right periphery, then it is possible to parse in O(n3).
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+We follow the edge based factorization method of Eisner (1996) and define the score of a dependency tree as the sum of the score of all edges in the tree, s(x,y) = summationdisplay (i,j)y s(i,j) = summationdisplay (i,j)y w f(i,j) where f(i,j) is a high-dimensional binary feature representation of the edge from xi to xj.
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+2.2 Parsing Algorithm Given a feature representation for edges and a weight vector w, we seek the dependency tree or 92 h1 h1 h2 h2 s h1 h1 r r+1 h2 h2 t h1 h1 h2 h2 s h1 h1 h2 h2 t h1 h1 s h1 h1 t Figure 2: O(n3) algorithm of Eisner (1996), needs to keep 3 indices at any given stage.
+
+Title:P05-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:McDonald, Ryan; Crammer, Koby; Pereira, Fernando
+Eisner (1996) gave a generative model with a cubic parsing algorithm based on an edge factorization of trees.
+
+Title:N06-2033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Sagae, Kenji; Lavie, Alon
+2 Dependency Reparsing In dependency reparsing we focus on unlabeled dependencies, as described by Eisner (1996).
+
+Title:N06-2033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Sagae, Kenji; Lavie, Alon
+Unlike the deterministic parsers above, this parser uses a dynamic programming algorithm (Eisner, 1996) to determine the best tree, so there is no difference between presenting the input from left-to-right or right-to-left.
+
+Title:N06-2033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Sagae, Kenji; Lavie, Alon
+If projectivity (no crossing branches) is desired, Eisners (1996) dynamic programming algorithm (similar to CYK) for dependency parsing can be used instead.
+
+Title:P06-2009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Chang, Ming-Wei; Do, Quang; Roth, Dan
+In the context of DPs, this edge based factorization method was proposed by (Eisner, 1996).
+
+Title:P06-2009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Chang, Ming-Wei; Do, Quang; Roth, Dan
+Dependency structures are more ef cient to parse (Eisner, 1996) and are believed to be easier to learn, yet they still capture much of the predicate-argument information needed in applications (Haghighi et al. , 2005), which is one reason for the recent interest in learning these structures (Eisner, 1996; McDonald et al. , 2005; Yamada and Matsumoto, 2003; Nivre and Scholz, 2004).
+
+Title:W06-1608		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Quirk, Chris; Corston-Oliver, Simon H.
+To find the optimal parse given the weight vector w and feature vector f(i, j) we use the decoder described in (Eisner, 1996).
+
+Title:N06-1021		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Corston-Oliver, Simon H.; Aue, Anthony; Duh, Kevin; Ringger, Eric K.
+We reimplemented Eisners decoder (Eisner, 1996), which searches among all projective parse trees, and the Chu-Liu-Edmonds decoder (Chu and Liu, 1965; Edmonds, 1967), which searches in the space of both projective and non-projective parses.
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+In which case, the parsing problem reduces to a19a38a37 a3a40a39a42a41a44a43a46a45a47a39a26a48 a49a51a50a42a52a54a53a56a55a58a57 a59 a53a61a60a63a62a6a64a65a60a67a66a44a57a68a50a29a49 sa4a6a5 a20 a21a69a5 a24 a17 (1) where the score sa4a6a5a27a20a70a21 a5a25a24a71a17 can depend on any measurable property of a5a30a20 and a5a25a24 within the tree a19 . This formulation is suf ciently general to capture most dependency parsing models, including probabilistic dependency models (Wang et al. , 2005; Eisner, 1996) as well as non-probabilistic models (McDonald et al. , 2005).
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+Dependency trees are usually assumed to be projective (no crossing arcs), which means that if there is an arc a4a6a5a27a20a25a21a28a5a25a24a29a17, then a5a16a20 is an ancestor of all the words between a5a30a20 and a5a25a24 . Let a31a32a4a33a2a34a17 denote the set of all the directed, projective trees that span a2 . Given an input sentence a2, we would like to be able to compute the best parse; that is, a projective tree, a19a36a35 a31a32a4a33a2a34a17, that obtains the highest score . In particular, we follow (Eisner, 1996; Eisner and Satta, 1999; McDonald et al. , 2005) and assume that the score of a complete spanning tree a19 for a given sentence, whether probabilistically motivated or not, can be decomposed as a sum of local scores for each link (a word pair).
+
+Title:W06-1638		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Dreyer, Markus; Eisner, Jason M.
+Eisner (1996), Charniak (1997), Collins (1997), and many subsequent researchers1 annotated every node with lexical features passed up from its head child, in order to more precisely reflect the nodes inside contents. (self citation)
+
+Title:P06-2047		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Hirakawa, Hideki
+Various types of DGs are used in existing systems according to these classifications, such as non-label word DG(Lee and Choi, 1997; Eisner, 1996; McDonald et al. , 2005)4, syntactic-label word DG (Maruyama, 1990), semantic-label word DG(Hirakawa, 2001), non-label WPP DG(Ozeki, 1994; Katoh and Ehara, 1989), syntactic-label WPP DG(Wang and Harper, 2004), semantic-label concept DG(Harada and Mizuno, 2001).
+
+Title:P06-2047		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Hirakawa, Hideki
+Graph search algorithms, such as the ChuLiu-Edmonds maximum spanning tree algorithm (Chu and Liu, 1965; Edmonds, 1967), algorithms based on the dynamic programming (DP) principle (Ozeki, 1994; Eisner, 1996) and the algorithm based on the B&B method (Hirakawa, 2001), are used for the optimum tree search in scored DGs.
+
+Title:P06-2066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Kuhlmann, Marco; Nivre, Joakim
+The projectivity constraint also leads to favourable parsing complexities: chart-based parsing of projective dependency grammars can be done in cubic time (Eisner, 1996); hard-wiring projectivity into a deterministic dependency parser leads to linear-time parsing in the worst case (Nivre, 2003).
+
+Title:W06-2928		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Corston-Oliver, Simon H.; Aue, Anthony
+At both training and run time, edges are scored independently, and Eisners O(N3) decoder (Eisner, 1996) is used to find the optimal parse.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+Eisner (1996) introduced a data-driven dependency parser and compared several probability models on (English) Penn Treebank data.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+Stepwise approaches can use an explicit probability model over next steps, e.g. a generative one (Eisner, 1996; Dreyer et al. , 2006), or train a machine learner to predict those.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+This approach is one of those described in Eisner (1996).
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+Another use of bottom-up is due to Eisner (1996), who introduced the notion of a span.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+If the parse has to be projective, Eisners bottom-up-span algorithm (Eisner, 1996) can be used for the search.
+
+Title:W06-2931		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Liu, Ting; Ma, Jinshan; Zhu, Huijia; Li, Sheng
+Many previous works focus on unlabeled parsing, in which exhaustive methods are often used (Eisner, 1996).
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+Dependency trees are usually assumed to be projective (no crossing arcs), which means that if there is an arc a2a5a4a20a19a15a21a27a4a25a24a28a16, then a4a29a19 is an ancestor of all the words between a4a30a19 and a4a25a24 . Let a31a7a2a32a0a33a16 denote the set of all the directed, projective trees that span a0 . From an input sentence a0, one would like to be able to compute the best parse; that is, a projective tree, a18a35a34 a31a7a2a32a0a33a16, that obtains the highest score . In particular, I follow Eisner (1996) and McDonald et al.
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+In which case, the parsing problem reduces to a18a37a36 a1a39a38a41a40a43a42a45a44a46a38a48a47 a49a22a50a41a51a53a52a55a54a57a56 a58 a52a60a59a62a61a5a63a64a59a66a65a43a56a67a50a26a49 sa2a5a4a29a19a22a21a23a4a25a24a28a16 (1) where the score sa2a5a4 a19 a21 a4 a24 a16 can depend on any measurable property of a4a20a19 and a4a25a24 within the tree a18 . This formulation is suf ciently general to capture most dependency parsing models, including probabilistic dependency models (Wang et al. , 2005; Eisner, 1996) as well as non-probabilistic models (McDonald et al. , 2005; Wang et al. , 2006).
+
+Title:D07-1126		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Nguyen, Minh Le; Shimazu, Akira; Nguyen, Thai Phuong; Phan, Xuan-Hieu
+The two algorithms we employed in our dependency parsing model are the Eisner parsing (Eisner, 1996) and Chu-Lius algorithm (Chu and Liu, 1965).
+
+Title:D07-1126		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Nguyen, Minh Le; Shimazu, Akira; Nguyen, Thai Phuong; Phan, Xuan-Hieu
+We follow the edge based factorization method of Eisner (Eisner, 1996) and define the score of a dependency tree as the sum of the score of all edges in the tree, s(x,y) = summationdisplay (i,j)y s(i,j) = summationdisplay (i,j)y w (i,j) (1) where (i,j) is a high-dimensional binary feature representation of the edge from xwi to xwj . For example in Figure 1, we can present an example (i,j) as follows; (i,j) = braceleftBigg 1if xwi =prime hitprimeandxwj =prime ballprime 0otherwise The basic question must be answered for models of this form: how to find the dependency tree y with the highest score for sentence x?
+
+Title:D07-1126		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Nguyen, Minh Le; Shimazu, Akira; Nguyen, Thai Phuong; Phan, Xuan-Hieu
+There are some algorithms 1149 Figure 1: This is an example of dependency tree to determine these relations of each word to another words, for instance, the modified CKY algorithm (Eisner, 1996) is used to define these relations for a given sentence.
+
+Title:W07-1202		Conference:Workshop on Deep Linguistic Processing		Author:Clark, Stephen; Curran, James R.
+We applied the same normal-form restrictions used in Clark and Curran (2004b): categories can 12 only combine if they have been seen to combine in Sections 2-21 of CCGbank, and only if they do not violate the Eisner (1996a) normal-form constraints.
+
+Title:W07-1202		Conference:Workshop on Deep Linguistic Processing		Author:Clark, Stephen; Curran, James R.
+There is work on discriminative models for dependency parsing (McDonald, 2006); since there are efficient decoding algorithms available (Eisner, 1996b), complete resources such as the Penn Treebank can used for estimation, leading to accurate parsers.
+
+Title:D07-1100		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Nakagawa, Tetsuji
+The best projective parse tree is obtained using the Eisner algorithm (Eisner, 1996) with the scores, and the best non-projective one is obtained using the ChuLiu-Edmonds (CLE) algorithm (McDonald et al. , 2005b).
+
+Title:D07-1124		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Mannem, Prashanth
+Parsing algorithms which search the entire space (Eisner, 1996; McDonald, 2006) are restricted in the features they use to score a relation.
+
+Title:P07-1050		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Hall, Keith
+The DP algorithms are generally variants of the CKY bottom-up chart parsing algorithm such as that proposed by Eisner (1996).
+
+Title:W07-2220		Conference:Tenth International Conference on Parsing Technologies		Author:Nivre, Joakim
+The optimal parse can be found using a spanning tree algorithm (Eisner, 1996; McDonald et al. , 2005).
+
+Title:P07-1022		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Johnson, Mark
+Second, Eisner-Satta O(n3) PBDG parsing algorithms are extremely fast (Eisner, 1996; Eisner and Satta, 1999; Eisner, 2000).
+
+Title:P07-1079		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Sagae, Kenji; Miyao, Yusuke; Tsujii, Jun'ichi
+1 Introduction Several efficient, accurate and robust approaches to data-driven dependency parsing have been proposed recently (Nivre and Scholz, 2004; McDonald et al. , 2005; Buchholz and Marsi, 2006) for syntactic analysis of natural language using bilexical dependency relations (Eisner, 1996).
+
+Title:D07-1070		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Smith, David A.; Eisner, Jason M.
+667 Givenann-wordinput sentence, theparser begins by scoring each of the O(n2) possible edges, and then seeks the highest-scoring legal dependency tree formed by any n1 of these edges, using an O(n3) dynamic programming algorithm (Eisner, 1996) for projective trees. (self citation)
+
+Title:D07-1070		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Smith, David A.; Eisner, Jason M.
+But the denominator Zi is a normalizing constant that sums over all parses; it is found by a dependency-parsing variant of the inside algorithm, following (Eisner, 1996). (self citation)
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+When this analysis is coupled with the projective parsing algorithms of Eisner (1996) andPaskin (2001) we beginto get aclear picture of the complexity for data-driven dependency parsing within an edge-factored framework.
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+1.1 Related Work There has been extensive work on data-driven dependency parsing for both projective parsing (Eisner, 1996; Paskin, 2001; Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; McDonald et al. , 2005a) and non-projective parsing systems (Nivre and Nilsson, 2005; Hall and Novak, 2005; McDonald et al. , 2005b).
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+The work of Eisner (1996) showed that the argmax problem for digraphs could be solved in O(n3) using a bottomupdynamicprogramming algorithmsimilartoCKY.
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+It is straight-forward to extend the algorithms of Eisner (1996) and Paskin (2001) to the labeled case adding only a factor of O(|L|n2).
+
+Title:D07-1101		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Carreras, Xavier
+We extend the projective parsing algorithm of Eisner (1996) for our case, and train models using the averaged perceptron.
+
+Title:D07-1101		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Carreras, Xavier
+Specifically, these approaches considered sibling relations of the modifier token (Eisner, 1996; McDonald and Pereira, 2006).
+
+Title:D07-1014		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Smith, David A.; Smith, Noah A.
+Dependency parsing can be used to provide a bare bones syntactic structurethatapproximatessemantics,andithastheadditionaladvantageofadmittingfastparsingalgorithms (Eisner, 1996; McDonald et al. , 2005b) with a negligible grammar constant in many cases.
+
+Title:D07-1014		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Smith, David A.; Smith, Noah A.
+If the trees are constrained to be projective, EM is easily applied using the inside-outside variant of the parsing algorithm described by Eisner (1996) to compute the marginal probability.
+
+Title:D07-1015		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Koo, Terry; Globerson, Amir; Carreras, Xavier; Collins, Michael John
+Decoding can be carried out using Viterbistyle dynamic-programming algorithms, for example the O(n3) algorithm of Eisner (1996).
+
+Title:D07-1015		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Koo, Terry; Globerson, Amir; Carreras, Xavier; Collins, Michael John
+Computation of the marginals and partition function can also be achieved in O(n3) time, using a variant of the inside-outside algorithm (Baker, 1979) applied to the Eisner (1996) data structures (Paskin, 2001).
+
+Title:D07-1127		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Schiehlen, Michael; Spranger, Kristina
+2 Methodology 2.1 Parsing Algorithm In our approach, we adopt Eisner (1996)s bottomup chart-parsing algorithm in McDonald et al.
+
+Title:C08-1046		Conference:International Conference On Computational Linguistics		Author:Iwatate, Masakazu; Asahara, Masayuki; Matsumoto, Yuji
+Eisner (1996) proposed a CKY-like O(n3) algorithm.
+
+Title:P08-1108		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Nivre, Joakim; McDonald, Ryan
+This type of model has been used by, among others, Eisner (1996), McDonald et al.
+
+Title:P08-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Miyao, Yusuke; S&aelig;tre, Rune; Sagae, Kenji; Matsuzaki, Takuya; Tsujii, Jun'ichi
+MST McDonald and Pereira (2006)s dependency parser,1 based on the Eisner algorithm for projective dependency parsing (Eisner, 1996) with the secondorder factorization.
+
+Title:W08-2124		Conference:CoNLL 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning		Author:Llu&iacute;s, Xavier; M&agrave;rquez, Llu&iacute;s
+It combines online Peceptron learning (Collins, 2002) with a parsing model based on the Eisner algorithm (Eisner, 1996), extended so as to jointly assign syntactic and semantic labels.
+
+Title:D08-1017		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Torres Martins, Andr&eacute;; Filipe; Das, Dipanjan; Smith, Noah A.; Xing, Eric P.
+1.1 RelatedWork There has been extensive work on data-driven dependency parsingfor both projective parsing(Eisner, 1996; Paskin, 2001; Yamadaand Matsumoto, 2003; Nivre and Scholz, 2004; McDonaldet al., 2005a) and non-projective parsingsystems(Nivre and Nilsson,2005;Halland Novak, 2005;McDonald et al., 2005b).
+
+Title:D08-1017		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Torres Martins, Andr&eacute;; Filipe; Das, Dipanjan; Smith, Noah A.; Xing, Eric P.
+In graph-based parsing, dependency trees are scored by factoring the tree into its arcs, and parsing is performed by searching for the highest scoring tree (Eisner, 1996; McDonald et al., 2005b).
+
+Title:D08-1017		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Torres Martins, Andr&eacute;; Filipe; Das, Dipanjan; Smith, Noah A.; Xing, Eric P.
+Specifically, we view stacked learning as a way of approximating non-local features in a linear model, rather than making empirically dubious independence (McDonald et al., 2005b) or structural assumptions (e.g., projectivity, Eisner, 1996), using search approximations (Sagae and Lavie, 2005; Hall et al., 2006; McDonald and Pereira, 2006), solving a (generally NP-hard) integer linear program (Riedel and Clarke, 2006), or adding latent variables (Titov and Henderson, 2007).
+
+Title:D08-1017		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Torres Martins, Andr&eacute;; Filipe; Das, Dipanjan; Smith, Noah A.; Xing, Eric P.
+1.1 RelatedWork There has been extensive work on data-driven dependency parsingfor both projective parsing(Eisner, 1996; Paskin, 2001; Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; McDonaldet al., 2005a) and non-projective parsing systems (Nivre and Nilsson,2005;Hall and Novak, 2005;McDonald et al., 2005b).
+
+Title:D08-1017		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Torres Martins, Andr&eacute;; Filipe; Das, Dipanjan; Smith, Noah A.; Xing, Eric P.
+With a projectivity constraint and arc factorization, the parsing problem can be solved in cubic time by dynamic programming (Eisner, 1996), and with a weaker tree constraint (permitting nonprojective parses) and arc factorization, a quadratic-time algorithm exists (Chu and Liu, 1965; Edmonds, 1967), as shown by McDonald et al.
+
+Title:D08-1059		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhang, Yue; Clark, Stephen
+While the MSTParser uses exact-inference (Eisner, 1996), we apply beam-search to decoding.
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+Related Work Data-driven dependency parsing using supervised machine learning was pioneered by Eisner (1996), who showed how traditional chart parsing techniques could be adapted for dependency parsing to give efcient parsing with exact inference over a probabilistic model where the score of a dependency tree is the sum of the scores of individual arcs.
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+In computational linguistics, dependencybased syntactic representations have in recent years been used primarily in data-driven models, which learn to produce dependency structures for sentences solely from an annotated corpus, as in the work of Eisner (1996), Yamada and Matsumoto (2003), Nivre, Hall, and Nilsson (2004), and McDonald, Crammer, and Pereira (2005), among others.
+
+Title:D08-1016		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Smith, David A.; Eisner, Jason M.
+For PTREE (projective), it is the inside-outside version of a dynamic programming algorithm (Eisner, 1996). (self citation)
+
+Title:D08-1016		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Smith, David A.; Eisner, Jason M.
+These are passed into a fast algorithm for maximum spanning tree (Tarjan, 1977) or maximum projective spanning tree (Eisner, 1996). (self citation)
+
+Title:P08-1061		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+Dependency Parsing Algorithms For simplicity of implementation, we use a standard CKY parser in the experiments, although Eisners algorithm (Eisner, 1996) and the Spanning Tree algorithm (McDonald et al., 2005b) are also applicable.
+
+Title:P08-1061		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+In particular, one would assume that the score of a complete spanning tree Y for a given sentence, whether probabilistically motivated or not, can be decomposed as a sum of local scores for each link (a word pair) (Eisner, 1996; Eisner and Satta, 1999; McDonald et al., 2005a).
+
+Title:P08-1061		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+Given this assumption, the parsing problem reduces to find Y = arg max Y(X) score(Y|X) (1) = arg max Y(X) summationdisplay (xixj)Y score(xi xj) where the score(xi xj) can depend on any measurable property of xi and xj within the sentence X. This formulation is sufficiently general to capture most dependency parsing models, including probabilistic dependency models (Eisner, 1996; Wang et al., 2005) as well as non-probabilistic models (McDonald et al., 2005a).
+
+Title:D08-1070		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Bunescu, Razvan C.
+Following the edge based factorization method of Eisner (1996), the score of a dependency tree in the first order version is defined as the sum of the scores of all edges in the tree.
+
+Title:P08-1110		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Carroll, John; Weir, David
+In these, decisions about which dependencies to create are taken individually, using probabilistic models (Eisner, 1996) or classifiers (Yamada and Matsumoto, 2003).
+
+Title:P08-1110		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Carroll, John; Weir, David
+However, many of the most widely used algorithms (Eisner, 1996; Yamada and Matsumoto, 2003) do not use a formal grammar at all.
+
+Title:P08-1110		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Carroll, John; Weir, David
+This is the principle behind the parser defined by Eisner (1996), which is still in wide use today (Corston-Oliver et al., 2006; McDonald et al., 2005a).
+
+Title:P08-1110		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Carroll, John; Weir, David
+Some of the most popular dependency parsing algorithms, like that of Eisner (1996), work by connecting spans which can represent disconnected dependency graphs.
+
+Title:J08-3003		Conference:Computational Linguistics		Author:Eryi&#x11F;it, G&uuml;l&scedil;en; Nivre, Joakim; Oflazer, Kemal
+A parsing algorithm for building the dependency analyses (Eisner 1996; Sekine,Uchimoto,and Isahara 2000) 2.
+
+Title:J08-3003		Conference:Computational Linguistics		Author:Eryi&#x11F;it, G&uuml;l&scedil;en; Nivre, Joakim; Oflazer, Kemal
+(2006) 56.9 41.7 Attardi (2006) 65.3 37.8 one of the parsing algorithms of Eisner (1996),Nivre (2003),or Yamada and Matsumoto (2003) together with a learning method based on the maximum margin strategy.
+
+Title:I08-4007		Conference:Proceedings of the Sixth SIGHAN Workshop on Chinese Language Processing		Author:Lin, Bor-shen
+In the dependency parsing paradigm, several deterministic, stochastic or machine-learning-based parsing algorithms have been proposed (Eisner, 1996; Covington 2001; Kudo and Matsumoto, 2002; Yamada and Matsumoto, 2003; Nivre 2003; Nivre and Scholz, 2004; Chen et al., 2005).
+
+Title:I08-4007		Conference:Proceedings of the Sixth SIGHAN Workshop on Chinese Language Processing		Author:Lin, Bor-shen
+In the link WjWi, for example, Wj might depend on not only its parent Wi but the children of Wi (Eisner, 1996).
+
+Title:W09-1215		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Ren, Han; Donghong, Ji; Wan, Jing; Zhang, Mingyao
+Graph-based algorithms (Eisner, 1996; McDonald et al., 2005) assume a series of dependency tree candidates for a sentence and the goal is to find the dependency tree with highest score.
+
+Title:W09-1316		Conference:Proceedings of the BioNLP 2009 Workshop		Author:Bashyam, Vijayaraghavan; Taira, Ricky K
+2 Background Syntactic dependency parsing has received much focus from the natural language processing community (Eisner, 1996; Kudo and Matsumoto, 2000; Nivre and Scholz, 2004; Yamada and Matsumoto, 2003).
+
+Title:D09-1059		Conference:EMNLP		Author:Johansson, Richard
+In a slightly more general formulation, it was first published by Eisner (1996).
+
+Title:E09-1034		Conference:EACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Weir, David; Carroll, John
+In the case of dependency parsers it is also possible to use grammars (Eisner and Satta, 1999), but many algorithms use a data-driven approach instead, making individual decisions about which dependencies to create by using probabilistic models (Eisner, 1996) or classifiers (Yamada and Matsumoto, 2003).
+
+Title:N09-2066		Conference:HLT-NAACL, Companion Volume: Short Papers		Author:Attardi, Giuseppe; Dell'Orletta, Felice
+Nivre and McDonald (2008) instead use hints from one parse as features in a second parse, exploiting the complementary properties of graph-based parsers (Eisner, 1996; McDonald et al., 2005) and transition-based dependency parsers (Yamada & Matsumoto, 2003; Nivre & Scholz, 2004).
+
+Title:W09-1218		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Watanabe, Yotaro; Asahara, Masayuki; Matsumoto, Yuji
+To reap the benets of these advances, we use a higher-order projective dependency parsing algorithm (Carreras, 2007) which is an extension of the span-based parsing algorithm (Eisner, 1996), for syntactic dependency parsing.
+
+Title:P09-1043		Conference:ACL-IJCNLP		Author:Zhang, Yi; Wang, Rui
+For MSTParser, we use 1st order features and a projective decoder (Eisner, 1996).
+
+Title:P09-1043		Conference:ACL-IJCNLP		Author:Zhang, Yi; Wang, Rui
+MSTParser, on the other hand, follows 378 the graph-based approach where the best parse tree is acquired by searching for a spanning tree which maximizes the score on either a partially or a fully connected graph with all words in the sentence as nodes (Eisner, 1996; McDonald et al., 2005b).
+
+Title:D09-1058		Conference:EMNLP		Author:Suzuki, Jun; Isozaki, Hideki; Carreras, Xavier; Collins, Michael John
+Note that it is straightforward to calculate these expected counts using a variant of the inside-outside algorithm (Baker, 1979) applied to the (Eisner, 1996) dependency-parsing data structures (Paskin, 2001) for projective dependency structures, or the matrix-tree theorem (Koo et al., 2007; Smith and Smith, 2007; McDonald and Satta, 2007) for nonprojective dependency structures.
+
+Title:P09-1042		Conference:ACL-IJCNLP		Author:Ganchev, Kuzman; Gillenwater, Jennifer; Taskar, Ben
+Recently, dependency parsing has gained popularity as a simpler, computationally more efficient alternative to constituency parsing and has spurred several supervised learning approaches (Eisner, 1996; Yamada and Matsumoto, 2003a; Nivre and Nilsson, 2005; McDonald et al., 2005) as well as unsupervised induction (Klein and Manning, 2004; Smith and Eisner, 2006).
+
+Title:P09-1042		Conference:ACL-IJCNLP		Author:Ganchev, Kuzman; Gillenwater, Jennifer; Taskar, Ben
+Viterbi decoding is done using Eisners algorithm (Eisner, 1996).
+
+Title:W09-1210		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Bohnet, Bernd
+(Eisner, 1996; Nivre et al., 2004; McDonald and Pereira, 2006).
+
+Title:W09-1210		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Bohnet, Bernd
+2 Parsing Algorithm We adopted the second order MST parsing algorithm as outlined by Eisner (1996).
+
+Title:P09-1039		Conference:ACL-IJCNLP		Author:Martins, Andre; Smith, Noah A.; Xing, Eric P.
+Combinatorial algorithms (Chu and Liu, 1965; Edmonds, 1967) can solve this problem in cubic time.4 If the dependency parse trees are restricted to be projective, cubic-time algorithms are available via dynamic programming (Eisner, 1996).
+
+Title:P09-1039		Conference:ACL-IJCNLP		Author:Martins, Andre; Smith, Noah A.; Xing, Eric P.
+1.1 RelatedWork Therehas beenextensive work on data-driven dependency parsingfor bothprojective parsing(Eisner, 1996;Paskin,2001;Yamadaand Matsumoto, 2003; Nivre and Scholz,2004; McDonaldet al., 2005a)and non-projective parsingsystems(Nivre andNilsson,2005;HallandNovak,2005;McDonald et al., 2005b).
+
+Title:P09-1039		Conference:ACL-IJCNLP		Author:Martins, Andre; Smith, Noah A.; Xing, Eric P.
+1.1 RelatedWork Therehas been extensive work on data-driven dependency parsingfor both projective parsing(Eisner, 1996; Paskin,2001; Yamadaand Matsumoto, 2003; Nivre and Scholz,2004; McDonaldet al., 2005a)and non-projective parsingsystems(Nivre andNilsson,2005;HallandNovak, 2005;McDonald et al., 2005b).
+
+Title:P09-1039		Conference:ACL-IJCNLP		Author:Martins, Andre; Smith, Noah A.; Xing, Eric P.
+Tractability is usually ensured by strong factorization assumptions, like the one underlying the arc-factored model (Eisner, 1996; McDonald et al., 2005), which forbids any feature that depends on two or more arcs.
+
+Title:P09-1039		Conference:ACL-IJCNLP		Author:Martins, Andre; Smith, Noah A.; Xing, Eric P.
+Notice that the strategy just described to handle sibling features is not fully compatible with the features proposed by Eisner (1996) for projective parsing, as the latter correlate only consecutive siblings and are also able to place special features on the first child of a given word.
+
+Title:E09-1055		Conference:EACL		Author:Kuhlmann, Marco; Satta, Giorgio
+A major benefit of this choice is computational efficiency: an exhaustive search over all projective structures can be done in cubic, greedy parsing in linear time (Eisner, 1996; Nivre, 2003).
+
+Title:N09-1068		Conference:HLT-NAACL		Author:Finkel, Jenny Rose; Manning, Christopher D.
+At the heart of our model is the Eisner dependency grammar chartparsing algorithm (Eisner, 1996), which allows for efficient computation of inside and outside scores.
+
+Title:P10-2035		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Kitagawa, Kotaro; Tanaka-Ishii, Kumiko
+Global-optimization parsing methods are another common approach (Eisner, 1996; McDonald et al., 2005).
+
+Title:P10-1110		Conference:ACL		Author:Huang, Liang; Sagae, Kenji
+By contrast, the nave CKY algorithm for this model is O(n5) which can be improved to O(n3) (Eisner, 1996).6 The higher complexity of our algorithm is due to two factors: first, we have to maintain both h and h in one state, because the current shift-reduce model can not draw features across different states (unlike CKY); and more importantly, we group states by step in order to achieve incrementality and linear runtime with beam search that is not (easily) possible with CKY or MST.
+
+Title:P10-1110		Conference:ACL		Author:Huang, Liang; Sagae, Kenji
+3.5 Example: Edge-Factored Model As a concrete example, Figure 4 simulates an edge-factored model (Eisner, 1996; McDonald et al., 2005a) using shift-reduce with dynamic programming, which is similar to bilexical PCFG parsing using CKY (Eisner and Satta, 1999).
+
+Title:C10-1011		Conference:COLING		Author:Bohnet, Bernd
+2 Related Work The two main approaches to dependency parsing are transition based dependency parsing (Nivre, 2003; Yamada and Matsumoto., 2003; Titov and Henderson, 2007) and maximum spanning tree based dependency parsing (Eisner, 1996; Eisner, 2000; McDonald and Pereira, 2006).
+
+Title:C10-2129		Conference:COLING - POSTERS		Author:Seeker, Wolfgang; Bohnet, Bernd; &Oslash;vrelid, Lilja; Kuhn, Jonas
+The two main approaches to data-driven dependency parsing are transition based dependency parsing (Nivre, 2003; Yamada and Matsumoto, 2003; Titov and Henderson, 2007) and maximum spanning tree based dependency parsing (Eisner, 1996; Eisner, 2000; McDonald and Pereira, 2006).
+
+Title:P10-1151		Conference:ACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Nivre, Joakim
+Like context-free grammars, projective dependency trees are not sufficient to represent all the linguistic phenomena observed in natural languages, but they have the advantage of being efficiently parsable: their parsing problem can be solved in cubic time with chart parsing techniques (Eisner, 1996; Gomez-Rodrguez et al., 2008), while in the case of general non-projective dependency forests, it is only tractable under strong independence assumptions (McDonald et al., 2005b; McDonald and Satta, 2007).
+
+Title:N10-1091		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Surdeanu, Mihai; Manning, Christopher D.
+3.2 On re-parsing algorithms To guarantee that the resulting dependency tree is well-formed, most previous work used the dynamic programming algorithm of Eisner (1996) for reparsing (Sagae and Lavie, 2006; Hall et al., 2007).6 However, it is not clear that this step is necessary.
+
+Title:C10-2015		Conference:COLING - POSTERS		Author:Chen, Wenliang; Kazama, Jun'ichi; Tsuruoka, Yoshimasa; Torisawa, Kentaro
+We employ the second-order projective graphbased parsing model of Carreras (2007), which is an extensionof the projective parsing algorithm of Eisner (1996).
+
+Title:C10-2015		Conference:COLING - POSTERS		Author:Chen, Wenliang; Kazama, Jun'ichi; Tsuruoka, Yoshimasa; Torisawa, Kentaro
+Figure 7 illustrates the cubic parsing actions of the Eisners parsing algorithm (Eisner, 1996) in the right direction, where s, r, and t refer to the start and end indices of the chart items.
+
+Title:C10-2015		Conference:COLING - POSTERS		Author:Chen, Wenliang; Kazama, Jun'ichi; Tsuruoka, Yoshimasa; Torisawa, Kentaro
+s r r + 1 t s t ( a ) s r r t s t( b ) Figure 7: Cubic parsing actions of Eisner (1996) 4 Parsing with decision history As mentioned above, the actions for creating the incomplete items build the relations between words.
+
+Title:C10-2015		Conference:COLING - POSTERS		Author:Chen, Wenliang; Kazama, Jun'ichi; Tsuruoka, Yoshimasa; Torisawa, Kentaro
+The parsing algorithms used in Carreras (2007) independently find the left and right dependents of a word and then combine them later in a bottomup style based on Eisner (1996).
+
+Title:N10-1145		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Heilman, Michael; Smith, Noah A.
+The child nodes for a given parent are represented in a head-outward fashion such that the left and right children are separate lists, with the leftand right-most elements as the last members of their respective lists, as in most generative dependency models (Eisner, 1996).
+
+Title:D10-1069		Conference:EMNLP		Author:Petrov, Slav; Chang, Pi-Chuan; Ringgaard, Michael; Alshawi, Hiyan
+For example, it would be easy to enforce such constraints in the Eisner (1996) algorithm or using Integer Linear Programming approaches (Riedel and Clarke, 2006; Martins et al., 2009).
+
+Title:P10-1002		Conference:ACL		Author:Jiang, Wenbin; Liu, Qun
+Follow the edge based factorization method (Eisner, 1996), we factorize the score of a dependency tree s(x,y) into its dependency edges, and design a dynamic programming algorithm to search for the candidate parse with maximum score.
+
+Title:W10-1403		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Ambati, Bharat Ram; Husain, Samar; Jain, Sambhav; Sharma, Dipti Misra; Sangal, Rajeev
+MST uses Chu-LiuEdmonds (Chu and Liu, 1965; Edmonds, 1967) Maximum Spanning Tree algorithm for nonprojective parsing and Eisner's algorithm for projective parsing (Eisner, 1996).
+
+Title:C10-2013		Conference:COLING - POSTERS		Author:Candito, Marie; Nivre, Joakim; Denis, Pascal; Henestroza Anguiano, Enrique
+For our experiments, we use MSTParser 0.4.3b 4 with 1-best projective decoding, using the algorithm of Eisner (1996), and second order features.
+
+Title:C10-1007		Conference:COLING		Author:Bergsma, Shane; Cherry, Colin
+This enables search by either minimum spanning tree (West, 2001) or by Eisners (1996) projective parser.
+
+Title:P10-1003		Conference:ACL		Author:Chen, Wenliang; Kazama, Jun'ichi; Torisawa, Kentaro
+In this paper, we employ the graph-based MST parsing model proposed by McDonald and Pereira 22 (2006), which is an extension of the projective parsing algorithm of Eisner (1996).
+
+Title:D11-1113		Conference:EMNLP		Author:Henestroza Anguiano, Enrique; Candito, Marie
+While large factors are desirable for capturing sophisticated linguistic constraints, they come at the cost of time complexity: for the projective case, adaptations of Eisners algorithm (Eisner, 1996) are O(n3) for 1-edge factors (McDonald et al., 2005) or sibling 2-edge factors (McDonald and Pereira, 2006), and O(n4) for general 2-edge factors (Carreras, 2007) or 3-edge factors (Koo and Collins, 2010).
+
+Title:D11-1044		Conference:EMNLP		Author:Gimpel, Kevin; Smith, Noah A.
+Given the lattice and Gs,s, lattice parsing is a straightforward generalization of the standard arc-factored dynamic programming algorithm from Eisner (1996).
+
+Title:D11-1109		Conference:EMNLP		Author:Li, Zhenghua; Zhang, Min; Che, Wanxiang; Liu, Ting; Chen, Wenliang; Li, Haizhou
+Eisner (1996) proposes an O(n3) decoding algorithm for dependency parsing.
+
+Title:D11-1109		Conference:EMNLP		Author:Li, Zhenghua; Zhang, Min; Che, Wanxiang; Liu, Ting; Chen, Wenliang; Li, Haizhou
+5We can reduce the time complexity to O(n3q3) by strictly adopting the DP structures in the parsing algorithm of Eisner (1996).
+
+Title:W11-0103		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Alshawi, Hiyan; Chang, Pi-Chuan; Ringgaard, Michael
+This encoding allows us to perform the text-to-NLF mapping using any existing statistical methods for labeled dependency parsing (e.g. Eisner (1996), Yamada and Matsumoto (2003), McDonald, Crammer, Pereira (2005)).
+
+Title:P11-2125		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Haffari, Gholamreza; Razavi, Marzieh; Sarkar, Anoop
+The (Eisner, 1996) algorithm is typically used for projective parsing.
+
+Title:P11-2125		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Haffari, Gholamreza; Razavi, Marzieh; Sarkar, Anoop
+In this paper, we work with both first-order and second-order models, we train the models using MIRA, and we use the (Eisner, 1996) algorithm for inference.
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+The usage of reductions list is identical to Eisner (1996a) and readers may refer to it for further details.
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+To overcome this, Eisner (1996a) proposed a back-off strategy which reduces the conditioning of a model.
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+To reduce the data sparseness problem, we use the back-off strategy proposed in (Eisner, 1996a).
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+(2005) second-order Eisner (1996a) (sibling) McDonald et al.
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+Like a variation of Eisners generative model C (Eisner, 1996b; Eisner, 1996a), 1In Figure 1, according to custom of dependency tree description, the direction of hyperedge is written as from head to tail nodes.
+
+Title:D11-1137		Conference:EMNLP		Author:Hayashi, Katsuhiko; Watanabe, Taro; Asahara, Masayuki; Matsumoto, Yuji
+Theyuseavariant of Eisners generative model C (Eisner, 1996b; Eisner, 1996a) for reranking and extend it to capture higher-order information than Eisners second-order generative model.
+
+Title:D11-1116		Conference:EMNLP		Author:Tratz, Stephen; Hovy, Eduard
+Eisner (1996) algorithm with non-projective rewriting and second order features.
+
+Title:D11-1116		Conference:EMNLP		Author:Tratz, Stephen; Hovy, Eduard
+One of the MSTPARSER models used the Chu-Liu-Edmonds maximum spanning tree approach, and the other used the Eisner (1996) algorithm with second order features and a nonprojective rewriting post-processing step.
+
+Title:D11-1116		Conference:EMNLP		Author:Tratz, Stephen; Hovy, Eduard
+Examples of this include McDonald and Pereiras (2006) rewriting of projective trees produced by the Eisner (1996) algorithm, and Nivre and Nilssons (2005) pseudoprojective approach that creates projective trees with specially marked arcs that are later transformed into non-projective dependencies.
+

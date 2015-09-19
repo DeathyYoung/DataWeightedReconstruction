@@ -1,0 +1,15 @@
+2 Nakano and colleagues ([15]) have shown how the user’s engagement can be measured by analyzing his gaze behavior during an interaction with the MIT Information Kiosk agent MACK
+MACK (Media lab Autonomous Conversational Kiosk) is an embodied conversational agent (ECA) that relies on both verbal and nonverbal signals to establish common ground in computer– human interactions [19]
+Nakano et al [9] found that gaze at a map and lack of negative feedback were indicative that humans considered the previous utterance grounded and only looked at the interlocutor when they required more information to ground
+analyzed eye gaze and head nods in computer–human conversation and found that their subjects were aware of the lack of conversational feedback from the ECA [23]
+Empirical studies show that the visual access to the interlocutor’s body affects the conversation in the way that non-verbal behaviors are used as communicative signals (Nakano et al
+Finally, gaze as basic turn-taking and grounding cue [16] and emblematic manual gestures like shrug are to be incorporated
+We investigate the verbal and nonverbal means for Based on these results, we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state
+[17] proposed a gaze model for nonverbal grounding in conversational agents, and, using a head tracker, implemented an agent that can judge whether the information provided from the agent is grounded
+In Mack [21], the authors achieved natural nonverbal grounding via a statistical model conducted from the results of Wizard-of-Orz (woz) experiments
+Previous NLP research on gesture has largely focused on building recognizers for gestures that characterize specific language phenomena: for example, detecting hand gestures that cue sentence boundaries (Chen et al
+[40] suggested that in a face-to-face conversation non-verbal signals as well as verbal signals participate in the grounding process to indicate that an utterance is grounded or needs further work to become grounded
+The timing of gesture stroke relative to utterance was also coded as: before utterance, beginning of utterance (first three words), ending of utterance (last 3 words), middle of utterance, or continued from previous utterance (following [26])
+Gaze serves a number of functions like feedback, directing attention, showing interest, or turn taking
+A study by Nakano and colleagues [79] revealed that an ECA with a grounding mechanism seems to encourage more non-verbal feedback from the user than a system without any grounding mechanism
+Grounding is also present during interactions with embodied conversational agents, and human participants naturally head nod as a non-verbal feedback for grounding [20]

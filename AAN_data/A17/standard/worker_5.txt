@@ -1,0 +1,15 @@
+We present a multi-document summarizer, called MEAD, which generates summaries using cluster centroids produced by a topic detection and tracking system. 
+We also describe two new techniques, based on sentence utility and subsumption, which we have applied to the evaluation of both single and multiple document summaries. Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+Relative Utility Following (Radev et al. , 2000), we used relative utility as our metric. (self citation)
+It allows us to distinguish the degree of importance between sentences, providing a more flexible model for evaluating sentence utility (Radev et al. , 2000). (self citation)
+MEAD (Radev et al. , 2000): MEAD is a centroid-based extractive summarizer that scores sentences based on sentence-level and inter-sentence features which indicate the quality of the sentence as a summary sentence. (self citation)
+Co-selection measures include precision and recall of co-selected sentences, relative utility (Radev et al. , 2000), and Kappa (Siegel and Castellan, 1988; Carletta, 1996). (self citation)
+Topic-oriented multi-document summarization has already been studied in other evaluation initiatives which provide testbeds to compare alternative approaches (Over, 2003; Goldstein et al. , 2000; Radev et al. , 2000).
+MEAD is a publicly available toolkit for multidocument summarization (Radev et al. , 2000; MEAD, 2003). (self citation)
+The first of these, relative utility (RU) (Radev et al. , 2000) allows model summaries to consist of sentences with variable ranking.
+Finally, MEAD is a widely used multi-document summarization and evaluation platform (Radev et al., 2000).
+3.2 Extractive Summarizer: MEAD* The extractive approach is represented by MEAD*, which is adapted from the open source summarization framework MEAD (Radev et al., 2000).
+In the last two decades, machine learning techniques have been employed in extractive summarization of single documents (Kupiec et al., 1995; Aone et al., 1999; Osborne, 2002) and multiple documents (Radev and McKeown, 1998; Carbonell and Goldstein, 1998; Radev et al., 2000).
+Sentence extraction techniques (Luhn, 1958; Radev et al. , 2000), on the other hand, compute a score for each sentence based on certain features and output the most highly ranked sentences. (self citation)
+This strategy is commonly used in multi-document summarization (Barzilay et al., 1999; Goldstein et al., 2000; Radev et al., 2000), where the combination step eliminates the redundancy across selected excerpts.

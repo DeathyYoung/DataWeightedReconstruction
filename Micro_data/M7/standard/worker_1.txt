@@ -1,0 +1,15 @@
+In this paper, we outline a theory of linguistic structure which talks about talking about trees; we call this theory computational
+This paper will focus primarily on one set of motivations for this theory, those engendered by attempts to handle certain syntactic phenomena within the framework of deterministic parsing
+We have adopted, in this project, the straightforward view of incremental parsing as a process of repeatedly adding3 to partial structural descriptions of sentence-initial fragments (Barton & Berwick, 1985; Marcus, Hindle, & Fleck, 1983; Weinberg, 1993)
+Grammar formalisms have been proposed that derive logical descriptions of trees representing the syntax of a string [15,23,26]
+Pure dominance constraints are a fragment of dominance constraints with set operators [18, 3, 7] which have applications both in syntax and in semantics of computational linguistics [22, 12, 9]
+(1983), where certain parsing anomalies were avoided by taking descriptions of phrase structure trees, not the trees themselves, as the output of a parsing algorithm
+The semantic component of a grammar usually outputs representations which at least determine truth-conditions, but we shall move from truth-conditions to descriptions of truth-conditions, just as Marcus et al
+The original D-theory model (Marcus et al (1983)) is also more powerful, because it allows the right-most daughter of a node to be lowered under a sibling node
+In these structures the left-of relation is no longer partial, ie: for all pairs a, b either every tree described by the quasitree satisfies "a is left-of b" or none of them do
+This is not acceptable for D-theory, where both the analyses of "pseudo-passives" and coordinate structures require single structures describing sets including both trees in which some a is left-of b and others in which the same a is either
+The "D-theory" approach of Marcus, Hindle, & Fleck (1983), in which the parser maintains a description of the utterance being parsed, seems especially amenable to formulation as a logical system
+The parser used by our semantic interpreter leaves structural syntactic relations underspecified along the lines of D-Theory (Marcus, Hindle, & Fleck 1983) and minimal commitment parsers (Weinberg 1993)
+Literature on parsing natural language has recently been concerned with topics which are unfamiliar to traditional Computational Linguistics such as functional similarities of different syntactic constructions (I), reanalysis of 'indelible' structures (9), manipulation of 'indelible' trees (7)
+Dominance constraints have first been introduced in computational lingui stics [15], where they found numerous application in the modeling of natural language syntax, discourse, and semantics [19,4,5]
+Dominance-based tree descriptions were first used in automata theory in the Sixties [46], rediscovered in computational linguistics in the Eighties [33], and studied in the early Nineties from a logical point of view [3]

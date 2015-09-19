@@ -1,0 +1,15 @@
+In this paper, we propose a new approach to discover informative contents from a set of tabular documents (or Web pages) of a Web site
+Our system, InfoDiscoverer, first partitions a page into several content blocks according to HTML tag in a Web page
+That is, using the approach, informative blocks (news articles) of these sites can be automatically separated from semantically redundant contents such as advertisements, banners, navigation panels, news categories, etc
+Template detection algorithms [23, 33, 21, 10, 7, 9] are a different approach to content extraction in which collections of training documents based on the same template are used to learn a common structure
+Reference [7] proposed an approach to partition a Web page into several content blocks according to HTML tables, and to discover informative content blocks based on statistics on the occurrence of the features (terms) in the set of pages
+Some prior research has defined blocks in the DOM tree by relying only on <table> tags [23], but other tags also can define blocks such as <p> or <div> tags
+There are at least two main modern branches of algorithms for content retrieval from HTML pages: methods based on DOM tree analysis [7, 12, 10], and methods based on HTML page visual representation [5, 10, 3, 11]
+Entropy analysis proposed in [21] discriminates the informative authorities of pages by dividing a page into several authority blocks with different authority values weighted by the information of each block
+Recently, frequent substructure mining of the DOM trees of semistructure pages has been studied in [1][8] in which the frequent sub-tree was extracted by using respective pattern mining and noise node concealment methods, such as the wildcard mechanism in [8] and nodeskip and edge-skip pruning in [1] respectively
+Entropy measures [6] and "visually" based methods [7] have been devised for identifying content blocks
+Early approaches to the content extraction problem heavily relied on a priori knowledge of the Web site¡¯s layout and formatting [10, 3], knowledge which could eventually automatically be learned, but the approach suggests that only a limited amount of formating templates for Web pages are used, which is an unrealistic assumption
+None of them works for extracting content from news Web pages, though, as they are either geared towards Web spam detection [13] or towards extraction of recurring objects [18, 12]
+Lin and Ho developed InfoDiscoverer [3] which is based on the idea, that ©\ opposite to the main content ©\ template generated contents appear more frequently
+The common idea of these approaches is that ¡°in a given Web site, noisy blocks usually share some common contents and presentation styles¡± [3] [5]
+For web page segmentation, many algorithms were proposed by researchers in the past, which fall in to either of two categories DOM-based [5-7] or Vision-based [8- 11]

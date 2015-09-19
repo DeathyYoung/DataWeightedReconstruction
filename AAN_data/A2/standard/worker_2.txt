@@ -1,0 +1,15 @@
+The evaluation of sentence reduction (see (Jing, 2000) for details) used a corpus of 500 sentences and their reduced forms in human-written abstracts
+In fact, professional abstractors tend to use these operations to transform selected sentences from an article into the corresponding summary sentences (Jing, 2000)
+Jing and McKeown (2000) and Jing (2000) propose a cut-and-paste strategy as a computational process of automatic abstracting and a sentence reduction strategy to produce concise sentences
+Jing (2000) uses information from the local context as evidence for and against the removal of phrases during sentence compression
+Examples include text summarisation (Jing 2000), subtitle generation from spoken transcripts (Vandeghinste and Pan 2004) and information retrieval (Olivers and Dolan 1999)
+Interfacing extractive summarization with a sentence compression module could improve the conciseness of the generated summaries and render them more informative (Jing, 2000; Lin, 2003; Zajic et al
+A syntactic approach considers the alignment over parse trees (Jing, 2000), and a similar technique has been used with dependency trees to evaluate the quality of sentence fusions (Marsi and Krahmer, 2005)
+2 Sentence compression Sentence compression is the task of summarizing a sentence while retaining most of the informational content and remaining grammatical (Jing, 2000)
+2004a; Turner and Charniak 2005; McDonald 2006) to learn the correspondences between long and short sentences in a supervised manner, typically using a rich feature space induced from parse trees
+Given the need to ensure grammatical sentences, a number of researchers have used syntax-directed approaches that perform transformations on the output of syntactic parsers (Jing, 2000; Dorr et al
+The conciseness can be improved when sentence extraction is interfaced with sentence compression, where words and clauses are deleted based on rules typically operating over parsed input (Jing, 2000; Daume III and Marcu, 2002; Lin, 2003; Daume III, 2006; Zajic et al
+edu  Abstract We present a novel sentence reduction system for automatically removing extraneous phrases from sentences that are extracted from a document for 
+1 Introduction Sentence compression is the task of producing a shorter form of a grammatical source (input) sentence, so that the new form will still be grammatical and it will retain the most important information of the source (Jing, 2000)
+ Jing, 2000) studied a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removed
+Many algorithms exploit parallel corpora (Jing 2000; Knight and Marcu 2002; Riezler et al

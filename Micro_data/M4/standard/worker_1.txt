@@ -1,0 +1,15 @@
+This paper proposes a two-phase example-based machine translation methodology which develops translation templates from examples and then translates using template matching
+This method improves translation quality and facilitates customization of machine translation systems
+A translation template is a bilingual pair of sentences in which corresponding units (words and pharases) are coupled and replaced with variables
+Correspondence between units is determined by suing a bilingual dictionary and by analyzing the syntactic structure of the sentences
+All of the translation templates generated from a bilingual corpus are grouped by their source language part, and then further refined to resolved conflicts among templates whose source language parts are the same but whose target language parts are different
+[16] makes use of syntactic phrases from parsed trees but the templates created are less controllable as the method collapses phrases only by linguistic phrase labels
+Others [1,16] adopted simple translation algorithms to join partial target matches to generate the translation
+The different approaches vary in how they represent these fragments: as surface strings, structured representations, generalized templates with variables, etc
+Translation equivalences are very useful in a variety of applications such as bilingual lexicography [1], machine translation system [2] and cross-lingual information retrieval [3]
+(1992) also generalizes examples to create translation templates with variables, and these variables represent the syntactic categories of the possible replacements for those Mach Translat (2005) 19:283–299 297
+Whereas some approaches store structured representations for all concrete examples [2], others explicitly use variables to produce generalized templates [5, 13]
+Translation templates are extracted form structuredparallel bilingual corpora[9][ll][l2] [16]
+Kaji [16] tried to learn correspondences of English and Japanese syntactic structures from bilingual corpora
+Crossing constraints are implicit in many phrasal matching approaches, both constituency-oriented (Kaji, Kida, & Morimoto 1992; Cranias, Papageorgiou, & Piperidis 1994; Grishman 1994) and dependency-oriented (Sadler & Vendelmans 1990; Matsumoto, Ishimoto, & Utsuro 1993)
+Utilizing templates is more flexible as compared to word-for-word translation [4] and to pre-defined rules which would be hard to modify at a later time

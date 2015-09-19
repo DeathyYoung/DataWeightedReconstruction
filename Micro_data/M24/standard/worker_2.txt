@@ -1,0 +1,15 @@
+Ensemble methods like bagging and boosting that combine the decisions of multiple hypotheses are some of the strongest existing machine learning methods
+The diversity of the members of an ensemble is known to be an important factor in determining its generalization error
+Experimen- tal results using decision-tree induction as a base learner demonstrate that this approach consistently achieves higher predictive accuracy than both the base classifier and bagging (whereas boosting can occasionally decrease accuracy), and also obtains higher accuracy than boosting early in the learning curve when training data is limited
+Using an ensemble of classifiers from DECORATE[15] and decision trees, they were able to improve the accuracy prediction of semantic ratings by 50 % on average despite the variability in the radiologists¡¯ interpretation
+Diversity is a measure that defines the disagreement degree in the output of the individual classified machines in the ensemble [11]
+One group of these methods obtains diverse individuals by training accurate networks on different training set, such as bagging, boosting, cross validation and using artificial training examples [9,10-12]
+We adopt the measure of diversity proposed by [9], and construct the ensemble classifier by using attribute selection and diversity measure of entire ensemble
+Diversity among the classifiers in an ensemble has been shown to improve its accuracy (Hansen and Salamon 1990; Melville and Mooney 2003)
+where increasing the size of the ensemble increases the accuracy until a saturation point is reached (Hansen and Salamon 1990; Melville and Mooney 2003; Opitz and Maclin 1999)
+The DECORATE algorithm [47] constructs artificial data samples within estimated data distribution in order to increase diversity in the ensemble
+Since a diverse set of classifiers is essential for achieving improved accuracies [7, 10], by taking into account the improvements achieved using GeneticBoost, it can be argued that the diversity requirement is achieved up to some extent
+DECORATE [5], which iteratively constructs an ensemble of classifiers by learning a classifier at each iteration and adding it to the current ensemble
+This good performance has been demonstrated both theoretically and empirically [5, 40, 68], especially when ensembles are built using classifiers that are both accurate and independent, i
+ACTIVEDECORATE is based on DECORATE [10, 11], which is a recently introduced ensemble meta-learner that directly constructs diverse committees of classifiers by empl oying specially-constructed artificial training examples
+The advances of supervised learning in the past decade have led to various attempts to develop ensemble or committee approaches that learn and retain multiple classifiers and combine their decisions during classification [1]

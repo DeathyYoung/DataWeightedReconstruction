@@ -1,0 +1,15 @@
+This paper describes a question answering system that is designed to capitalize on the tremendous amount of data that is now available online
+Most question answering systems use a wide variety of linguistic resources
+We focus instead on the redundancy available in large corpora as an important resource
+Other applications, where automatically constructed Web corpora have been used to train statistical models, include machine translation [19] and question-answering systems [20]
+Most of the QA systems provide a list of candidate answers ranked in order of their probability [1]
+The traditional methods [9][23] relied on manual extraction of document corpus, but it caused misleading redundant words to be registered because the quality of the resulting FA terms depends on the static classified documents by hand
+There exists first web¨Cbased QA systems (webQA) that successfully demonstrate how QA technology might improve future search engines by systematically exploiting the redundancy of the Web space, e
+The former is proposed as an alternative to employing a predefined ontology of answer types, while the latter reduces the number of candidate answers that cooccur frequently with the question words in web search snippets but are not related to the question intent and also eliminates the need of an n-gram assembly stage, as employed in [2] and [5]
+al [2] presented a Web based QA system that uses simple combinatorial permutations of words (so called ¡°rewrites¡±) and a set of 15 handcrafted semantic filters to achieve a striking accuracy: Mean Reciprocal Rank (MRR) of 0
+Using the web as an external resource has proven benecial for sponsored search and other information retrieval tasks [7, 35, 9, 10, 32] and particularly when the snippets of text that need to be matched are short [22, 32]
+[1] is the best candidate for comparison since they methodologically tested their system (AskMSR) on TREC questions and achieved much better performance than the other prior studies in similar settings
+Question answering systems aim to retrieve \answers" to questions rather than full documents or even best-matching passages as most information retrieval systems currently do [6]
+The main goal of this research was to determine whether the approach to use data redundancy on the Web for question answering, as described by Dumais, Banko and Brill [2], is also suitable for Dutch questions
+We choose to use actual sentences from the returned documents in contrast to the snippets used by the AskMSR system [10]
+MULDER [18] and AskMSR [7, 13] use the Web to answer questions, exploiting the fact that most important facts are stated multiple times in different ways, which licenses the use of simple syntactic processing

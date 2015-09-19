@@ -1,0 +1,15 @@
+The dialogue manager merges information from the input devices with the history and the discourse model [16,17]
+As described in [19], a grounding model has been developed based on the verbal and nonverbal signals happening during human– human interactions
+A study by Nakano and colleagues [79] revealed that an ECA with a grounding mechanism seems to encourage more non-verbal feedback from the user than a system without any grounding mechanism
+Grounding is also present during interactions with embodied conversational agents, and human participants naturally head nod as a non-verbal feedback for grounding [20]
+2-1 MACK was designed to study face-to-face grounding [69]
+Nakano and colleagues [14] developed a engagement model for the kiosk agent Mack that provides route directions for a paper map
+[17] designed a life-like agent (Mack) that provides the user with directions on a (shared) physical map, and derives information about the user’s conversational state from gaze behavior
+Nakano and colleagues [25] explored the relation between various dialogue acts and non-verbal behaviors and showed that speakers look at their partners in order to ground references to new entities
+We investigate the verbal and nonverbal means for Based on these results, we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state
+Compositional DRT [Muskens(1996)], employed to underpin the PTT dialogue framework [Poesio & Rieser(2009)]
+Previous studies in multimodal user interfaces and intelligent virtual agents presented many interesting applications by exploiting such sensing technologies [1, 2]
+In Mack [21], the authors achieved natural nonverbal grounding via a statistical model conducted from the results of Wizard-of-Orz (woz) experiments
+Eye gaze for an utterance is selected according to a statistical model based on utterance type and the context This more general method is supported by work such as [7], which links gaze behaviors to utterance types
+[40] suggested that in a face-to-face conversation non-verbal signals as well as verbal signals participate in the grounding process to indicate that an utterance is grounded or needs further work to become grounded
+IRIs appear to be important interaction patterns in conversation [17], and indicators of the instructor being conceived of as a social actor

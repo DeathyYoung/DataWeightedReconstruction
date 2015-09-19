@@ -1,0 +1,15 @@
+We present a multi-document summarizer, called MEAD, which generates summaries using cluster centroids produced by a topic detection and tracking system. 
+We also describe two new techniques, based on sentence utility and subsumption, which we have applied to the evaluation of both single and multiple document summaries. Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+Among text summarization techniques, there are statistical methods and linguistic methods (Radev et al. , 2000; Marcu et al. , 1999).
+3.1 The MEAD summarizer The MEAD summarizer [Radev et al, 2000] [Radev et al 2002] is based on sentence extraction and uses a linear combination of three features to rank the sentences in the source documents. (self citation)
+A common approach is to measure similarity between all pairs of sentences and then use clustering to identify themes of common information (McKeown et al. 1999; Radev, Jing, and Budzikowska 2000; Marcu and Gerber 2001). (self citation)
+It allows us to distinguish the degree of importance between sentences, providing a more flexible model for evaluating sentence utility (Radev et al. , 2000). (self citation)
+Three judges have assessed the sentences in each cluster and have provided a score on a scale from 0 to 10 (i.e. utility judgement), expressing how important the sentence is for the topic of the cluster (Radev et al., 2000).
+MEAD (Radev et al. , 2000): MEAD is a centroid-based extractive summarizer that scores sentences based on sentence-level and inter-sentence features which indicate the quality of the sentence as a summary sentence. (self citation)
+Topic-oriented multi-document summarization has already been studied in other evaluation initiatives which provide testbeds to compare alternative approaches (Over, 2003; Goldstein et al. , 2000; Radev et al. , 2000).
+These summarizers have been found to produce quantitatively similar results, and both significantly outperform a baseline summarizer, which is the MEAD summarization framework with all options set to the default (Radev et al., 2000).
+3.2 Extractive Summarizer: MEAD* The extractive approach is represented by MEAD*, which is adapted from the open source summarization framework MEAD (Radev et al., 2000).
+MEAD is a publicly available toolkit for multidocument summarization (Radev et al. , 2000; MEAD, 2003). (self citation)
+Finally, MEAD is a widely used MDS and evaluation platform (Radev et al., 2000).
+Sentence clustering has therefore often been used as an early step in MDS (Hatzivassiloglou et al., 2001; Marcu and Gerber, 2001; Radev et al., 2000).
+Thus, we use MEAD (Radev et al., 2000) as our baseline.

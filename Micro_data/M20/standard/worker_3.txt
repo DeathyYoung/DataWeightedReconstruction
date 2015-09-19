@@ -1,0 +1,15 @@
+Libraries have traditionally used manual image annotation for indexing and then later retrieving their image collections
+However, manual image annotation is an expensive and labor intensive procedure and hence there has been great interest in coming up with automatic ways to retrieve images based on content
+Here, we propose an automatic approach to annotating and retrieving images based on a training set of images
+We assume that regions in an image can be described using a small vocabulary of blobs
+Given a training set of images with annotations, we show that probabilistic models allow us to predict the probability of generating a word given the blobs in an image
+Much of this excitement centers around utilizing the machine learning techniques to learn the mapping between the image contents and semantic tags based on a collection of precisely labeled training images and then use the learnt model to predict the tags of those unlabeled images
+Frameworks which have shown interesting performance improvements [5, 6, 8] are based on a doubly non-parametric approach for which the probabilities of associating words to image features are learnt from each image of a training set
+Generative models [7, 11, 5] focus on learning the correlations between images and semantic concepts, while discriminative models formulate AIA as a classification problem and apply classification techniques to AIA, such as Support Vector Machine (SVM) [3] and Gaussian mixture model [2]
+The crossmedia relevance model (CMRM) assumes that images may be described from small vocabulary of blobs and learns the joint distribution of blobs and words from a training set of annotated images [17]
+In this paper, we propose a new image annotation method by using Markov model for image annotation, which is a generalized model of Cross-Media Relevance Model (CMRM) [3]
+However, the ESP Game as it is currently implemented encourages players to assign ¡°obvious¡± labels, which are most likely to lead to an agreement with the partner
+The probabilistic modeling-based methods [2][9][10][11][14][17] attempt to infer the correlations or joint probabilities between images and annotation keywords
+Many of such methods are based on the probabilistic generative model, among which an influential work is the cross-media relevance model (CMRM) [9] that tries to estimate the joint probability of the visual keywords (extracted from image regions automatically) and the annotation keywords on the training image set
+Several frameworks dealing with the automatic extraction of the image semantic content have been proposed [4, 11, 12, 14, 18, 20, 22, 30]
+The model in [12] learns the joint probability of associating words to image features from training sets and uses it to generate the probability of associating a word to a given query image

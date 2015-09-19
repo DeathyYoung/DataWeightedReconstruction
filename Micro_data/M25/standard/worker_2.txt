@@ -1,0 +1,15 @@
+A method of determining the similarity of nouns on the basis of a metric derived from the distribution of subject, verb and object in a large text corpus is described
+There are many of methods used to measure the similarity between different entities, such as information content [6], Dice coefficient [2], mutual information [3], cosine coefficient [2], distance-based measurements [4], and feature contrast model [8]
+A Vector Space Model (VSM) is often used to calculate distributional similarity of two words[4,11,2]
+Many similarity functions are information theoretic, including information content similarity [13], mutual information similarity [14,15], residual entropy similarity [16], and the similarity defined by the compressability of one sample given another [17,18]
+The decompositional methods cluster words on the basis of orthogonal vectors of assumed latent semantic clusters between words
+Mutual information from information theory has been utilized to find the closeness between word pairs by Church and Hanks (1989) and Hindle (1990)
+Furthermore, we have shown that the conditional probability performs reasonably well as information measure compared to other more elaborate measures such as the ones used by (Hindle, 1990) or (Resnik, 1997)
+An early paper on semantic is Hindle (1990), which aims at finding tically similar nouns by comparing with respect to predicate-argume
+Hindle [7], for example, extracted verb-noun relationships of subjects/objects and their predicates from a corpus and proposed a method to calculate similarity of two words based on their mutual information
+Words appearing in similar grammatical contexts are assumed to be similar, and therefore classified into the same class (Lin, 1998; Grefenstette, 1994, 1992; Ruge, 1992; Hindle, 1990)
+Statistical or probabilistic methods are often used to extract semantic clusters from corpora in order to build lexical resources for ANLP tools (Hindle, 1990), (Zernik, 1990), (Resnik, 1993), or for automatic thesaurus generation (Grefenstette, 1994)
+Hindle (1990) proposed a method dealing with the data-sparseness problem of low-frequency words that estimates the likelihood of unseen events from that of "similar" events that have been seen before
+The combined entropy maximization entropy and distortion minimization is carried out by a two-stage iterative process similar to the EM method (Dempster et al
+93], our method clusters nouns on the basis of syntactic regularities observed in a corpora, but they restrict the syntactic roles to learn from, to subjects and objects of the verb
+Hindle [14] proposed an automatic method based on the representation of terms through frequent syntactic features, and thus he determined similarity between nouns

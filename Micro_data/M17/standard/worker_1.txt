@@ -1,0 +1,15 @@
+We introduce the contour spectrum, a user interface component that improves qualitative user interactionand provides real-time exact quantification in the visualizationof isocontours. 
+The contour spectrum is asignature consisting of a variety of scalar data and contourattributes, computed over the range of scalar valuesw 2 !. 
+We explore the use of surface area, volume, and gradient integral of the contour that are shown to be univariate B-spline functions of the scalar value w for...
+...Bajaj et al. [2] compute geometric statistics of isolines and isosurfaces and display them in an interface to assist users performing discovery visualization tasks... Luke J. Gosink,?et al. An Application of Multivariate Statistical Analysis for Query-Driven V... ...Bajaj et al. [2] compute geometric statistics of isolines and isosurfaces and display them in an interface to assist users performing discovery visualization tasks...
+They serve as an effective user interface for selecting meaningful level sets [1] and for designing transfer functions for volume rendering [8]
+Bajaj et al. [1] show how to make informative visualization from volume data by examining a set of quantitative signature functions of contour surfaces in the data
+Bajaj et al. show how statistical analysis can drive the creation of transfer function lookup tables
+Bajaj, Pascucci and Schikore [2] developed contour spectra to efficiently compute decomposable properties of iso-surfaces in static volume data.
+Bajaj et al. [BPS97] introduced the Contour Spectrum, which analyzes isosurface properties for the whole intensity value range.
+Bajaj et al. [2] discuss using other volume function information to find isovalues of interest; these functions include the volume enclosed by an isosurface, the isosurface area, and the isosurface gradient
+It should also be pointed out that there have been several recent works dealing with automatic iso-value determination and volume classification (e.g., [2, 6]
+Bajaj et al. [1] introduced the contour spectrum which represents several measures for describing isosurfaces and a user interface for interactively setting parameters for the isovalue definition
+Bajaj et al. (1997) introduced the use of the contour spectrum and the contour tree, which captures the topological relationships between all possible isosurfaces
+The Contour Spectrum [4] provides quantitative metrics of a volume to help us select two suitable isovalues for the interval volume
+The display [1] of the Contour Tree provides the user with direct insight into the topology of the field and reduces the user interaction time necessary to ¡°understand¡± the structure of the data

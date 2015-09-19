@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems
+It was introduced in Graphplan [2] to capture constraints between pairs of actions and between pairs of facts
+Our planning-structures, like FDP planning-structures, are closed to Graphplan planning graph [2]
+Graphplan [2] is a general-purpose planner for STRIPS-like domains, which exploits the benefits of graph algorithms in order to reduce search space and provide better solutions
+Symbolic planning sometimes refers to analyzing planning graphs [2], or to checking the satisfiability of formulas [20]
+PGraphPlan [4] and CGP [44] are the first two planners to use generalizations of GraphPlan [3] for planning under uncertainty
+Overcoming the limitation of traditional logic-based planning, HTN planning is introduced for solving given problem using partially and hierarchically ordered set of tasks [13]
+Here, the planner performs the service composition via a straightforward means end planning episode based on Graphplan approach [1]
+To tackle this problem, we propose a solution in which web services are represented using STRIPS representation [2] and Graphplan [1] is used as the planning engine to find the rational subset of services (a plan) to handle customer requests
+Many centralized techniques and popular planners for functional planning, such as [1] [8], employ Planning graph that is a special graph based representation for a plan
+We have conducted a controlled experiment to compare the time taken for three general-purpose AI planning algorithms: forward-search, GraphPlan [3], and UCPOP [8], to automatically generate unit tests for Java classes
+In their seminal paper [1,2] on the Graphplan system, they described a new plan generation algorithm based on planning graph, which was much faster than any other algorithms known at that time
+The GraphPlan algorithm (Blum and Furst, 1997) relies on the idea of state reachability analysis

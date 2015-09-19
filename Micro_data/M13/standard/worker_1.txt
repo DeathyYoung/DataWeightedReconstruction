@@ -1,0 +1,15 @@
+Current specialized planners for query processing are designed to work in local, reliable, and predictable environments
+, Ariadne [30], TSIMMIS [8], and Whirl [9]) extend the database querying models using combinations of templates or menu-based forms to incorporate queries that are restricted to a single domain (or a set of domains)
+Ariadne uses an independent domain model [30] for each application, that integrates the information from the underlying sources and provides a single terminology for querying
+Ariadne¡¯s Theseus [30] pre-compiles part of the integration model and uses a local search method for generating query plans across a large number of sources
+A prototypical system used an abstract representation of the data similar to the approach in (Knoblock 1995) and the FF planner (Hoffmann & Nebel 2001) as the planning backbone for the system
+Query planning (Knoblock 1995) involves generating a set of sub-queries from a high-level user query based on the data source locations that have parts of the required information to answer the query
+Knoblock [13] has developed a flexible planning algorithm called SAGE that supports parallel planning and execution to address this issue
+Ariadne¡¯s approach to information integration is based heavily on the SIMS mediator architecture (Arens et ad
+The SIMS query planner (Knoblock 1995) was designed primarily for database applications, but database applications typically involve only a small number of databases, while web applications can involve accessing many more sources
+The ability to plan sensory actions too was realized in various STRIPS-based approaches, such as IPEM (Ambros-Ingerson & Steel 1988), UWL (Etzioni et al
+In addition, we have integrated the planning with the execution system (Knoblock 1995), which allows the system to dynamically replan parts of a query that fail while continuing to execute the other suhqueries of the overall plan
+In some cases a loose coupling of the planner and executor may be sufficient, but in the case where the planner is executing actions in parallel, it may be possible to refine plans in which other actions continue to be executed (Knoblock 1995)
+As discussed in [8], our problem shares some aspects of the contingent planning problem with partial observability [7], [14], [15]
+Our early work adds additional evidence to the utility of ontology-driven knowledge mediators, as previously demonstrated by systems such as TAMBIS [8] and Ariadne/SIMS [9]
+To address this issue, researchers have proposed interleaving query planning and execution so that the query processor can use intermediate data to refine the part of the query plan that has not been completely executed [9], [12], [13]

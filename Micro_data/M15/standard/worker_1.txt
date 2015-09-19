@@ -1,0 +1,15 @@
+This paper describes a question answering system that is designed to capitalize on the tremendous amount of data that is now available online
+Experimental results show that question answering accuracy can be greatly improved by analyzing more and more matching passages
+Simple passage ranking and n-gram extraction techniques work well in our system making it efficient to use with many backend retrieval engines
+At the other end of the spectrum, there are data intensive systems [4] that attempt to use the redundancy of the web to arrive at an answer for factoid style questions
+Surface text analysis like pattern-based approach can also be used to solve the problems and many English question answering systems [9, 10, 11] have obtained the surprising performances in TREC using the patternbased approach
+A recent work by [9] presented an open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted semantic filters to
+Increasing corpus size has improved performance in language tasks such as question-answering, machine translation, cross-lingual information retrieval, and ad hoc information retrieval [3, 4, 5, 6, 13, 21, 22]
+If there are still not enough candidates, the system automatically relaxes the modulated query (by removing most frequent on the Web words first) until enough many hits are returned by GPSE
+This assumption holds for our own system, and should (at least) hold for any system that exploits redundancy¡ªthat takes advantage of the observation that answers tend to occur in more than one retrieved passage [1,2,5]
+Since previous research work has revealed immense benefits of exploiting the Web data for QA [22, 23], we decide to construct from the question¡¯s relevant Web search results
+In our method, information from multiple documents is employed by adding the scores for the candidate answers extracted from the various documents [2, 16]
+Many groups working on question answering have followed the AI road, enhancing their works by progresses in natural language processing, information retrieval, information extraction and machine learning, and built QA systems to retrieve ¡°answers¡± to questions rather than full documents or even best-matching passages as most information retrieval systems currently do [4][6]
+2) We have explored our novel probabilistic triangulation algorithm to analyze and compare multiple answers instead of simple frequency counting used in [3] and other earlier works
+Since this crawling process has to be done online, it defines a critical parameter for the latency of the subsequent webQA processes, and hence, might negatively effect the performance of the whole webQA s ystem, cf
+[6] presented another open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted rules (semantic filters) to achieve a remarkable accuracy on the TREC test set: Mean Reciprocal Rank (MRR) of 0

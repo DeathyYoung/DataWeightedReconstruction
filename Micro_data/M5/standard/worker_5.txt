@@ -1,0 +1,15 @@
+Using an open-source, Java toolkit of name-matching methods, we experimentally compare string distance metrics on the task of matching entity names
+We inves- tigate a number of different metrics proposed by differ- ent communities, including edit-distance metrics, fast heuristic string comparators, token-based distance met- rics, and hybrid methods
+Naive methods for entity resolution are based on string similarity [25, 13]
+Suggested methods span from string similarity metrics [3], to similarity methods using transformations [20, 21], and relationships between data [6, 12, 14]
+A signicant number of these studies have considered sophisticated feature-level scoring techniques particularly for strings [8] and have compared several standard machine learning combiners including SVMs [21, 3, 15, 28], decision trees [21, 25, 3, 15, 28], and Na ve Bayes [21, 28]
+[14] studies the name matching for information integration using string-based and token-based methods, while [28] conducts an in-depth study on the RL problem in digital library context
+Such methods use similarity join measurements such as edit distance [9], SoftTfIdf [7], Jaccard similarity [14], Jaro [15], q-grams [10][11], Soundex [12], and Jaro-Winkler [16]
+This method is a superior method for joining short string values [7], and therefore, it is worthwhile to study its performance on long string values
+Token-based methods are usually an order of magnitude faster than character-based methods [8]
+Traditional schema matching methods based on string distance techniques [10] do not permit to automatically discover that there exists, for example, a synonym relationship between the two schema elements “amount” and “quantity”, as their labels share only few characters
+Karma solves the source modeling problem by using existing schema matching techniques [2] to generate possible candidate mappings and relies on users to determine the correct mapping
+In the string case, for example, among the existing similarity measures (see [3] for an experimental comparison of string distances), the edit distance [18] is probably the most used
+We used the SecondString tool [2] to compute the Jaro Winkler similarity [27] of attribute names in pairwise attribute comparison
+Apart from SAWSDL service discovery, SVM’s have been used in the context of information retrieval as described in [3]
+We use the euclidean distance to compute similarity between numeric attributes, a boolean measure (1 for match, 0 for mismatch) for attributes that can be enumerated (e

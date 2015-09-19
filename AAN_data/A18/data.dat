@@ -1,0 +1,276 @@
+Title:A00-2004		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Freddy Y. Y. Choi (University of Manchester, Manchester UK)
+This paper describes a method for linear text seg- mentation which is twice as accurate and over seven times as fast as the state-of-the-art (Reynar, 1998). Inter-sentence similarity is replaced by rank in the local context. Boundary locations are discovered by divisive clustering.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+(Choi, 2000) Segmentation accuracy was measured by the probabilistic error metric a195 a92 proposed by Beeferman, et al.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+9The results for a210 a194a33a194a47a215a135a216a123a217 in Table 3 are slightly different from those listed in Table 6 of Choi 's paper (Choi, 2000).
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+A lot of research has been done on text segmentation (Kozima, 1993; Hearst, 1994; Okumura and Honda, 1994; Salton et al. , 1996; Yaari, 1997; Kan et al. , 1998; Choi, 2000; Nakao, 2000).
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+This data was used by Choi (2000) to compare various domain-independent text segmentation systems.6 He evaluated a133a26a186a62a186 (Choi, 2000), TextTiling (Hearst, 1994), DotPlot (Reynar, 1998), and Segmenter (Kan et al. , 1998) by using the data and reported that a133a26a186a180a186 achieved the best performance among these systems.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+A sample is characterised by the range a15 . (Choi, 2000) Table 1 gives the corpus statistics.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+However, a207a32a208a33a208 and a207a32a208a33a208a38a220, which are implemented in C, run as fast as a210 a194a33a194 and a210 a194a33a194 a220, which are implemented in Java (Choi, 2000), due to the difference in programming languages.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+Choi (2000) used the rank of the cosine, rather than the cosine itself, to measure the similarity of sentences.
+
+Title:P01-1064		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masao Utiyama (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+a205 a98a180a98 a110a135a206 a112 is the result for our system when the numbers of segments were given beforehand.8 a133a26a186a180a186 and a133a26a186a62a186 a110a135a206 a112 are the corresponding results for the systems described in Choi 's paper (Choi, 2000).9 a187a29a188a191a189a33a189 a187a145a188a191a190 a192a145a188a81a193 a194a145a188a42a189a33a189 Total a207a32a208a33a208 11% a209a156a209 13%a209a12a209 6%a209a156a209 6%a209a12a209 10%a209a12a209 a210 a194a33a194 13% 18% 10% 10% 13% prob 7.9E-5 4.9E-3 2.5E-5 7.5E-8 9.7E-12 Table 2: Comparison of a195 a92 : the numbers of segments were determined by the systems.
+
+Title:C02-1033		Conference:International Conference on Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+CWM is described in (Choi, 2001), U00 in (Utiyama and Isahara, 2001), C99 in (Choi, 2000), DotPlot in (Reynar, 1998) and Segmenter in (Kan et al. , 1998).
+
+Title:C02-1033		Conference:International Conference on Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+As (Choi, 2000) or (Kaufmann, 1999), we use the cosine measure for evaluating the similarity between a vector of the context window (Vw) and the equivalent vector in the segment context (Vs): = i ix i ix ix i ix xx CwwwgCswwg CwwgwCswwg VwVssim 22 ),(),( ),(),( ),( (5) where wgx(wi,Cs,w}) is the weight of the word wi in the vector x (txt or coll) of the context Cs,w}.
+
+Title:C02-1033		Conference:International Conference on Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+Most of those that achieve text segmentation only rely on the intrinsic characteristics of texts: word distribution, as in (Hearst, 1997), (Choi, 2000) and (Utiyama and Isahara, 2001), or linguistic cues as in (Passonneau and Litman, 1997).
+
+Title:C02-1033		Conference:International Conference on Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+5.1.2 C99 corpus For English, we used the artificial corpus built by Choi (Choi, 2000) for comparing several segmentation systems.
+
+Title:J02-4002		Conference:Computational Linguistics Journal		Author:Simone Teufel (Cambridge University, Cambridge UK);Marc Moens (University of Edinburgh, Edinburgh UK)
+This is not surprising, given that the definition of our task has little to do with the distribution of content-bearing words and phrases, much less so than the related task of topic segmentation (Morris and Hirst 1991; Hearst 1997; Choi 2000), or Saggion and Lapalmes (2000) approach to the summarization of scientific articles, which relies on scientific concepts and their relations.
+
+Title:J02-1002		Conference:Computational Linguistics Journal		Author:Lev Pevzner (Harvard University, Cambridge MA);Marti A. Hearst (University of California at Berkeley, Berkeley CA)
+Some evaluations circumvent this difficulty by detecting boundaries in sets of concatenated documents, where there can be no disagreements about the fact of the matter (Reynar 1994; Choi 2000); others have several human judges make ratings to produce a gold standard. The second difficulty with evaluating these algorithms is that for different applications of text segmentation, different kinds of errors become important.
+
+Title:J02-1002		Conference:Computational Linguistics Journal		Author:Lev Pevzner (Harvard University, Cambridge MA);Marti A. Hearst (University of California at Berkeley, Berkeley CA)
+Other techniques use clustering and/or similarity matrices based on word co-occurrences (Reynar 1994; Yaari 1997; Choi 2000), and still others use machine learning techniques to detect cue words, or hand-selected cue words to detect segment boundaries (Passonneau and Litman 1993; Beeferman, Berger, and Lafferty 1997; Manning 1998).
+
+Title:J02-1002		Conference:Computational Linguistics Journal		Author:Lev Pevzner (Harvard University, Cambridge MA);Marti A. Hearst (University of California at Berkeley, Berkeley CA)
+Analysis of the P k Error Metric The P k metric is fast becoming the standard among researchers working in text segmentation (Allan et al. 1998; Dharanipragada et al. 1999; Eichmann et al. 1999; van Mulbregt et al. 1999; Choi 2000).
+
+Title:N03-3009		Conference:Human Language Technologies		Author:Nicola Stokes (University College Dublin, Dublin Ireland)
+In (Choi 2000) boundaries are hypothesized using sentences as the basic unit of text; however both C99 and TextTiling can take advantage of paragraph information when the input consists of one paragraph per line.
+
+Title:N03-3009		Conference:Human Language Technologies		Author:Nicola Stokes (University College Dublin, Dublin Ireland)
+As explained in Section 3, we determine the effectiveness of our SeLeCT system with respect to two other lexical cohesion based approaches to segmentation, namely the TextTiling (Hearst 1997) and C99 algorithms (Choi 2000)2
+
+Title:N03-3009		Conference:Human Language Technologies		Author:Nicola Stokes (University College Dublin, Dublin Ireland)
+In Section 3, we compare the segmentation performance of our lexical chaining algorithm with two other well known lexical cohesion based approaches to segmentation; namely TextTiling (Hearst 1997) and C99 (Choi 2000).
+
+Title:N03-3009		Conference:Human Language Technologies		Author:Nicola Stokes (University College Dublin, Dublin Ireland)
+In future experiments we plan to compare SeLeCTs performance on written and spoken news texts with two recently proposed systems, U00 (Utiyama 2001) and CWM (Choi 2001), which have marginally outperformed the C99 algorithm on Chois (2000) test corpus.
+
+Title:N03-3009		Conference:Human Language Technologies		Author:Nicola Stokes (University College Dublin, Dublin Ireland)
+(Reynar 1998; Hearst 1997; Choi 2000).
+
+Title:P03-1071		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown (IBM T.J. Watson Research Center, Yorktown Heights NY);Eric Fosler-Lussier;Hongyan Jing
+4.2 Evaluation We evaluate LCseg against two state-of-the-art segmentation algorithms based on lexical cohesion (Choi, 2000; Utiyama and Isahara, 2001).
+
+Title:P03-1071		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown (IBM T.J. Watson Research Center, Yorktown Heights NY);Eric Fosler-Lussier;Hongyan Jing
+While other relations between lexical items also work as cohesive factors (e.g. between a term and its super-ordinate), the work on linear topic segmentation reporting the most promising results account for term repetitions alone (Choi, 2000; Utiyama and Isahara, 2001).
+
+Title:P03-1071		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown (IBM T.J. Watson Research Center, Yorktown Heights NY);Eric Fosler-Lussier;Hongyan Jing
+As shown in Table 1, our algorithm is significantly better than (Choi, 2000) (labeled C99) on all three test corpora, according to a one-sided ttest of the null hypothesis of equal mean at the 0.01 level.
+
+Title:P03-1071		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown (IBM T.J. Watson Research Center, Yorktown Heights NY);Eric Fosler-Lussier;Hongyan Jing
+Embodiments of this idea include semantic similarity (Morris and Hirst, 1991; Kozima, 1993), cosine similarity in word vector space (Hearst, 1994), inter-sentence similarity matrix (Reynar, 1994; Choi, 2000), entity repetition (Kan et al. , 1998), word frequency models (Reynar, 1999), or adaptive language models (Beeferman et al. , 1999).
+
+Title:P03-1071		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michel Galley (Columbia University, New York NY);Kathleen R. McKeown (IBM T.J. Watson Research Center, Yorktown Heights NY);Eric Fosler-Lussier;Hongyan Jing
+A test corpus of concatenated6 texts extracted from the Brown corpus was built by Choi (2000) to evaluate several domain-independent segmentation algorithms.
+
+Title:W04-1006		Conference:Workshop On Text Summarization Branches Out		Author:Atefeh Farzindar (University of Montreal, Montreal QU);Guy Lapalme
+4.1 Components of LetSum Thematic segmentation for which we performed some experiments with two statistic segmenters: one described by Hearst for the TexTiling system (Hearst, 1994) and the C99 segmenter described by Choi (Choi, 2000), both of which apply a clustering function on a document to find classes divided by theme.
+
+Title:H05-1122		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Andrew Olney (University of Memphis, Memphis TN);Zhiqiang Cai
+The first of these, lexical cohesion, may be used for either linear segmentation (Morris and Hirst, 1991; Hearst, 1997) or hierarchical segmentation (Yarri, 1997; Choi, 2000).
+
+Title:W06-1320		Conference:SIGDIAL		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+In this paper, we selected for comparison three systems based merely on the lexical reiteration feature: TextTiling (Hearst, 1997), C99 (Choi, 2000) and TextSeg (Utiyama and Isahara, 2001).
+
+Title:W06-1320		Conference:SIGDIAL		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+(Ferret, 2002; Choi, 2000; Utiyama and Isahara, 2001).
+
+Title:W06-1320		Conference:SIGDIAL		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+Percent error values are given in the figures and we used the following abbreviations: WD to denote WindowDiff error metric; TextSeg KA to denote the TextSeg algorithm (Utiyama and Isahara, 2001) when the average number of boundaries in the reference data was provided to the algorithm; C99 KA to denote the C99 algorithm (Choi, 2000) when the average number of boundaries in the reference data was provided to the algorithm; N0 to denote the algorithm proposing a segmentation with no boundaries; All to denote the algorithm proposing the degenerate segmentation all boundaries; RK to denote the algorithm that generates a random known segmentation; and RU to denote the algorithm that generates a random unknown segmentation.
+
+Title:W06-1320		Conference:SIGDIAL		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+2.2 C99 Algorithm The C99 algorithm (Choi, 2000) makes a linear segmentation based on a divisive clustering strategy and the cosine similarity measure between any two minimal units.
+
+Title:W06-2914		Conference:International Conference on Computational Natural Language Learning		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+Thus, although (Choi, 2000; Hearst, 1997) employ a distance function (i.e. cosine distance) to detect thematic shifts, SVMs are capable of using a larger variety of similarity functions.
+
+Title:W06-2914		Conference:International Conference on Computational Natural Language Learning		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+In this manner, (Hearst, 1997; Reynar, 1998; Choi, 2000) start by using a similarity measure between sentences or fixed-size blocks of text, based on their word frequencies in order to find changes in vocabulary use and therefore the points at which the topic changes.
+
+Title:W06-2914		Conference:International Conference on Computational Natural Language Learning		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+We compare our system against an existing thematic segmenter in the literature: C99 (Choi, 2000).
+
+Title:W06-2914		Conference:International Conference on Computational Natural Language Learning		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+The third dataset we use in this study was originally proposed in (Choi, 2000) and contains artificial thematic episodes.
+
+Title:W06-1632		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Katja Filippova (EML Research GmbH, Heidelberg Germany);Michael Strube
+Though related to the task of topic segmentation which stimulated a large number of studies (Hearst, 1997; Choi, 2000; Galley et al. , 2003, inter alia), paragraph segmentation has not been thoroughly investigated so far.
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+An 11 11 rank mask was used for the ordinal transformation, as recommended by Choi (2000).
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+4.1 Method The test materials were extracted from the 19971998 corpus following the guidelines given in Choi (2000).
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+For the present experiment, I used the most general test materials built by Choi (2000), in which the size of the segments within each sample varies randomly from 3 to 11 sentences.
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+The major distinction between these methods is in the contrast between the approaches based exclusively on the information contained in the text to be segmented, such as lexical repetition (e.g., Choi 2000; Hearst 1997; Heinonen 1998; Kehagias, Pavlina, and Petridis 2003; Utiyama and Isahara 2001), and those approaches that rest on complementary semantic knowledge extracted from dictionaries and thesauruses (e.g., Kozima 1993; Lin et al. 2004; Morris and Hirst 1991), or from collocations collected in large corpora (Bolshakov and Gelbukh 2001; Brants, Chen, and Tsochantaridis 2002; Choi et al. 2001; Ferret 2002; Kaufmann 1999; Ponte and Croft 1997).
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+The Two Versions of Chois Algorithm The segmentation algorithm proposed by Choi (2000) is made up of the three steps usually found in any segmentation procedure based on lexical cohesion.
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+3.1 Method This experiment was based on the procedure and test materials designed by Choi (2000), which was also used by several authors as a benchmark for comparing segmentation systems (Brants et al. 2002; Ferret 2002; Kehagias et al. 2003; Utiyama and Isahara 2001).
+
+Title:J06-1002		Conference:Computational Linguistics Journal		Author:Yves Bestgen (Catholic University of Louvain, Louvain-la-Neuve Belgium)
+The procedure initially proposed by Choi (2000), C99, rests exclusively on the information contained in the text to be segmented.
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+Synthetic Corpus Also as part of our analysis, we used the synthetic corpus created by Choi (2000) which is commonly used in the evaluation of segmentation algorithms.
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+Comparison with local dependency models We compare our system with the state-of-the-art similarity-based segmentation system developed by Choi (2000).
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+We follow Choi (2000) and compute the mean segment length used in determining the parameter k on each reference text separately.
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+We test the system on a range of data sets, including the Physics and AI lectures and the synthetic corpus created by Choi (2000)
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+Previous research has analyzed various facets of lexical distribution, including lexical weighting, similarity computation, and smoothing (Hearst, 1994; Utiyama and Isahara, 2001; Choi, 2000; Reynar, 1998; Kehagias et al. , 2003; Ji and Zha, 2003).
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+For example, most algorithms achieve high performance on synthetic collections, generated by concatenation of random text blocks (Choi, 2000).
+
+Title:P06-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Igor Malioutov (Massachusetts Institute of Technology, Cambridge MA);Regina Barzilay
+We use the publicly available implementation of the system and optimize the system on a range of mask-sizes and different parameter settings described in (Choi, 2000) on a heldout development set of three lectures.
+
+Title:W06-3408		Conference:Workshop On Analyzing Conversations In Text And Speech		Author:Michelle L. Gregory (Pacific Northwest National Laboratory, Richland WA);Douglas Love;Stuart Rose;Anne Schur
+Traditionally, algorithms for segmentation have relied on textual cues (Hearst, 1997; Miller et al. 1998; Beeferman et al, 1999; Choi, 2000).
+
+Title:D07-1088		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Donghui Feng (University of Southern California, Marina del Rey CA);Gully Burns;Eduard Hovy
+The Natural Language Processing (NLP) community has come up with various solutions towards topic-based text segmentation (e.g. , Hearst, 1994; Choi, 2000; Malioutov and Barzilay, 2006).
+
+Title:W07-1707		Conference:Workshop on Balto-Slavonic Natural Language Processing		Author:Dominik Flejter (Poznan University of Economics, Poznan Poland);Karol Wieloch;Witold Abramowicz
+Improved version of DotPlotting algorithm called C99 (Choi, 2000) uses DotPlotting chart for visualization of similarity measurements at consecutive point of the text (thus resulting in point with different levels of intensity) instead of words cooccurences.
+
+Title:W07-1707		Conference:Workshop on Balto-Slavonic Natural Language Processing		Author:Dominik Flejter (Poznan University of Economics, Poznan Poland);Karol Wieloch;Witold Abramowicz
+As previous research on English text segmentation (Choi, 2000) was led for the same artificial colC99 C99l ??
+
+Title:W07-1707		Conference:Workshop on Balto-Slavonic Natural Language Processing		Author:Dominik Flejter (Poznan University of Economics, Poznan Poland);Karol Wieloch;Witold Abramowicz
+For AC creation we followed precisely the method applied for English in (Choi, 2000).
+
+Title:P07-1061		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+Since the work of Choi (Choi, 2000), the evaluation framework he proposed has become a kind of standard for the evaluation of topic segmentation algorithms.
+
+Title:P07-1061		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+U00 is the system described in (Utiyama and Isahara, 2001), C99 the one proposed in (Choi, 2000) and LCseg is presented in (Galley et al. , 2003).
+
+Title:P07-1061		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Olivier Ferret (Atomic Energy Commission, Fontenay-aux-Roses France)
+Most of them only rely on surface features of documents: word reiteration in (Hearst, 1994; Choi, 2000; Utiyama and Isahara, 2001; Galley et al. , 2003) or discourse cues in (Passonneau and Litman, 1997; Galley et al. , 2003).
+
+Title:D08-1001		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Jeremy Jancsary (Austrian Research Institute for Artificial Intelligence, Vienna Austria);Johannes Matiasek (Medical University, Vienna Austria);Harald Trost
+A meanwhile classic approach towards domainindependent linear text segmentation, C99, is presented in Choi (2000).
+
+Title:I08-2133		Conference:International Joint Conference on Natural Language Processing		Author:Maria Georgescul (University of London-Royal Holloway, Egham UK);Alexander Clark (University of Geneva, Geneva Switzerland);Susan Armstrong
+The studies of (Reynar, 1994; Hearst, 1997; Choi, 2000) continued in this vein.
+
+Title:P08-2068		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Qi Sun (Peking University, Beijing China);Runxin Li;Dingsheng Luo;Xihong Wu
+With news documents from Chinese websites, collected from 10 different categories, we design an artificial test corpus in the similar way of (Choi, 2000), in which we take each n-sentence document as a coherent topic segment, randomly choose ten such segments and concatenate them as a sample.
+
+Title:P08-2068		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Qi Sun (Peking University, Beijing China);Runxin Li;Dingsheng Luo;Xihong Wu
+0.205 59.00% 62.27 % While most experiments of other authors were taken on short regular-sized segments which was firstly presented by (Choi, 2000), we use comparatively long range of segments, Set 5-20, to evaluate different algorithms.
+
+Title:C08-1103		Conference:International Conference on Computational Linguistics		Author:Veselin Stoyanov (Cornell University, Ithaca NY);Claire Cardie
+We use the freely available C99 software described in Choi (2000), varying a parameter that allows us to control the average number of sentences per segment and reporting the best result on the test data.
+
+Title:C08-1103		Conference:International Conference on Computational Linguistics		Author:Veselin Stoyanov (Cornell University, Ithaca NY);Claire Cardie
+Existing methods for topic segmentation typically assume that fragments of text (e.g. sentences or sequences of words of a fixed length) with similar lexical distribution are about the same topic; the goal of these methods is to find the boundaries where the lexical distribution changes (e.g. Choi (2000), Malioutov and Barzilay (2006)).
+
+Title:C08-1103		Conference:International Conference on Computational Linguistics		Author:Veselin Stoyanov (Cornell University, Ithaca NY);Claire Cardie
+Choi 2000 Chois (2000) state-of-the-art approach to finding segment boundaries.
+
+Title:C08-1103		Conference:International Conference on Computational Linguistics		Author:Veselin Stoyanov (Cornell University, Ithaca NY);Claire Cardie
+Nevertheless, we will compare our topic identification approach to a state-of-the-art topic segmentation algorithm (Choi, 2000) in the evaluation.
+
+Title:N10-1143		Conference:Human Language Technologies		Author:Lucien Carroll
+For example, the C99 algorithm (Choi, 2000) applies contrast enhancement and divisive clustering to a matrix of lexical vector cosine similarities.
+
+Title:N10-1143		Conference:Human Language Technologies		Author:Lucien Carroll
+(2001) on 995 the standard segmentation data set that Choi (2000) compiled.
+
+Title:N10-1143		Conference:Human Language Technologies		Author:Lucien Carroll
+3.1 Segmentation algorithms The C99 (Choi, 2000) and CWM (Choi et al., 2001) algorithms were evaluated.
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+C99 Implementation of Choi (2000) SS+C Our full Segmentation System, incorporating hard boundaries determined by modified Choi algorithm SS Our system, using RIs without hard boundaries determined by modified Choi algorithm FE Our system, using fixed extension of a term from its occurrence SN Our system, using a single node for each term occurrence (no extension) Table 1.
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+One set consists of concatenated news stories, following the approach of Choi (2000) and others since; the other consists of closed captions for twelve U.S. commercial television programs.
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+Our method attains results significantly superior to that of Choi (2000), and approaches human performance on segmentation of television closed-captions, where inter-annotator disagreement is high.
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+4 Experiments, results, and evaluation 4.1 Systems compared As noted above, we tested our system against the C99 segmentation algorithm (Choi, 2000).
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+In our experiments, we compare our method to C99 (Choi, 2000), an algorithm widely treated as a baseline.
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+In one version of our system, we set these hard boundaries using an algorithm based on Choi (2000).
+
+Title:W10-2310		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Geetu Ambwani;Anthony Davis
+Because the notion of a topic is inherently subjective, we follow many researchers who have reported results on "pseudo-documents"documents formed by concatenating several randomly selected documentsso that the boundaries of segments are known, sharp, and not dependent on annotator variability (Choi, 2000).
+
+Title:D10-1038		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Shafiq R. Joty;Giuseppe Carenini;Gabriel Murray;Raymond T. Ng
+However, Galley et al., (Galley et al., 2003) uses only repetition relation as previous research results (e.g., (Choi, 2000)) account only for repetition.
+
+Title:W11-0503		Conference:Proceedings of the Workshop on Automatic Summarization for Different Genres Media and Languages		Author:Lu Wang;Claire Cardie
+The second uses the text segmentation software of Choi (2000) to partition the decision-related DAs (ordered according to time) into several topic-based groups (CHOISEGMENT).
+
+Title:D11-1026		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Anna Kazantseva;Stan Szpakowicz
+Choi (2000) applies divisive clustering to segmentation.
+
+Title:P11-4013		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Daniel B?r;Nicolai Erbs;Torsten Zesch;Iryna Gurevych
+Wikulu currently integrates text segmentation methods such as TextTiling (Hearst, 1997) or C99 (Choi, 2000).
+
+Title:N12-1064		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Riedl;Christian Biemann
+With C99 (Choi, 2000) an algorithm was introduced that uses a matrix-based ranking and aclustering approach in order to relate the most similar textual units and to cluster groups of consecutive units into segments
+
+Title:N12-1064		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Riedl;Christian Biemann
+4.2 C99 using Topic Models For the C99 algorithm (Choi, 2000), named (C99LDA) when using topic IDs, the text is dividedinto minimal units on sentence boundaries
+
+Title:N12-1064		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Riedl;Christian Biemann
+The C99 al gorithm is initialized with a 11?11 ranking mask, asrecommended in Choi (2000)
+
+Title:N12-1064		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Riedl;Christian Biemann
+TT is configured ac cording to Choi (2000) with sequence length w=20 and block size k=6
+
+Title:N12-1064		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Martin Riedl;Christian Biemann
+For evaluation, we rely on the Choi data set (Choi,2000), which has been used in several other text seg mentation approaches to ensure comparability
+
+Title:W12-3307		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Martin Riedl;Christian Biemann
+These IDs are used to calculate the cosine similarity between two adjacent blocks of sen tences, represented as two vectors, containing thefrequency of each topic ID. Without parameter opti mization we obtain state-of-the-art results based on the Choi dataset (Choi, 2000)
+
+Title:W12-3307		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Martin Riedl;Christian Biemann
+The Choi dataset (Choi, 2000) is commonly used in the field of TS (see e.g
+
+Title:W12-3307		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Martin Riedl;Christian Biemann
+Method 3-5 6-8 9-11 3-11 TT (Choi, 2000) 44 43 48 46 C99 (Choi, 2000) 12 9 9 12 U00 (Utiyama and Isahara, 2001) 9 7 5 10 LCseg (Galley et al, 2003) 8.69 F04 (Fragkou et al, 2004) 5.5 3.0 1.3 7.0 M09 (Misra et al, 2009) 2.2 2.3 4.1 2.3 TopicTiling (d=true, w=2) 1.24 0.76 0.56 0.95Table 3: Lowest Pk values for the Choi data set for vari ous algorithms in the literature with number of segments providedIt is obvious that the results are far better than current state-of-the-art results
+
+Title:W12-3307		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Martin Riedl;Christian Biemann
+Method Pk WD C99 (Choi, 2000) 19.61 26.42 U00 (Utiyama and Isahara, 2001) 15.18 21.54 LCseg (Galley et al, 2003) 12.21 18.25 TopicTiling (d=true,w=5) 11.89 17.41 Table 6: List of results based on the WSJ dataset
+
+Title:W12-0703		Conference:Joint Workshop on Unsupervised and Semi-Supervised Learning in NLP		Author:Martin Riedl;Christian Biemann
+As dataset the Choi dataset (Choi, 2000) is used
+

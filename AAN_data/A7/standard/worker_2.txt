@@ -1,0 +1,15 @@
+We use logical inference techniques forrecognising textual entailment. 
+As theperformance of theorem proving turnsout to be highly dependent on not read-ily available background knowledge
+we incorporate model building, a techniqueborrowed from automated reasoning, and show that it is a useful robust method toapproximate entailment. 
+Finally, we usemachine learning to combine these deepsemantic analysis techniques with simpleshallow word overlap; 
+Attempts have been made to remedy this deficit through various techniques, including modelbuilding (Bos and Markert, 2005) and the addition of semantic axioms (Tatu and Moldovan, 2005).
+(Bos and Markert, 2005) represents a1 and a0 into a first-order logic translation of the DRS language used in Discourse Representation Theory (Kamp and Reyle, 1993) and uses a theorem prover and a model builder with some generic, lexical and geographical background knowledge to prove the entailment between the two texts.
+Early deep semantic models (e.g., (Norvig, 1987)) as well as more recent ones (e.g., (Tatu and Moldovan, 2005; Bos and Markert, 2005; Roth and Sammons, 2007)) rely on specific world knowledge encoded in rules for drawing decisions.
+Note that when running an example in the theorem prover, weights are not possible, so any rule that would be weighted in an MLN is simply treated as a hard clause following Bos and Markert (2005).
+They, therefore, tend to have high precision at the cost of low recall (Bos and Markert, 2005).
+For example, two high-accuracy systems are those described in (Tatu and Moldovan, 2005), achieving 60.4% accuracy with no task-specific information, and (Bos and Markert, 2005), which achieves 61.2% task-dependent accuracy, i.e. when able to use the specific task labels as input.
+The RTE problem as presented in the PASCAL RTE dataset is particularly attractive in that it is a reasonably simple task for human annotators with high inter-annotator agreement (95.1% in one independent labeling (Bos and Markert, 2005)), but an extremely challenging task for automated systems.
+Some NLP applications deal indirectly with negation, e.g., machine translation (van Munster, 1988), text classification (Rose et al., 2003) and recognizing entailments (Bos and Markert, 2005).
+We show comparable results from recent systems based on lexical similarity (Jijkoun and de Rijke, 2005), graph alignment (Haghighi et al. , 2005), weighted abduction (Raina et al. , 2005), and a mixed system including theorem proving (Bos and Markert, 2005).
+Impressive results have been achieved culminating in the state-of-the-art parser of Clark and Curran (2004) which has been used as the parser for the Pascal Rich Textual Entailment Challenge entry of Bos and Markert (2005).
+Different approaches have been developed, for example, based on logic proving (Tatu and Moldovan, 2005; Bos and Markert, 2005; Raina et al., 2005) and graph match (Haghighi et al., 2005; de Salvo Braz et al., 2005; MacCartney et al., 2006).

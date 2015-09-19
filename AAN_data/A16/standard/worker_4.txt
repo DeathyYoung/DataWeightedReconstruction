@@ -1,0 +1,15 @@
+Collins (1997) reports 88% labeled precision and recall on individual parse constituents on data from the Penn Treebank, roughly consistent with our finding of at least 13% error
+Lexicalized PCFGs use the structural features on the lexical head of phrasal node in a tree, and get significant improvements for parsing (Collins, 1997; Charniak, 1997; Collins, 1999; Charniak, 2000)
+In order to extract the linguistic features necessary for the model, all sentences were first automatically part-of-speech-tagged using a maximum entropy tagger (Ratnaparkhi, 1998) and parsed using the Collins parser (Collins, 1997)
+It also shows that DOP's frontier lexicalization is a viable alternative to constituent lexicalization (as proposed in Charniak 1997; Collins 1997, 99; Eisner 1997)
+Moreover, as P-DOP is formulated as an enrichment of the treebank Probabilistic Context-free Grammar (PCFG), it allows for much easier comparison to alternative approaches to statistical parsing (Collins, 1997; Charniak, 1997; Johnson, 1998; Klein and Manning, 2003; Petrov et al
+1 The initial development of KNEXT was based on the hand-constructed parse trees in the Penn Treebank version of the Brown corpus, but subsequently Schubert and collaborators refined and extended the system to work with parse trees obtained with statistical parsers (e
+Bilexical context-free grammars have been presented in (Eisner and Satta, 1999) as an abstraction of language models that have been adopted in several recent real-world parsers, improving state-of-the-art parsing accuracy (A1shawl, 1996; Eisner, 1996; Charniak, 1997; Collins, 1997)
+The output of a contextfree parser, such as that of Collins (1997) or Charniak (2000), can be transformed into a sequence of shallow constituents for comparison with the output of a shallow parser
+Large-Scale Induction and Evaluation of Lexical Resources the whole tree is then converted to a binary tree; heuristics are applied to deal with phenomena such as LDDs and coordination and to correct some errors in the treebank, and finally an HPSG category is assigned to each node in the tree in accordance with its CFG category
+More specically, they used a parser (Collins 1997) to determine the constituent structure of the sentences from which the grammatical function for each NP was derived
+The PCFG is a Markov grammar (Collins, 1997; Charniak, 2000), i
+1 Nave Bayes Learning Nave Bayes learning has been widely used in natural language processing with good results such as statistical syntactic parsing (Collins, 1997; Charniak, 1997), hidden language understanding (Miller et al
+For example, smoothing methods have played a central role in probabilistic approaches (Collins, 1997; Wang et al
+, 2000), who trained a Collins-style generative parser (Collins, 1997) over a syntactic structure augmented with the template entity and template relations annotations for the MUC-7 shared task
+This statistical technique of labeling predicate argument operates on the output of the probabilistic parser reported in (Collins, 1997)

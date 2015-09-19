@@ -1,0 +1,15 @@
+Unification-based grammar formalisms use structures containing sets of features to describe linguistic objects
+Although computational algorithms for unification of feature structures have been worked out in experimental research, these algorithms become quite complicated, and a more precise description of feature structures is desirable
+This semantics for feature structures extends the ideas of Pereira and Shieber [11], by providing an interpretation for values which are specified by disjunctions and path values embedded within disjunctions
+Our interpretation differs from that of Pereira and Shieber by using a logical model in place of a denotational semantics
+This logical model yields a calculus of equivalences, which can be used to simplify formulas
+In the context of computational linguistics, one commonly used [5] logic for feature trees is the propositional modal logic that, in the context of feature structures (not n ecessarily trees), is also often supplemented with path-equivalence [50], as well as regular expressions [34]
+In Section 2 we dene a formal syntax and semantics of feature terms with parametrized sorts which are a straightforward generalization of the feature logic presented in [Smo88, Smo89], which in turn is inspired by [KR86] and [Joh88]
+There have been several proposal for a formal specication of feature structures, one of the most influential being [KR86], where the semantics of feature descriptions, possibly consisting of atoms, features, conjunction, disjunction, and path equivalences is dened relative to the domain of feature structures, which are labeled graphs
+Work on overcoming this limitation is currently in progress, and builds on the well-known similarity between feature structures and automata, when viewed as directed graphs (Kasper and Rounds 1986)
+The most widely known model of feature structures and constraint language is the one developed to explain disjunctive feature values by Kasper and Rounds (1986, 1990) and Kasper (1986, 1987)
+Instead of providing entities in the interpretation that serve as the denotation for "disjunctive" or "negative" features, we follow Kasper and Rounds (1986, 1990), Moshier and Rounds (1987), and Johnson (1988, 1990) in permitting disjunction and negation only in the constraint language
+The feature description logic (FDL) of Kasper and Rounds [Kas86] provides a coherent framework to give a precise interpretation for conditional descriptions
+Disjunction has been shown to be the source of NPcompleteness for the consistency problem of feature structure descriptions [24]
+In the context of computational linguistics, one commonly used [5] logic for feature trees is the propositional modal logic that, in the context of feature structures (not n ecessarily trees), is also often supplemented with path-equivalence [50], as well as regular expressions [34]
+Feature structures are easy-to-understand forms, while logical formulas have merits such as providing a way to perform unification precisely [6]

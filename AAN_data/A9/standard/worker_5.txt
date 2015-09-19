@@ -1,0 +1,15 @@
+Our decoder is a phrase-based multi-stack imple5 mentation of the log-linear model similar to Pharaoh (Koehn et al
+Recently, Cabezas and Resnik (2005) experimented with incorporating WSD translations into Pharaoh, a state-of-the-art phrase-based MT system (Koehn et al
+4 Experiments Phrase-based SMT systems have been shown to outperform word-based approaches (Koehn et al
+Our method for identifying paraphrases is an extension of recent work in phrase-based statistical machine translation (Koehn et al
+2 From the word-to-word alignments, the system extracts a phrase table (Koehn et al
+The phrase-based decoder extracts phrases from the word alignments produced by GIZA++, and computes translation probabilities based on the frequency of one phrase being aligned with another (Koehn et al
+Each model can represent an important feature for the translation, such as phrase-based, language, or lexical models (Koehn et al
+The transcription probabilities can then be easily learnt from the alignments induced by GIZA++, using a scoring function (Koehn et al
+We propose a new phrase-based translationmodel and decoding algorithm that enablesus to evaluate and compare several, previ-ously proposed phrase-based translation mod-els
+Surpris-ingly, learning phrases longer than three wordsand learning phrases from high-accuracy word-level alignment models does not have a strongimpact on performance
+Within our framework, we carry out alarge number of experiments to understand bet-ter and explain why phrase-based models out-perform word-based models
+Our empirical re-sults, which hold for all examined languagepairs, suggest that the highest levels of perfor-mance can be obtained through relatively sim-ple means: heuristic learning of phrase trans-lations from word-based alignments and lexi-cal weighting of phrase translations
+However, reordering models in traditional phrase-based systems are not sufficient to treat such complex cases when we translate long sentences (Koehn et al, 2003)
+Such a quasi-syntactic structure can naturally capture the reordering of phrases that is not directly modeled by a conventional phrase-based approach (Koehn et al
+1 Translation model The system developed for this years shared task is a state-of-the-art, two-pass phrase-based statistical machine translation system based on a log-linear translation model (Koehn et al, 2003)

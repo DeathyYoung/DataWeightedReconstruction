@@ -1,0 +1,69 @@
+Title:A97-1011		Conference:Applied Natural Language Processing Conference		Author:Pasi Tapanainen (Helsinki University, Helsinki Finland);Timo Jarvinen
+We describe a practical parser for unre- stricted dependencies. The parser creates links between words and names the links according to their syntactic functions. We first describe the older Constraint Gram- mar parser where many of the ideas come from. Then we proceed to describe the cen- tral ideas of our new parser. Finally, the parser is evaluated.
+
+Title:P01-1040		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Nancy M. Ide (Vassar College, Poughkeepsie NY);Laurent Romary (LORIA, Vandoeuvre-les-Nancy France; CNRS, France)
+In contrast, dependency schemes (e.g. , Sleator and Temperley, 1993; Tapanainen and Jarvinen, 1997; Carroll, et al. , forthcoming) do not 3 http://www.cis.upenn.edu/treebank provide a constituency analysis4 but rather specify grammatical relations among elements explicitly; for example, the sentence Paul intends to leave IBM could be represented as shown in Figure 2, where the predicate is the relation type, the first argument is the head, the second the dependent, and additional arguments may provide category-specific information (e.g. , introducer for prepositional phrases, etc.).
+
+Title:P01-1045		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Sandra K¨¹bler (University of Tubingen, Tubingen Germany);Erhard W. Hinrichs
+The present paper offers a similarity1With the exception of dependency-grammar-based parsers (Tapanainen and Jarvinen, 1997; Broker et al. , 1994; Lesmo and Lombardo, 2000), where functional labels are treated as first-class citizens as relations between words, and recent work on a semi-automatic method for treebank construction (Brants et al. , 1997), little has been reported on based algorithm for assigning functional labels such as subject, object, head, complement, etc. to complete syntactic structures on the basis of pre-chunked input.
+
+Title:P01-1006		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Catalina Barbu (University of Wolverhampton, Wolverhampton UK);Ruslan Mitkov
+2.1 Pre-processing tools Parser The current version of the evaluation workbench employs one of the high performance super-taggers for English Conexors FDG Parser (Tapanainen and Jarvinen, 1997).
+
+Title:W02-1112		Conference:Workshop On SEMANET: Building And Using Semantic Networks		Author:Josef Meyer (Macquarie University, Sydney Australia);Robert Dale
+To identify associative constructions, we first process our texts using Conexors FDG parser (Tapanainen and Jarvinen, 1997).
+
+Title:W03-1205		Conference:Workshop On Multilingual Summarization And Question Answering		Author:Constantin Or?san (University of Wolverhampton, Wolverhampton UK)
+In order to determine the head of noun phrases we use the FDG tagger (Tapanainen and Jarvinen, 1997) which also provides partial dependency relations between the constituents of a sentence.
+
+Title:W03-1308		Conference:Workshop On Natural Language Processing In Biomedicine		Author:Koichi Takeuchi (National Institute of Informatics (NII), Tokyo Japan);Nigel Collier
+Additionally we used head-noun features that were obtained from preanalysis of the training data set using the FDG shallow parser from Conexor (Tapanainen and Jarvinen, 1997).
+
+Title:N03-3006		Conference:Human Language Technologies		Author:Gerold Schneider (University of Zurich, Zurich Switzerland; University of Geneva, Geneva Switzerland)
+(Lin, 1998), (Tapanainen and Jarvinen, 1997)) by using a statistical base, and on the other hand from state-of-the-art statistical approaches (e.g.
+
+Title:W03-2806		Conference:Proceedings of the EACL 2003 Workshop on Evaluation Initiatives in Natural Language Processing: are evaluation methods metrics and resources reusable?		Author:Diego Molla Aliod;Ben Hutchinson
+The two grammar systems to compare are Link Grammar (Sleator and Temperley, 1993) and the Conexor Functional Dependency Grammar parser (Tapanainen and Jarvinen, 1997) (henceforth referred to as Conexor FDG).
+
+Title:W03-2806		Conference:Proceedings of the EACL 2003 Workshop on Evaluation Initiatives in Natural Language Processing: are evaluation methods metrics and resources reusable?		Author:Diego Molla Aliod;Ben Hutchinson
+Conexor FDG (Tapanainen and Jarvinen, 1997) is a commercial parser and grammar, based on the theory of Functional Dependency Grammar, and was originally developed at the University of Helsinki.
+
+Title:P03-1044		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Roman Yangarber (New York University, New York NY)
+Parsing: After name classification, we apply a general English parser, from Conexor Oy, (Tapanainen and Jarvinen, 1997).
+
+Title:J03-4001		Conference:Computational Linguistics Journal		Author:Kemal Oflazer (Sabanci University, Istanbul Turkey)
+The rules for linking dependents to heads can specify constraints on the intervening material between them, so that, for instance, certain links may be prevented from crossing barriers such as punctuation or lexical items with certain parts of speech or morphological properties (Collins 1996; Giguet and Vergne 1997; Tapanainen and Jarvinen 1997).
+
+Title:J03-4001		Conference:Computational Linguistics Journal		Author:Kemal Oflazer (Sabanci University, Istanbul Turkey)
+Jarvinen and Tapanainen (1998; Tapanainen and Jarvinen 1997) have demonstrated an efficient wide-coverage dependency parser for English.
+
+Title:W04-2003		Conference:Workshop On RObust Methods In Analysis Of Natural Language Data ROMAND		Author:Gerold Schneider (University of Zurich, Zurich Switzerland);James Dowdall;Fabio Rinaldi
+phrase modpp draft of paper nounparticiple modpart report written verbcomplementizer compl to eat apples nounpreposition prep to the house Table 1: The most important dependency types used by the parser ? a104 a104 a104 a104 a104 a40 a40 a40 a40 a40 NP-SBJ-X@ noun VP@ a104 a104 a104 a40 a40 a40 V passive verb NP -NONE*-X ? a104 a104 a104 a104a104 a40 a40 a40 a40a40 NP-SBJ-X@ noun VP@ a104 a104 a104 a40 a40 a40 V control-verb S NP-SBJ -NONE*-X Figure 1: The extaction patterns for passive subjects (top) and subject control (bottom) DG (Hajic, 1998), (Tapanainen and Jarvinen, 1997).
+
+Title:W04-0207		Conference:Workshop On Discourse Annotation		Author:Hagen Langer (University of Osnabruck, Osnabruck Germany);Harald Lungen (University of Giessen, Giessen Germany);Petra Saskia Bayerl
+This tagger is a rule-based, robust syntactic parser available for several languages and based on Constraint Grammar and Functional Dependency Grammar (Tapanainen and Jarvinen, 1997).
+
+Title:W04-2709		Conference:Workshop On Frontiers In Corpus Annotation		Author:Stephen Helmreich (New Mexico State University, Las Cruces NM);David Farwell (University of Maryland, College Park MD);Bonnie Jean Dorr (Carnegie Mellon University, Pittsburgh PA);Nizar Habash (The MITRE Corporation, McLean VA);Lori S. Levin (University of Southern California, Marina del Rey CA);Teruko Mitamura (Columbia University, New York NY);Florence M. Reeder;Keith Miller;Eduard Hovy;Owen Rambow;Advaith Siddharthan
+For English texts, these trees were first provided by the Connexor parser at UMIACS (Tapanainen and Jarvinen, 1997), and then corrected by one of the team PIs
+
+Title:W04-2007		Conference:Workshop On RObust Methods In Analysis Of Natural Language Data ROMAND		Author:Nuria Gala (Institute of Information and Applied Mathematics Grenoble, Grenoble France)
+It is developped at the Xerox Research Centre Europe (XRCE) and shares the same computationnal paradigm as the PNLPL approach (Jensen, 1992) and the FDGP approach (Tapanainen and Jarvinen, 1997).
+
+Title:W06-3807		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Diego Molla Aliod (Macquarie University, Sydney Australia)
+We will base our representation on the output of Connexor (Tapanainen and Jarvinen, 1997), but the choice of parser is arbitrary.
+
+Title:W06-0202		Conference:Workshop On Information Extraction Beyond The Document		Author:Mark Stevenson (University of Sheffield, Sheffield UK);Mark A. Greenwood
+4.2 Generating Dependency Patterns Three dependency parsers were used for these experiments: MINIPAR3 (Lin, 1999), the Machinese Syntax4 parser from Connexor Oy (Tapanainen and Jarvinen, 1997) and the Stanford5 parser (Klein and Manning, 2003).
+
+Title:N06-1007		Conference:Human Language Technologies		Author:Viktor Pekar (University of Wolverhampton, Wolverhampton UK)
+We start by parsing the corpus with a dependency parser (we use Connexors FDG (Tapanainen and Jarvinen, 1997)), treating every verb with its dependent constituents as a clause.
+
+Title:W09-1118		Conference:International Conference on Computational Natural Language Learning		Author:Fredrik Olsson (Swedish Institute of Computer Science, Stockholm Sweden);Katrin Tomanek (University of Jena, Jena Germany)
+Length in characters), calculated based on linguistic pre-processing made with the English Functional Dependency Grammar (Tapanainen and Jarvinen, 1997) (e.g., Case, Part-of-speech), fetched from precompiled lists of information (e.g., Is first name?), and features based on predictions concerning the context of the token (e.g, Class of previous token).
+
+Title:J10-1003		Conference:Computational Linguistics Journal		Author:Anna Kazantseva;Stan Szpakowicz
+The anaphora resolution module only handles rst and third person singular personal pronouns (I,me,my,he,his) and singular denite noun phrases that denote animate entities (e.g., the man,butnotmen).It is implemented in Java, within the GATE framework, using the Connexor Machinese Syntax parser (Tapanainen and Jarvinen 1997).
+
+Title:D11-1002		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Li Wang;Marco Lui;Su Nam Kim;Joakim Nivre;Timothy Baldwin
+The first constraint potentially simplifies dependency parsing, and non-projective dependencies are relatively well understood in the dependency parsing community (Tapanainen and Jarvinen, 1997; McDonald et al., 2005).
+

@@ -1,0 +1,15 @@
+We investigate the verbal and nonverbal means for Based on these results, we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state
+In addition, direction-followers in that study attempted to establish eye contact with direction-givers more often at points of confusion or potential trouble (see also Nakano, Reinstein, Stocky, & Cassell, 2003)
+In addition, direction-followers in that study attempted to establish eye contact with direction-givers more often at points of confusion or potential trouble (see also Nakano, Reinstein, Stocky, & Cassell, 2003)
+[7]) reported on the use of the listener’s gaze and the lack of negative feedback to determine whether the listener has grounded [8] the speaker’s turn
+Many other experiments showed the effectiveness of utilizing facial expression, gaze and gestures for communication purposes [6]
+Experimental studies [24, 34] have indicated that simply linking remote spaces through audio-visual video links (as opposed to audio-only) does not improve collaborative performance, especially not to the levels observed in copresent collaboration [18, 26]
+The MACK system described in [5] uses a head tracker to determine a user’s gaze in a direction-giving task, whereby an animated agent monitors lack of negative feedback and positive feedback in the grounding process
+The dialogue manager merges information from the input devices with the history and the discourse model [16,17]
+To build systems which accomplish such multimodal interactions, some studies discussed computational models of multimodal interactions [3, 4]
+Nakano et al [9] found that gaze at a map and lack of negative feedback were indicative that humans considered the previous utterance grounded and only looked at the interlocutor when they required more information to ground
+Empirical studies show that the visual access to the interlocutor’s body affects the conversation in the way that non-verbal behaviors are used as communicative signals (Nakano et al
+A study by Nakano and colleagues [27] revealed that an ECA with a grounding mechanism seems to encourage more non-verbal feedback from the user than a system without any grounding mechanism
+While some systems [12, 2] have incorporated tracking of fine motion actions or visual gesture, none have included top-down dialogue context as part of the visual recognition process
+And indeed, a number of studies of face to face interaction between an user and an ECA have confirmed that this tendency exists (e
+2 Nakano and colleagues ([15]) have shown how the user’s engagement can be measured by analyzing his gaze behavior during an interaction with the MIT Information Kiosk agent MACK

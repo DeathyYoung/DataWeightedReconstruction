@@ -1,0 +1,15 @@
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data
+Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below
+While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts
+The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking
+Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions
+From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework
+It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples
+In addition to QE, search logs have also been used for other Web search tasks, such as document ranking (Joachims 2002; Agichtein et al
+Naturally, many studies have attempted to discover user preferences from click-through logs to improve the relevance of search results [12, 11, 1]
+Following the proposal in [3], we generate pairwise training instances from click-through data, and we use Ranking SVM technique [3] to train the model
+Several personalization techniques have been proposed to model users¡¯ content preferences via analysis of users¡¯ clicking and browsing behaviors [5], [9], [12], [14]
+Ranking SVM [9] is employed in our personalization approach to learn the user¡¯s preferences
+Clickthroughs from user-viewed result pages can be used as an indicator of perceived interest in relation to result snippets, and as a source of implicit relevance feedback (Joachims 2002)
+On the other hand, there are known issues with click-through data [13, 30]: it is usually noisy and rather incomplete piece of evidence about users relevance assessments
+Currently, for many of existing popular ranking algorithms, such as RankNet [5], RankSVM [11], RankBoost [8], List-Net [6], and ListMLE [23], their original loss functions are convex and bounded below

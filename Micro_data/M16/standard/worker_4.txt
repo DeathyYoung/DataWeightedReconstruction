@@ -1,0 +1,15 @@
+This paper addresses the problem of extending an adaptive information filtering system to make decisions about the novelty and redundancy of relevant documents
+It argues that relevance and redundance should each be modelled explicitly and separately
+The experimental results demonstrate that the cosine similarity metric and a redundancy measure based on a mixture of language models are both effective for identifying redundant documents
+In information retrieval, where novelty typically refers to the new information contained in the document (and is thus close to our definition of serendipity), Zhang et al
+We follow the two stage approach proposed in [39] to first use a standard information retrieval model to retrieve a set of documents by taking the seed article as a query, and then remove relatively obvious redundant articles
+in [8] combined relevance scores from a retrieval baseline with novelty scores from the mixture model at document (passage) level
+More recently, some content-based IF systems have been defined that, besides estimating the aboutness via the matching function, evaluate some additional properties of an incoming document to a user profile, such as their novelty [for example NewsJunkie from Gabrilovich et al
+Existing methods to improve diversity in ranking include maximum marginal relevance (MMR) [3], mixture models [17], subtopic diversity [16] and diversity penalty [18]
+In [21], the authors define another unified model for adjusting this prior distribution through an ¡°extended¡± shrinkage smoothing based on a new mixture model
+, document fingerprinting technique [3]) to high-level semantic similarity (novelty and redundancy detection [4])
+A mixture model [21] is based on the assumption that keywords occurred more frequently in a keyframe than in the collection should have a higher probability in the keyframe model
+Research on novelty detection at the sentence level is related to the TREC novelty track for finding relevant and novel sentences given a query and an ordered list of relevant documents [7, 8, 9, 10, 11, 12, 13, 22]
+Surprisingly, in spite of the theoretical advantage of overlap, similarity is empirically better than asymmetric methods like the overlap method, as experimental results from [6] [7] indicated
+We use MMR as our third and main baseline because MMR was reported to work well in non-redundant text summarization [24], novelty detection at document filtering [13] and subtopic retrieval [17]
+Our scheme is different form existing work [7],[8] on novelty detection in that it can perform novelty detection and handling, and it considers the incremental nature of the data

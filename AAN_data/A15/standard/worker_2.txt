@@ -1,0 +1,15 @@
+To discourage nonconstituent translation, Chiang (2005) has proposed a constituency feature to examine whether a source rule span matches the source constituent as defined by phrase structure parsing
+Chiang (2005) introduced a constituent feature to reward phrases that match a syntactic tree but did not yield significant improvement
+In addtion to the standard features used in Chiang (2005), we also used a lexicon feature indicating how many word paris in the translation found in a conventional Chinese-English lexicon
+The model of Chiang (2005) employs a synchronous context-free grammar to allow hierarchical approaches to reordering
+1 Introduction Recently Statistical Machine Translation (SMT) systems based on Synchronous Context Free Grammar (SCFG) have been extensively investigated (Chiang, 2005; Galley et al
+They use an existing parser to parse the target side of the parallel corpus in order to extract a syntactically motivated, bilingual synchronous grammar as in (Chiang, 2005)
+More recently, (Chiang, 2005) extended phrase-pairs (or blocks) to hierarchical phrase-pairs where a grammar with a single non-terminal allows the embedding of phrases-pairs, to allow for arbitrary embedding and capture global reordering though this approach still has the high overlap problem
+In hierarchical phrase-based systems (Chiang, 2005), for example, SCFG rules are automatically learned from aligned bilingual corpus, and are applied in CKY style decoding
+Thus similar to Chiang (2005), U-DOP can discover non-syntactic phrases, or simply phrases, which are typically neglected by linguistically syntax-based MT systems
+With the emergence of various structurally different SMT systems, more and more studies are focused on combining multiple SMT systems for achieving higher translation accuracy rather than using a single translation system
+1 Context Features In the hierarchical phrase-based translation method, the translation rules are extracted by abstracting some words from an initial phrase pair (Chiang, 2005)
+Chiang (2005) has recently shown significant improvements in translation accuracy, using synchronous grammars
+2 Hierarchical translation Hierarchical systems (Chiang, 2005) induce a context-free grammar with one non-terminal directly from the parallel corpus, with the advantage of not requiring any additional knowledge source or tools, such as a treebank or a parser
+Following the Data-Oriented Parsing inspired rule generalization technique proposed by Chiang (2005), one can now generalize each identified rule (initial or already partially generalized) N ??
+The most common algorithm for decoding with SCFG is currently CKY+ with cube pruning works for both hierarchical and syntactic systems, as implemented in Hiero (Chiang, 2005), Joshua (Li et al

@@ -1,0 +1,15 @@
+A method of determining the similarity of nouns on the basis of a metric derived from the distribution of subject, verb and object in a large text corpus is described
+There are many of methods used to measure the similarity between different entities, such as information content [6], Dice coefficient [2], mutual information [3], cosine coefficient [2], distance-based measurements [4], and feature contrast model [8]
+Early on in the development as an alternative models were proposed that relied on the similarity of the distribution of syntactic relations (Hindle, 1990; Pad¨® and Lapata, 2007)
+Researchers such as Hindle and Lin [20-22] exploited the distributional hypothesis to group nouns into thesaurus-like lists based on the similarity of their syntactic contexts
+In computation, semantic similarity of words could be measured in many aspects, such as the distance of two nodes in an ontology[15], or mutual information between two words[5]
+Most of them use distributional similarity (the similarity of the contexts in which words occurred) to group words and derive clusters of similar words (i
+Furthermore, we have shown that the conditional probability performs reasonably well as information measure compared to other more elaborate measures such as the ones used by (Hindle, 1990) or (Resnik, 1997)
+In the same way, Hindle (1990) examines nouns which are subjects and objects of the same verb by combining syntactic analysis and statistical measures
+There are two different method to extract thesaural relationships from corpora predicate-argument (also called head-modifier) method [6, 5, 8, 7, 13] and co-occurrence statistical method [1, 2, 12, 15]
+Hindle [14] proposed an automatic method based on the representation of terms through frequent syntactic features, and thus he determined similarity between nouns
+Hindle [7], for example, extracted verb-noun relationships of subjects/objects and their predicates from a corpus and proposed a method to calculate similarity of two words based on their mutual information
+Ontology Learning There is quite a long tradition in learning concept hierarchies by clustering approaches such as the ones presented in [21, 35, 13, 7, 3] as well as by matching lexico-syntactic patterns as described in [20, 19, 8, 36, 1, 27, 43, 11]
+Mutual information from information theory has been utilized to find the closeness between word pairs by Church and Hanks (1989) and Hindle (1990)
+Hindle¡¯s approach [7] considers lexical relationship between a verb and the head nouns of its subject and object
+, composed of syntactic expressions such as prepositional phrases following a verb or adjective modifiers

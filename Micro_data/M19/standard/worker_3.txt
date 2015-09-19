@@ -1,0 +1,15 @@
+We present a framework for statistical machine translation of natural languages based on direct maximum entropy mod- els, which contains the widely used sour- ce-channel approach as a special case
+All knowledge sources are treated as feature functions, which depend on the source language sentence, the target language sentence and possible hidden variables
+This approach allows a baseline machine translation system to be extended easily by adding new feature functions
+In order to increase the performance of the decoder we added several additional models commonly used in SMT and we combine them using a log-linear combination of probability models [7]
+In addition to the tuple n-gram translation model, our system implements seven additional features functions which are linearly combined following a discriminative modeling framework (Och and Ney 2002):
+These feature weights are tuned discriminatively on the development set to directly maximize the translation performance measured by an automatic error metric (such as BLEU [18]) using the downhill simplex method [16]
+Och used maximum entropy models to combine features into a log-linear model and improve the AT approach in [8] [9]
+Generally speaking, there are three main machine translation approaches: rule-based [1-3], statistical [4-8] and example-based [9-11]
+Och (2003) introduced minimum error rate training (MERT) as an alternative training regime to the conditional likelihood objective previously used with log-linear translation models (Och & Ney, 2002)
+We directly model the posterior probability with a loglinear model [28] and choose the translation with the highest probability according to the following decision criterion:
+Done as in [3,5] , we use a log-linear model over derivations to denote our model, instead of the traditional noisy-channel model:
+All SCFG rules are associated with a set of features that are used to compute derivation probabilities under a log-linear model [5]
+In addition, unlike normal noisy-channel models, log-linear models need make no assumptions about the independence of features, allowing the addition of an arbitrary number of possibly non-independent additional features [11]
+The MaxEnt model with moment constraints (MaxEnt-MC) [27] is a popular discriminative model that has been successfully applied to natural language processing (NLP) [28], speaker identification [29], statistical language modeling [30], text filtering [31], machine translation [32], and confidence estimation [17]
+The log-linear model [2] is widely used in SMT as the discriminative model framework

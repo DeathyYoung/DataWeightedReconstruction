@@ -1,0 +1,15 @@
+We present an effective training al-gorithm for linearly-scored dependencyparsers that implements online large-margin multi-class training (Crammer andSinger, 2003; Crammer et al, 2003) ontop of efficient parsing techniques for de-pendency trees (Eisner, 1996)
+Moreover, under this view, SMT becomes quite similar to sequential natural language annotation problems such as part-of-speech tagging and shallow parsing, and the novel training algorithm presented in this paper is actually most similar to work on training algorithms presented for these task, e
+For the dependency case, we can integrate them into the dynamic programming of a base parser; we use the discriminativelytrained MST dependency parser (McDonald et al
+In fact, some structured prediction algorithms, such as the MIRA algorithm used in dependency parsing (McDonald et al
+Different ways have been proposed to deal with non-projectivity (Nivre and Nilsson, 2005; McDonald et al
+2 System Description 241 Over the past decades, many state-of-the-art parsing algorithm were proposed, such as head-word lexicalized PCFG (Collins, 1998), Maximum Entropy (Charniak, 2000), Maximum/Minimum spanning tree (MST) (McDonald et al
+Parsing is performed using the usual pipeline approach, first with the TreeTagger analyzer (Schmid, 1994) and then with a state-of-the-art dependency parser (McDonald et al
+The system uses as input the paired corpus, the corresponding POS tagged corpus, the paired corpus parsed using the Charniak parser (Charniak, 2000), and dependency parses from the MST parser (McDonald et al
+Thus, transition-based parsers normally run in linear or quadratic time, using greedy deterministic search or fixed-width beam search (Nivre et al
+Alternatively, discriminative parsing is tractable with exact and efficient search based on dynamic programming (DP) if all features are restricted to be local, that is, only looking at a local window within the factored search space (Taskar et al
+6 Discussion The well-formed dependency structures defined here are similar to the data structures in previous work on mono-lingual parsing (Eisner and Satta, 1999; McDonald et al
+Supported by the Lynn and William Frankel Center for Computer Sciences, Ben Gurion University Current dependency parsers can be categorized into three families: local-and-greedy transitionbased parsers (e
+This is also true for reranking and discriminative training, where the k-best list of candidates serves as an approximation of the full set (Collins, 2000; Och, 2003; McDonald et al
+We will show in the next section that our augmentedloss method is general and can be applied to any dependency parsing framework that can be trained by the perceptron algorithm, such as transition-based parsers (Nivre, 2008; Zhang and Clark, 2008) and graph-based parsers (McDonald et al
+1 Introduction Minimum error rate training (MERT)also known as direct loss minimization in machine learningis a crucial component in many complex natural language applications such as speech recognition (Chou et al

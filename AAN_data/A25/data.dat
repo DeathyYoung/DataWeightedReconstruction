@@ -1,0 +1,150 @@
+Title:C00-1007		Conference:International Conference on Computational Linguistics		Author:Srinivas Bangalore (AT&T Labs-Research, Florham Park NJ);Owen Rambow
+Previous stochastic approaches to generation do not include a tree-based representation of syntax. While this may be adequate or even advantageous for some applications, other ap- plications profit from using as much syntactic knowledge as is available, leaving to a stochas- tic model only those issues that are not deter- mined by the grammar.We present initial re- suits showing that a tree-based model derived from a tree-annotated corpus improves on a tree model derived from an unannotated corpus, and that a tree-based stochastic model with a hand- crafted grammar outpertbrms both.
+
+Title:W01-0812		Conference:Workshop On Natural Language Generation EWNLG		Author:Kevin Humphreys (Microsoft Research, Redmond WA);Mike Calcagno;David Weise
+Bangalore & Rambow (2000) propose some interesting initial metrics, but we have not yet attempted any comparative experiments.
+
+Title:W01-0812		Conference:Workshop On Natural Language Generation EWNLG		Author:Kevin Humphreys (Microsoft Research, Redmond WA);Mike Calcagno;David Weise
+This contrasts with the exhaustive searches through the grammars in Nitrogen (Langkilde & Knight, 1998) and Fergus (Bangalore & Rambow, 2000), where the generation algorithm operates independently of the statistical resources.
+
+Title:W01-0812		Conference:Workshop On Natural Language Generation EWNLG		Author:Kevin Humphreys (Microsoft Research, Redmond WA);Mike Calcagno;David Weise
+1 Introduction To date, only limited use of statistically-derived resources has been made for realization in natural language generation, notably Knight & Hatzivassiloglou (1995), Langkilde & Knight (1998) and Bangalore & Rambow (2000).
+
+Title:P01-1023		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Pablo Ariel Duboue (Columbia University, New York NY);Kathleen R. McKeown
+Other stochastic approaches to NLG normally focus on the problem of sentence generation, including syntactic and lexical realization (e.g. , (Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Knight and Hatzivassiloglou, 1995)).
+
+Title:W01-0815		Conference:Workshop On Natural Language Generation EWNLG		Author:Anthony Hartley (University of Brighton, Brighton UK);Donia R. Scott
+To measure the correspondence between the actual models and the desired/target models, we adopted the Generation String Accuracy (GSA) metric (Bangalore, Rambow and Whittaker, 2000; Bangalore and Rambow, 2000) used in evaluating the output of a NLG system.
+
+Title:W01-0813		Conference:Workshop On Natural Language Generation EWNLG		Author:Min-Yen Kan (Columbia University, New York NY);Kathleen R. McKeown;Judith L. Klavans
+We are also exploring the use of stochastic corpus modeling (Langkilde, 2000; Bangalore and Rambow, 2000) to replace our template-based realizer with a probabilistic one that can produce felicitous sentence patterns based on contextual analysis.
+
+Title:C02-1138		Conference:International Conference on Computational Linguistics		Author:John Chen (Columbia University, New York NY);Srinivas Bangalore (AT&T Labs-Research, Florham Park NJ);Owen Rambow;Marilyn A. Walker
+The sentence planning stage is embodied by the SPoT sentence planner (Walker et al. , 2001), while the surface realization stage is embodied by the FERGUS surface realizer (Bangalore and Rambow, 2000).
+
+Title:C02-1138		Conference:International Conference on Computational Linguistics		Author:John Chen (Columbia University, New York NY);Srinivas Bangalore (AT&T Labs-Research, Florham Park NJ);Owen Rambow;Marilyn A. Walker
+We extend the work of (Walker et al. , 2001) and (Bangalore and Rambow, 2000) in various ways.
+
+Title:C02-1138		Conference:International Conference on Computational Linguistics		Author:John Chen (Columbia University, New York NY);Srinivas Bangalore (AT&T Labs-Research, Florham Park NJ);Owen Rambow;Marilyn A. Walker
+Stochastic methods for NLG may provide such automaticity, but most previous work (Knight and Hatzivassiloglou, 1995), (Langkilde and Knight, 1998), (Oh and Rudnicky, 2000), (Uchimoto et al. , 2000), (Bangalore and Rambow, 2000) concentrate on the speci cs of individual stochastic methods, ignoring other issues such as integrability, portability, and e ciency
+
+Title:C02-1064		Conference:International Conference on Computational Linguistics		Author:Kiyotaka Uchimoto (New York University, New York NY);Satoshi Sekine (Communications Research Laboratory, Kyoto Japan);Hitoshi Isahara
+Bangalore and Rambow proposed a method to generate candidate-text sentences in the form of trees (Bangalore and Rambow, 2000).
+
+Title:P02-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Michael Gamon (Microsoft Research, Redmond WA);Eric K. Ringger;Simon H. Corston-Oliver;Robert C. Moore
+FERGUS (Bangalore and Rambow, 2000), on the other hand, employs a model of syntactic structure during sentence realization.
+
+Title:W02-1022		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Regina Barzilay (Columbia University, New York NY);Lillian Lee (Cornell University, Ithaca NY)
+Other work focuses on surface realization | choosing among difierent lexical and syntactic options supplied by the lexical chooser and sentence planner | rather than on creating the mapping dictionary; although such work also uses lattices as input to the stochastic realizer, the lattices themselves are constructed by traditional knowledge-based means (Langkilde and Knight, 1998; Bangalore and Rambow, 2000).
+
+Title:N03-1013		Conference:Human Language Technologies		Author:Nizar Habash (University of Maryland, College Park MD);Bonnie Jean Dorr
+WordNet has been used by many researchers for different purposes ranging from the construction or extension of knowledge bases such as SENSUS (Knight and Luk, 1994) or the Lexical Conceptual Structure Verb Database (LVD) (Green et al. , 2001) to the faking of meaning ambiguity as part of system evaluation (Bangalore and Rambow, 2000).
+
+Title:W04-2311		Conference:SIGDIAL		Author:Cassandre Creswell (University of Toronto, Toronto ON);Elsi Kaiser (University of Rochester, Rochester NY)
+(Bangalore and Rambow, 2000).
+
+Title:W04-2311		Conference:SIGDIAL		Author:Cassandre Creswell (University of Toronto, Toronto ON);Elsi Kaiser (University of Rochester, Rochester NY)
+In other words, in generating a form f to express an input, one wants to maximize the probability of the form, P(f), with respect to some gold-standard corpus, and thus express the input in a way that resembles the realizations in the corpus most closely (Bangalore and Rambow, 2000).
+
+Title:W04-2311		Conference:SIGDIAL		Author:Cassandre Creswell (University of Toronto, Toronto ON);Elsi Kaiser (University of Rochester, Rochester NY)
+2 Statistical NLG: a brief summary In recent years, a new approach to NLG has emerged, which hopes to build on the success of the use of probabilistic models in natural language understanding (Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Ratnaparkhi, 2000).
+
+Title:W04-2302		Conference:SIGDIAL		Author:Nathanael Chambers (Florida Institute for Human and Machine Cognition, Pensacola FL);James F. Allen
+Most recently, Chen et al. utilized FERGUS (Bangalore and Rambow, 2000) and attempted to make it more domain independent in (Chen et al. , 2002).
+
+Title:C04-1097		Conference:International Conference on Computational Linguistics		Author:Eric K. Ringger (Butler Hill Group, Bloomington IN);Michael Gamon (Microsoft Research, Redmond WA);Robert C. Moore;David Rojas;Martine Smets;Simon H. Corston-Oliver
+Divide by the total number of daughters: () /D m daughters C= This metric is like the Generation Tree Accuracy metric of Bangalore & Rambow (2000), except that there is no need to consider cross-constituent moves.
+
+Title:C04-1097		Conference:International Conference on Computational Linguistics		Author:Eric K. Ringger (Butler Hill Group, Bloomington IN);Michael Gamon (Microsoft Research, Redmond WA);Robert C. Moore;David Rojas;Martine Smets;Simon H. Corston-Oliver
+The Fergus system (Bangalore and Rambow, 2000) employs a statistical tree model to select probable trees and a word n-gram model to rank the string candidates generated from the best trees.
+
+Title:W04-2208		Conference:Workshop On Multilingual Linguistic Resources		Author:Kiyotaka Uchimoto (New York University, New York NY);Yujie Zhang (National Institute of Information and Communications Technology, Kyoto Japan);Kiyoshi Sudo;Masaki Murata;Satoshi Sekine;Hitoshi Isahara
+However, we can automatically estimate English word order by using a language model or an English surface sentence generator such as FERGUS (Bangalore and Rambow, 2000).
+
+Title:N04-1014		Conference:Human Language Technologies		Author:Jonathan Graehl (University of Southern California, Marina del Rey CA);Kevin Knight
+summarization (Knight and Marcu, 2002), paraphrasing (Pang, Knight, and Marcu, 2003), natural language generation (Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Corston-Oliver et al. , 2002), and language modeling (Baker, 1979; Lari and Young, 1990; Collins, 1997; Chelba and Jelinek, 2000; Charniak, 2001; Klein and Manning, 2003).
+
+Title:W05-1510		Conference:Workshop On Parsing Technology		Author:Hiroko Nakanishi (University of Tokyo, Tokyo Japan);Yusuke Miyao (CREST Japan Science and Technology Corporation, Saitama Japan);Jun'ichi Tsujii (University of Tokyo, Tokyo Japan; University of Manchester, Manchester UK)
+The Fergus system (Bangalore and Rambow, 2000) uses LTAG (Lexicalized Tree Adjoining Grammar (Schabes et al. , 1988)) for generating a word lattice containing realizations and selects the best one using a trigram model.
+
+Title:W05-1619		Conference:ENLG		Author:Charles B. Callaway (University of Edinburgh, Edinburgh UK)
+However, corpus-based components, and in particular statistical surface realizers [Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Ratnaparkhi, 2000; LangkildeGeary, 2002] have focused attention on a number of problems facing symbolic NLG systems that until now have been generally considered future work: large-scale, data-robust and languageand domain-independent generation.
+
+Title:W05-1601		Conference:ENLG		Author:Anja Belz (University of Brighton, Brighton UK)
+Some statistical NLG research has looked at subproblems of language generation, such as ordering of NP premodifiers [Shaw and Hatzivassiloglou, 1999; Malouf, 2000], attribute selection in content planning [Oh and Rudnicky, 2000], NP type determination [Poesio et al. , 1999], pronominalisation [Strube and Wolters, 2000], and lexical choice [Bangalore and Rambow, 2000a].
+
+Title:I05-5012		Conference:Proceedings of the Third International Workshop on Paraphrasing (IWP2005)		Author:Stephen Wan (Macquarie University, Sydney Australia; CSIRO, Sydney Australia);Mark Dras (Macquarie University, Sydney Australia);Robert Dale;C¨¦cile L. Paris
+4 Related Work In recent years, there has been a steady stream of research in statistical text generation (see Langkilde and Knight (1998), and Bangalore and Rambow (2000)).
+
+Title:W05-1612		Conference:ENLG		Author:Erwin Marsi (Tilburg University, Tilburg The Netherlands);Emiel Krahmer
+One possible direction here is to exploit the relatively rich linguistic representation of the input sentences (POS tags, lemmas and dependency structures), for instance, along the lines of [Bangalore and Rambow, 2000].
+
+Title:J05-3002		Conference:Computational Linguistics Journal		Author:Regina Barzilay (Massachusetts Institute of Technology, Cambridge MA);Kathleen R. McKeown (Columbia University, New York NY)
+Our linearizer lacks the completeness of existing application-independent linearizers, such as the unificationbased FUF/SURGE (Elhadad and Robin 1996) and the probabilistic Fergus (Bangalore and Rambow 2000).
+
+Title:P06-1130		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Aoife Cahill (Dublin City University, Dublin Ireland);Josef van Genabith (Dublin City University, Dublin Ireland; IBM Dublin Center for Advanced Studies, Dublin Ireland)
+Bangalore and Rambow (2000) use n-gram word sequence statistics in a TAG-based generation model to rank output strings and additional statistical and symbolic resources at intermediate generation stages.
+
+Title:W06-1403		Conference:International Conference on Natural Language Generation		Author:Michael White (Ohio State University, Columbus OH)
+Prominent examples of surface realizers in the generate-and-select paradigm include Nitrogen/Halogen (Langkilde, 2000; Langkilde-Geary, 2002) and Fergus (Bangalore and Rambow, 2000).
+
+Title:W07-0408		Conference:Workshop on Syntax Semantics and Structure in Statistical Translation		Author:Keith Hall (Johns Hopkins University, Baltimore MD);Petr Nemec (Charles University, Prague Czech Republic)
+Both the model of Amalgam and that presented here differ considerably from the n-gram models of Langkilde and Knight (1998), the TAG models of Bangalore and Rambow (2000), and the stochastic generation from semantic representation approach of Soricut and Marcu (2006).
+
+Title:D07-1028		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Deirdre Hogan (Dublin City University, Dublin Ireland);Conor Cafferkey;Aoife Cahill;Josef van Genabith
+These rules can be handcrafted grammar rules, such as those of (LangkildeGeary, 2002; Carroll and Oepen, 2005), created semi-automatically (Belz, 2007) or, alternatively, extracted fully automatically from treebanks (Bangalore and Rambow, 2000; Nakanishi et al. , 2005; Cahill and van Genabith, 2006).
+
+Title:D07-1028		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Deirdre Hogan (Dublin City University, Dublin Ireland);Conor Cafferkey;Aoife Cahill;Josef van Genabith
+Insofar as it is a broad coverage generator, which has been trained and tested on sections of the WSJ corpus, our generator is closer to the generators of (Bangalore and Rambow, 2000; Langkilde-Geary, 2002; Nakanishi et al. , 2005) than to those designed for more restricted domains such as weather forecast (Belz, 2007) and air travel domains (Ratnaparkhi, 2000).
+
+Title:P08-1022		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Dominic Espinosa (Ohio State University, Columbus OH);Michael White;Dennis Mehay
+6 Conclusion We have introduced a novel type of supertagger, which we have dubbed a hypertagger, that assigns CCG category labels to elementary predications in a structured semantic representation with high accuracy at several levels of tagging ambiguity in a fashion reminiscent of (Bangalore and Rambow, 2000).
+
+Title:C08-1038		Conference:International Conference on Computational Linguistics		Author:Yuqing Guo (Dublin City University, Dublin Ireland);Josef van Genabith (Toshiba (China) Research and Development Center, Beijing China);Haifeng Wang
+By and large, two statistical models are used in the rankers to choose output strings: N-gram language models over different units, such as word-level bigram/trigram models (Bangalore and Rambow, 2000; Langkilde, 2000), or factored language models integrated with syntactic tags (White et al., 2007).
+
+Title:J08-3004		Conference:Computational Linguistics Journal		Author:Jonathan Graehl (University of Southern California, Marina del Rey CA);Kevin Knight;Jonathan May
+Recently, specic probabilistic tree-based models have been proposed not only for machine translation (Wu 1997; Alshawi, Bangalore, and Douglas 2000; Yamada and Knight 2001; Eisner 2003; Gildea 2003), but also for summarization (Knight and Marcu 2002), paraphrasing (Pang, Knight, and Marcu 2003), natural language generation (Langkilde and Knight 1998; Bangalore and Rambow 2000; Corston-Oliver et al. 2002), parsing, and language modeling (Baker 1979; Lari and Young 1990; Collins 1997; Chelba and Jelinek 2000; Charniak 2001; Klein Information Sciences Institute, 4676 Admiralty Way, Marina del Rey, CA 90292.
+
+Title:P08-1020		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Fran?ois Mairesse (Cambridge University, Cambridge UK);Marilyn A. Walker (University of Sheffield, Sheffield UK)
+One line of work has primarily focused on grammaticality and naturalness, scoring the overgeneration phase with a SLM, and evaluating against a gold-standard corpus, using string or tree-match metrics (Langkilde-Geary, 2002; Bangalore and Rambow, 2000; Chambers and Allen, 2004; Belz, 2005; Isard et al., 2006).
+
+Title:W08-1133		Conference:International Conference on Natural Language Generation		Author:Giuseppe Di Fabbrizio;Amanda J. Stent;Srinivas Bangalore
+There are several approaches to surface realization described in the literature (Reiter and Dale, 2000) ranging from hand-crafted template-based realizers to data-driven syntax-based realizers (Langkilde and Knight, 2000; Bangalore and Rambow, 2000).
+
+Title:W08-1112		Conference:International Conference on Natural Language Generation		Author:Yuqing Guo;Haifeng Wang;Josef van Genabith
+FERGUS (Bangalore and Rambow, 2000) took dependency structures as inputs, and produced XTAG derivations by a stochastic tree model automatically acquired from an annotated corpus.
+
+Title:P09-1091		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Wei He (Harbin Institute of Technology, Harbin China);Haifeng Wang (Toshiba (China) Research and Development Center, Beijing China);Yuqing Guo;Ting Liu
+One is n-gram model over different units, such as word-level bigram/trigram models (Bangalore and Rambow, 2000; Langkilde, 2000), or factored language models integrated with syntactic tags (White et al. 2007).
+
+Title:N09-3004		Conference:HLT-NAACL Companion Volume: Student Research Workshop and Doctoral Consortium		Author:Karthik Gali (International Institute of Information Technology, Hyderabad India);Sriram Venkatapathy
+There has been burgeoning interest in the probabilistic models for sentence realisation, especially for realisation ranking in a two stage sentence realisation architecture where in the first stage a set of sentence realisations are generated and then a realisation ranker will choose the best of them (Bangalore and Rambow, 2000).
+
+Title:N09-3004		Conference:HLT-NAACL Companion Volume: Student Research Workshop and Doctoral Consortium		Author:Karthik Gali (International Institute of Information Technology, Hyderabad India);Sriram Venkatapathy
+These concepts are then realized into words resulting in a bag of words with syntactic relations (Bangalore and Rambow, 2000).
+
+Title:E09-1097		Conference:Annual Meeting of The European Chapter of The Association of Computational Linguistics		Author:Stephen Wan (Macquarie University, Sydney Australia; CSIRO, Sydney Australia);Mark Dras (Macquarie University, Sydney Australia);Robert Dale (CSIRO, Sydney Australia);C¨¦cile L. Paris
+6 Related Work 6.1 Statistical Surface Realisers The work in this paper is similar to research in statistical surface realisation (for example, Langkilde and Knight (1998); Bangalore and Rambow (2000); Filippova and Strube (2008)).
+
+Title:E09-1017		Conference:Annual Meeting of The European Chapter of The Association of Computational Linguistics		Author:Jieun Chae (University of Pennsylvania, Philadelphia PA);Ani Nenkova
+This is a core problem for surface realization in natural language generation (Langkilde and Knight, 1998; Bangalore and Rambow, 2000), as well as an important step in machine translation.
+
+Title:C10-2119		Conference:International Conference on Computational Linguistics		Author:Rajakrishnan Rajkumar;Michael White
+1 Introduction In recent years a variety of statistical models for realization ranking that take syntax into account have been proposed, including generative models (Bangalore and Rambow, 2000; Cahill and van Genabith, 2006; Hogan et al., 2007; Guo et al., 2008), maximum entropy models (Velldal and Oepen, 2005; Nakanishi et al., 2005) and averaged perceptron models (White and Rajkumar, 2009).
+
+Title:P10-1157		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Fran?ois Mairesse;Milica Ga?i?;Filip Jur?¨ª?ek;Simon Keizer;Blaise Thomson;Kai Yu;Steve Young
+While their HALOGEN system uses an n-gram language model trained on news articles, other systems have used hierarchical syntactic models (Bangalore and Rambow, 2000), models trained on user ratings of This research was partly funded by the UK EPSRC under grant agreement EP/F013930/1 and funded by the EU FP7 Programme under grant agreement 216594 (CLASSiC project: www.classic-project.org).
+
+Title:C10-1012		Conference:International Conference on Computational Linguistics		Author:Bernd Bohnet;Leo Wanner;Simon Mill;Alicia Burga
+As a consequence, available stochastic sentence generators either take syntactic structures as input (and avoid thus the need for multiple-level annotation) (Bangalore and Rambow, 2000; Langkilde-Geary, 2002; Filippova and Strube, 2008), or draw upon hybrid models that imply a symbolic submodule which derives the syntactic representation that is then used by the stochastic submodule (Knight and Hatzivassiloglou, 1995; Langkilde and Knight, 1998).
+
+Title:C10-1012		Conference:International Conference on Computational Linguistics		Author:Bernd Bohnet;Leo Wanner;Simon Mill;Alicia Burga
+1 Introduction Recent years saw a significant increase of interest in corpus-based natural language generation (NLG), and, in particular, in corpus-based (or stochastic) sentence realization, i.e., that part of NLG which deals with mapping of a formal (more or less abstract) sentence plan onto a chain of inflected words; cf., among others, (Langkilde and Knight, 1998; Oh and Rudnicky, 2000; Bangalore and Rambow, 2000; Wan et al., 2009).
+
+Title:P11-2115		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Nina Dethlefs;Heriberto Cuay¨¢huitl
+1 Introduction Surface realisation decisions in a Natural Language Generation (NLG) system are often made according to a language model of the domain (Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Oh and Rudnicky, 2000; White, 2004; Belz, 2008).
+
+Title:W11-2011		Conference:SIGDIAL		Author:Nina Dethlefs;Heriberto Cuay¨¢huitl;Jette Viethen
+More generally, the NLG problem of non-deterministic decision making has been addressed from many different angles, including PENMAN-style choosers (Mann and Matthiessen, 1983), corpus-based statistical knowledge (Langkilde and Knight, 1998), tree-based stochastic models (Bangalore and Rambow, 2000), maximum entropybased ranking (Ratnaparkhi, 2000), combinatorial pattern discovery (Duboue and McKeown, 2001), instance-based ranking (Varges, 2003), chart generation (White, 2004), planning (Koller and Stone, 2007), or probabilistic generation spaces (Belz, 2008) to name just a few.
+

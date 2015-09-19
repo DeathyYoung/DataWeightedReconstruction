@@ -1,0 +1,15 @@
+We present a method to construct real-time systems using as components anytime algo- rithms whose quality of results degrades grace­ fully as computation time decreases
+Introduc­ ing computation time as a degree of freedom defines a scheduling problem involving the ac­ tivation and interruption of the anytime com­ ponents
+This scheduling problem is especially complicated when trying to construct inter- ruptible algorithms, whose total run-time is un­ known in advance
+For performance requirements, Russell and Zilberstein [16] approach composability by using socalled anytime algorithms that are characterized by a probabilistic description of the quality of results as a function of time
+The only disadvantage of CCEL is the training speed: the solution of a middlesize problem takes a few minutes on usual PC
+The first step will create the interruptible algorithm, allowing the solution at the most recently completed depth to be returned on interruption, and the second step is equivalent to the ideal scenario of exponentially increasing the contract algorithm’s time allocation (see (Russell & Zilberstein 1991) for a similar example using the RTA⁄ algorithm)
+Russell and Zilberstein (Russell & Zilberstein 1991) showed that iterative doubling of contract lengths gives rise to an interruptible algorithm of acceleration ratio at most four
+Anytime Property: Any-time contract algorithms are planning methods that can solve planning tasks for any given bound on their planning time, and their solution quality increases with the available planning time (Russell and Zilberstein 1991)
+In those appIications where it is necessary to use an interruptible algorithm, the contract algorithm can be transformed into an interruptible one using a construction method presented in (Russell and Zilberstein, 1991)
+Procedures which show the desired monotonic growth of output quality have been termed anytime modules (Boddy and Dean [1], [2], Russel and Zilberstein [8])
+In [20] we make an important distinction between two types of anytime algorithms, namely interruptible and contract algorithms
+According to (Russell & Zilberstein 1991), the optimal time allocation for each subsequent call is an exponential increase, in the sequence: t, 2t, 4t,
+Early representations of performance profiles included a mapping from time allocation to expected output quality [1, 5]
+Anytime algorithms[23] differs from design-to-time scheduling [27] in the assumption that all methods are anytime algorithms with well behaved performance profiles and in the limitation of interactions to those possible through the direct sharing of inputs/outputs
+Many real-time search methods have the following advantageous properties: First, they allow for fine-grained control over how much planning to do between plan executions and thus are any-time contract methods (Russell and Zilberstein 1991)

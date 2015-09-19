@@ -1,0 +1,15 @@
+This paper describes a new statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+Standard bigram probability estimation techniques are extended to calculate probabilities of dependencies between pairs of words
+With a beam search strategy parsing speed can be improved to over 200 sentences a minute with negligible loss in accuracy
+During the last few years, we can observe a shift towards using more and larger corpus fragments with fewer restrictions in parsing models: while the models of [35] and [46] still restricted the fragments to the locality of head-words, later models showed the importance of including context from higher nodes in the tree [29, 60]
+Different from [15], instead of just using commas as baseNP delimiters, we consider whether there is an intra-sentence punctuation between the words by introducing the variable ( when there is an intra-sentence punctuation mark between and , and otherwise)
+Nodes of the parse tree show how the sentence is composed of phrases; in each node, its phrase tag determines the type of the phrase – S for sentence, VP for verb phrase, NP (or NPB) for (basic) noun phrase
+(1) The method where the dependency is generated based on the dependency constraint [7, 21] (2) The head information is attached to the grammatical rule, and the parse tree is converted to the dependency structure based on that information [4, 5, 9]
+Since the parser is trained on Penn Treebank constituent trees, and outputs the same style of s yntactic representation, it is then necessary to convert the output of the parser into the depe ndency format used for representing syntactic structures in the CHILDES annotation sche me
+The straight-forward way of training the Structured Language Model is to initialize the statistics from reliable parses taken either from an appropriate treebank [3], or from a corpus parsed by some automatic parser [8-10]
+In this situation, the induction of probabilistic context free grammars (PCFG) derived from the annotated corpora has become a new objective and many researchers have quickly developed improved performance (Ratnaparkhi 1994, Collins 1996)
+Collins (Collins, 1996) used dependencies as the backbone for his probabilistic parser and there has been work on learning both probabilistic (Carroll, 1992; Lee, 1999; Paskin, 2001) and transformation based dependency grammars (Hajic, 1997)
+The use of statistical language models in computational linguistics has proved to be extremely successful in developing broad-coverage models, which can accurately estimate the most likely parse (Collins, 1996;
+Collins (1996, 1997) uses chart-parsing techniques with head word bigram statistics derived from a treebank
+The biggest recent developments have been due to the augmentation of the rules with corpus-derived probabilities for when they should be applied (Charniak, 1997; Collins, 1996, 1998, for example)
+Despite the advanced work on improved probabilistic models that are capable of achieving good accuracy of disambiguation, some work has given little attention to the correctness of the devised models

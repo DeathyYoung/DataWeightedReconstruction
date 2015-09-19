@@ -1,0 +1,15 @@
+The categories are learned in a semi-supervised way based on syntactic and semantic functions, such as suggestion dents papers using topic signature (Lin and Hovy, 2000) software kindly provided by Annie Louis
+Lin and Hovy (2000) describe a Topic Signature as a list of words highly correlated with a target concept, and use a 2 estimator over labeled data to decide as to the allocation of a word to a topic
+2 Automatically retrieved Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000)
+Using these sets we obtained a set of Topic Signatures (TS) (Lin and Hovy, 2000) for the Spanish geography domain and another set of TS for the non-Spanish geography domain
+In order to generate QUABs automatically, documents identified from FERRETs automatic Q/A system are first submitted to a Topic Representation module, which computes both topic signatures (Lin and Hovy, 2000) and enhanced topic signatures (Harabagiu, 2004) in order to identify a set of topic-relevant passages
+1 Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000)
+1 Sense Representation For clustering purposes, word senses are represented as topic signatures (Lin and Hovy, 2000)
+While there is shortage of some document types needed, there are nevertheless quite a few sources one may consider to begin with: Wikipedia, domain taxonomies, topic signatures, (Lin and Hovy, 2000), a database like (http://openrdf
+Topic sensitivity Weights are important, but they tend to change dynamically with time and the topic
+Log-likelihood ratio for words in the input Number of topic signature words (Lin and Hovy, 2000; Conroy et al
+2 NP-rewrite enhanced frequency summarizer Frequency and frequency-related measures of importance have been traditionally used in text summarization as indicators of importance (Luhn, 1958; Lin and Hovy, 2000; Conroy et al
+Lin and Hovy (2000) identified signature terms that were strongly associated with documents based on statistics measures
+More advanced methods for query expansion use topic signatures words and grammatically related pairs of words that model the query and even the expected answer from sets of documents marked as relevant or not (Lin & Hovy, 2000; Harabagiu, 2004)
+Vectors contain only topic signatures from the input and all words of the summary Topic signatures are words highly descriptive of the input, as determined by the application of loglikelihood test (Lin and Hovy, 2000)
+We describe in this t)at)er a method for au- tomatically training tel)it, signatures--sets of related words, with associated weights, organized around head topics and illustrate with signatm'es we cre- ;tt

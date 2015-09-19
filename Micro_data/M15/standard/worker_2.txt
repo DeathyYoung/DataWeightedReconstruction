@@ -1,0 +1,15 @@
+This paper describes a question answering system that is designed to capitalize on the tremendous amount of data that is now available online
+Experimental results show that question answering accuracy can be greatly improved by analyzing more and more matching passages
+Simple passage ranking and n-gram extraction techniques work well in our system making it efficient to use with many backend retrieval engines
+MULDER [18] and AskMSR [7, 13] use the Web to answer questions, exploiting the fact that most important facts are stated multiple times in different ways, which licenses the use of simple syntactic processing
+[1] is the best candidate for comparison since they methodologically tested their system (AskMSR) on TREC questions and achieved much better performance than the other prior studies in similar settings
+(2002) propose a method based on answer redundancy for answer selection in QA system, and their experimental results show that the method is quite effective [4]
+We did not involve any manually crafted semantic filters reported in prior studies [2] such as those dealing with numbers, proper names, and monetary values
+It has been discovered that the correct answer to a question usually occurs more often than the incorrect ones on the search results of that question [4]
+al [8] presented another open-domain Web QA system that applies simple combinatorial permutations of words (so called ¡°re-writes¡±) to the snippets returned by Google and a set of 15 handcrafted semantic filters to achieve a striking accuracy: Mean Reciprocal Rank (MRR) of 0
+[8] by automated identification and training of patterns, triangulation and using trainable semantic filters instead of manually created ones
+Even a large test collection such as the Text Retrieval Conference (TREC) Question-Answering collection (1 million documents) does not allow for correct testing of phrase based methods [10]
+The advantage of triangulation over simple frequency counting [2] is even stronger for less ¡°factual¡± questions, those that may allow variation in the correct answers
+In such cases, using multiple documents for prediction would generate a better answer than using only one document for question answering systems [1, 2, 5, 16]
+This extraction and ranking of answer candidates is traditionally based on [6,7,8] frequency counting, pattern matching and detecting different orderings of query words, called paraphrases
+Most of the QA systems provide a list of candidate answers ranked in order of their probability [1]

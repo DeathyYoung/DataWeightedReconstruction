@@ -1,0 +1,15 @@
+We describe a practical parser for unre- stricted dependencies. 
+The parser creates links between words and names the links according to their syntactic functions. 
+We first describe the older Constraint Gram- mar parser where many of the ideas come from. 
+Then we proceed to describe the cen- tral ideas of our new parser. 
+Finally, the parser is evaluated.
+2.1 Pre-processing tools Parser The current version of the evaluation workbench employs one of the high performance super-taggers for English Conexors FDG Parser (Tapanainen and Jarvinen, 1997).
+In order to determine the head of noun phrases we use the FDG tagger (Tapanainen and Jarvinen, 1997) which also provides partial dependency relations between the constituents of a sentence.
+The rules for linking dependents to heads can specify constraints on the intervening material between them, so that, for instance, certain links may be prevented from crossing barriers such as punctuation or lexical items with certain parts of speech or morphological properties (Collins 1996; Giguet and Vergne 1997; Tapanainen and Jarvinen 1997).
+This tagger is a rule-based, robust syntactic parser available for several languages and based on Constraint Grammar and Functional Dependency Grammar (Tapanainen and Jarvinen, 1997).
+It is developped at the Xerox Research Centre Europe (XRCE) and shares the same computationnal paradigm as the PNLPL approach (Jensen, 1992) and the FDGP approach (Tapanainen and Jarvinen, 1997).
+4.2 Generating Dependency Patterns Three dependency parsers were used for these experiments: MINIPAR3 (Lin, 1999), the Machinese Syntax4 parser from Connexor Oy (Tapanainen and Jarvinen, 1997) and the Stanford5 parser (Klein and Manning, 2003).
+Length in characters), calculated based on linguistic pre-processing made with the English Functional Dependency Grammar (Tapanainen and Jarvinen, 1997) (e.g., Case, Part-of-speech), fetched from precompiled lists of information (e.g., Is first name?), and features based on predictions concerning the context of the token (e.g, Class of previous token).
+The anaphora resolution module only handles rst and third person singular personal pronouns (I,me,my,he,his) and singular denite noun phrases that denote animate entities (e.g., the man,butnotmen).It is implemented in Java, within the GATE framework, using the Connexor Machinese Syntax parser (Tapanainen and Jarvinen 1997).
+The first constraint potentially simplifies dependency parsing, and non-projective dependencies are relatively well understood in the dependency parsing community (Tapanainen and Jarvinen, 1997; McDonald et al., 2005).
+Additionally we used head-noun features that were obtained from preanalysis of the training data set using the FDG shallow parser from Conexor (Tapanainen and Jarvinen, 1997).

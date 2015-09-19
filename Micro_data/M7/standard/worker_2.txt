@@ -1,0 +1,15 @@
+This paper will focus primarily on one set of motivations for this theory, those engendered by attempts to handle certain syntactic phenomena within the framework of deterministic parsing
+We have adopted, in this project, the straightforward view of incremental parsing as a process of repeatedly adding3 to partial structural descriptions of sentence-initial fragments (Barton & Berwick, 1985; Marcus, Hindle, & Fleck, 1983; Weinberg, 1993)
+Dominance-based tree descriptions were first used in automata theory in the Sixties [46], rediscovered in computational linguistics in the Eighties [33], and studied in the early Nineties from a logical point of view [3]
+(For syntactic structures such descriptions are given in [3, 12, 13, 15], an extension to type-theoretical semantics can be found in [14], and in [4] we proposed a treatment of lexical ambiguities by integrating ontological knowledge to express selectional restrictions of verbs)
+Parallelism constraints [8] subsume dominance constraints [1,2,15] which have multiple applications in computational linguistics: in syntax, semantics, and discourse (see e
+Another important issue in computational linguistics are conjunctions of dominance constraints [Marcus et al
+Dominance constraints are logical descriptions of trees [2,10] that can talk about the mother and ancestor relations between the nodes of a tree
+Pure dominance constraints are a fragment of dominance constraints with set operators [18, 3, 7] which have applications both in syntax and in semantics of computational linguistics [22, 12, 9]
+CLLS lets us conjoin dominance constraints [34, 8, 51, 2] with powerful parallelism [19] and binding constraints
+Parallelism constraints subsume dominance constraints [18, 2] for which efficient satisfiability tests exists [1]
+In computational linguistics, the importance of dominance based tree descriptions for deterministic parsing was discovered at the beginning of the eighties [9]
+(1983), where certain parsing anomalies were avoided by taking descriptions of phrase structure trees, not the trees themselves, as the output of a parsing algorithm
+In syntax, they serve for deterministic parsing [18] and to combine TAG and unication grammars [39]
+This "core parser" has been the subject of a number of computational implementations, including Marcus's deterministic parser (1980), Description theory (henceforth, D-theory) (Marcus et al (1983)), and Abney's licensing based model (1987, 1989)
+Following description theory (Marcus, Hindle, & Fleck, 1983), this parsing model uses partial descriptions of phrase structure trees to allow deterministic parsing

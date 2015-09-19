@@ -1,0 +1,15 @@
+Furthermore, since research in the related task of sentence compression has benefited from the availability of training data (Jing, 2000; Knight and Marcu, 2002; McDonald, 2006; Cohn and Lapata, 2008), we expect that the creation of this corpus might encourage the development of supervised learning techniques for automated sentence fusion
+Given the need to ensure grammatical sentences, a number of researchers have used syntax-directed approaches that perform transformations on the output of syntactic parsers (Jing, 2000; Dorr et al
+Depending on the chosen task, such systems either generate single-sentence headlines for multi-sentence text (Witbrock and Mittal, 1999), or they provide a sentence condensation module designed for combination with sentence extraction systems (Knight and Marcu, 2000; Jing, 2000)
+The evaluation of sentence reduction (see (Jing, 2000) for details) used a corpus of 500 sentences and their reduced forms in human-written abstracts
+In fact, professional abstractors tend to use these operations to transform selected sentences from an article into the corresponding summary sentences (Jing, 2000)
+The conciseness can be improved when sentence extraction is interfaced with sentence compression, where words and clauses are deleted based on rules typically operating over parsed input (Jing, 2000; Daume III and Marcu, 2002; Lin, 2003; Daume III, 2006; Zajic et al
+Between these two extremes, there has been a relatively modest amount of work in sentence simplification (Chandrasekar, Doran, and Bangalore 1996; Mahesh 1997; Carroll et al
+Jing (2000) uses information from the local context as evidence for and against the removal of phrases during sentence compression
+1 Introduction Sentence compression is the task of producing a shorter form of a single given sentence, so that the new form is grammatical and retains the most important information of the original one (Jing, 2000)
+2004a; Turner and Charniak 2005; McDonald 2006) to learn the correspondences between long and short sentences in a supervised manner, typically using a rich feature space induced from parse trees
+Examples include text summarisation (Jing 2000), subtitle generation from spoken transcripts (Vandeghinste and Pan 2004) and information retrieval (Olivers and Dolan 1999)
+Interfacing extractive summarization with a sentence compression module could improve the conciseness of the generated summaries and render them more informative (Jing, 2000; Lin, 2003; Zajic et al
+2 Sentence compression Sentence compression is the task of summarizing a sentence while retaining most of the informational content and remaining grammatical (Jing, 2000)
+ Jing, 2000) studied a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removed
+A syntactic approach considers the alignment over parse trees (Jing, 2000), and a similar technique has been used with dependency trees to evaluate the quality of sentence fusions (Marsi and Krahmer, 2005)

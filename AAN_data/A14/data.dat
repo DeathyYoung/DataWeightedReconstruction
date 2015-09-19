@@ -1,0 +1,258 @@
+Title:P05-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Nivre, Joakim; Nilsson, Jens
+In order to realize the full potential ofdependency-based syntactic parsing, it isdesirable to allow non-projective depen-dency structures. We show how a data-driven deterministic dependency parser,in itself restricted to projective structures,can be combined with graph transforma-tion techniques to produce non-projectivestructures. Experiments using data fromthe Prague Dependency Treebank showthat the combined system can handle non-projective constructions with a precisionsufficient to yield a significant improve-ment in overall parsing accuracy. Thisleads to the best reported performance forrobust non-projective parsing of Czech.
+
+Title:W05-1505		Conference:International Workshop On Parsing Technology		Author:Hall, Keith; Nov&aacute;k, V&aacute;clav
+An alternative method, used by Charniak in the adaptation of his parser for Czech 6 and used by Nivre and Nilsson (2005), alters the dependency links by raising the governor to a higher node in the tree whenever 5 Bilexical dependencies are components of both the Collins and Charniak parsers and effectively model the types of syntactic subordination that we wish to extract in a dependency tree.
+
+Title:W05-1505		Conference:International Workshop On Parsing Technology		Author:Hall, Keith; Nov&aacute;k, V&aacute;clav
+4.3 Related Work Recent work by Nivre and Nilsson introduces a technique where the projectivization transformation is encoded in the non-terminals of constituents during parsing (Nivre and Nilsson, 2005).
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+This is in contrast to other non-projective methods, such as that of Nivre and Nilsson (2005), who implement non-projectivity in a pseudo-projective parser with edge transformations.
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+Nivre and Nilsson (2005) presented a parsing model that allows for the introduction of non-projective edges into dependency trees through learned edge transformations within their memory-based parser.
+
+Title:H05-1066		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:McDonald, Ryan; Pereira, Fernando; Ribarov, Kiril; Haji&#x10D;, Jan
+N&N2005: The pseudo-projective parser of Nivre and Nilsson (2005).
+
+Title:E06-1010		Conference:Conference Of The European Association For Computational Linguistics		Author:Nivre, Joakim
+Most of this work has so far focused either on post-processing to recover non-local dependencies from context-free parse trees (Johnson, 2002; Jijkoun and De Rijke, 2004; Levy and Manning, 2004; Campbell, 2004), or on incorporating nonlocal dependency information in nonterminal categories in constituency representations (Dienes and Dubey, 2003; Hockenmaier, 2003; Cahill et al. , 2004) or in the categories used to label arcs in dependency representations (Nivre and Nilsson, 2005). (self citation)
+
+Title:E06-1010		Conference:Conference Of The European Association For Computational Linguistics		Author:Nivre, Joakim
+It should be noted that the proportion of lost dependencies is about twice as high as the proportion of dependencies that are non-projective in themselves (Nivre and Nilsson, 2005). (self citation)
+
+Title:W06-2936		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Shimizu, Nobuyuki
+You could map a non-projective dependency tree to a projective one, learn and predict the tree, then bring it back to the non-projective dependency tree (Nivre and Nilsson, 2005).
+
+Title:W06-2926		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Chang, Ming-Wei; Do, Quang; Roth, Dan
+To deal with non-projective languages, we use a similar approach of (Nivre and Nilsson, 2005) to map nonprojective trees to projective trees.
+
+Title:W06-2922		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Attardi, Giuseppe
+4 Non-Projective Relations For handling non-projective relations, Nivre and Nilsson (2005) suggested applying a preprocessing step to a dependency parser, which consists in lifting non-projective arcs to their head repeatedly, until the tree becomes pseudo-projective.
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+We see that pseudo-projective parsing brings a very consistent increase in accuracy of at least 1.5 percentage points, which is more than that reported by Nivre and Nilsson (2005), and that the addition of the PS-to-MS transformations increases accuracy with about the same margin. (self citation)
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+Whether better parsing accuracy can be obtained by transforming 1About 2% of all dependencies are non-projective and about 25% of all sentences have a non-projective dependency graph (Nivre and Nilsson, 2005). (self citation)
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+We write p for the projectivization of training data and 1p for the inverse transformation applied to the parsers output.6 In addition, we replace MBL with SVM, a learning algorithm that tends to give higher accuracy in classifier-based parsing although it is more 6More precisely, we use the variant called PATH in Nivre and Nilsson (2005). (self citation)
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+In section 4.2 we use MBL, again with the same settings as Nivre and Nilsson (2005),3 and in section 4.2 we use SVM with a polynomial kernel of degree 2.4 The metrics for evaluation are the attachment score (AS) (labeled and unlabeled), i.e., the proportion of words that are assigned the correct head, and the exact match (EM) score (labeled and unlabeled), i.e., the proportion of sentences that are assigned a completely correct analysis. (self citation)
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+4.3 Experiment 3: Optimization In this section we combine the best results from the previous section with the graph transformations proposed by Nivre and Nilsson (2005) to recover non-projective dependencies. (self citation)
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+Data #S #W %S %C %A t 73088 1256k 3.9 7.7 1.3 d 7319 126k 4.0 7.8 1.4 e 7507 126k 3.8 7.3 1.4 Table 1: PDT data sets; S = sentence, W = word; S = separator, C = conjunct, A = auxiliary verb T AS c 97.8 c 98.6 c+ 99.6 c+ 99.4 v 100.0 Table 2: Transformations; T = transformation; AS = attachment score (unlabeled) of 1((t)) compared to t MaltParser is used with the parsing algorithm of Nivre (2003) together with the feature model used for parsing Czech by Nivre and Nilsson (2005). (self citation)
+
+Title:W06-2930		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Johansson, Richard; Nugues, Pierre
+5 Analysis 5.1 Experimental Settings Wetrained the models onprojectivized graphs following Nivre and Nilsson (2005) method.
+
+Title:P06-2066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Kuhlmann, Marco; Nivre, Joakim
+However, recent results in non-projective dependency parsing, especially using data-driven methods, indicate that most non-projective structures required for the analysis of natural language are very nearly projective, differing only minimally from the best projective approximation (Nivre and Nilsson, 2005; Hall and Novk, 2005; McDonald and Pereira, 2006). (self citation)
+
+Title:P06-2066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Kuhlmann, Marco; Nivre, Joakim
+4.3 Discussion As a general result, our experiments confirm previous studies on non-projective dependency parsing (Nivre and Nilsson, 2005; Hall and Novk, 2005; 512 McDonald and Pereira, 2006): The phenomenon of non-projectivity cannot be ignored without also ignoring a significant portion of real-world data (around 15a37for DDT, and 23a37for PDT). (self citation)
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+Nivres parser has been tested for Swedish (Nivre et al. , 2004), English (Nivre and Scholz, 2004), Czech (Nivre and Nilsson, 2005), Bulgarian (Marinov and Nivre, 2005) and Chinese Cheng et al.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+The pseudo-projective approach (Nivre and Nilsson, 2005): Transform non-projective training trees to projective ones but encode the information necessary to make the inverse transformation in the DEPREL, so that this inverse transformation can also be carried out on the test trees (Nivre et al. , 2006).
+
+Title:W06-2933		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens; Eryi&#x11F;it, G&uuml;l&scedil;en; Marinov, Svetoslav
+We projectivize training data by a minimal transformation, lifting non-projective arcs one step at a time, and extending the arc label of lifted arcs using the encoding scheme called HEAD by Nivre and Nilsson (2005), which means that a lifted arc is assigned the label rh, where r is the original label and h is the label of the original head in the nonprojective dependency graph. (self citation)
+
+Title:W06-2933		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens; Eryi&#x11F;it, G&uuml;l&scedil;en; Marinov, Svetoslav
+Graph transformations for recovering nonprojective structures (Nivre and Nilsson, 2005). (self citation)
+
+Title:W06-2933		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens; Eryi&#x11F;it, G&uuml;l&scedil;en; Marinov, Svetoslav
+Although the parser only derives projective graphs, the fact that graphs are labeled allows non-projective dependencies to be captured using the pseudoprojective approach of Nivre and Nilsson (2005). (self citation)
+
+Title:W06-2933		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Nivre, Joakim; Hall, Johan; Nilsson, Jens; Eryi&#x11F;it, G&uuml;l&scedil;en; Marinov, Svetoslav
+To avoid too small training sets, we pool together categories that have a frequency below a certain threshold t. 2.4 Pseudo-Projective Parsing Pseudo-projective parsing was proposed by Nivre and Nilsson (2005) as a way of dealing with non-projective structures in a projective data-driven parser. (self citation)
+
+Title:D07-1013		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:McDonald, Ryan; Nivre, Joakim
+Nivre and Nilsson (2005) showed how the restriction to projective dependency graphs could be lifted by using graph transformation techniques to preprocess training data and post-process parser output, so-called pseudo-projective parsing. (self citation)
+
+Title:P07-1122		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+We will focus on tree transformations that combine preprocessing with post-processing, and where the parser is treated as a black box, such as the pseudo-projective parsing technique proposed by Nivre and Nilsson (2005) and the tree transformations investigated in Nilsson et al. (self citation)
+
+Title:P07-1122		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+The first thing to note is that pseudo-projective parsing gives a significant improvement for PDT, as previously reported by Nivre and Nilsson (2005), but also for Alpino, where the improvement is even larger, presumably because of the higher proportion of non-projective dependencies in the Dutch treebank. (self citation)
+
+Title:P07-1122		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+The pseudo-projective transformation proposed by Nivre and Nilsson (2005) is such an approach, which is compatible with different parser engines. (self citation)
+
+Title:P07-1122		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+Corresponding manipulations in the form of tree transformations for dependency-based parsers have recently gained more interest (Nivre and Nilsson, 2005; Hall and Novak, 2005; McDonald and Pereira, 2006; Nilsson et al. , 2006) but are still less studied, partly because constituency-based parsing has dominated the field for a long time, and partly because dependency structures have less structure to manipulate than constituent structures. (self citation)
+
+Title:P07-1122		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+Finally, in contrast to the results reported by Nivre and Nilsson (2005), simply projectivizing the training data (without using an inverse transformation) is not beneficial at all, except possibly for Alpino. (self citation)
+
+Title:D07-1123		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Johansson, Richard; Nugues, Pierre
+The projectivization algorithm (Nivre and Nilsson, 2005) iteratively moves each nonprojective arc upward in the tree until the whole tree is projective.
+
+Title:D07-1097		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Hall, Johan; Nilsson, Jens; Nivre, Joakim; Eryi&#x11F;it, G&uuml;l&scedil;en; Megyesi, Be&aacute;ta; Nilsson, Mattias; Saers, Markus
+Sincetheparsingalgorithmonlyproducesprojective dependency graphs, we may use pseudo-projective parsing to recover non-projective dependencies, i.e., projectivize training data and encode information about these transformations in extended arc labels to support deprojectivization of the parser output (Nivre and Nilsson, 2005). (self citation)
+
+Title:D07-1111		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Sagae, Kenji; Tsujii, Jun'ichi
+The resulting algorithm is projective, and nonprojectivity is handled by pseudo-projective transformations as described in (Nivre and Nilsson, 2005).
+
+Title:N07-1050		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Nivre, Joakim
+The most popular strategy for capturing nonprojective structures in data-driven dependency parsing is to apply some kind of post-processing to the output of a strictly projective dependency parser, as in pseudo-projective parsing (Nivre and Nilsson, 2005), corrective modeling (Hall and Novak, 2005), or approximate non-projective parsing (McDonald and Pereira, 2006). (self citation)
+
+Title:D07-1098		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Duan, Xiangyu; Jun, Zhao; Xu, Bo
+Except these three languages, we use software of projectivization/deprojectivization provided by Nivre and Nilsson (2005) for other languages.
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+In the first category are those methods that employ approximate inference, typically through the use of linear time shift-reduce parsing algorithms (Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; Nivre and Nilsson, 2005).
+
+Title:W07-2216		Conference:Tenth International Conference on Parsing Technologies		Author:McDonald, Ryan; Satta, Giorgio
+1.1 Related Work There has been extensive work on data-driven dependency parsing for both projective parsing (Eisner, 1996; Paskin, 2001; Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; McDonald et al. , 2005a) and non-projective parsing systems (Nivre and Nilsson, 2005; Hall and Novak, 2005; McDonald et al. , 2005b).
+
+Title:D07-1119		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Attardi, Giuseppe; Dell'Orletta, Felice; Simi, Maria; Chanev, Atanas; Ciaramita, Massimiliano
+4 Non-Projective Relations For handling non-projective relations, Nivre and Nilsson (2005) suggested applying a preprocessing step to a dependency parser, which consists in lifting non-projective arcs to their head repeatedly, until the tree becomes pseudo-projective.
+
+Title:D07-1027		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Guo, Yuqing; Wang, Haifeng; van Genabith, Josef
+In addition to CFG-oriented approaches, a number of richer treebank-based grammar acquisition and parsing methods based on HPSG (Miyao et al. , 2003), CCG (Clark and Hockenmaier, 2002), LFG (Riezler et al. , 2002; Cahill et al. , 2004) and Dependency Grammar (Nivre and Nilsson, 2005) incorporate non-local dependencies into their deep syntactic or semantic representations.
+
+Title:D07-1099		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Titov, Ivan; Henderson, James B.
+Following (Nivre et al. , 2006), the encoding scheme called HEAD in (Nivre and Nilsson, 2005) was used to encode the original non-projective dependencies in the labels of the projectivized dependency tree.
+
+Title:D07-1099		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Titov, Ivan; Henderson, James B.
+We used the pseudo-projective transformation introduced in (Nivre and Nilsson, 2005) to cast non-projective parsing tasks as projective.
+
+Title:D07-1128		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Schneider, Gerold; Kaljurand, Kaarel; Rinaldi, Fabio; Kuhn, Tobias
+In Dependency Grammar, this device is also known as lifting (Kahane et al. , 1998; Nivre and Nilsson, 2005).
+
+Title:C08-1046		Conference:International Conference On Computational Linguistics		Author:Iwatate, Masakazu; Asahara, Masayuki; Matsumoto, Yuji
+The model is enhanced for non-projective languages by Nivre and Nilsson (2005).
+
+Title:W08-1007		Conference:Proceedings of the Workshop on Parsing German		Author:Hall, Johan; Nivre, Joakim
+Another interesting line of future work is to try to parse discontinuous constituents by using 53 a non-projective parsing algorithm like the Covington algorithm (Covington, 2001) or using pseudoprojective parsing for discontinuous constituency parsing (Nivre and Nilsson, 2005). (self citation)
+
+Title:W08-1007		Conference:Proceedings of the Workshop on Parsing German		Author:Hall, Johan; Nivre, Joakim
+The training data are projectivized and information about these transformations is encoded into the arc labels to enable deprojectivizition of the parser output (Nivre and Nilsson, 2005). (self citation)
+
+Title:P08-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Miyao, Yusuke; S&aelig;tre, Rune; Sagae, Kenji; Matsuzaki, Takuya; Tsujii, Jun'ichi
+1 Introduction Parsing technologies have improved considerably in the past few years, and high-performance syntactic parsers are no longer limited to PCFG-based frameworks (Charniak, 2000; Klein and Manning, 2003; Charniak and Johnson, 2005; Petrov and Klein, 2007), but also include dependency parsers (McDonald and Pereira, 2006; Nivre and Nilsson, 2005; Sagae and Tsujii, 2007) and deep parsers (Kaplan et al., 2004; Clark and Curran, 2004; Miyao and Tsujii, 2008).
+
+Title:P08-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Miyao, Yusuke; S&aelig;tre, Rune; Sagae, Kenji; Matsuzaki, Takuya; Tsujii, Jun'ichi
+1http://sourceforge.net/projects/mstparser Figure 1: CoNLL-X dependency tree Figure 2: Penn Treebank-style phrase structure tree KSDEP Sagae and Tsujii (2007)s dependency parser,2 based on a probabilistic shift-reduce algorithm extended by the pseudo-projective parsing technique (Nivre and Nilsson, 2005).
+
+Title:D08-1008		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Johansson, Richard; Nugues, Pierre
+To simplify implementation, we instead opted for the pseudo-projective approach (Nivre and Nilsson, 2005), in which nonprojective links are lifted upwards in the tree to achieve projectivity, and special trace labels are used to enable recovery of the nonprojective links at parse time.
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+In order to make the comparison more fair, we therefore also evaluate pseudo-projective versions of the latter algorithms, making use of graph transformations in pre-and post-processing to recover nonprojective dependency arcs, following Nivre and Nilsson (2005). (self citation)
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+Most algorithms in this tradition are restricted to projective dependency graphs, but it is 549 Computational Linguistics Volume 34, Number 4 possible to recover non-projective dependencies using pseudo-projective parsing (Nivre and Nilsson 2005). (self citation)
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+This corresponds to theHeadcondition in Nivre and Nilsson (2005). (self citation)
+
+Title:J08-4003		Conference:Computational Linguistics		Author:Nivre, Joakim
+This corresponds to theBaselinecondition in Nivre and Nilsson (2005). (self citation)
+
+Title:W08-2123		Conference:CoNLL 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning		Author:Johansson, Richard; Nugues, Pierre
+To simplify implementation, we instead opted for the pseudo-projective approach (Nivre and Nilsson, 2005), in which nonprojective links are lifted upwards in the tree to achieve projectivity, and special trace labels are used to enable recovery of the nonprojective links at parse time.
+
+Title:W08-2127		Conference:CoNLL 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning		Author:Zhao, Hai; Kitt, Chunyu
+Since only projective sequences can be handled by the shift-reduce scheme, we apply the pseudoprojective transformation introduced by (Nivre and Nilsson, 2005) to projectivize those non-projective sequences.
+
+Title:C08-1081		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Boguslavsky, Igor; Iomdin, Leonid
+Although the parser only derives projective graphs, the fact that these graphs are labeled allows non-projective dependencies to be captured using the pseudo-projective approach of Nivre and Nilsson (2005) (section 3.4). (self citation)
+
+Title:C08-1081		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Boguslavsky, Igor; Iomdin, Leonid
+Pseudo-projectiveparsingforrecoveringnonprojective structures (Nivre and Nilsson, 2005). (self citation)
+
+Title:C08-1081		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Boguslavsky, Igor; Iomdin, Leonid
+We projectivize training data by a minimal transformation, lifting non-projective arcs one step at a time, and extending the arc label of lifted arcs using the encoding scheme called HEAD by Nivre and Nilsson (2005), which means that a lifted arc is assigned the label rh, where r is the original label and h is the label of the original head in the non-projective dependency graph. (self citation)
+
+Title:C08-1081		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Boguslavsky, Igor; Iomdin, Leonid
+3.4 Pseudo-Projective Parsing Pseudo-projective parsing was proposed by Nivre and Nilsson (2005) as a way of dealing with nonprojective structures in a projective data-driven parser. (self citation)
+
+Title:C08-1095		Conference:International Conference On Computational Linguistics		Author:Sagae, Kenji; Tsujii, Jun'ichi
+We then discuss the application of pseudo-projective transformations (Nivre and Nilsson, 2005) and an additional arc-reversing transform to dependency DAGs.
+
+Title:J08-3003		Conference:Computational Linguistics		Author:Eryi&#x11F;it, G&uuml;l&scedil;en; Nivre, Joakim; Oflazer, Kemal
+20 Because the frequency of non-projective dependencies in the Turkish Treebank is not high enough to learn such dependencies and mostly due to the unconnected punctuations with which we are dealing by adding an extra dependency label,we did not observe any improvement when applying the pseudo-projective processing of Nivre and Nilsson (2005),which is reported to improve accuracy for other languages. (self citation)
+
+Title:D09-1059		Conference:EMNLP		Author:Johansson, Richard
+We used a pseudo-projective edge label encoding to handle nonprojectivity (Nivre and Nilsson, 2005).
+
+Title:W09-1207		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Che, Wanxiang; Li, Zhenghua; Li, Yongqiang; Guo, Yuhang; Qin, Bing; Liu, Ting
+We adopt the pseudo-projective approach introduced in (Nivre and Nilsson, 2005) to handle the non-projective languages including Czech, German and English.
+
+Title:E09-1034		Conference:EACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Weir, David; Carroll, John
+Nivre and Nilsson (2005) observe that most non-projective dependency structures appearing in practice are close to being projective, since they contain only a small proportion of nonprojective arcs.
+
+Title:E09-1034		Conference:EACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Weir, David; Carroll, John
+However, just as it has been noted that most non-projective structures appearing in practice are only slightly nonprojective (Nivre and Nilsson, 2005), we characterise a sense in which the structures appearing in treebanks can be viewed as being only slightly ill-nested.
+
+Title:P09-1040		Conference:ACL-IJCNLP		Author:Nivre, Joakim
+For comparison, we also trained two parsers using Sp, one that is strictly projective and one that uses the pseudo-projective parsing technique to recover non-projective dependencies in a post-processing step (Nivre and Nilsson, 2005). (self citation)
+
+Title:P09-1040		Conference:ACL-IJCNLP		Author:Nivre, Joakim
+projective dependencies by post-processing the output of a strictly projective parser (Nivre and Nilsson, 2005; Hall and Novak, 2005; McDonald and Pereira, 2006). (self citation)
+
+Title:W09-1218		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Watanabe, Yotaro; Asahara, Masayuki; Matsumoto, Yuji
+In order to avoid losing the benets of higher-order parsing, we considered applying pseudo-projective transformation (Nivre and Nilsson, 2005).
+
+Title:W09-1205		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Gesmundo, Andrea; Henderson, James B.; Merlo, Paola; Titov, Ivan
+We adopt the HEAD method of Nivre and Nilsson (2005) to de-projectivise syntactic dependencies outside of parsing.1 3 Features and New Developments The synchronous derivations described above are modelled with a type of Bayesian Network called an Incremental Sigmoid Belief Network (ISBN) (Titov and Henderson, 2007a).
+
+Title:P09-1042		Conference:ACL-IJCNLP		Author:Ganchev, Kuzman; Gillenwater, Jennifer; Taskar, Ben
+Recently, dependency parsing has gained popularity as a simpler, computationally more efficient alternative to constituency parsing and has spurred several supervised learning approaches (Eisner, 1996; Yamada and Matsumoto, 2003a; Nivre and Nilsson, 2005; McDonald et al., 2005) as well as unsupervised induction (Klein and Manning, 2004; Smith and Eisner, 2006).
+
+Title:W09-1210		Conference:Proceedings of the Thirteenth Conference on Computational Natural Language Learning (CoNLL 2009): Shared Task		Author:Bohnet, Bernd
+Nivre and Nilsson (2005) uses tree rewriting which is the most common technique.
+
+Title:W09-1104		Conference:CoNLL		Author:Spreyer, Kathrin; Kuhn, Jonas
+Note that the (incorrect) alignment between heeft and You will not be pursued because it would lead to heeft being a dependent of itself and thus violating the wellformed3I.e., single headedness and acyclicity; we do not require the trees to be projective, but instead train pseudo-projective models (Nivre and Nilsson, 2005) on the projected data (cf.
+
+Title:W09-1104		Conference:CoNLL		Author:Spreyer, Kathrin; Kuhn, Jonas
+The input for both systems is projectivized using the head+path schema (Nivre and Nilsson, 2005).
+
+Title:E09-1055		Conference:EACL		Author:Kuhlmann, Marco; Satta, Giorgio
+Some authors propose to solve it by techniques for recovering non-projectivity from the output of a projective parser in a post-processing step (Hall and Novk, 2005; Nivre and Nilsson, 2005), others extend projective parsers by heuristics that allow at least certain non-projective constructions to be parsed (Attardi, 2006; Nivre, 2007).
+
+Title:P10-1151		Conference:ACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Nivre, Joakim
+The first is simplicity, given that it is based on a single transition system and makes a single pass over the input, whereas the pseudo-projective parsing technique involves preprocessing of training data and post-processing of parser output (Nivre and Nilsson, 2005). (self citation)
+
+Title:P10-1151		Conference:ACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Nivre, Joakim
+However, we have found this not to be a problem when measuring multiplanarity in natural language treebanks, since the effective problem size can be reduced by noting that each connected component of the crossings graph can be treated separately, and that nodes that are not part of a cycle need not be considered.5 Given that non-projective sentences in natural language tend to have a small proportion of non-projective links (Nivre and Nilsson, 2005), the connected components of their crossings graphs are very small, and k-colourings for them can quickly be found by brute-force search. (self citation)
+
+Title:P10-1151		Conference:ACL		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Nivre, Joakim
+As our baseline, we take the strictly projective arc-eager transition system proposed by Nivre (2003), as implemented in the freely available MaltParser system (Nivre et al., 2006a), with and without the pseudo-projective parsing technique for recovering non-projective dependencies (Nivre and Nilsson, 2005). (self citation)
+
+Title:C10-1093		Conference:COLING		Author:Nilsson, Peter; Nugues, Pierre
+Before training the classification models, we projectivized the corpus sentences (Kunze, 1967; Nivre and Nilsson, 2005).
+
+Title:W10-1403		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Ambati, Bharat Ram; Husain, Samar; Jain, Sambhav; Sharma, Dipti Misra; Sangal, Rajeev
+It uses graph transformation to handle non-projective trees (Nivre and Nilsson, 2005).
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+Bengoetxea and Gojenola (2010) discuss non-projective dependencies in Basque and show that the pseudo-projective transformation of (Nivre and Nilsson, 2005) improves accuracy for dependency parsing of Basque.
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+Different ways have been proposed to deal with non-projectivity (Nivre and Nilsson, 2005; McDonald et al., 2005; McDonald and Pereira, 2006; Nivre, 2009).
+
+Title:D11-1006		Conference:EMNLP		Author:McDonald, Ryan; Petrov, Slav; Hall, Keith
+For treebanks with non-projective trees we use the pseudo-projective parsing technique to transform the treebank into projective structures (Nivre and Nilsson, 2005).
+
+Title:D11-1036		Conference:EMNLP		Author:Tsarfaty, Reut; Nivre, Joakim; Andersson, Evelina
+All non-projective dependencies in the training and gold sets were projectivized prior to training and parsing using the algorithm of Nivre and Nilsson (2005). (self citation)
+
+Title:P11-2121		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Choi, Jinho D.; Palmer, Martha
+Since the number of non-projective dependencies is much smaller than the number of projective dependencies (Nivre and Nilsson, 2005), it is not efficient to perform non-projective parsing for all cases.
+
+Title:D11-1114		Conference:EMNLP		Author:Cohen, Shay B.; G&oacute;mez-Rodr&iacute;guez, Carlos; Satta, Giorgio
+An alternative to this approach is to use transitionbased parsing (Yamada and Matsumoto, 2003; Nivre and Nilsson, 2005; Attardi, 2006; Nivre, 2009; Gomez-Rodrguez and Nivre, 2010), where there is an incremental processing of a string with a model that scores transitions between parser states, conditioned on the parse history.
+

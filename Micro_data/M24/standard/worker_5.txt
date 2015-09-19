@@ -1,0 +1,15 @@
+Ensemble methods like bagging and boosting that combine the decisions of multiple hypotheses are some of the strongest existing machine learning methods
+The diversity of the members of an ensemble is known to be an important factor in determining its generalization error
+This paper presents a new method for generating ensembles that directly constructs diverse hypotheses using additional artificially-constructed training exam- ples
+Experimen- tal results using decision-tree induction as a base learner demonstrate that this approach consistently achieves higher predictive accuracy than both the base classifier and bagging (whereas boosting can occasionally decrease accuracy), and also obtains higher accuracy than boosting early in the learning curve when training data is limited
+Using an ensemble of classifiers from DECORATE[15] and decision trees, they were able to improve the accuracy prediction of semantic ratings by 50 % on average despite the variability in the radiologists¡¯ interpretation
+DECORATE stance for Diverse Ensemble Creation by Oppositional Relabeling of Artificial Training Examples [14]
+To compare the classification accuracies between the individual classifiers and the combined classifiers across all the data sets, we employed the ranking statistics in terms of win/draw/loss record [14]
+Melville and Mooney [6] built a training set for each new classifier by adding artificially constructed samples to the original training data
+There are also some improved methods that aim at providing suitable trade-off, one famous method is Decorate[5] which ensures the trade-off on an arbitrarily large set of additional artificial instances
+In Decorate [30], an ensemble is generated iteratively during each of which a classifier is learned and added to the current ensemble - initialized to contain classifier trained on given training data
+Decorate [9, 10] is a recently introduced ensemble meta-learner that directly constructs diverse committees by employing specially-constructed artificial 1 An ensemble meta-learner, like Bagging and AdaBoost, takes an arbitary base
+The generalization accuracy of an ensemble depends on the diversity of the classifiers, which means that the classifiers in the ensemble should be different from each other, producing different errors on the input samples [6-11]
+The DECORATE algorithm, by Melville and Mooney [49] utilises the same metric to decide whether to accept or reject predictors to be added to the ensemble
+Motivated by the idea of the DECORATE algorithm [10], in this paper we propose an algorithm called RankDE (Ranking with Diverse Ensemble) to construct ensembles for better ranking performance
+DECORATE (Diverse Ensemble Creation by Oppositional Re-labeling of Artificial Training Examples) was proposed by [25] which is a meta-learner that uses an existing ¡°strong¡± learner (one that provides high accuracy on the training data) to build a diverse committee

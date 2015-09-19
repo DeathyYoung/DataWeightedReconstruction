@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph.
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists.
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. 
+We also give empir-ical evidence that the plans produced by Graphplan are quite sensible.
+Since searches made by this approach are fundamentally different from the searches of other common planning methods, they provide a new perspective on the planning problem.
+Mutual exclusion (mutex) and multi-level mutex have been studied and proved to be essential for many stateof-the-art planning systems [2, 31, 12, 17, 5].
+In order to approximate all kinds of literal distances, for each pairs of literals, we build forward/backward graphplan [10] offline
+We adopt the classical planning notion of mutual exclusion (Blum & Furst, 1997) and apply it to the factored action representation of probabilistic STRIPS
+There is a variety of planning techniques aim at enable robot¡¯s task planning such as HTN Planning [14], Metric-FF [12], GraphPlan [13], etc
+FF performs forward-chaining state-space search, whilst LPG searches through a space of plans embedded in Graph-Plan (Blum & Furst 1995) planning graphs
+Graph based planning Graph based planning utilizes planning graph [1] as a heuristic to constrain the search for plans
+This is some kind of an important sub-problem which must be solved many times when solving AI planning problems over planning graphs [6]
+We have conducted a controlled experiment to compare the time taken for three general-purpose AI planning algorithms: forward-search, GraphPlan [3], and UCPOP [8], to automatically generate unit tests for Java classes
+To tackle this problem, we propose a solution in which web services are represented using STRIPS representation [2] and Graphplan [1] is used as the planning engine to find the rational subset of services (a plan) to handle customer requests
+In order to extract the optimal relaxed plan one must extend the relaxed planning graph to level off [3] so that all reachable actions can be considered

@@ -1,0 +1,15 @@
+, 2006); in multi-document summarization, they have been used to identify phrases from different sentences that express the same information (Barzilay et al
+For example, in question answering, paraphrases have been used to find multiple patterns that pinpoint the same answer (Ravichandran and Hovy, 2002); in statistical machine translation, they have been used to find translations for unseen source language phrases (Callison-Burch et al
+, in press), which has a few modifications with respect to Ravichandran and Hovy (2002)s, such as the use of the wildcard * to represent any sequence of words, and the addition of part-of-speech and Named Entity labels to the patterns
+Ravichandran and Hovy (2002) reported experimental results for automatically generating surface patterns for relation identification; others have explored similar approaches (e
+As referred to in the introduction, Ravichandran and Hovy (2002) present a method to identify surface text patterns using a web search engine
+Ravichandran and Hovy (2002) present an alternative ontology for type preference and describe a method for using this alternative ontology to extract particular answers using surface text patterns
+A third approach has been to use a very small number of seed instances or patterns to do bootstrap learning (Brin, 1998; Riloff and Jones, 1999; Agichtein and Gravano, 2000; Ravichandran and Hovy, 2002; Etzioni et al
+Recently, several algorithms were proposed for automatically learning entailment rules and paraphrases (viewed as bi-directional entailment rules) (Lin and Pantel, 2001; Ravichandran and Hovy, 2002; Shinyama et al
+Ravichandran and Hovy (Ravichandran and Hovy 2002) also use bootstrapping, and learn simple surface patterns for extracting binary relations from the Web
+The use of lexical patterns to identify answers in corpus-based QA received lots of attention after a team taking part in one of the earlier QA Tracks at TREC showed that the approach was competitive at that stage (Soubbotin and Soubbotin, 2002; Ravichandran and Hovy, 2002)
+Ravichandran and Hovy (2002) proposed automatically learning surface text patterns for answer extraction
+We calculate the precision of each pattern, and the average precision for each question type
+Patterns are then automatically extracted from the returned documents and standardized
+Most works that attempt to learn such concrete lexical semantic relations employ a co-occurrence pattern-based approach (Hearst, 1992; Ravichandran and Hovy, 2002; Moldovan et al
+In QA, Lin and Pantel (2001) and Ravichandran and Hovy (2002) paraphrased the answer patterns to enhance the recall of answer extraction

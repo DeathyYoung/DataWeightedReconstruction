@@ -1,0 +1,15 @@
+However, (Koehn et al 2003) found that it is actually harmful to restrict phrases to constituents in parse trees, because the restriction would cause the system to miss many reliable translations, such as the correspondence between there is in English and es gibt (it gives) in German
+With these linguistic annotations, we expect the LABTG to address two traditional issues of standard phrase-based SMT (Koehn et al
+This paper proposes a method for building a bilingual lexicon through a pivot language by using phrase-based statistical machine translation (SMT) (Koehn et al
+Unioning the two single-direction alignments yields better performance for the SSMT systems using TTS templates (Fossum et al
+, 2008) than the two single-direction alignments and the heuristic diagonal combination (Koehn et al
+D-2: The extracted phrasal paraphrases (including self-paraphrases) are stored in a phrase table, in which each phrase pair has 4 scores measuring their alignment confidence (Koehn et al
+Beam-search has been successful in many NLP tasks (Koehn et al
+1 The model allows a straightforward integration of lexicalized syntactic language modelsfor example the models of (Charniak, 2001)in addition to a surface language model
+In phrase-based systems, reordering is accomplished both within phrase pairs (local reordering) as well as through distance-based distortion models (Koehn et al
+We obtain the word alignments by running GIZA++ (Och and Ney, 2003) on the corpus in both directions and applying grow-diag-and refinement(Koehn et al
+These were combined using the Grow Diag Final And symmetrization heuristic (Koehn et al
+Phrase-pairs are then extracted from the word alignments (Koehn et al
+Nowadays, most of the state-of-the-art SMT systems are based on bilingual phrases (Bertoldi et al
+However for remedy, many of the current word alignment methods combine the results of both alignment directions, via intersection or 249 grow-diag-final heuristic, to improve the alignment reliability (Koehn et al
+We propose a new phrase-based translationmodel and decoding algorithm that enablesus to evaluate and compare several, previ-ously proposed phrase-based translation mod-els

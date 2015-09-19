@@ -1,0 +1,168 @@
+Title:N04-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zens, Richard; Ney, Hermann
+In statistical machine translation, the currentlybest performing systems are based in some wayon phrases or word groups. We describe thebaseline phrase-based translation system andvarious refinements. We describe a highly ef-ficient monotone search algorithm with a com-plexity linear in the input sentence length. Wepresent translation results for three tasks: Verb-mobil, Xerox and the Canadian Hansards. Forthe Xerox task, it takes less than 7 seconds totranslate the whole test set consisting of morethan 10K words. The translation results forthe Xerox and Canadian Hansards task are verypromising. The system even outperforms thealignment template system.
+
+Title:H05-1023		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Ge, Niyu; Papineni, Kishore
+1 Introduction Todays statistical machine translation systems rely on high quality phrase translation pairs to acquire state-of-the-art performance, see (Koehn et al. , 2003; Zens and Ney, 2004; Och and Ney, 2003).
+
+Title:W05-0834		Conference:Workshop On Building And Using Parallel Texts		Author:Zens, Richard; Ney, Hermann
+We use a phrase-based translation approach as described in (Zens and Ney, 2004). (self citation)
+
+Title:W05-0834		Conference:Workshop On Building And Using Parallel Texts		Author:Zens, Richard; Ney, Hermann
+We extended the monotone search algorithm from (Zens and Ney, 2004) such that reorderings are possible. (self citation)
+
+Title:H05-1096		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ueffing, Nicola; Ney, Hermann
+2.2 Review of phrase-based translation system For the confidence measures which will be introduced in section 5, we use a state-of-the-art phrasebased approach as described in (Zens and Ney, 2004). (self citation)
+
+Title:H05-1096		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ueffing, Nicola; Ney, Hermann
+Nowadays, most of the state-of-the-art SMT systems are based on bilingual phrases (Bertoldi et al. , 2004; Koehn et al. , 2003; Och and Ney, 2004; Tillmann, 2003; Vogel et al. , 2004; Zens and Ney, 2004). (self citation)
+
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+Above the phrase level, these models typically have a simple distortion model that reorders phrases independently of their content (Och and Ney, 2004; Koehn et al. , 2003), or not at all (Zens and Ney, 2004; Kumar et al. , 2005).
+
+Title:W06-1607		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Foster, George; Kuhn, Roland; Johnson, Howard
+(Zens and Ney, 2004) obtain p(sj|ti) from smoothed relative-frequency estimates in a wordaligned corpus.
+
+Title:W06-1607		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Foster, George; Kuhn, Roland; Johnson, Howard
+(Zens and Ney, 2004) describe a noisy-or combination: p(sj|t) = 1p(sj|t) 1 Iproductdisplay i=1 (1p(sj|ti)) where sj is the probability that sj is not in the translation of t, and p(sj|ti) is a lexical probability.
+
+Title:W06-1607		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Foster, George; Kuhn, Roland; Johnson, Howard
+This is the traditional approach for glass-box smoothing (Koehn et al. , 2003; Zens and Ney, 2004).
+
+Title:W06-3110		Conference:Workshop On Statistical Machine Translation		Author:Zens, Richard; Ney, Hermann
+We use a state-of-the-art phrase-based translation system as described in (Zens and Ney, 2004; Zens et al. , 2005). (self citation)
+
+Title:P06-1122		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Talbot, David; Osborne, Miles
+There is, however, a large body of work using morphological analysis to define cluster-based translation models similar to ours but in a supervised manner (Zens and Ney, 2004), (Niessen and Ney, 2004).
+
+Title:P06-2005		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Aw, Aiti; Zhang, Min; Xiao, Juan; Su, Jian
+We thus propose to adapt the statistical machine translation model (Brown et al. , 1993; Zens and Ney, 2004) for SMS text normalization.
+
+Title:W06-3103		Conference:Workshop On Statistical Machine Translation		Author:El Isbihani, Anas; Khadivi, Shahram; Bender, Oliver; Ney, Hermann
+More details about the baseline system can be found in (Zens and Ney, 2004; Zens et al. , 2005). (self citation)
+
+Title:W06-3106		Conference:Workshop On Statistical Machine Translation		Author:Langlais, Philippe; Gotti, Fabrizio
+, 2004; Zens and Ney, 2004; Simard et al. , 2005; Quirk et al. , 2005).
+
+Title:W06-3108		Conference:Workshop On Statistical Machine Translation		Author:Zens, Richard; Ney, Hermann
+We use a state-of-the-art phrase-based translation system (Zens and Ney, 2004; Zens et al. , 2005) including the following models: an n-gram language model, a phrase translation model and a word-based lexicon model. (self citation)
+
+Title:P06-2061		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Khadivi, Shahram; Zens, Richard; Ney, Hermann
+Models Dev Eval ASR 19.3 21.3 ASR+MT IBM-1 17.5 19.0 HMM 17.8 19.2 IBM-3 17.7 18.8 IBM-4 17.8 18.8 IBM-5 17.6 18.9 corpus (Zens and Ney, 2004). (self citation)
+
+Title:P06-2061		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Khadivi, Shahram; Zens, Richard; Ney, Hermann
+More details about the baseline system can be found in (Zens and Ney, 2004; Zens et al. , 2005). (self citation)
+
+Title:P06-1096		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liang, Percy; Bouchard-C&ocirc;t&eacute;, Alexandre; Klein, Dan; Taskar, Ben
+We experimented with two levels of distortion: monotonic, where the phrasal alignment is monotonic (but word reordering is still possible within a phrase) and limited distortion, where only adjacent phrases are allowed to exchange positions (Zens and Ney, 2004).
+
+Title:P06-1096		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liang, Percy; Bouchard-C&ocirc;t&eacute;, Alexandre; Klein, Dan; Taskar, Ben
+Finally, we use POS features to parameterize a distortion model in a limited distortion decoder (Zens and Ney, 2004; Tillmann and Zhang, 2005).
+
+Title:W06-3118		Conference:Workshop On Statistical Machine Translation		Author:Johnson, Howard; Sadat, Fatiha; Foster, George; Kuhn, Roland; Simard, Michel; Joanis, Eric; Larkin, Samuel
+Our approach to phrase-table smoothing contrasts to previous work (Zens and Ney, 2004) in which smoothed phrase probabilities are constructed from word-pair probabilities and combined in a log-linear model with an unsmoothed phrase-table.
+
+Title:P07-1039		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Ma, Yanjun; Stroppa, Nicolas; Way, Andy
+The log-linear model is also based on standard features: conditional probabilities and lexical smoothing of phrases in both directions, and phrase penalty (Zens and Ney, 2004).
+
+Title:P07-1119		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Sherif, Tarek; Kondrak, Grzegorz
+In particular, our methods are inspired by the monotone search algorithm proposed in (Zens and Ney, 2004).
+
+Title:P07-1119		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Sherif, Tarek; Kondrak, Grzegorz
+The first is an adaptation of the monotone search algorithm outlined in (Zens and Ney, 2004).The second encodes the substringbased transliteration model as a transducer.
+
+Title:W07-0717		Conference:Workshop on Statistical Machine Translation		Author:Foster, George; Kuhn, Roland
+For tractability, we followed standard practice with this technique and considered only monotonic alignments when decoding (Zens and Ney, 2004).
+
+Title:W07-0717		Conference:Workshop on Statistical Machine Translation		Author:Foster, George; Kuhn, Roland
+We use two different estimates for the conditional probabilities p(?t|?s) and p(?s|?t): relative frequencies and ?lexical??probabilities as described in (Zens and Ney, 2004).
+
+Title:J07-1003		Conference:Computational Linguistics		Author:Ueffing, Nicola; Ney, Hermann
+2.2 Review of the Phrase-Based Translation System For the confidence measures which will be introduced in Section 5.1, we use a stateof-the-art phrase-based translation approach as described in Zens and Ney (2004). (self citation)
+
+Title:J07-1003		Conference:Computational Linguistics		Author:Ueffing, Nicola; Ney, Hermann
+Nowadays, most state-of-the-art SMT systems are based on bilingual phrases (Och, Tillmann, and Ney 1999; Koehn, Och, and Marcu 2003; Tillmann 2003; Bertoldi et al. 2004; Vogel et al. 2004; Zens and Ney 2004; Chiang 2005). (self citation)
+
+Title:P07-1020		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Bangalore, Srinivas; Haffner, Patrick; Kanthak, Stephan
+For the Hansard corpus we used the same training and test split as in (Zens and Ney, 2004): 1.4 million training sentence pairs and 5432 test sentences.
+
+Title:J07-2003		Conference:Computational Linguistics		Author:Chiang, David
+Above the phrase level, some models perform no reordering (Zens and Ney 2004; Kumar, Deng, and Byrne 2006), some have a simple distortion model that reorders phrases independently of their content (Koehn, Och, and Marcu 2003; Och and Ney 2004), and some, for example, the Alignment Template System (Och et al. 2004; Thayer et al. 2004), hereafter ATS, and the IBM phrase-based system (Tillmann 2004; Tillmann and Zhang 2005), have phrase-reordering models that add some lexical sensitivity.
+
+Title:P07-1092		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Cohn, Trevor; Lapata, Mirella
+This represents the translation probability of a phrase when it is decomposed into a series of independent word-for-word translation steps (Koehn et al. , 2003), and has proven a very effective feature (Zens and Ney, 2004; Foster et al. , 2006).
+
+Title:W07-0701		Conference:Workshop on Statistical Machine Translation		Author:Menezes, Arul; Quirk, Chris
+Yet this approach loses the advantage of context-sensitive lexical selection: the word translation model depends only on the word classes to subcategorize for translations, which leads to less accurate lexical choice in practice (Zens & Ney, 2004).
+
+Title:N07-2035		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers		Author:Costa-Juss&agrave;, Marta Ruiz; Crego, Josep M.; Vilar, David; Fonollosa, Jos&eacute;; A. R.; Mari&ntilde;o, Jos&eacute;e B.; Ney, Hermann
+The so-called phrase-based and N-gram-based models are two examples of these approaches (Zens and Ney, 2004; Marino et al. , 2006). (self citation)
+
+Title:N07-1062		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Zens, Richard; Ney, Hermann
+6 Experimental Results 6.1 Translation System For the experiments, we use a state-of-the-art phrase-based statistical machine translation system as described in (Zens and Ney, 2004). (self citation)
+
+Title:D07-1045		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Schwenk, Holger; Costa-Juss&agrave;, Marta Ruiz; Fonollosa, Jos&eacute;; A. R.
+For instance, it was suggested to use IBM-1 probabilities (Och et al. , 2004), or other lexical translation probabilities (Koehn et al. , 2003; Zens and Ney, 2004).
+
+Title:D07-1045		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Schwenk, Holger; Costa-Juss&agrave;, Marta Ruiz; Fonollosa, Jos&eacute;; A. R.
+It is today common practice to use additional feature functions like IBM-1 scores to obtain some kind of smoothing (Och et al. , 2004; Koehn et al. , 2003; Zens and Ney, 2004), but better estimation of the phrase probabilities is usually not addressed.
+
+Title:P08-3004		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Liao, Shasha
+The source text, annotated with name translations, is then passed to a statistical, phrase-based MT system (Zens and Ney, 2004).
+
+Title:C08-1128		Conference:International Conference On Computational Linguistics		Author:Xu, Jia; Gao, Jianfeng; Toutanova, Kristina; Ney, Hermann
+Our MT system uses a phrase-based decoder and the log-linear model described in (Zens and Ney, 2004). (self citation)
+
+Title:P08-1103		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Jiampojamarn, Sittichai; Cherry, Colin; Kondrak, Grzegorz
+In order to complete the conversion from a pipeline approach to a joint approach, we fold our input segmentation step into the exact search framework by replacing a separate segmentation module (#2) with a monotone phrasal decoder (Zens and Ney, 2004).
+
+Title:P08-1103		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Jiampojamarn, Sittichai; Cherry, Colin; Kondrak, Grzegorz
+In the joint approach (Figure 1c), we perform segmentation and L2P prediction simultaneously by applying the monotone search algorithm developed for statistical machine translation (Zens and Ney, 2004).
+
+Title:W09-0439		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Foster, George; Kuhn, Roland
+In (Zens and Ney, 2004) the downhill simplex method is used to estimate the weights; around 200 iterations are required for convergence to occur.
+
+Title:N09-3016		Conference:HLT-NAACL, Companion Volume: Student Research Workshop and Doctoral Consortium		Author:Rama, Taraka; Singh, Anil Kumar; Kolachina, Sudheer
+The letter segmenter module is replaced by a monotone phrasal decoder (Zens and Ney, 2004) to searchforthepossiblesubstringsinawordandoutput the n-best list for updating MIRA.
+
+Title:P09-1055		Conference:ACL-IJCNLP		Author:Toutanova, Kristina; Cherry, Colin
+The core of our engine is the dynamic programming algorithm for monotone phrasal decoding (Zens and Ney, 2004).
+
+Title:W09-1704		Conference:Proceedings of the Workshop on Unsupervised and Minimally Supervised Learning of Lexical Semantics		Author:Ji, Heng
+We use the RWTH Aachen Chinese-to-English statistical phrase-based machine translation system (Zens and Ney, 2004) for these purposes.
+
+Title:D09-1111		Conference:EMNLP		Author:Cherry, Colin; Suzuki, Hisami
+3.4 Decoder Our decoder builds upon machine translations monotone phrasal decoding (Zens and Ney, 2004), or equivalently, the sequence tagging algorithm used in semi-Markov CRFs (Sarawagi and Cohen, 2004).
+
+Title:W09-0438		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Deselaers, Thomas; Hasan, Sa&scaron;a; Bender, Oliver; Ney, Hermann
+The following methods were investigated: (Monotone) Phrase-based MT on character level: A state-of-the-art phrase-based SMT system (Zens and Ney, 2004) was used for name transliteration, i.e. translation of characters instead of words. (self citation)
+
+Title:E09-1061		Conference:EACL		Author:Lopez, Adam
+item form: [i] goal: [I] rule: [i] R(fi+1fiprime/ejejprime) [iprime] (Logic MONOTONE) This is the algorithm of Zens and Ney (2004).
+
+Title:E09-1061		Conference:EACL		Author:Lopez, Adam
+The First d Uncovered Words strategy (FdUW) is described by Tillman and Ney (2003) and Zens and Ney (2004), who call it the IBM Constraint.6 It requires at least one of the leftmost d uncovered words to be covered by a new phrase.
+
+Title:E09-1061		Conference:EACL		Author:Lopez, Adam
+3.1 A Simple Deductive Decoder For our first example of a translation logic we consider a simple case: monotone decoding (Marino et al., 2006; Zens and Ney, 2004).
+
+Title:P10-1080		Conference:ACL		Author:Jiampojamarn, Sittichai; Kondrak, Grzegorz
+(Zens and Ney, 2004)).
+
+Title:P10-1080		Conference:ACL		Author:Jiampojamarn, Sittichai; Kondrak, Grzegorz
+The decoder module uses standard Viterbi for the 1-1 case, and a phrasal decoder (Zens and Ney, 2004) for the M-M case.
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+))|()|((),( feef BBPBBPsqrtsim = (6) To compute )|( ef BBP , IBM model 1 assumes that all source words are conditionally independent, so that: = = I i eief BfpBBP 1 )|()|( (7) To compute, we use a Noisy-OR combination which has shown better performance than standard IBM model 1 probability, as described in (Zens and Ney, 2004): )|(1)|( eiei BfpBfp = (8) = J j jiei efpBfp 1 ))|(1(1)|( (9) where )|( ei Bfp is the probability that if is not in the translation of eB , and is the IBM model 1 probability.
+
+Title:C10-1069		Conference:COLING		Author:Kuhn, Roland; Chen, Boxing; Foster, George; Stratford, Evan
+The PLW() components are based on (Zens and Ney, 2004); Foster et al.
+
+Title:N10-1107		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Reddy, Sravana; Goldsmith, John
+For example, the best parse of the word gnat is g nat, which yields the pronunciation G N AE T, while the parse gn at would give the correct pronunciation N AE T. Therefore, we search for the best pronunciation over all segmentations of the word, adapting the monotone search algorithm proposed by Zens and Ney (2004) for phrase-based machine translation.3 4.2 Smoothing A bigram model is used over both the grapheme and phoneme subwords.
+
+Title:W10-1717		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Larkin, Samuel; Chen, Boxing; Foster, George; Germann, Ulrich; Joanis, Eric; Johnson, Howard; Kuhn, Roland
+Each includes relative frequency estimates and lexical estimates (based on Zens and Ney, 2004) of forward and backward conditional probabilities.
+
+Title:W11-1215		Conference:Proceedings of the 4th Workshop on Building and Using Comparable Corpora: Comparable Corpora and the Web		Author:Snover, Matthew; Li, Xiang; Lin, Wen-Pin; Chen, Zheng; Tamang, Suzanne; Ge, Mingmin; Lee, Adam; Li, Qi; Li, Hao; Anzaroot, Sam; Ji, Heng
+3.3.3 Document and Name Translation We use a statistical, phrase-based MT system (Zens and Ney, 2004) to translate Chinese documents into English for Type A Approaches.
+

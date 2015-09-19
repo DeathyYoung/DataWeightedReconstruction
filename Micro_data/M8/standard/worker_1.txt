@@ -1,0 +1,15 @@
+To build systems which accomplish such multimodal interactions, some studies discussed computational models of multimodal interactions [3, 4]
+MACK (Media lab Autonomous Conversational Kiosk) is an embodied conversational agent (ECA) that relies on both verbal and nonverbal signals to establish common ground in computer– human interactions [19]
+In the realm of life-like agent based systems, [23] consider a user’s focus of attention (among others) to decide an appropriate response for an educational software, and [17] investigate attentional focus (among others) for a direction-giving task
+While some systems [12, 2] have incorporated tracking of fine motion actions or visual gesture, none have included top-down dialogue context as part of the visual recognition process
+We investigate the verbal and nonverbal means for Based on these results, we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state
+Another application using an virtual agent is the MACK system [22]
+Many systems investigating interactive models of visual attention make use of head trackers [22, 28]
+Based on this work, Nakano and colleagues [6] developed a grounding model for the kiosk agent Mack that provides route descriptions for a paper map
+However, little has been studied how to extract communication signals from a huge amount of data, and how to use such data in dialogue management in conversational agents
+Eye gaze for an utterance is selected according to a statistical model based on utterance type and the context This more general method is supported by work such as [7], which links gaze behaviors to utterance types
+Nakano, Reinstein, Stocky, and Cassell (2003) present an empirical study of human-human interaction, showing a statistical relationship between hand-coded descriptions of head gestures and the discourse labels for the associated utterances (e
+Previous NLP research on gesture has largely focused on building recognizers for gestures that characterize specific language phenomena: for example, detecting hand gestures that cue sentence boundaries (Chen et al
+[40] suggested that in a face-to-face conversation non-verbal signals as well as verbal signals participate in the grounding process to indicate that an utterance is grounded or needs further work to become grounded
+[12], they conclude that gaze, or looking at faces, is an excellent predictor of conversational attention in multiparty conversations
+And indeed, a number of studies of face to face interaction between an user and an ECA have confirmed that this tendency exists (e

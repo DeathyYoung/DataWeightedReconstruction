@@ -1,0 +1,15 @@
+We present a framework for statistical machine translation of natural languages based on direct maximum entropy mod- els, which contains the widely used sour- ce-channel approach as a special case
+All knowledge sources are treated as feature functions, which depend on the source language sentence, the target language sentence and possible hidden variables
+This approach allows a baseline machine translation system to be extended easily by adding new feature functions
+log-linear interpolation [7] to combine the LM, TM, and joint probabilities, thus capturing this frequency information
+The MaxEnt model with moment constraints (MaxEnt-MC) [27] is a popular discriminative model that has been successfully applied to natural language processing (NLP) [28], speaker identification [29], statistical language modeling [30], text filtering [31], machine translation [32], and confidence estimation [17]
+Minimum Error Rate Training (MERT: Och 2003) is effective in boosting translation performance in log-linear models of phrase-based statistical machine translation (PB-SMT: Och and Ney 2002) according to both automatic and human judgments
+Although it suffers from several shortcomings, such as low correlation with human judgment on the sentence level, preference to statistical systems (Callison-Burch et al
+These feature weights are tuned discriminatively on the development set to directly maximize the translation performance measured by an automatic error metric (such as BLEU [18]) using the downhill simplex method [16]
+The best performing translation systems are based on various types of statistical approaches [1], including example-based methods [2], finite-state transducers [3] and other data driven approaches
+The log linear model [8] provides a natural framework to integrate many components and to weigh them based on their performance by maximizing the likelihood on a parallel training corpus f S
+The statistical machine translation system used in this work models the translation probability directly using a loglinear model (Och and Ney, 2002) with seven different models and corresponding scaling factors
+The maximum entropy(ME) approach had been introduced to many tasks of Natural Language Processing[6], and had achieved a good performance for some problems, like Chinese word segmentation[7], and statistic machine translation[8]
+Instead of using this source-channel approach, the direct modeling of the posterior probability can be computed as follows by using a log-linear model [1]:
+Finally, we further smooth transition probabilities with a uniform distribution as described in (Och and Ney, 2000a),
+Hiero uses a general log-linear model (Och and Ney, 2002) where the weight of a derivation D for a particular source sentence and its translation is w(D) = Y

@@ -1,0 +1,60 @@
+Title:H05-1047		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Tatu, Marta; Moldovan, Dan
+Language Computer CorporationRichardson, TX 75080, USAmarta,moldovan@languagecomputer.comAbstractExhaustive extraction of semantic infor-mation from text is one of the formidable
+
+Title:N06-1017		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Erk, Katrin
+This is problematic for the use of FrameNet analyses as a basis for inferences over text, as e.g. in Tatu and Moldovan (2005).
+
+Title:N06-1006		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:MacCartney, Bill; Grenager, Trond; de Marneffe, Marie-Catherine; Cer, Daniel; Manning, Christopher D.
+In ID 152, we would like the hypothesis to align with the first part of the text, to 1This is the same problem labeled and addressed as context in Tatu and Moldovan (2005).
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+Our overall test set accuracy of 62.50% represents a 2.1% absolute improvement over the task-independent system described in (Tatu and Moldovan, 2005), and a 20.2% relative improvement in accuracy over their system with respect to an uninformed baseline accuracy of 50%.
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+For example, two high-accuracy systems are those described in (Tatu and Moldovan, 2005), achieving 60.4% accuracy with no task-specific information, and (Bos and Markert, 2005), which achieves 61.2% task-dependent accuracy, i.e. when able to use the specific task labels as input.
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+Many previous approaches have used a logical form representation of the text and hypothesis sentences, focusing on deriving a proof by which one can infer the hypothesis logical form from the text logical form (Bayer et al. , 2005; Bos and Markert, 2005; Raina et al. , 2005; Tatu and Moldovan, 2005).
+
+Title:N06-1005		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Snow, Rion; Vanderwende, Lucy; Menezes, Arul
+Attempts have been made to remedy this deficit through various techniques, including modelbuilding (Bos and Markert, 2005) and the addition of semantic axioms (Tatu and Moldovan, 2005).
+
+Title:P06-2105		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Tatu, Marta; Moldovan, Dan
+These axioms express knowledge that could not be derived from WordNet regarding employment9, family relations, awards, etc. 5 Semantic Calculus The Semantic Calculus axioms combine two semantic relations identified within a text fragment and increase the semantic connectivity of the text (Tatu and Moldovan, 2005). (self citation)
+
+Title:W07-2003		Conference:Fourth International Workshop on Semantic Evaluations (SemEval-2007)		Author:G&icirc;rju, Roxana; Nakov, Preslav; Nastase, Vivi; Szpakowicz, Stan; Turney, Peter D.; Yuret, Deniz
+The recognition of textual entailment (Tatu and Moldovan, 2005) is an example of successful use of this type of deeper analysis in high-end NLP applications.
+
+Title:P08-1027		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Davidov, Dmitry; Rappoport, Ari
+7 Conclusion Relationship classification is known to improve many practical tasks, e.g., textual entailment (Tatu and Moldovan, 2005).
+
+Title:C08-1108		Conference:International Conference On Computational Linguistics		Author:Tatu, Marta; Srikanth, Munirathnam
+Our natural language reasoning engine (Tatu and Moldovan, 2005; Tatu and Moldovan, 2007) makes use of (1) a first-order logical representation of the input document which captures the concepts mentioned in the text, their attributes including named entity class values, event class or normalized values (for times) and the syntactic as well as the semantic dependencies between concepts2; (2) a rich set of axioms which encode the knowledge needed to derive meaningful information from a document; (3) a logic prover which operates in a proof by contradiction manner (a hypothesis H is entailed by a text T assumed to be true, denoted by T H, if and only if (T H) , where is false). (self citation)
+
+Title:P08-1052		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Nakov, Preslav; Hearst, Marti A.
+While there are not many success stories so far, measuring semantic similarity has proven its advantages for textual entailment (Tatu and Moldovan, 2005).
+
+Title:P08-1079		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Davidov, Dmitry; Rappoport, Ari
+There are already applications that utilize such knowledge (e.g., (Tatu and Moldovan, 2005) for textual entailment).
+
+Title:E09-1026		Conference:EACL		Author:F&uuml;rstenau, Hagen; Lapata, Mirella
+This is partly due to its relevance for applications ranging from information extraction (Surdeanu et al., 2003; Moschittietal., 2003)toquestionanswering(Shenand Lapata, 2007), paraphrase identification (Pado and Erk, 2005), and the modeling of textual entailment relations (Tatu and Moldovan, 2005).
+
+Title:J09-2003		Conference:Computational Linguistics		Author:G&icirc;rju, Roxana
+In this research we consider the identication and extraction of semantic relations in nominal phrases and compounds, but we do not focus in particular on the acquisition of paraphrases in these constructions.Our goal is to build an accurate semantic parser which will automatically annotate instances of nominal phrases and compounds with semantic relations in context.This approach promises to be very useful in applications that require semantic inference, such as textual entailment (Tatu and Moldovan 2005).
+
+Title:D10-1074		Conference:EMNLP		Author:Zhang, Chen; Chai, Joyce
+Different approaches have been developed, for example, based on logic proving (Tatu and Moldovan, 2005; Bos and Markert, 2005; Raina et al., 2005) and graph match (Haghighi et al., 2005; de Salvo Braz et al., 2005; MacCartney et al., 2006).
+
+Title:N10-1146		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Mehdad, Yashar; Moschitti, Alessandro; Zanzotto, Fabio Massimo
+Early deep semantic models (e.g., (Norvig, 1987)) as well as more recent ones (e.g., (Tatu and Moldovan, 2005; Bos and Markert, 2005; Roth and Sammons, 2007)) rely on specific world knowledge encoded in rules for drawing decisions.
+
+Title:W10-2802		Conference:Proceedings of the 2010 Workshop on GEometrical Models of Natural Language Semantics		Author:Croce, Danilo; Previtali, Daniele
+Several NLP applications have exploited this kind of semantic representation ranging from Information Extraction (Surdeanu et al., 2003; Moschitti et al., 2003)) to Question Answering (Shen and Lapata, 2007), Paraphrase Identification (Pado and Erk, 2005), and the modeling of Textual Entailment relations (Tatu and Moldovan, 2005).
+
+Title:D11-1060		Conference:EMNLP		Author:Kim, Su Nam; Nakov, Preslav
+This allows for simpleextractionandforstraightforwarduseinNLP tasks like textual entailment (Tatu and Moldovan, 2005) and machine translation (Nakov, 2008a).
+
+Title:P11-1134		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Mehdad, Yashar; Negri, Matteo; Federico, Marcello
+2 Lexical resources for TE and CLTE All current approaches to monolingual TE, either syntactically oriented (Rus et al., 2005), or applying logical inference (Tatu and Moldovan, 2005), or adopting transformation-based techniques (Kouleykov and Magnini, 2005; Bar-Haim et al., 2008), incorporate different types of lexical knowledge to support textual inference.
+

@@ -1,0 +1,15 @@
+We present a method to construct real-time systems using as components anytime algo- rithms whose quality of results degrades grace­ fully as computation time decreases
+Introduc­ ing computation time as a degree of freedom defines a scheduling problem involving the ac­ tivation and interruption of the anytime com­ ponents
+This scheduling problem is especially complicated when trying to construct inter- ruptible algorithms, whose total run-time is un­ known in advance
+We introduce a framework to measure the performance of anytime algo­ rithms and solve the problem of constructing interruptible algorithms by a mathematical re­ duction to the problem of constructing con­ tract algorithms, which require the determi­ nation of the total run-time when activated
+We show how the composition of anytime algo­ rithms can be mechanized as part of a compiler for a LISP-like programming language for real- time systems
+The result is a new approach to the construction of complex real-time sys­ tems that separates the arrangement of the per­ formance components from the optimization of their scheduling, and automates the latter task
+For performance requirements, Russell and Zilberstein [16] approach composability by using socalled anytime algorithms that are characterized by a probabilistic description of the quality of results as a function of time
+Last, the problems of scheduling contract algorithms and parallel ray-searching are surprisingly interrelated, as shown in (Bernstein, Finkelstein, and Zilberstein 2003)
+The only disadvantage of CCEL is the training speed: the solution of a middlesize problem takes a few minutes on usual PC
+Many existing planning algorithms can be considered contract algorithms, and depth-limited planning is one of them (Zilberstein & Russell 1995, Russell & Zilberstein 1991)
+The Design-to-Criteria scheduling process falls into the general area of flexible computation [6], but differs from most flexible computation approaches in its use of multiple actions to achieve flexibility (one exception is [7]) in contrast to anytime algorithms [2, 13, 20]
+In practice we expect to use the search methods as contract algorithms (Russell & Zilberstein 1991) where the allocation of resources (or the requirement for the number of goals) are given as input to the algorithm
+Second, real-time search methods allow for fine-grained control over how much planning to do between action executions and thus are any-time contract algorithm (Russell and Zilberstein 1991)
+Computational task environments are the problem domain for control algorithms like many real-time and parallel local scheduling algorithms [1, 17, 23] and distributed coordination algorithms [9, 14]
+Design-to-Criteria Scheduler Design-to-Criteria [39, 40] is a domain independent real-time, flexible computation [19, 9, 36] approach to task scheduling

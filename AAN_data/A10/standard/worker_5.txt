@@ -1,0 +1,15 @@
+The core of our engine is the dynamic programming algorithm for monotone phrasal decoding (Zens and Ney, 2004)
+Our approach to phrase-table smoothing contrasts to previous work (Zens and Ney, 2004) in which smoothed phrase probabilities are constructed from word-pair probabilities and combined in a log-linear model with an unsmoothed phrase-table
+Above the phrase level, these models typically have a simple distortion model that reorders phrases independently of their content (Och and Ney, 2004; Koehn et al
+1 Introduction Todays statistical machine translation systems rely on high quality phrase translation pairs to acquire state-of-the-art performance, see (Koehn et al
+2004), hereafter ATS, and the IBM phrase-based system (Tillmann 2004; Tillmann and Zhang 2005), have phrase-reordering models that add some lexical sensitivity
+The log-linear model is also based on standard features: conditional probabilities and lexical smoothing of phrases in both directions, and phrase penalty (Zens and Ney, 2004)
+We use a phrase-based translation approach as described in (Zens and Ney, 2004)
+Yet this approach loses the advantage of context-sensitive lexical selection: the word translation model depends only on the word classes to subcategorize for translations, which leads to less accurate lexical choice in practice (Zens & Ney, 2004)
+For tractability, we followed standard practice with this technique and considered only monotonic alignments when decoding (Zens and Ney, 2004)
+The following methods were investigated: (Monotone) Phrase-based MT on character level: A state-of-the-art phrase-based SMT system (Zens and Ney, 2004) was used for name transliteration, i
+In (Zens and Ney, 2004) the downhill simplex method is used to estimate the weights; around 200 iterations are required for convergence to occur
+The translation results forthe Xerox and Canadian Hansards task are verypromising
+In statistical machine translation, the currentlybest performing systems are based in some wayon phrases or word groups
+2 Review of phrase-based translation system For the confidence measures which will be introduced in section 5, we use a state-of-the-art phrasebased approach as described in (Zens and Ney, 2004)
+4 Decoder Our decoder builds upon machine translations monotone phrasal decoding (Zens and Ney, 2004), or equivalently, the sequence tagging algorithm used in semi-Markov CRFs (Sarawagi and Cohen, 2004)

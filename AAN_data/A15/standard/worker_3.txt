@@ -1,0 +1,15 @@
+1 We inherit the definitions of formal and linguistic from (Chiang, 2005) which makes a distinction between formally syntax-based SMT and linguistically syntax-based SMT
+The model of Chiang (2005) employs a synchronous context-free grammar to allow hierarchical approaches to reordering
+They use an existing parser to parse the target side of the parallel corpus in order to extract a syntactically motivated, bilingual synchronous grammar as in (Chiang, 2005)
+, 2003; Chiang, 2005) or syntax-based (Zollmann and Venugopal, 2006), use phrases as the fundamental translation unit, so how much the phrase table and training data can cover the test set is an important factor which influences the translation quality
+Synchronous parsing has seen a surge of interest recently in the machine translation community as a way of formalizing syntax-based translation models (Melamed, 2004; Chiang, 2005)
+Chiang (2005) introduced a hierarchical phrasebased translation model that combined the strength of the phrase-based approach and a synchronous-CFG formalism (Aho and Ullman, 1969): A rewrite system initiated from a start symbol which synchronously rewrites paired nonterminals
+Among the first to demonstrate improvement when adding recursive structure was (Chiang, 2005), who allows for hierarchical phrase probabilities that handle a range of reordering phenomena in the correct fashion
+Although SCFGS were initially introduced for machine translation as a stochastic word-based translation process in the form of the InversionTransduction Grammar (Wu, 1997), they were actually able to offer state-of-the-art performance in their latter phrase-based implementation by Chiang (Chiang, 2005)
+1 Context Features In the hierarchical phrase-based translation method, the translation rules are extracted by abstracting some words from an initial phrase pair (Chiang, 2005)
+The hierarchical phrase-based model (Chiang, 2005) used hierarchical phrase pairs to strengthen the generalization ability of phrases and allow long distance reorderings
+Then we use the same method suggested in (Chiang, 2005) to extract SCFG grammar rules within dependency constraint on both sides except that unaligned words are allowed at the edge of phrases
+In order to further improve the reordering performance, many structure-based methods are proposed, including the reordering model in hierarchical phrase-based SMT systems (Chiang, 2005) and syntax-based SMT systems (Zhang et al
+5 Experiments Setup We tested these features on two machine translation systems: a hierarchical phrasebased (string-to-string) system (Chiang, 2005) and a syntax-based (string-to-tree) system (Galley et al
+(Chiang, 2005) proposes an heuristic way of acquiring context free transfer rules that significantly improves upon a standard phrase-based model
+The other is a hierarchical phrase-based translation in which translation is realized as a set of paired production rules (Chiang, 2005)

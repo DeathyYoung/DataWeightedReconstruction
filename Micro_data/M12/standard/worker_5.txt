@@ -1,0 +1,15 @@
+The Scatter/Gather document browsing method uses fast document clustering to produce table-of-contents-like outlines of large document collections
+Previous work [1] developed linear-time document clustering algorithms to establish the feasibility of this method over moderately large collections
+However, even linear-time algorithms are too slow to support interactive browsing of very large collections such as Tipster, the DARPA standard text retrieval evaluation collection
+Many researchers have attempted to employ the techniques of traditional text/document clustering (referred as long text clustering) [4,10,13,35,46,47] to reorganize search results, and then use cluster labeling method [7,9,36,37] to assign a readable label to each cluster
+1 The seminal research work in information retrieval uses scatter/gather as a tool for browsing large to very large document collections [6, 7]
+Research also investigated a method that used a precomputed hierarchy of meta-documents for further expansion of selected items and reclustering of the subset [5]
+Whereas the method in [5] focused on coarse-grained patterns of local subsets by reclustering meta-documents, our approach maintains a global view of the local ones and reasonably skips local reclustering
+Each item in the focus set represents one or many documents and contains their most relevant features (in [2], the term frequencies of the most frequent terms, the number of documents represented, and some example documents)
+Many document clustering algorithms rely on off-line clustering of the entire collection [13,2], but on the web the collection is too large and fluid to allow an off-line approach
+Systems like Scatter/Gather [CKP93] provide a mechanism for user-driven organization of data in a xed number of clusters, but the users need to be in the loop and the computed clusters do not have accuracy guarantees
+One of the best clustering methods is the Scatter/Gather browsing paradigm [CDRKT92,CKP93,HP96] that clusters documents into topically-coherent groups
+To scale it up to large collections, a variety of sampling techniques exist [20]
+[CCFM97] consider a dynamic clustering algorithm to partition a collection of text documents into a fixed number of clusters
+Cutting, Karger, and Pedersen (1993) proposed an algorithm that used a precomputed hierarchy of meta-documents for further expansion of selected items and reclustering of the subset
+The Scatter/Gather system [16, 17] uses the clustering of documents as the basis of a browser suitable for large numbers of documents

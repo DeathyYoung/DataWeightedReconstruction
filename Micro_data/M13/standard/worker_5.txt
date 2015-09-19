@@ -1,0 +1,15 @@
+Current specialized planners for query processing are designed to work in local, reliable, and predictable environments
+However, a numberof problems arise in gathering information fromlarge networks of distributed information
+Inthis environment, the same information may residein multiple places, actions can be executedin parallel to exploit distributed resources, newgoals come into the system during execution,actions may fail due to problems with remotedatabases or networks, and
+, Ariadne [30], TSIMMIS [8], and Whirl [9]) extend the database querying models using combinations of templates or menu-based forms to incorporate queries that are restricted to a single domain (or a set of domains)
+Ariadne¡¯s Theseus [30] pre-compiles part of the integration model and uses a local search method for generating query plans across a large number of sources
+Research in query answering and information retrieval has dealt, among others, with using multiple information sources to gather the requested (or relevant) information (cf
+Query planning (Knoblock 1995) involves generating a set of sub-queries from a high-level user query based on the data source locations that have parts of the required information to answer the query
+The SAGE system provides an integrated framework for planning, execution, sensing and replanning in the domain of information access (Knoblock 1995)
+Sage [18], the planner used in the SIMS project [21], is a general-purpose planner adapted to the problem of efficiently accessing multiple information sources in order to satisfy information gathering queries
+In earlier papers (Knoblock 1994; 1995) we addressed various issues related to planning for information gathering, such as simultaneous actions, integrating planning and execution, replanning, and sensing
+Sage [4], the planner used in the SIMS project [13], is a general-purpose planner adapted to the problem of efficiently accessing multiple information sources in order to satisfy information gathering queries
+Approaches based on domain-independent planning provide a principled way of responding to such events [6,40]
+A prototypical system used an abstract representation of the data similar to the approach in (Knoblock 1995) and the FF planner (Hoffmann & Nebel 2001) as the planning backbone for the system
+The interleaving of planning and execution [7] is sometimes a way to deal with the expiration of values, but it relies on the detection of the failure during plan execution¡ªand in some applications this information is not available, or failures must be avoided entirely
+The SIMS query planner (Knoblock 1995) was designed primarily for database applications, but database applications typically involve only a small number of databases, while web applications can involve accessing many more sources

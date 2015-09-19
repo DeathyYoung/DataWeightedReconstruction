@@ -1,0 +1,108 @@
+Title:A00-2024		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Jing, Hongyan; McKeown, Kathleen R.
+We present a cut and paste based text summa- rizer, which uses operations derived from an anal- edits extracted sentences, using reduction to remove inessential phrases and combination to merge re- suiting phrases together as coherent sentences. Our work includes a statistically based sentence decom- position program that identifies where the phrases of a summary originate in the original document, pro- ducing an aligned corpus of summaries and articles which we used to develop the summarizer. 
+
+Title:A00-1043		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Jing, Hongyan
+We analyzed a set of articles and identified six major operations that can be used for editing the extracted sentences, including removing extraneous phrases from an extracted sentence, combining a reduced sentence with other sentences, syntactic transformation, substituting phrases in an extracted sentence with their paraphrases, substituting phrases with more general or specific descriptions, and reordering the extracted sentences (Jing and McKeown, 1999; Jing and McKeown, 2000). (self citation)
+
+Title:J02-4004		Conference:Computational Linguistics		Author:Silber, H. Gregory; McCoy, Kathleen F.
+Additionally, some research has explored cutting and pasting segments of text from the full document to generate a summary (Jing and McKeown 2000).
+
+Title:J02-4005		Conference:Computational Linguistics		Author:Saggion, Horacio; Lapalme, Guy
+Our work in sentence reformulation is different from cut-and-paste summarization (Jing and McKeown 2000) in many ways.
+
+Title:J02-4005		Conference:Computational Linguistics		Author:Saggion, Horacio; Lapalme, Guy
+Jing and McKeown (2000) and Jing (2000) propose a cut-and-paste strategy as a computational process of automatic abstracting and a sentence reduction strategy to produce concise sentences.
+
+Title:J02-4005		Conference:Computational Linguistics		Author:Saggion, Horacio; Lapalme, Guy
+Jing and McKeown (2000) have proposed a rule-based algorithm for sentence combination, but no results have been reported.
+
+Title:J02-4005		Conference:Computational Linguistics		Author:Saggion, Horacio; Lapalme, Guy
+But in fact, the issue of editing in text summarization has usually been neglected, notable exceptions being the works by Jing and McKeown (2000) and Mani, Gates, and Bloedorn (1999).
+
+Title:W02-0404		Conference:Workshop On Automatic Summarization		Author:Otterbacher, Jahna C.; Radev, Dragomir R.; Luo, Airong
+Previous research has addressed revision in single-document summaries [Jing & McKeown, 2000] [Mani et al, 1999] and has suggested that revising summaries can make them more informative and correct errors.
+
+Title:W02-0404		Conference:Workshop On Automatic Summarization		Author:Otterbacher, Jahna C.; Radev, Dragomir R.; Luo, Airong
+To contrast, [Jing & McKeown, 2000] concentrated on analyzing human-written summaries in order to determine how professionals construct summaries.
+
+Title:J02-4002		Conference:Computational Linguistics		Author:Teufel, Simone; Moens, Marc
+Because of this, it is generally accepted that some kind of postprocessing should be performed to improve the final result, by shortening, fusing, or otherwise revising the material (Grefenstette 1998; Mani, Gates, and Bloedorn 1999; Jing and McKeown 2000; Barzilay et al. 2000; Knight and Marcu 2000).
+
+Title:W03-1102		Conference:International Workshop On Information Retrieval With Asian Languages		Author:Jaruskulchai, Chuleerat; Kruengkrai, Canasai
+The recent approach for editing extracted text spans (Jing and McKeown, 2000) may also produce improvement for our algorithm.
+
+Title:W03-1004		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Barzilay, Regina; Elhadad, No&eacute;mie
+1 Introduction Text-to-text generation is an emerging area of research in NLP (Chandrasekar and Bangalore, 1997; Caroll et al. , 1999; Knight and Marcu, 2000; Jing and McKeown, 2000).
+
+Title:I05-2009		Conference:Second International Joint Conference on Natural Language Processing: Companion Volume including Posters/Demos and tutorial abstracts		Author:Tanaka, Hideki; Kumano, Tadashi; Nishiwaki, Masamichi; Itoh, Takayuki
+(1999) proposed a summarization system based on the draft and revision. Jing and McKeown (2000) proposed a system based on extraction and cut-and-paste generation. Our abstractors performed the same cut-and-paste operations that Jing and McKeown noted in their work, and we think that our two-step model will be a reasonable starting point for our subsequent research.
+
+Title:I05-2009		Conference:Second International Joint Conference on Natural Language Processing: Companion Volume including Posters/Demos and tutorial abstracts		Author:Tanaka, Hideki; Kumano, Tadashi; Nishiwaki, Masamichi; Itoh, Takayuki
+We found that the deletion of lead parts did not occur very often in our summary, unlike the case of Jing and McKeown (2000).
+
+Title:I05-2009		Conference:Second International Joint Conference on Natural Language Processing: Companion Volume including Posters/Demos and tutorial abstracts		Author:Tanaka, Hideki; Kumano, Tadashi; Nishiwaki, Masamichi; Itoh, Takayuki
+5.3 Related works and discussion Our two-step model essentially belongs to the same category as the works of (Mani et al. , 1999) and (Jing and McKeown, 2000).
+
+Title:J05-3002		Conference:Computational Linguistics		Author:Barzilay, Regina; McKeown, Kathleen R.
+While earlier approaches for text compression were based on symbolic reduction rules (Grefenstette 1998; Mani, Gates, and Bloedorn 1999), more recent approaches use an aligned corpus of documents and their human written summaries to determine which constituents can be reduced (Knight and Marcu 2002; Jing and McKeown 2000; Reizler et al. 2003). (self citation)
+
+Title:J05-3002		Conference:Computational Linguistics		Author:Barzilay, Regina; McKeown, Kathleen R.
+In addition to reducing the original sentences, Jing and McKeown (2000) use a number of manually compiled rules to aggregate reduced sentences; for example, reduced clauses might be conjoined with and. (self citation)
+
+Title:J05-3002		Conference:Computational Linguistics		Author:Barzilay, Regina; McKeown, Kathleen R.
+While this approach exploits only syntactic and lexical information, Jing and McKeown (2000) also rely on cohesion information, derived from word distribution in a text: Phrases that are linked to a local context are retained, while phrases that have no such links are dropped. (self citation)
+
+Title:J05-3002		Conference:Computational Linguistics		Author:Barzilay, Regina; McKeown, Kathleen R.
+As previously observed in the literature (Mani, Gates, and Bloedorn 1999; Jing and McKeown 2000), such components include a clause in the clause conjunction, relative clauses, and some elements within a clause (such as adverbs and prepositions). (self citation)
+
+Title:J05-3002		Conference:Computational Linguistics		Author:Barzilay, Regina; McKeown, Kathleen R.
+In addition to sentence fusion, compression algorithms (Chandrasekar, Doran, and Bangalore 1996; Grefenstette 1998; Mani, Gates, and Bloedorn 1999; Knight and Marcu 2002; Jing and McKeown 2000; Reizler et al. 2003) and methods for expansion of a multiparallel corpus (Pang, Knight, and Marcu 2003) are other instances of such methods. (self citation)
+
+Title:H05-1033		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Sporleder, Caroline; Lapata, Mirella
+Table 3: Example compressions Compression AvgLen Rating Baseline 9.70 1.93 BT-2-Step 22.06 3.21 Spade 19.09 3.10 Humans 20.07 3.83 Table 4: Mean ratings for automatic compressions nally, we added a simple baseline compression algorithm proposed by Jing and McKeown (2000) which removed all prepositional phrases, clauses, toinfinitives, and gerunds.
+
+Title:I08-1016		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Nenkova, Ani
+Automatic text summarization approaches have offered reasonably well-performing approximations for identifiying important sentences (Lin and Hovy, 2002; Schiffman et al., 2002; Erkan and Radev, 2004; Mihalcea and Tarau, 2004; Daume III and Marcu, 2006) but, not surprisingly, text (re)generation has been a major challange despite some work on sub-sentential modification (Jing and McKeown, 2000; Knight and Marcu, 2000; Barzilay and McKeown, 2005).
+
+Title:I08-2101		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Honarpisheh, Mohamad Ali; Ghassem-Sani, Gholamreza; Mirroshandel, Ghassem
+al., 1994), compression of sentences with Automatic Translation approaches (Knight and Marcu, 2000), Hidden Markov Model (Jing and McKeown, 2000), Topic Signatures based methods (Lin and Hovy, 2000, Lacatusu et al., 2006) are among the most popular techniques that have been used in the summarization systems of this category.
+
+Title:W09-0604		Conference:Proceedings of the 12th European Workshop on Natural Language Generation (ENLG 2009)		Author:Marsi, Erwin; Krahmer, Emiel; Hendrickx, Iris; Daelemans, Walter
+First, splitting and merging of sentences (Jing and McKeown, 2000), which seems related to content planning and aggregation.
+
+Title:W09-0604		Conference:Proceedings of the 12th European Workshop on Natural Language Generation (ENLG 2009)		Author:Marsi, Erwin; Krahmer, Emiel; Hendrickx, Iris; Daelemans, Walter
+One of the applications is in automatic summarization in order to compress sentences extracted for the summary (Lin, 2003; Jing and McKeown, 2000).
+
+Title:W09-0604		Conference:Proceedings of the 12th European Workshop on Natural Language Generation (ENLG 2009)		Author:Marsi, Erwin; Krahmer, Emiel; Hendrickx, Iris; Daelemans, Walter
+1 Introduction The task of sentence compression (or sentence reduction) can be defined as summarizing a single sentence by removing information from it (Jing and McKeown, 2000).
+
+Title:W09-2808		Conference:Proceedings of the 2009 Workshop on Language Generation and Summarisation (UCNLG+Sum 2009)		Author:Tanaka, Hideki; Kinoshita, Akinori; Kobayakawa, Takeshi; Kumano, Tadashi; Katoh, Naoto
+Like the work of Jing and McKeown (2000) and Mani et al.
+
+Title:W09-2807		Conference:Proceedings of the 2009 Workshop on Language Generation and Summarisation (UCNLG+Sum 2009)		Author:Saggion, Horacio
+Close to the problem studied here is Jing and McKeowns (Jing and McKeown, 2000) cut-and-paste method founded on EndresNiggemeyers observations.
+
+Title:W09-2807		Conference:Proceedings of the 2009 Workshop on Language Generation and Summarisation (UCNLG+Sum 2009)		Author:Saggion, Horacio
+In cut-and-paste summarization (Jing and McKeown, 2000), sentence combination operations were implemented manually following the study of a set of professionally written abstracts; however the particular pasting operation presented here was not implemented.
+
+Title:D10-1050		Conference:EMNLP		Author:Woodsend, Kristian; Feng, Yansong; Lapata, Mirella
+Rewrite operations other than deletion tend to be hand-crafted and domain specific (Jing and McKeown, 2000).
+
+Title:C10-1037		Conference:COLING		Author:Filippova, Katja
+Starting from the early work of Jing & McKeown (2000), in the last decade SC has received considerable attention in the NLP community.
+
+Title:P10-1058		Conference:ACL		Author:Woodsend, Kristian; Lapata, Mirella
+Jing and McKeown (2000) first extract sentences, then remove redundant phrases, and use (manual) recombination rules to produce coherent output.
+
+Title:C10-1039		Conference:COLING		Author:Ganesan, Kavita; Zhai, ChengXiang; Han, Jiawei
+Existing work in abstractive summarization has been quite limited and can be categorized into two categories: (1) approaches using prior knowledge (Radev and McKeown, 1998) (Finley and Harabagiu, 2002) (DeJong, 1982) and (2) approaches using Natural Language Generation (NLG) systems (Saggion and Lapalme, 2002) (Jing and McKeown, 2000).
+
+Title:W11-1606		Conference:Proceedings of the Workshop on Monolingual Text-To-Text Generation		Author:Thadani, Kapil; McKeown, Kathleen R.
+This distinguishes our approach from traditional sentence fusion approaches (Jing and McKeown, 2000; Barzilay and McKeown, 2005; Filippova and Strube, 2008b) which generally attempt to retain common information but are typically evaluated in an abstractive summarization context in which additional information in the fusion output does not negatively impact judgments. (self citation)
+
+Title:W11-1605		Conference:Proceedings of the Workshop on Monolingual Text-To-Text Generation		Author:Louis, Annie; Nenkova, Ani
+Jing and McKeown (2000) studied what edits people use to create summaries from sentences in the source text.
+
+Title:P11-3002		Conference:Proceedings of the ACL 2011 Student Session		Author:Zhang, Renxian
+But it remains an open question whether sentence ordering is non-trivial for single-document summarization, as it has long been recognized as an actual strategy taken by human summarizers (Jing, 1998; Jing and McKeown, 2000) and acknowledged early in work on sentence ordering for multi-document summarization (Barzilay et al., 2002).
+

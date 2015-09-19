@@ -1,0 +1,15 @@
+We propose a formal model of Cross-Language Information Retrieval that does not rely on either query translation or document translation
+Our approach leverages recent advances in language modeling to directly estimate an accurate topic model in the target language, starting with a query in the source language
+The model integrates popular techniques of disambiguation and query expansion in a unified formal framework
+We describe how the topic model can be estimated with either a parallel corpus or a dictionary
+We test the framework by constructing Chinese topic models from English queries and using them in the CLIR task of TREC9
+The main contribution of this work is the unified formal model which integrates techniques that are essential for effective Cross-Language Retrieval
+Finally, Croft [17] used a unified formal model using language modeling, he also integrated query expansion to solve one of the most difficult problems in IR (disambiguation), he implemented his model on a parallel bilingual corpus
+Our proposed framework was greatly inspired by the recent advances on language modeling applications in information retrieval, including relevance models [6,5], model-based feedback [10], and Bayesian language model [9]
+Translation probabilities are widely used in MLIA for handling translation ambiguities or are even built as a part of the statistical language modeling for MLIA [2, 9, 10]
+Previous work has demonstrated that parallel corpus could be used as a way to find word pairs in different languages [4, 5, 6]
+Apart from these approaches, the extension of monolingual IR techniques such as vector based models, relevance modeling techniques [5] etc
+Relevance models, a technique borrowed from information retrieval [6, 5] surprisingly outperformed SVM’s (classification accuracy of 79
+Methods based on parallel corpora, such as relevance language models (Lavrenko, Choquette, & Croft 2002) and statistical translation models (Kraaij, Nie, & Simard 2003; Xu & Weischedel 2001), usually learn an association between words in the source language and the target language, and apply the association to estimate translations of queri es
+Conventionally CLIR approaches [4,7,8,12,21] have focused mainly on incorporating dictionaries and domain-specific bilingual corpora for query translation [6,10,18]
+[12] suggest a reasonable way to approximate P(w|R) by using a joint probability of observing the word w together with query words q1, …, qm (Q = q1, …, qm):

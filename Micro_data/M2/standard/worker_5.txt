@@ -1,0 +1,15 @@
+This paper describes a system that leads us to believe in the feasibility of constructing natural spoken dialogue systems in task-oriented domains
+It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors
+Robustness is achieved by a combination of statistical error post-correction, syntactically- and semantically-driven robust parsing, and extensive use of the dialogue context
+We present an evaluation of the system using time-to-completion and the quality of the final solution that suggests that most native speakers of English can use the system successfully with virtually no training
+Plan recognition can be considered as a problem of dynamic classification of multiple hypotheses
+As stated by Allen [3], two methods can be considered for processing NL commands: the top-down and the bottom-up approach
+Whereas the original TRAINS-96 dialogue system [3] would respond to this apparently contradictory sequence of commands by sending the very same train, our enhanced HCI system notes the contradiction, and, by assessing the problem, identifies a possible mistake in its choice of referent for ‘the Boston train’
+The use of concept spotting is common in spoken-language information systems (Ward1989; Jackson et al
+As pointed out in [AMRS96] it is better to have a dialogue system that tries to guess a specificinterpretation in case of ambiguity rather than ask the user for a clarification
+This work has been done as part of the TRAINS-95 and TRAINS-96 conversational planning systems, which are aimed at successfully understanding spontaneous spoken utterances in human-computer dialogue [1]
+Dialogue development in industry is usually focused on the delivery of a working system, requiring a set sequence of information items that have to b e filled, h ence the predominance of structured finite state dialogues where the initiative in the dialogue is kept solely by the system and the user is prompted to respond to qu estions in a specific order and expected to use a set of predetermined limited responses [1,2,3]
+A study of keyboard versus spoken input in a task-oriented dialogue system evaluated the effect of input modality on task success and user preference (Allen et al
+Though most of them deal with database retrieval and transaction processing, the target of spoken dialogue systems has been extended to cover other tasks, such as planning [3] and tutoring [4]
+They trained the channel model and the language model both using some transcriptions from TRAINS-95 dialogue system which is a train traveling planning system [8]
+The customization method described here was developed in the process of adapting the TRIPS dialogue system [2] to several difierent domains, including a transportation routing system [3] and a medication scheduling system [7]

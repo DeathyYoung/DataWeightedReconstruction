@@ -1,0 +1,15 @@
+The Scatter/Gather document browsing method uses fast document clustering to produce table-of-contents-like outlines of large document collections
+Previous work [1] developed linear-time document clustering algorithms to establish the feasibility of this method over moderately large collections
+However, even linear-time algorithms are too slow to support interactive browsing of very large collections such as Tipster, the DARPA standard text retrieval evaluation collection
+This involves the construction of a cluster hierarchy
+Many researchers have attempted to employ the techniques of traditional text/document clustering (referred as long text clustering) [4,10,13,35,46,47] to reorganize search results, and then use cluster labeling method [7,9,36,37] to assign a readable label to each cluster
+This system divides a document corpus into groups and allows users to iteratively examine the resultant document groups or sub-groups for content navigation
+Research also investigated a method that used a precomputed hierarchy of meta-documents for further expansion of selected items and reclustering of the subset [5]
+Although some researchers observed that approaches of this kind were too restrictive and could serve only one cluster at each presentation [5], this is not necessarily the case, as described in Section 2
+Pirolli and Card (1999) presented the classical patch model from optimal foraging theory and showed its application to user behavior in browsing a document clustering system called Scatter/Gather (Cutting, Karger, & Pedersen, 1993; Cutting, Karger, Pedersen, & Tukey, 1992)
+The Scatter/Gatherer system by Cutting et al [3, 4, 6] utilizes the Buckshot and Fractionation algorithms to define document cluster centers, given Figure 1
+[3][6][11][10]) apply traditional clustering algorithms which first cluster documents into topically-coherent groups according to content similarity, and generate descriptive summaries for clusters
+Unsupervised clustering problem has been addressed in the context of many disciplines, including pattern recognition, artiflcial intelligence, information retrievalanddatamining
+Even constant-time clustering algorithms such as constant-time Scatter/Gather [7] can, because of large constants, be too slow for very large data sets
+Research also investigated a method that used a precomputed hierarchy of meta-documents for further expansion of selected items and reclustering of the subset [5]
+Whereas the method in [5] focused on coarse-grained patterns of local subsets by reclustering meta-documents, our approach maintains a global view of the local ones and reasonably skips local reclustering

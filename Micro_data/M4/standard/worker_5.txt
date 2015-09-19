@@ -1,0 +1,15 @@
+This paper proposes a two-phase example-based machine translation methodology which develops translation templates from examples and then translates using template matching
+This method improves translation quality and facilitates customization of machine translation systems
+A translation template is a bilingual pair of sentences in which corresponding units (words and pharases) are coupled and replaced with variables
+Correspondence between units is determined by suing a bilingual dictionary and by analyzing the syntactic structure of the sentences
+All of the translation templates generated from a bilingual corpus are grouped by their source language part, and then further refined to resolved conflicts among templates whose source language parts are the same but whose target language parts are different
+Others [1,16] adopted simple translation algorithms to join partial target matches to generate the translation
+The different approaches vary in how they represent these fragments: as surface strings, structured representations, generalized templates with variables, etc
+Phrase alignment is implemented on parsing trees of source and target sentences according to word alignment results [2]
+Kaji proposed acquiring the bilingual translation data from bilingual texts [Kaji92]
+Some EBMT systems [1,2,3,4,5,6] extract translation templates from example sentences in a given bilingual corpus and use these translation templates in the translation of other sentences
+Some methods add appropriate dictionaries or rules for MT target domains to a rule based MT system from a corpus [3, 4, 5, 6, 7]
+Utilizing templates is more flexible as compared to word-for-word translation [4] and to pre-defined rules which would be hard to modify at a later time
+Crossing constraints are implicit in many phrasal matching approaches, both constituency-oriented (Kaji, Kida, & Morimoto 1992; Cranias, Papageorgiou, & Piperidis 1994; Grishman 1994) and dependency-oriented (Sadler & Vendelmans 1990; Matsumoto, Ishimoto, & Utsuro 1993)
+Template-driven EBMT systems that use grammar rules include [5], EDGAR [3], and SalinWika [2]
+Kaji [4] defines a translation template as “a bilingual pair of sentences in which corresponding units (words and phrases) are coupled and replaced with variables”

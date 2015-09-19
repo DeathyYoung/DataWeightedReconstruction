@@ -1,0 +1,15 @@
+We present a framework for statistical machine translation of natural languages based on direct maximum entropy mod- els, which contains the widely used sour- ce-channel approach as a special case
+All knowledge sources are treated as feature functions, which depend on the source language sentence, the target language sentence and possible hidden variables
+The machine translation problem is commonly modeled by a log-linear model with multiple features that capture different dependencies between the source language and the target language [15]
+log-linear interpolation [7] to combine the LM, TM, and joint probabilities, thus capturing this frequency information
+Minimum Error Rate Training (MERT: Och 2003) is effective in boosting translation performance in log-linear models of phrase-based statistical machine translation (PB-SMT: Och and Ney 2002) according to both automatic and human judgments
+Log-linear interpolation models, which can be formally derived within the maximum entropy framework [1], are widely applied to statistical machine translation (SMT) [2]
+An enhancement of the SMT systems consists of calculating the posterior probability as a log-linear combination of a set of feature functions [4, 26]
+Phrase-based statistical machine translation systems are usually modeled through a log-linear framework [5, 6] by introducing the hidden word alignment variable a [7]
+The log linear model [8] provides a natural framework to integrate many components and to weigh them based on their performance by maximizing the likelihood on a parallel training corpus f S
+Och used an exchange algorithm to obtain an optimization criterion for bilingual word classes by applying a maximum-likelihood approach to the joint probability of a parallel corpus [8]
+In our system, the phrase-based translation model is based on the log-linear model [7] and the phrase we mention here is composed of a series of words that perhaps possess no syntax or semantic meanings
+ME model is used to find a distribution function with the maximum information entropy under some restriction rulers [10],[11],[12],[13]
+Our system employs minimum error rate training to optimize parameter weights for each of the individual model components that are summarized in table 1
+The log linear model [8] provides a natural framework to integrate many components and to weigh them based on their performance by maximizing the likelihood on a parallel training corpus f S
+HMM based alignment, Och and Ney (2000a) extended the transition models to be word-class dependent

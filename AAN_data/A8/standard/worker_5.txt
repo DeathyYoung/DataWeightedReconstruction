@@ -1,0 +1,15 @@
+In order to improve end-to-end accuracy, we introduce new features for our model and shift from the generative6 model to the standard log-linear approach (Och and Ney, 2004) to tune7 them
+, 2008; Chiang 2010), many researchers have concentrated on the approaches that improve translation quality using information between hypotheses from one or more SMT systems as well
+1 Introduction Besides tremendous efforts on constructing more complicated and accurate models for statistical machine translation (SMT) (Och and Ney, 2004; Chiang, 2005; Galley et al
+Phrase-based Statistical Machine Translation (SMT) systems analyze large quantities of bilingual parallel texts in order to learn translational alignments between pairs of words and phrases in two languages (Och and Ney, 2004)
+1 Introduction Phrase-based approaches (Och and Ney, 2004) to statistical machine translation (SMT) have recently achieved impressive results, leading to significant improvements in accuracy over the original IBM models (Brown et al
+First, manyto-many word alignments are induced by running a one-to-many word alignment model, such as GIZA++ (Och and Ney, 2003), in both directions and by combining the results based on a heuristic (Och and Ney, 2004)
+2 Phrase Extraction Given a sentence pair and a corresponding word alignment, phrases are extracted following the criterion in Och and Ney (2004)
+Early systems such as the Alignment Template System (ATS) (Och and Ney 2004) and Pharaoh (Koehn 2004) were widely used and accepted by the research community
+, 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length 7 using the alignment template approach (Och and Ney, 2004)
+Given a sentence pair and its corresponding word-level alignment, phrases will be extracted by using the approach in (Och and Ney, 2004)
+Chiangs Hiero system (Chiang, 2007) exemplifies the gains to be had by combining phrase-based translation (Och and Ney, 2004) with the hierarchical reordering capabilities of SCFGs, particularly originating from Binary Inversion Transduction Grammars (BITG) (Wu, 1997)
+, 2007) and Hierarchical (Hiero-style) (Chiang, 2007) models are two mainstream approaches for building Statistical Machine Translation systems, with different characteristics
+2 Training the Error Model Given a set of (Q, C) pairs as training data, we follow a method commonly used in SMT (Och and Ney, 2004) to extract biphrases and estimate their replacement probabilities
+1 Introduction The recent advances in statistical machine translation have been achieved by discriminatively training a small number of real-valued features based either on (hierarchical) phrase-based translation (Och and Ney, 2004; Koehn et al
+, 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length seven using the alignment template approach (Och and Ney, 2004)

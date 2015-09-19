@@ -1,0 +1,15 @@
+Our MT system uses a phrase-based decoder and the log-linear model described in (Zens and Ney, 2004)
+1 Introduction Todays statistical machine translation systems rely on high quality phrase translation pairs to acquire state-of-the-art performance, see (Koehn et al
+4 Decoder Our decoder builds upon machine translations monotone phrasal decoding (Zens and Ney, 2004), or equivalently, the sequence tagging algorithm used in semi-Markov CRFs (Sarawagi and Cohen, 2004)
+Therefore, we search for the best pronunciation over all segmentations of the word, adapting the monotone search algorithm proposed by Zens and Ney (2004) for phrase-based machine translation
+We experimented with two levels of distortion: monotonic, where the phrasal alignment is monotonic (but word reordering is still possible within a phrase) and limited distortion, where only adjacent phrases are allowed to exchange positions (Zens and Ney, 2004)
+There is, however, a large body of work using morphological analysis to define cluster-based translation models similar to ours but in a supervised manner (Zens and Ney, 2004), (Niessen and Ney, 2004)
+The log-linear model is also based on standard features: conditional probabilities and lexical smoothing of phrases in both directions, and phrase penalty (Zens and Ney, 2004)
+In particular, our methods are inspired by the monotone search algorithm proposed in (Zens and Ney, 2004)
+In order to complete the conversion from a pipeline approach to a joint approach, we fold our input segmentation step into the exact search framework by replacing a separate segmentation module (#2) with a monotone phrasal decoder (Zens and Ney, 2004)
+, 2005) including the following models: an n-gram language model, a phrase translation model and a word-based lexicon model
+Our approach to phrase-table smoothing contrasts to previous work (Zens and Ney, 2004) in which smoothed phrase probabilities are constructed from word-pair probabilities and combined in a log-linear model with an unsmoothed phrase-table
+Yet this approach loses the advantage of context-sensitive lexical selection: the word translation model depends only on the word classes to subcategorize for translations, which leads to less accurate lexical choice in practice (Zens & Ney, 2004)
+We use the RWTH Aachen Chinese-to-English statistical phrase-based machine translation system (Zens and Ney, 2004) for these purposes
+Each includes relative frequency estimates and lexical estimates (based on Zens and Ney, 2004) of forward and backward conditional probabilities
+2004), hereafter ATS, and the IBM phrase-based system (Tillmann 2004; Tillmann and Zhang 2005), have phrase-reordering models that add some lexical sensitivity

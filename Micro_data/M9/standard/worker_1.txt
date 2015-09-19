@@ -1,0 +1,15 @@
+Classification is an important problem in the data mining domain, but current classification methods for XML documents use IR-based methods in which each document is treated as a bag of words
+In this paper we discuss the problem of rule based classification of XML data by using frequent discriminatory substructures within XML documents
+We note that the methodology discussed in this paper is applicable to any kind of semi-structured data
+Another approach to complex-structured data is to use the pattern mining methods studied in the field of data mining [27,19]
+Many XML documents are modeled as trees or graphs and it is important to build automated classifiers for XML data [43]
+Since an XML document has a tree structure, we model it as a rooted ordered labeled tree [9] ,[10], [20], [21], [22] based on the structure and the content
+XRules [25] assigns the documents to categories through a rule based classification approach that relates the presence of a particular structural pattern in an XML document to its likelihood of belonging to a particular category
+Therefore, we use another metric weighted confidence, defined in [9], which weighs the absolute support of a pattern in a class with the class probability
+We define approaches like the one introduced by Zaki [11], that finds all the frequent tree structures repeating in a collection, brute force approaches, while approaches like the one in [15], that finds only the frequent patterns corresponding to a certain XML structure, structure-based approaches
+For example, recently, there has been increasing research efiort in mining association rules from XML documents[2]; classifying XML data [8] and clustering XML[9]
+the XRULES classier [13], can be described as the association rule approach
+We used two such approaches in our experiments that both come from the eld of using associative patterns for classication [6, 13]
+In another example, Zaki and Aggarwal [28] presented an algorithm to classify XML documents according to their subtree structures
+In [41], Zaki proposed an algorithm to construct structural rules in order to classify XML documents
+Classication and clustering: The work presented in [17] uses a frequent tree mining algorithm to extract frequent substructures of XML data, the data is then classied according to its structure

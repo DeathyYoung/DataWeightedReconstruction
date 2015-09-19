@@ -1,0 +1,15 @@
+In this paper, we propose a new approach to discover informative contents from a set of tabular documents (or Web pages) of a Web site
+Our system, InfoDiscoverer, first partitions a page into several content blocks according to HTML tag in a Web page
+Based on the occurrence of the features (terms) in the set of pages, it calculates entropy value of each feature
+According to the entropy value of each feature in a content block, the entropy value of the block is defined
+By analyzing the information measure, we propose a method to dynamically select the entropy-threshold that partitions blocks into either informative or redundant
+Informative content blocks are distinguished parts of the page, whereas redundant content blocks are common parts
+That is, using the approach, informative blocks (news articles) of these sites can be automatically separated from semantically redundant contents such as advertisements, banners, navigation panels, news categories, etc
+[19] proposed algorithms to extract content blocks from HTML pages using a DOM (Document Object Model)-based approach and an information theoretic approach, respectively
+Template detection algorithms [23, 33, 21, 10, 7, 9] are a different approach to content extraction in which collections of training documents based on the same template are used to learn a common structure
+This technique can be used as a preprocessing tool for information extraction, classifying the segmented blocks into informative blocks that contain the page¡¯s core contents and noise blocks that contain irrelevant information such as menus, advertisements, or copyright statements [2],[3]
+DOM supplies us with a tree-like page model, which is helpful to construct q block tree [6, 7]
+We mention only a few solutions: Lin and Ho developed InfoDiscoverer [3] which is based on the idea, that ¨C opposite to the main content ¨C template generated contents appear more frequently
+Lin & Ho [7] developed an approach to extract relevant information blocks out of Web documents by defining entropy blocks based upon occurrence of given terms
+Based on various other frameworks but also only dealing with structured or semi-structured texts, we can cite Pinocchio or (LP)2 by Ciravegna [10¨C12], the WhizBang site wrapper from Cohen [13], the Wrapper Induction systems of Kushmerick [21, 22], Bouckaert¡¯s system based on Baeysian networks [4], Yang¡¯s system [32] or Lin¡¯s work [24] to design wrappers induced from Web pages
+Block importance model is motivated by the urge to improve information retrieval performance, thus its direct application lies in this area [1][10]

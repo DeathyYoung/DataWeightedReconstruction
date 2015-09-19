@@ -1,0 +1,15 @@
+We propose a formal model of Cross-Language Information Retrieval that does not rely on either query translation or document translation
+Our approach leverages recent advances in language modeling to directly estimate an accurate topic model in the target language, starting with a query in the source language
+The model integrates popular techniques of disambiguation and query expansion in a unified formal framework
+Besides, language model approaches have been adopted in many other information retrieval applications such as document retrieval [16][17], cross-linguistic retrieval [19], distributed IR [20], passage retrieval [21], topic tracking [22], and so on
+The task of Cross-Language Information Retrieval (CLIR) addresses a situation when a query is posed in one language but the system is expected to return the documents written in another language [11]
+The other two systems are based on the statistical language modeling techniques used recently in mono-lingual (LM) and cross-lingual information retrieval (CLM) [2, 3]
+Apart from these approaches, the extension of monolingual IR techniques such as vector based models, relevance modeling techniques [5] etc
+Methods based on parallel corpora, such as relevance language models (Lavrenko, Choquette, & Croft 2002) and statistical translation models (Kraaij, Nie, & Simard 2003; Xu & Weischedel 2001), usually learn an association between words in the source language and the target language, and apply the association to estimate translations of queri es
+Recently the language modeling technique has been introduced to information retrieval area and shown considerable success in many applications [15-19]
+Document language models will be constructed and ranked with respect to the estimate of the relevance model, for example by using the KL-divergence as in [5]
+[12] use the KL divergence between the relevance model and the document model to rank documents
+As suggested in [16], we use the Kullback-Leibler (KL) divergence between passage language model P M and question-topic language model R M to rank passages
+instead builds a “relevance model” in the target language based on a source language query [33]
+Apart from translation methods, there exist few non-translation methods, such as cognate matching [2], latent semantic indexing [10], and relevance models [4]
+These approaches have successfully been applied to CLIR setting [12] [11] [20], which treat query translation and retrieval as an integrated process

@@ -1,0 +1,15 @@
+The Scatter/Gather document browsing method uses fast document clustering to produce table-of-contents-like outlines of large document collections
+Previous work [1] developed linear-time document clustering algorithms to establish the feasibility of this method over moderately large collections
+However, even linear-time algorithms are too slow to support interactive browsing of very large collections such as Tipster, the DARPA standard text retrieval evaluation collection
+Many researchers have attempted to employ the techniques of traditional text/document clustering (referred as long text clustering) [4,10,13,35,46,47] to reorganize search results, and then use cluster labeling method [7,9,36,37] to assign a readable label to each cluster
+This system divides a document corpus into groups and allows users to iteratively examine the resultant document groups or sub-groups for content navigation
+Their early work had proposed using scatter/gatther as a tool for browsing large to very large document collections [9, 8], wherein the focus was placed on the e©\ciency of clustering: a linear time algorithm [9] and a constant interaction-time algorithm [8] were proposed respectively for clustering documents in the scatter process
+The Scatter/Gatherer system by Cutting et al [3, 4, 6] utilizes the Buckshot and Fractionation algorithms to define document cluster centers, given Figure 1
+We tried two different weighting schemes for the term vectors for the documents and cluster profiles, the term frequency as in [3, 2], and BM25 weights (a variant of tf¡¤idf [10] which is also used for resource selection in Pepper)
+[3][6][11][10]) apply traditional clustering algorithms which first cluster documents into topically-coherent groups according to content similarity, and generate descriptive summaries for clusters
+Also, our approach of computing context-dependent document signatures to aid search and browsing appears to be a new extension to the scattergather type of retrieval interface [12]
+Hearst and Pedersen [HP96] re-examine the cluster hypothesis by focusing on the Scatter/Gather system [CKP93] and conclude that it holds for browsing tasks
+For example, the user might send the contents of the a TileBar window to an interface like Scatter/Gather [7] which can cluster the document subset, and display their main topics
+Another interactive approach, Scatter/Gather [3, 2], lets the user navigate through the re trieved results and dynamically clusters based on this navigation
+Pirolli and Card (1999) presented the classical patch model from optimal foraging theory and showed its application to user behavior in browsing a document clustering system called Scatter/Gather (Cutting, Karger, & Pedersen, 1993; Cutting, Karger, Pedersen, & Tukey, 1992)
+Cutting & Karger used term frequency as the weight of word and select words with high weight as clustering description [4] [5]

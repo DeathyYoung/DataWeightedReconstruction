@@ -1,0 +1,15 @@
+Libraries have traditionally used manual image annotation for indexing and then later retrieving their image collections
+However, manual image annotation is an expensive and labor intensive procedure and hence there has been great interest in coming up with automatic ways to retrieve images based on content
+Here, we propose an automatic approach to annotating and retrieving images based on a training set of images
+Given a training set of images with annotations, we show that probabilistic models allow us to predict the probability of generating a word given the blobs in an image
+Experiments show that the annotation performance of this cross-media relevance model is almost six times as good (in terms of mean precision) than a model based on word-blob co-occurrence model and twice as good as a state of the art model derived from machine translation
+[29] treated this as a cross-lingual retrieval problem and used a cross-media relevance model (CMRM) to estimate the joint probability distribution of words and image segments
+[69] recast the image annotation as a crosslingual information retrieval problem applying a cross-media relevance model (CMRM) based on a discrete codebook of regions
+[21] reformulate the problem as cross-lingual information retrieval, and propose a cross-media relevance model to the image annotation task
+Sometimes a fixed number of mixture components over visual features per keyword is used [3], while other models use the training images as components to define a mixture model over visual features and tags [6, 13]
+Then, a retrieval system can index images using either binary keywords or the probabilities of keywords given visual features [11]
+Many statistical models have been explored in AIA algorithms with segmentation or partition strategy, including the translation model [5], Cross-Media Relevance Model (CMRM) [8], Continuous-space Relevance Model (CRM) [10], Coherent Language Model (CLM) [9], CORRespondence Latent Dirichlet Dllocation (CORR-LDA) [1], Hidden Concept Model [19], GMM [2], probabilistic latent semantic analysis [13], Bayes method [2], HMM [11], Bayes Point
+Similar relevanceanalysis and query expansion techniques [10] are used in annotation-enriched image collections, where usually a labour-intensive annotation process is utilised to describe the images with or without the aid of some domain-specific schema [8]
+We cast the problem as one of (multiple instance) learning from weakly aligned text ©\ an approach that has been increasingly explored for learning visual recognition of objects [8, 14], people [1, 9] and actions [12, 17]
+If each semantic word is viewed as a variable, the mapping is a image-semantic joint modeling problem, such as N-cut based method [3], latent dirichlet allocation (LDA) method[12] and cross-media relevance models(CMRM) [13]
+Some pioneering work has been done to combine both the visual contents of the images and the keywords for image concept modeling when the relationships between the keywords for image semantics interpretation and the visual contents of the images are explicit [14-16]

@@ -1,0 +1,15 @@
+This paper proposes a two-phase example-based machine translation methodology which develops translation templates from examples and then translates using template matching
+This method improves translation quality and facilitates customization of machine translation systems
+A translation template is a bilingual pair of sentences in which corresponding units (words and pharases) are coupled and replaced with variables
+Correspondence between units is determined by suing a bilingual dictionary and by analyzing the syntactic structure of the sentences
+Syntactic ambiguity and ambiguity in correspondence between units are simultaneously resolved
+All of the translation templates generated from a bilingual corpus are grouped by their source language part, and then further refined to resolved conflicts among templates whose source language parts are the same but whose target language parts are different
+Phrase alignment is implemented on parsing trees of source and target sentences according to word alignment results [2]
+Whereas some approaches store structured representations for all concrete examples [2], others explicitly use variables to produce generalized templates [5, 13]
+Utilizing templates is more flexible as compared to word-for-word translation [4] and to pre-defined rules which would be hard to modify at a later time
+Kaji [4] defines a translation template as “a bilingual pair of sentences in which corresponding units (words and phrases) are coupled and replaced with variables”
+(1993) use the semantic contexts of examples for word sense disambiguation, and Sumita (Chap
+Utilizing templates is more flexible as compared to word-for-word translation Kaji [5] and to pre-defined rules which would be hard to modify at a later time
+, 2000), crossing constraints are deployed implicitly in finding the structural correspondences between pair of representation trees of a source sentence and its translation in target
+Some methods add appropriate dictionaries or rules for MT target domains to a rule based MT system from a corpus [3, 4, 5, 6, 7]
+These structures were then replaced by variables to produce translation patterns, and variables contained syntactic and possibly semantic constraints [9]

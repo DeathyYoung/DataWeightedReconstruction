@@ -1,0 +1,15 @@
+Nivre and Nilsson (2005) showed how the restriction to projective dependency graphs could be lifted by using graph transformation techniques to preprocess training data and post-process parser output, so-called pseudo-projective parsing
+, projectivize training data and encode information about these transformations in extended arc labels to support deprojectivization of the parser output (Nivre and Nilsson, 2005)
+Except these three languages, we use software of projectivization/deprojectivization provided by Nivre and Nilsson (2005) for other languages
+The resulting algorithm is projective, and nonprojectivity is handled by pseudo-projective transformations as described in (Nivre and Nilsson, 2005)
+We used a pseudo-projective edge label encoding to handle nonprojectivity (Nivre and Nilsson, 2005)
+Nivre and Nilsson (2005) observe that most non-projective dependency structures appearing in practice are close to being projective, since they contain only a small proportion of nonprojective arcs
+This is in contrast to other non-projective methods, such as that of Nivre and Nilsson (2005), who implement non-projectivity in a pseudo-projective parser with edge transformations
+However, recent results in non-projective dependency parsing, especially using data-driven methods, indicate that most non-projective structures required for the analysis of natural language are very nearly projective, differing only minimally from the best projective approximation (Nivre and Nilsson, 2005; Hall and Novk, 2005; McDonald and Pereira, 2006)
+You could map a non-projective dependency tree to a projective one, learn and predict the tree, then bring it back to the non-projective dependency tree (Nivre and Nilsson, 2005)
+Since only projective sequences can be handled by the shift-reduce scheme, we apply the pseudoprojective transformation introduced by (Nivre and Nilsson, 2005) to projectivize those non-projective sequences
+We adopt the pseudo-projective approach introduced in (Nivre and Nilsson, 2005) to handle the non-projective languages including Czech, German and English
+Bengoetxea and Gojenola (2010) discuss non-projective dependencies in Basque and show that the pseudo-projective transformation of (Nivre and Nilsson, 2005) improves accuracy for dependency parsing of Basque
+For treebanks with non-projective trees we use the pseudo-projective parsing technique to transform the treebank into projective structures (Nivre and Nilsson, 2005)
+, 2004) and Dependency Grammar (Nivre and Nilsson, 2005) incorporate non-local dependencies into their deep syntactic or semantic representations
+Although the parser only derives projective graphs, the fact that these graphs are labeled allows non-projective dependencies to be captured using the pseudo-projective approach of Nivre and Nilsson (2005) (section 3

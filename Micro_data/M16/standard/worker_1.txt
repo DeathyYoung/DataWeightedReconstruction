@@ -1,0 +1,15 @@
+This paper addresses the problem of extending an adaptive information filtering system to make decisions about the novelty and redundancy of relevant documents
+It argues that relevance and redundance should each be modelled explicitly and separately
+The experimental results demonstrate that the cosine similarity metric and a redundancy measure based on a mixture of language models are both effective for identifying redundant documents
+In information retrieval, where novelty typically refers to the new information contained in the document (and is thus close to our definition of serendipity), Zhang et al
+Here, we use a mixture language model [31] to measure the similarity between documents while filtering out the general and common information from the request
+This may be due to the effectiveness of cosine similarity for redundancy detection [39], which often brings redundant documents to the top position
+Most work boils down to balancing relevance and novelty in an ad-hoc way, such as the two-state novelty detection approach proposed in [39]
+presented four redundancy measures, which are ¡°set difference¡±, ¡°geometric distance¡±, ¡°distributional similarity¡± and ¡°a mixture model¡± [7]
+If R is the set of documents which have been judged relevant to the user¡¯s interest, and F is the set of documents which make up the current filtering result for the interest, then the set DK = R [ F can be considered as the set of documents currently ¡®¡®known¡¯¡¯ to the user
+Another work based on novelty is [19], which aims at enhancing adaptive filtering systems with the capability of distinguishing novel and redundant items
+In order to alleviate such inconsistency, similar to [33], we classified news stories into three classes in this paper: completely redundant, somewhat redundant, and novel
+Moreover, we adopt to use the two smoothing techniques to adjust the MLE to assign non-zero probabilities to unseen tokens to make KL-based measure more appropriate as used by [35]:
+More recently, work on filtering technologies in the context of information retrieval [14] has also focused attention on building better models of the likely content in messages and routing them to appropriate people, bringing together work on user modeling, IR, and text analysis
+From previous studies [2,29], we learn that the cosine distance metric showed a good performance on both document and sentence-level novelty detection
+[3] emphasize that finding a suitable redundancy threshold is an important, yet challenging problem, since the amount of training data is typically extremely small

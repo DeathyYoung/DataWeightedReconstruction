@@ -1,0 +1,15 @@
+We present an unsupervised method for detecting grammatical errors by inferring negative evidence from edited textual corpora
+The system was developed and tested using essay-length responses to prompts on the Test of English as a Foreign Language (TOEFL).
+Our method outperforms Microsoft Word03 and ALEK (Chodorow and Leacock, 2000) from Educational Testing Service (ETS) in some cases.
+We realize that the grammar checker of Word is a general tool and the performance of ALEK (Chodorow and Leacock, 2000) can be improved if larger training data is used.
+Instead of asking experts to write hand-crafted rules, statistical approaches (Chodorow and Leacock, 2000; Izumi et al. , 2003; Brockett et al. , 2006; Nagata et al. , 2006) build statistical models to identify sentences containing errors.
+2 Related Work Among the many works on error detection, recently unsupervised error detection approaches have been proposed, such as [Chodorow and Leacock, 2000] and [Quixal and Badia 2008].
+Chodorow and Leacock (2000) utilized mutual information and chi-square statistics to identify typical contexts for a small set of targeted words from a large well-formed corpus.
+For example, Chodorow and Leacock (2000) exploit bigrams and trigrams of function words and partof-speech (PoS) tags, while Sun et al.
+Error-tagged learner corpora are crucial for developing and evaluating error detection/correction algorithms such as those described in (Rozovskaya and Roth, 2010b; Chodorow and Leacock, 2000; Chodorow et al., 2007; Felice and Pulman, 2008; Han et al., 2004; Han et al., 2006; Izumi et al., 2003b; Lee and Seneff, 2008; Nagata et al., 2004; Nagata et al., 2005; Nagata et al., 2006; Tetreault et al., 2010b).
+POS tag distribution has been used in various tasks such as text genre classification (Feldman et al., 2009); in a language testing context, it has been used in grammatical error detection (Chodorow and Leacock, 2000; Tetreault and Chodorow, 2008) andessay scoring
+Chodorow and Leacock (2000) found that low-frequency bigrams (sequences of two lexical categories with a negative log-likelihood) are quite reliable predictors of grammatical errors
+For instance, Chodorow and Leacock (2000) point out that the word concentrate is usually used as a noun in a general corpus whereas it is a verb 91% of the time in essays written by non-native learners of English.
+An unsupervised method (Chodorow and Leacock, 2000) is employed to detect grammatical errors by inferring negative evidence from TOEFL administrated by ETS.
+However, a drawback to it is that there are differences in character between general corpora and the writing of non-native learners of English (Granger, 1998; Chodorow and Leacock, 2000).
+Chodorow and Leacock (2000) try to identify errors on the basis of context, as we do here, and more speci cally a 2 word window around the word of interest, from which they consider function words and POS tags.

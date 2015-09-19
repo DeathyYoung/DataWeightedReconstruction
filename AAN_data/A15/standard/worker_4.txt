@@ -1,0 +1,15 @@
+Chiang (2005) introduced a constituent feature to reward phrases that match a syntactic tree but did not yield significant improvement
+The orthodox phrase-based model was enhanced in Chiang (2005), where a hierarchical phrase model allowing for multiple generalizations within each phrase was introduced
+1 We inherit the definitions of formal and linguistic from (Chiang, 2005) which makes a distinction between formally syntax-based SMT and linguistically syntax-based SMT
+Phrase-based rules have also been replaced with synchronous context free grammars (Chiang, 2005) and with tree fragments (Huang and Knight, 2006)
+Hierarchical systems, such as (Chiang, 2005) in principle have the capacity to learn insertions and deletions grounded by minimal lexical cues
+1 Introduction Recently Statistical Machine Translation (SMT) systems based on Synchronous Context Free Grammar (SCFG) have been extensively investigated (Chiang, 2005; Galley et al
+They use an existing parser to parse the target side of the parallel corpus in order to extract a syntactically motivated, bilingual synchronous grammar as in (Chiang, 2005)
+In this paper, we follow the constraint as described in (Chiang, 2005) that a hierarchical rule can have at most two variables and they cannot be adjacent on the source side
+However, in the source-channel approach to machine translation, we need to combine probabilities from the translation model (an SCFG) with the language model (an ngram), which has been shown to be very important for translation quality (Chiang, 2005)
+Synchronous parsing has seen a surge of interest recently in the machine translation community as a way of formalizing syntax-based translation models (Melamed, 2004; Chiang, 2005)
+1 Introduction Hierarchical phrase-based translation generates translation hypotheses via the application of hierarchical rules in CYK parsing (Chiang, 2005)
+The first approach is to reuse the components of a generative model, but tune their relative weights in a discriminative fashion (Och and Ney, 2002; Och, 2003; Chiang, 2005)
+Synchronous grammar formalisms that are capable of modeling such complex relationships while maintaining the context-free property in each language have been proposed for many years, (Aho and Ullman, 1972; Wu, 1997; Yamada and Knight, 2001; Melamed, 2003; Chiang, 2005), but have not been scaled to large corpora and long sentences until recently
+Chiang (2005) shows significant improvement by keeping the strengths of phrases while incorporating syntax into statistical translation
+The most common algorithm for decoding with SCFG is currently CKY+ with cube pruning works for both hierarchical and syntactic systems, as implemented in Hiero (Chiang, 2005), Joshua (Li et al

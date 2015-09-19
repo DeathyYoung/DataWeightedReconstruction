@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems
+For parallel planning, we have adopted the Graphplan definition [6] although we extend it to negative literals: a positive literal could also be marked as mutex at a step with a negative literal, so could be two negative literals
+[31] adapted the graphplan algorithm [6] with semantics and focused on addressing both process heterogeneity and data heterogeneity of web services composition problems
+Do and Kambhampati (2000) showed that constraint satisfaction techniques can be applied to plan extraction from the planning graph (Blum and Furst, 1997)
+At each planning cycle a new level is added and a test is performed to determine whether a solution plan is contained in the current planning graph (Blum & Furst, 1997)
+The action graph data structure was initially defined as a particular class of subgraphs of the planning graph representation [3], and subsequently it has been modified and extended for representing temporal information [15,17]
+Graphplan (Blum and Furst 1997) and Blackbox (Kautz and Selman 1997) have introduced two fundamental concepts to planning with discrete actions
+Since FIP uses planning graphs to conduct a search, the size of the planning graph and the time required to expand it are polynomial in the size of the planning problem [1]
+These techniques have connections to other prominent approaches to AI planning and automated reasoning, such as Blum and Furst¡¯s planning graphs [1], disjunctive temporal reasoning problems [13, 14], and the Walksat procedure for satisfiability checking [12]
+Graphplan[18] is a general purpose graph-based planner
+This is generalized by (Lopez & Bacchus 2003) by encoding propositional planning as a CSP and showing that their encoding subsumes GraphPlan (Blum & Furst 1995)
+Overcoming the limitation of traditional logic-based planning, HTN planning is introduced for solving given problem using partially and hierarchically ordered set of tasks [13]
+Extensions of GRAPHPLAN: the use of planning graphs [1] has also been extended to temporal problems by several planners

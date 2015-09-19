@@ -1,0 +1,1359 @@
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+We present a statistical phrase-based transla-tion model that uses hierarchical phrases?phrases that contain subphrases. The modelis formally a synchronous context-free gram-mar but is learned from a bitext without anysyntactic information. Thus it can be seen asa shift to the formal machinery of syntax-based translation systems without any lin-guistic commitment. In our experiments us-ing BLEU as a metric, the hierarchical phrase-based model achieves a relative improve-ment of 7.5% over Pharaoh, a state-of-the-artphrase-based system.
+
+Title:H05-1095		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Simard, Michel; Cancedda, Nicola; Cavestro, Bruno; Dymetman, Marc; Gaussier, Eric; Goutte, Cyril; Yamada, Kenji; Langlais, Philippe; Mauser, Arne
+The compositional bi-phrase feature function hcomp: this is introduced to compensate for 1Recent work from Chiang (Chiang, 2005) addresses similar concerns to those motivating our work by introducing a Synchronous CFG for bi-phrases.
+
+Title:H05-1098		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Chiang, David; Lopez, Adam; Madnani, Nitin; Monz, Christof; Resnik, Philip; Subotin, Michael
+In this paper, we discuss a new hierarchical phrase-based statistical machine translation system (Chiang, 2005), presenting recent extensions to the original proposal, new evaluation results in a community-wide evaluation, and a novel technique for fine-grained comparative analysis of MT systems. (self citation)
+
+Title:H05-1098		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Chiang, David; Lopez, Adam; Madnani, Nitin; Monz, Christof; Resnik, Philip; Subotin, Michael
+Chiang (2005) reported significant performance improvements in Chinese-English translation as compared with Pharaoh, a state-of-the-art phrase-based system (Koehn, 2004). (self citation)
+
+Title:H05-1098		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Chiang, David; Lopez, Adam; Madnani, Nitin; Monz, Christof; Resnik, Philip; Subotin, Michael
+Chiang (2005) introduces Hiero, a hierarchical phrase-based model for statistical machine translation. (self citation)
+
+Title:H05-1098		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Chiang, David; Lopez, Adam; Madnani, Nitin; Monz, Christof; Resnik, Philip; Subotin, Michael
+Manila 26 January H. manila, january 26 P. manila 26 january 6 Conclusions The work reported in this paper extends the original treatment of Hiero (Chiang, 2005) by evaluating an improved version in a community-wide exercise for Chinese-English and Arabic-English translation, and by introducing a novel analysis technique for comparing MT systems output. (self citation)
+
+Title:H05-1098		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Chiang, David; Lopez, Adam; Madnani, Nitin; Monz, Christof; Resnik, Philip; Subotin, Michael
+3.2 Scaling up training Chiang (2005) reports on experiments in ChineseEnglish translation using a model trained on 7.2M+9.2M words of parallel data.2 For the NIST MT Eval 2005 large training condition, considerably more data than this is allowable. (self citation)
+
+Title:H05-1109		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Kolak, Okan; Resnik, Philip
+Clearly the BLEU scores are quite low; we are planning to perform experiments on Arabic using a more advanced translation system, such as Hiero (Chiang, 2005).
+
+Title:I05-1023		Conference:Second International Joint Conference on Natural Language Processing: Full Papers		Author:Wu, Dekai; Fung, Pascale
+Chiang (2005) [8] obtains significant BLEU score improvements via unsupervised induction of hierarchical phrasal bracketing ITGs.
+
+Title:W05-1506		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Chiang, David
+We have presented here a general-purpose algorithm for k-best parsing and applied it to two state-of-the-art, large-scale NLP systems: Bikels implementation of Collins lexicalized PCFG model (Bikel, 2004; Collins, 2003) and Chiangs synchronous CFG based decoder (Chiang, 2005) for machine translation. (self citation)
+
+Title:W05-1506		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Chiang, David
+We also implemented Algorithms 2 and 3 in a parsing-based MT decoder (Chiang, 2005) and report results on decoding speed. (self citation)
+
+Title:W05-1506		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Chiang, David
+5.2 Experiment 2: MT decoder Our second experiment was on a CKY-based decoder for a machine translation system (Chiang, 2005), implemented in Python 2.4 accelerated with Psyco 1.3 (Rigo, 2004). (self citation)
+
+Title:W05-1506		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Chiang, David
+In our experiments, we apply the algorithms to the lexicalized PCFG parser of Bikel (2004), which is very similar to Collins Model 2 (Collins, 2003), and to a synchronous CFG based machine translation system (Chiang, 2005). (self citation)
+
+Title:H05-1101		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Satta, Giorgio; Peserico, Enoch
+2 Synchronous context-free grammars Several definitions for synchronous context-free grammars have been proposed in the literature; see for instance (Chiang, 2004; Chiang, 2005).
+
+Title:W06-3119		Conference:Workshop On Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish
+While (Chiang, 2005) uses only two nonterminal symbols in his grammar, we introduce multiple syntactic categories, taking advantage of a target language parser for this information.
+
+Title:W06-3119		Conference:Workshop On Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish
+(Chiang, 2005) generates synchronous contextfree grammar (SynCFG) rules from an existing phrase translation table.
+
+Title:W06-3119		Conference:Workshop On Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish
+Baseline Pharaoh with phrases extracted from IBM Model 4 training with maximum phrase length 7 and extraction method diag-growthfinal (Koehn et al. , 2003a) Lex Phrase-decoder simulation: using only the initial lexical rules from the phrase table, all with LHS X, the Glue rule, and a binary reordering rule with its own reordering-feature XCat All nonterminals merged into a single X nonterminal: simulation of the system Hiero (Chiang, 2005).
+
+Title:W06-3119		Conference:Workshop On Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish
+1 Introduction Recent work in machine translation has evolved from the traditional word (Brown et al. , 1993) and phrase based (Koehn et al. , 2003a) models to include hierarchical phrase models (Chiang, 2005) and bilingual synchronous grammars (Melamed, 2004).
+
+Title:W06-3119		Conference:Workshop On Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish
+Therefore, after annotating the initial rules from the current training sentence pair, we adhere to (Chiang, 2005) to recursively generalize each existing rule; however, we abstract on a per-sentence basis.
+
+Title:W06-3102		Conference:Workshop On Statistical Machine Translation		Author:Durgar El-Kahlout, Ilknur; Oflazer, Kemal
+To find such groups of morphemes and functional words, we applied a sequence of morpheme groupings by extracting frequently occuring n-grams of morphemes as follows (much like the grouping used by Chiang (2005): in a series of iterations, we obtained high-frequency bigrams from the morphemic representation of parallel texts, of either morphemes, or of previously such identified morpheme groups and neighboring morphemes until up to four morphemes or one root 3 morpheme could be combined.
+
+Title:P06-1002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Ayan, Necip Fazil; Dorr, Bonnie Jean
+Manual alignments are represented by two sets: Probable (P) alignments and Sure (S) alignments, where S P. Given A,P and S, the most commonly used metricsprecision (Pr), recall (Rc) and alignment error rate (AER)are defined as follows: Pr = |AP||A| Rc = |AS||S| AER = 1 |AS|+|AP||A|+|S| Another approach to evaluating alignments is to measure their impact on an external application, e.g., statistical MT. In recent years, phrase-based systems (Koehn, 2004; Chiang, 2005) have been shown to outperform word-based MT systems; therefore,inthispaper,weuseapublicly-available phrase-based MT system, Pharaoh (Koehn, 2004), to investigate the impact of different alignments.
+
+Title:P06-1002		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Ayan, Necip Fazil; Dorr, Bonnie Jean
+Although it is possible to estimate phrases directly from a training corpus (Marcu and Wong, 2002), most phrase-based MT systems (Koehn, 2004; Chiang, 2005) start with a word alignment and extract phrases that are consistent with the given alignment.
+
+Title:N06-3004		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Doctoral Consortium		Author:Huang, Liang
+When tested on top of two state-of-the-art systems, the Collins/Bikel parser (Bikel, 2004) and Chiangs CKY-based Hiero decoder (Chiang, 2005), this algorithm is shown to have very little overhead even for quite large k (say, 106) (See Fig.
+
+Title:N06-3004		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Doctoral Consortium		Author:Huang, Liang
+Many researchers have explored syntax-based methods, for instance, Wu (1996) and Chiang (2005) both uses binary-branching synchronous context-free grammars (SCFGs).
+
+Title:W06-3607		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Ji, Heng; Rudin, Cynthia; Grishman, Ralph
+Additionally, we incorporate the pruning techniques used in (Chiang 2005), by which any hypothesis with a probability lower thantimes the highest probability for one sentence is discarded.
+
+Title:N06-1002		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Quirk, Chris; Menezes, Arul
+Recent research into syntaxbased SMT (Quirk and Menezes 2005; Chiang 2005) has produced promising results in addressing some of the problems; research motivated by other statistical models has helped to address others (Banchs et al. 2005).
+
+Title:N06-1002		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Quirk, Chris; Menezes, Arul
+Hierarchical phrases Recent work in the use of hierarchical phrases (Chiang 2005) improves the ability to capture linguistic generalizations, and also removes the limitation to contiguous phrases.
+
+Title:N06-1002		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Quirk, Chris; Menezes, Arul
+Given a fixed length limit, the number of surface phrases extracted from any sentence pair of length n where all words are uniquely aligned is O(n), but the number of treelets is potentially exponential in the number of children; and the number of rules with two gaps extracted by Chiang (2005) is potentially O(n3).
+
+Title:P06-1091		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Tillmann, Christoph; Zhang, Tong
+A systematic analysis of the novel training algorithm will allow us to include much more sophisticated features in future experiments, i.e. POSbased features, syntactic or hierarchical features (Chiang, 2005).
+
+Title:P06-1091		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Tillmann, Christoph; Zhang, Tong
+While error-driven training techniques are commonly used to improve the performance of phrasebased translation systems (Chiang, 2005; Och, 2003), this paper presents a novel block sequence translation approach to SMT that is similar to sequential natural language annotation problems 727 such as part-of-speech tagging or shallow parsing, both in modeling and parameter training.
+
+Title:W06-1628		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Cowan, Brooke; Kucerova, Ivona; Collins, Michael John
+Chiang (2005) has recently shown significant improvements in translation accuracy, using synchronous grammars.
+
+Title:N06-1032		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Riezler, Stefan; Maxwell III, John T.
+1A notable exception to this kind of approach is Chiang (2005) who introduces syntactic information into phrase-based SMT via hierarchical phrases rather than by external parsing.
+
+Title:P06-1123		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Wellington, Benjamin; Waxmonsky, Sonjia; Melamed, I. Dan
+Analogous techniques for tree-structured translation models involve either allowing each nonterminal to generate both terminals and other nonterminals (Groves et al. , 2004; Chiang, 2005), or, given a constraining parse tree, to flatten it (Fox, 2002; Zens and Ney, 2003; Galley et al. , 2004).
+
+Title:W06-3115		Conference:Workshop On Statistical Machine Translation		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+The other is a hierarchical phrase-based translation in which translation is realized as a set of paired production rules (Chiang, 2005).
+
+Title:W06-3115		Conference:Workshop On Statistical Machine Translation		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+In a phrase-based statistical translation (Koehn et al. , 2003), a bilingual text is decomposed as K phrase translation pairs (e1, fa1), (e2, fa2 ),: The input foreign sentence is segmented into phrases f K1, 122 mapped into corresponding English eK1, then, reordered to form the output English sentence according to a phrase alignment index mapping a. In a hierarchical phrase-based translation (Chiang, 2005), translation is modeled after a weighted synchronous-CFG consisting of production rules whose right-hand side is paired (Aho and Ullman, 1969): X ,, where X is a non-terminal, and are strings of terminals and non-terminals.
+
+Title:W06-3115		Conference:Workshop On Statistical Machine Translation		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+The method exhaustively extracts phrase pairs ( f j+mj, ei+ni ) from a sentence pair ( f J1, eI1) that do not violate the word alignment constraints a. In the hierarchical phrase-based model, production rules are accumulated by computing holes for extracted contiguous phrases (Chiang, 2005): 1.
+
+Title:P06-1066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+Another smart reordering model was proposed by Chiang (2005).
+
+Title:P06-1066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+Given an input sentence c, the final translation e is derived from the best derivation D D = argmax c(D)=c Pr(D) e = e(D) (8) 2.2 Decoder We developed a CKY style decoder that employs a beam search algorithm, similar to the one by Chiang (2005).
+
+Title:P06-1066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+These features are very common in state-of-the-art systems (Koehn et al. , 2005; Chiang, 2005) and s are weights of features.
+
+Title:P06-1066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+From this point, our decoder is similar to the work by Chiang (2005).
+
+Title:N06-1031		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Huang, Bryant; Knight, Kevin
+Some approaches have used syntax at the core (Wu, 1997; Alshawi et al. , 2000; Yamada and Knight, 2001; Gildea, 2003; Eisner, 2003; Hearne and Way, 2003; Melamed, 2004) while others have integrated syntax into existing phrase-based frameworks (Xia and McCord, 2004; Chiang, 2005; Collins et al. , 2005; Quirk et al. , 2005).
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+5 Discussion The SPMT models are similar to the models proposed by Chiang (2005) and Galley et al.
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+And syntax-inspired formal models (Chiang, 2005), in spite of being trained on significantly less data, have shown promising results when compared on the same test sets with mature phrase-based systems.
+
+Title:P06-2036		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Gildea, Daniel; Satta, Giorgio; Zhang, Hao
+Variations of SCFGs go back to Aho and Ullman (1972)s Syntax-Directed Translation Schemata, but also include the Inversion Transduction Grammars in Wu (1997), which restrict grammar rules to be binary, the synchronous grammars in Chiang (2005), which use only a single nonterminal symbol, and the Multitext Grammars in Melamed (2003), which allow independent rewriting, as well as other tree-based models such as Yamada and Knight (2001) and Galley et al.
+
+Title:P06-1077		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+Chiang (2005) presents a hierarchical phrasebased model that uses hierarchical phrase pairs, which are formally productions of a synchronous context-free grammar.
+
+Title:P06-1077		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+As we restrict that T(fj2j1 ) must be a subtree of T(fJ1 ), TATs may be treated as syntactic hierar612 chical phrase pairs (Chiang, 2005) with tree structure on the source side.
+
+Title:W06-3106		Conference:Workshop On Statistical Machine Translation		Author:Langlais, Philippe; Gotti, Fabrizio
+(Chiang, 2005) proposes an heuristic way of acquiring context free transfer rules that significantly improves upon a standard phrase-based model.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+While the state-of-the-art hierarchical SMT system (Chiang, 2005) performs well despite stringent constraints imposed on its context-free grammar, we believe its main advantage lies in its ability to extract hierarchical rules across phrasal boundaries.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+7 Related work Similarly to (Poutsma, 2000; Wu, 1997; Yamada and Knight, 2001; Chiang, 2005), the rules discussed in this paper are equivalent to productions of synchronous tree substitution grammars.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+We believe it will be beneficial to account for this finding in future work in syntax-based SMT and in efforts to improve upon (Chiang, 2005).
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+Chiang (2005) introduced a hierarchical phrasebased translation model that combined the strength of the phrase-based approach and a synchronous-CFG formalism (Aho and Ullman, 1969): A rewrite system initiated from a start symbol which synchronously rewrites paired nonterminals.
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+Rules are induced from a bilingual corpus without linguistic clues first by extracting phrase translation pairs, and then by generalizing extracted phrases with holes (Chiang, 2005).
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+Our model is based on Chiang (2005)s framework, but further restricts the form of production rules so that the aligned right-hand side follows a GNF-like structure: X angbracketleftBig , b, angbracketrightBig (7) where b is a string of terminals, or a phrase, and beta is a (possibly empty) string of nonterminals.
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+The method exhaustively extracts phrase pairs ( f j+mj, ei+ni ) from a sentence pair ( f J1, eI1) that do not violate the word alignment constraints a: (i, j)a : j[ j, j + m], i[i, i + n] (i, j)a : j[ j, j + m], i nelement [i, i + n] (i, j)a : j nelement [ j, j + m], i[i, i + n] Third, based on the extracted phrases, production rules are accumulated by computing the holes for contiguous phrases (Chiang, 2005): 1.
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+In the hierarchical phrase-based model (Chiang, 2005), and an inversion transduction grammar (ITG) (Wu, 1997), the problem is resolved by restricting to a binarized form where at most two non-terminals are allowed in the righthand side.
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+Chiang (2005) proposed a hierarchical phrasebased translation model, a binary synchronousCFG, which restricted the form of production rules as follows: Only two types of non-terminals allowed: S and X. Both of the strings and must contain at least one terminal item.
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+The hierarchical phrase-based model avoided this problem by introducing the glue rules 5 and 6 that combined hierarchical phrases sequentially (Chiang, 2005).
+
+Title:P06-1098		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+The procedure is based on those for the hierarchical phrase-based translation model (Chiang, 2005).
+
+Title:W06-1626		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhang, Ying; Hildebrand, Almut Silja; Vogel, Stephan
+5 Experiments We used the N-best list generated by the Hiero SMT system (Chiang, 2005).
+
+Title:P06-1096		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liang, Percy; Bouchard-C&ocirc;t&eacute;, Alexandre; Klein, Dan; Taskar, Ben
+The first approach is to reuse the components of a generative model, but tune their relative weights in a discriminative fashion (Och and Ney, 2002; Och, 2003; Chiang, 2005).
+
+Title:P06-1096		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liang, Percy; Bouchard-C&ocirc;t&eacute;, Alexandre; Klein, Dan; Taskar, Ben
+Another example of this framework is the hierarchical model of Chiang (2005).
+
+Title:P06-1096		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liang, Percy; Bouchard-C&ocirc;t&eacute;, Alexandre; Klein, Dan; Taskar, Ben
+In the future, we plan to explore our discriminative framework on a full distortion model (Koehn et al. , 2003) or even a hierarchical model (Chiang, 2005).
+
+Title:N06-1056		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Wong, Yuk Wah; Mooney, Raymond J.
+Synchronous parsing has seen a surge of interest recently in the machine translation community as a way of formalizing syntax-based translation models (Melamed, 2004; Chiang, 2005).
+
+Title:N06-1056		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Wong, Yuk Wah; Mooney, Raymond J.
+It is also similar to the hierarchical phrase-based model of Chiang (2005), in which hierarchical phrase pairs, essentially SCFG rules, are learned through the use of a simpler, phrase-based alignment model.
+
+Title:N06-1056		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Wong, Yuk Wah; Mooney, Raymond J.
+Complete MRs are then formed by combining these NL substrings and their translations under a parsing framework called the synchronous CFG (Aho and Ullman, 1972), which forms the basis of most existing statistical syntax-based translation models (Yamada and Knight, 2001; Chiang, 2005).
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+However, in the source-channel approach to machine translation, we need to combine probabilities from the translation model (an SCFG) with the language model (an ngram), which has been shown to be very important for translation quality (Chiang, 2005).
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+One way around this dif culty is to stipulate that all rules must be binary from the outset, as in inversion-transduction grammar (ITG) (Wu, 1997) and the binary synchronous context-free grammar (SCFG) employed by the Hiero system (Chiang, 2005) to model the hierarchical phrases.
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+1 Introduction Several recent syntax-based models for machine translation (Chiang, 2005; Galley et al. , 2004) can be seen as instances of the general framework of synchronous grammars and tree transducers.
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+2In making one nonterminal play dual roles, we follow the de nitions in (Aho and Ullman, 1972; Chiang, 2005), originally known as Syntax Directed Translation Schema (SDTS).
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+As illustrated in Figure 2, VPP-VP has contiguous spans on both source and target sides, so that we can generate a binary-branching SCFG: (2) S NP (1) V PP-VP (2), NP(1) V PP-VP (2) VPP-VP VP(1) PP(2), PP(2) VP(1) In this case m-gram integrated decoding can be done in O(|w|3+4(m1)) time which is much lowerorder polynomial and no longer depends on rule size (Wu, 1996), allowing the search to be much faster and more accurate facing pruning, as is evidenced in the Hiero system of Chiang (2005) where he restricts the hierarchical phrases to be a binary SCFG.
+
+Title:P06-2122		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Zhang, Hao; Gildea, Daniel
+Synchronous grammar formalisms that are capable of modeling such complex relationships while maintaining the context-free property in each language have been proposed for many years, (Aho and Ullman, 1972; Wu, 1997; Yamada and Knight, 2001; Melamed, 2003; Chiang, 2005), but have not been scaled to large corpora and long sentences until recently.
+
+Title:W06-3601		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Huang, Liang; Knight, Kevin; Joshi, Aravind K.
+Both Yamada and Knight (2001) and Chiang (2005) use SCFGs as the underlying model, so their translation schemata are syntax-directed as in Fig.
+
+Title:W06-3601		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Huang, Liang; Knight, Kevin; Joshi, Aravind K.
+Besides, our model, as being linguistically motivated, is also more expressive than the formally syntax-based models of Chiang (2005) and Wu (1997).
+
+Title:W06-3601		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Huang, Liang; Knight, Kevin; Joshi, Aravind K.
+In contrast, their decodings are reported to be computationally expensive and Chiang (2005) uses aggressive pruning to make it tractable.
+
+Title:P07-1002		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chang, Pi-Chuan; Toutanova, Kristina
+Alternatively, order is modelled in terms of movement of automatically induced hierarchical structure of sentences (Chiang, 2005; Wu, 1997).
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+There have been considerable amount of efforts to improve the reordering model in SMT systems, ranging from the fundamental distance-based distortion model (Och and Ney, 2004; Koehn et al. , 2003), flat reordering model (Wu, 1996; Zens et al. , 2004; Kumar et al. , 2005), to lexicalized reordering model (Tillmann, 2004; Kumar et al. , 2005; Koehn et al. , 2005), hierarchical phrase-based model (Chiang, 2005), and maximum entropy-based phrase reordering model (Xiong et al. , 2006).
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+A hierarchical phrase-based model was proposed by (Chiang, 2005).
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+3.2 Model Similar to the work in Chiang (2005), our translation model can be formulated as a weighted synchronous context free grammar derivation process.
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+For Rule (3)~(9), according to the syntactic structures, their application is determined since there is only one choice to complete reordering, which is similar to the glue rules in Chiang (2005).
+
+Title:P07-1089		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Liu, Yang; Huang, Yun; Liu, Qun; Lin, Shouxun
+Chiang (2005) shows significant improvement by keeping the strengths of phrases while incorporating syntax into statistical translation.
+
+Title:W07-0405		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Huang, Liang
+35 3.1 String-based Approaches String-based approaches include both string-tostring (Chiang, 2005) and string-to-tree systems (Galley et al. , 2006).2 To simplify the presentation we will just focus on the former but the analysis also applies to the latter.
+
+Title:W07-0405		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Huang, Liang
+We compare it with the other two schemes in two popular instantiations of MT systems based on SCFGs: the string-based systems (Chiang, 2005; Galley et al. , 2006) where the input is a string to be parsed using the source-side of the SCFG; and the treebased systems (Liu et al. , 2006; Huang et al. , 2006) where the input is a parse tree and is recursively converted into a target string using the SCFG as a tree-transducer.
+
+Title:W07-0405		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Huang, Liang
+1 Introduction Several recent syntax-based models for machine translation (Chiang, 2005; Galley et al. , 2006) can be seen as instances of the general framework of synchronous grammars and tree transducers.
+
+Title:N07-1063		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Venugopal, Ashish; Zollmann, Andreas; Vogel, Stephan
+We experiment with 2 grammars, one syntaxbased (3688 nonterminals, 0.3m rules), and one purely hierarchical (1 generic nonterminal, 0.05m rules) as in (Chiang, 2005).
+
+Title:N07-1063		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Venugopal, Ashish; Zollmann, Andreas; Vogel, Stephan
+1 Introduction Syntax-driven (Galley et al. , 2006) and hierarchical translation models (Chiang, 2005) take advantage of probabilistic synchronous context free grammars (PSCFGs) to represent structured, lexical reordering constraints during the decoding process.
+
+Title:N07-1063		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Venugopal, Ashish; Zollmann, Andreas; Vogel, Stephan
+Further, the ratio p(eq(lexmid))/p(ee1) adjusts the LM probabilities of Ps instantiation given its left context, and p[q(elexmid)q(end)]/p[q(ee1)q(end)] adjusts the LM probabilities of the g 1 words right of P. 4 Alternative Approaches We evaluate our two pass hypergraph search H.Search against the strong single pass Cube Pruning (CP) baseline as mentioned in (Chiang, 2005) and detailed in (Chiang, 2007).
+
+Title:N07-1063		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Venugopal, Ashish; Zollmann, Andreas; Vogel, Stephan
+(Galley et al. , 2006) use syntactic constituents for the PSCFG nonterminal set and (Zollmann and Venugopal, 2006) take advantage of CCG (Steedman, 1999) categories, while (Chiang, 2005) uses a single generic nonterminal.
+
+Title:P07-1108		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Wu, Hua; Wang, Haifeng
+1 Introduction For statistical machine translation (SMT), phrasebased methods (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based methods (Wu, 1997; Alshawi et al. 2000; Yamada and Knignt, 2001; Melamed, 2004; Chiang, 2005; Quick et al. , 2005; Mellebeek et al. , 2006) outperform word-based methods (Brown et al. , 1993).
+
+Title:P07-1090		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Setiawan, Hendra; Kan, Min-Yen; Li, Haizhou
+The benefit of introducing lexical evidence without being fully lexicalized has been demonstrated by a recent state-of-the-art formally syntax-based model1, Hiero (Chiang, 2005).
+
+Title:P07-1090		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Setiawan, Hendra; Kan, Min-Yen; Li, Haizhou
+This results in a much smaller set of rules compared to Hiero, 1Chiang (2005) used the term formal to indicate the use of synchronous grammar but without linguistic commitment _d_6120_d_1514 _d_3300_d_5287_d_7299_d_954 _d_4615 _d_3226_d_3059 _d_6626_d_1303_d_2024 _d_4615 _d_7220_d_1609 a form is a coll.
+
+Title:W07-0404		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Zhang, Hao; Gildea, Daniel
+(2004), and Chiang (2005) all fall into this category.
+
+Title:J07-1003		Conference:Computational Linguistics		Author:Ueffing, Nicola; Ney, Hermann
+Nowadays, most state-of-the-art SMT systems are based on bilingual phrases (Och, Tillmann, and Ney 1999; Koehn, Och, and Marcu 2003; Tillmann 2003; Bertoldi et al. 2004; Vogel et al. 2004; Zens and Ney 2004; Chiang 2005).
+
+Title:D07-1008		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Cohn, Trevor; Lapata, Mirella
+Although, this situation does not arise often in our dataset, we believe that it can be ameliorated by intersecting a language model with our generation algorithm (Chiang, 2005).
+
+Title:D07-1049		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Talbot, David; Osborne, Miles
+Standard ngram language models assign probabilities to translation hypotheses in the target language, typically as smoothed trigram models (Chiang, 2005).
+
+Title:P07-1037		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Hassan, Hany; Sima'an, Khalil; Way, Andy
+Among the first to demonstrate improvement when adding recursive structure was (Chiang, 2005), who allows for hierarchical phrase probabilities that handle a range of reordering phenomena in the correct fashion.
+
+Title:P07-1037		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Hassan, Hany; Sima'an, Khalil; Way, Andy
+Only quite recently have (Chiang, 2005) and (Marcu et al. , 2006) shown that incorporating some form of syntactic structure could show improvements over a baseline PBSMT system.
+
+Title:P07-1037		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Hassan, Hany; Sima'an, Khalil; Way, Andy
+While (Chiang, 2005) avails of structure which is not linguistically motivated, (Marcu et al. , 2006) employ syntactic structure to enrich the entries in the phrase table.
+
+Title:P07-1020		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Bangalore, Srinivas; Haffner, Patrick; Kanthak, Stephan
+A few exceptions are the hierarchical (possibly syntax-based) transduction models (Wu, 1997; Alshawi et al. , 1998; Yamada and Knight, 2001; Chiang, 2005) and the string transduction models (Kanthak et al. , 2005).
+
+Title:D07-1030		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Hu, Xiaoguang; Wang, Haifeng; Wu, Hua
+SMT has evolved from the original word-based approach (Brown et al. , 1993) into phrase-based approaches (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based approaches (Wu, 1997; Alshawi et al. , 2000; Yamada and Knignt, 2001; Chiang, 2005).
+
+Title:N07-1007		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Toutanova, Kristina; Suzuki, Hisami
+Most stateof-the-art SMT systems treat grammatical elements in exactly the same way as content words, and rely on general-purpose phrasal translations and target language models to generate these elements (e.g. , Och and Ney, 2002; Koehn et al. , 2003; Quirk et al. , 2005; Chiang, 2005; Galley et al. , 2006).
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+Following the Data-Oriented Parsing inspired rule generalization technique proposed by Chiang (2005), one can now generalize each identified rule (initial or already partially generalized) N ??
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+where following (Chiang, 2005) ??X ??N is a nonterminal ?? ??(N ?TS)??: sequence of source nonterminals and terminals ?? ??(N ?TT)??: sequence of target nonterminals and terminals ??the count #NT() of nonterminal tokens in is equalto thecount #NT() ofnonterminal tokens in , ????
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+To address these concerns, hierarchically structured models as in Chiang (2005) define weighted transduction rules, interpretable as components of a probabilistic synchronous grammar (Aho and Ullman, 1969) that represent translation and reordering operations.
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+: nonnegative real-valued weight Chiang (2005) uses a single nonterminal category, Galley et al.
+
+Title:J07-2003		Conference:Computational Linguistics		Author:Chiang, David
+For example, a hierarchical phrase pair that might help with the above example is yu 1 you 2 , have 2 with 1 (3) where 1 and 2 are placeholders for subphrases (Chiang 2005). (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+This is higher than the score of 28.77 reported in (Chiang, 2005), perhaps due to differences in word segmentation, etc. Note that comparing with the MT systems used in (Carpuat and Wu, 2005) and (Cabezas and Resnik, 2005), the Hiero system we are using represents a much stronger baseline MT system upon which the WSD system must improve. (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+Following (Chiang, 2005), we used the version 11a NIST BLEU script with its default settings to calculate the BLEU scores (Papineni et al. , 2002) based on case-insensitive ngram matching, where n is up to 4. (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+The first eight features are those used by Hiero in (Chiang, 2005). (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+Capitalizing on the strength of the phrase-based approach, Chiang (2005) introduced a hierarchical phrase-based statistical MT system, Hiero, which achieves significantly better translation performance than Pharaoh (Koehn, 2004a), which is a state-of-the-art phrasebased statistical MT system. (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+3 Hiero Hiero (Chiang, 2005) is a hierarchical phrase-based model for statistical machine translation, based on weighted synchronous context-free grammar (CFG) (Lewis and Stearns, 1968). (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+In this paper, we successfully integrate a stateof-the-art WSD system into the state-of-the-art hierarchical phrase-based MT system, Hiero (Chiang, 2005). (self citation)
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+Similar to (Chiang, 2005), we trained the Hiero system on the FBIS corpus, used the NIST MT 2002 evaluation test set as our development set to tune the feature weights, and the NIST MT 2003 evaluation test set as our test data. (self citation)
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+1 Introduction Recent efforts in statistical machine translation (MT) have seen promising improvements in output quality, especially the phrase-based models (Och and Ney, 2004) and syntax-based models (Chiang, 2005; Galley et al. , 2006). (self citation)
+
+Title:W07-0702		Conference:Workshop on Statistical Machine Translation		Author:Birch, Alexandra; Osborne, Miles; Koehn, Philipp
+Recently 1www.nist.gov/speech/tests/mt/mt06eval official results.html there have been a few syntax-based models that show performance comparable to the phrase-based models (Chiang, 2005; Marcu et al. , 2006).
+
+Title:W07-0702		Conference:Workshop on Statistical Machine Translation		Author:Birch, Alexandra; Osborne, Miles; Koehn, Philipp
+These models also suffer from a large search space when decoding with an integrated language model, which can lead to search errors (Chiang, 2005).
+
+Title:D07-1006		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Fraser, Alexander; Marcu, Daniel
+This idea of dependency has some similarity with hierarchical SMT models such as (Chiang, 2005).
+
+Title:D07-1006		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Fraser, Alexander; Marcu, Daniel
+For Arabic/English translation we train a state of the art hierarchical model similar to (Chiang, 2005) using our Viterbi alignments.
+
+Title:D07-1038		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:May, Jonathan; Knight, Kevin
+Examples of realistic systems are the phrase-based ATS system of Och and Ney (2004), the phrasal-syntax hybrid system Hiero (Chiang, 2005), and the GHKM syntax system (Galley et al. , 2004; Galley et al. , 2006).
+
+Title:W07-0408		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Hall, Keith; Nemec, Petr
+The Hiero model has been the most successful to date by incorporating syntactic structure amounting to simple tree structures (Chiang, 2005).
+
+Title:N07-1022		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Wong, Yuk Wah; Mooney, Raymond J.
+It has been used in syntax-based SMT to model the translation of one NL to another (Chiang, 2005).
+
+Title:N07-1022		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Wong, Yuk Wah; Mooney, Raymond J.
+It is similar to the syntax-based SMT system of Chiang (2005), which uses both SCFG and PHARAOHs probabilistic model.
+
+Title:N07-1029		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Rosti, Antti-Veikko I.; Ayan, Necip Fazil; Xiang, Bing; Matsoukas, Spyros; Schwartz, Richard M.; Dorr, Bonnie Jean
+For example, hierarchical (Chiang, 2005) and syntax-based (Galley et al. , 2006) systems have recently improved in both accuracy and scalability.
+
+Title:D07-1029		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Huang, Fei; Papineni, Kishore
+These include phrase-based statistical MT systems (Al-Onaizan and Papineni, 2006) (Block) and (Hewavitharana et al. , 2005) (CMU SMT), a direct translation model (DTM) system (Ittycheriah and Roukos, 2007) and a hierarchical phrased-based MT system (Hiero) (Chiang, 2005).
+
+Title:W07-0701		Conference:Workshop on Statistical Machine Translation		Author:Menezes, Arul; Quirk, Chris
+2.2 Hierarchical translation Hierarchical systems (Chiang, 2005) induce a context-free grammar with one non-terminal directly from the parallel corpus, with the advantage of not requiring any additional knowledge source or tools, such as a treebank or a parser.
+
+Title:W07-0701		Conference:Workshop on Statistical Machine Translation		Author:Menezes, Arul; Quirk, Chris
+An early attempt at greater generality in a purely phrasal setting was the alignment template approach (Och & Ney 2004); newer approaches include formally syntactic (Chiang 2005), and linguistically syntactic approaches (Quirk et al. 2005), (Huang et al. 2006).
+
+Title:P07-1065		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Talbot, David; Osborne, Miles
+(Chiang, 2005).
+
+Title:D07-1080		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Watanabe, Taro; Suzuki, Jun; Tsukada, Hajime; Isozaki, Hideki
+2.1 Hierarchical Phrase-based SMT Chiang (2005) introduced the hierarchical phrasebased translation approach, in which non-terminals are embedded in each phrase.
+
+Title:D07-1080		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Watanabe, Taro; Suzuki, Jun; Tsukada, Hajime; Isozaki, Hideki
+As a baseline SMT system, we use the hierarchical phrase-based translation with an efficient left-to-right generation (Watanabe et al. , 2006b) originally proposed by Chiang (2005).
+
+Title:D07-1080		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Watanabe, Taro; Suzuki, Jun; Tsukada, Hajime; Isozaki, Hideki
+1 Introduction The recent advances in statistical machine translation have been achieved by discriminatively training a small number of real-valued features based either on (hierarchical) phrase-based translation (Och and Ney, 2004; Koehn et al. , 2003; Chiang, 2005) or syntax-based translation (Galley et al. , 2006).
+
+Title:D07-1080		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Watanabe, Taro; Suzuki, Jun; Tsukada, Hajime; Isozaki, Hideki
+The hierarchical phrase translation pairs are extracted in a standard way (Chiang, 2005): First, the bilingual data are word alignment annotated by running GIZA++ (Och and Ney, 2003) in two directions.
+
+Title:W07-0410		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Font Llitjos, Ariadna; Vogel, Stephan
+Actually, now that SMT has reached some maturity, we see several attempts to integrate more structure into these systems, ranging from simple hierarchical alignment models (Wu 1997, Chiang 2005) to syntax-based statistical systems (Yamada and Knight 2001, Zollmann and Venugopal 2006).
+
+Title:W07-0735		Conference:Workshop on Statistical Machine Translation		Author:Bojar, Ond&#x159;ej
+As an alternative option to our verb-modifier experiments, structured language models (Chelba and Jelinek, 1998) might be considered to improve clause coherence, until full-featured syntax-based MT models (Yamada and Knight (2002), Eisner (2003), Chiang (2005) among many others) are tested when translating to morphologically rich languages.
+
+Title:W07-0413		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Venkatapathy, Sriram; Bangalore, Srinivas
+A few exceptions are the hierarchical (possibly syntaxbased) transduction models (Wu, 1997; Alshawi et al. , 1998; Yamada and Knight, 2001; Chiang, 2005) and the string transduction models (Kanthak et al. , 2005).
+
+Title:P07-1040		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Rosti, Antti-Veikko I.; Matsoukas, Spyros; Schwartz, Richard M.
+Six MT systems were combined: three (A,C,E) were phrasebased similar to (Koehn, 2004), two (B,D) were hierarchical similar to (Chiang, 2005) and one (F) was syntax-based similar to (Galley et al. , 2006).
+
+Title:D07-1077		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Wang, Chao; Collins, Michael John; Koehn, Philipp
+The model of Chiang (2005) employs a synchronous context-free grammar to allow hierarchical approaches to reordering.
+
+Title:D07-1077		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Wang, Chao; Collins, Michael John; Koehn, Philipp
+More recently developed hierarchical systems (e.g. , (Yamada and Knight, 2001; Chiang, 2005; Marcu et al. , 2006)) may be better equipped to deal with reordering of this type; however, in this example they would effectively have to first identify the span of the relative clause, and then move it into the correct position, without any explicit representation of the source language syntax.
+
+Title:P07-1121		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Wong, Yuk Wah; Mooney, Raymond J.
+Both formalisms have led to SMT systems whose performance is state-of-the-art (Chiang, 2005; Galley et al. , 2006).
+
+Title:P07-1121		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Wong, Yuk Wah; Mooney, Raymond J.
+Like most existing work on syntax-based SMT (Chiang, 2005; Galley et al. , 2006), we constructGusingrulesextractedfromwordalignments.
+
+Title:W07-0412		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Shieber, Stuart M.
+These tree pairs might be manually generated, automatically reconstructed from repurposed bilingual dictionaries, or automatically induced from aligned bilingual treebanks (Groves et al. , 2004; Groves and Way, 2005) or even unannotated bilingual corpora (Chiang, 2005).
+
+Title:W07-0412		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Shieber, Stuart M.
+Successful experiments such as those of Chiang (2005) using synchronous context-free grammar are a good first start.4 2.3 Heritage of the construction principle We have argued that a formalism expressive enough to model the translation relation implicit in bilingual dictionaries must be based on relations over constructions, the primitive relations found in such bilingual dictionaries and founded by the Construction Principle.
+
+Title:W07-1205		Conference:Workshop on Deep Linguistic Processing		Author:Hopkins, Mark; Kuhn, Jonas
+These sentences are annotated with a subset of the auxiliary information used to annotate the 1(Chiang, 2005) also reports that with his hierarchical generalization of the phrase-based approach, the addition of parser information doesn?t lead to any improvements.
+
+Title:N07-1008		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Ittycheriah, Abraham; Roukos, Salim
+More recently, (Chiang, 2005) extended phrase-pairs (or blocks) to hierarchical phrase-pairs where a grammar with a single non-terminal allows the embedding of phrases-pairs, to allow for arbitrary embedding and capture global reordering though this approach still has the high overlap problem.
+
+Title:W07-0706		Conference:Workshop on Statistical Machine Translation		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+1 Introduction Over the last several years, various statistical syntaxbased models were proposed to extend traditional word/phrase based models in statistical machine translation (SMT) (Lin, 2004; Chiang, 2005; Ding et al. , 2005; Quirk et al. , 2005; Marcu et al. , 2006; Liu et al. , 2006).
+
+Title:D07-1079		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:DeNeefe, Steve; Knight, Kevin; Wang, Wei; Marcu, Daniel
+Approaches include word substitution systems (Brown et al. , 1993), phrase substitution systems (Koehn et al. , 2003; Och and Ney, 2004), and synchronous context-free grammar systems (Wu and Wong, 1998; Chiang, 2005), all of which train on string pairs and seek to establish connections between source and target strings.
+
+Title:P07-1051		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Bod, Rens
+Thus similar to Chiang (2005), U-DOP can discover non-syntactic phrases, or simply phrases, which are typically neglected by linguistically syntax-based MT systems.
+
+Title:N07-1062		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Zens, Richard; Ney, Hermann
+It should be rather straightforwardtoapplythisdatastructureaswellas the phrase-match algorithm to the hierarchical approach of (Chiang, 2005).
+
+Title:W07-0406		Conference:SSST, NAACL-HLT 2007 / AMTA Workshop on Syntax and Structure in Statistical Translation		Author:Hopkins, Mark; Kuhn, Jonas
+As our first step, we will assume that the system will be learning from a corpus consisting of triplesf,e,a, where: (i) f is a sentence from our source language, which is parsed (the words of the sentence and the nodes of the parse tree may or may not be annotated with auxiliary information), (ii) e is a gold-standard translation of sentence f (the words of sentence e may or may not be annotated with auxiliary information), and (iii) a is an automaticallygenerated word alignment (e.g. via GIZA++) between source sentence f and destination sentence e. 1(Chiang, 2005) also reports that with his hierarchical generalization of the phrase-based approach, the addition of parser information doesnt lead to any improvements.
+
+Title:D08-1109		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Snyder, Benjamin; Naseem, Tahira; Eisenstein, Jacob; Barzilay, Regina
+Examples of such efforts include work on the induction of synchronous grammars (Wu and Wong, 1998; Chiang, 2005) and learning multilingual lexical resources (Genzel, 2005).
+
+Title:D08-1021		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Callison-Burch, Chris
+Phrase-based rules have also been replaced with synchronous context free grammars (Chiang, 2005) and with tree fragments (Huang and Knight, 2006).
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+However, formal SCFG show much better performance in the formally syntax-based translation framework (Chiang, 2005).
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+This is because the formal syntax is learned from phrases directly without relying on any linguistic theory (Chiang, 2005).
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+Chiang (2005)s hierarchal phrase-based model achieves significant performance improvement.
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+However, no further significant improvement is achieved when the model is made sensitive to syntactic structures by adding a constituent feature (Chiang, 2005).
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+Recently, many syntax-based models have been proposed to address the above deficiencies (Wu, 1997; Chiang, 2005; Eisner, 2003; Ding and Palmer, 2005; Quirk et al, 2005; Cowan et al., 2006; Zhang et al., 2007; Bod, 2007; Yamada and Knight, 2001; Liu et al., 2006; Liu et al., 2007; Gildea, 2003; Poutsma, 2000; Hearne and Way, 2003).
+
+Title:W08-0408		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Ge, Niyu; Ittycheriah, Abraham; Papineni, Kishore
+Recent work on reordering has been on trying to find smart ways to decide word order, using syntactic features such as POS tags (Lee and Ge 2005) , parse trees (Zhang et.al, 2007, Wang et.al. 2007, Collins et.al. 2005, Yamada and Knight 2001) to name just a few, and synchronized CFG (Wu 1997, Chiang 2005), again to name just a few.
+
+Title:W08-0408		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Ge, Niyu; Ittycheriah, Abraham; Papineni, Kishore
+We show how to use this framework to perform distance-based reordering and HIERO-style (Chiang 2005) hierarchical reordering.
+
+Title:W08-0408		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Ge, Niyu; Ittycheriah, Abraham; Papineni, Kishore
+3.2 HIERO Hierarchical Reordering In this section we show an example of how the Hiero decoding method (Chiang 2005) can be implemented as a reordering module in this framework.
+
+Title:W08-0408		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Ge, Niyu; Ittycheriah, Abraham; Papineni, Kishore
+Given the above Chinese input and the two Hiero rules, the Hiero decoder as described in (Chiang 2005) will produce a partial hypothesis Australia is one of by firing the two rules during parsing (see Chiang 2005 for decoding details).
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+Coming from the other direction, such observations about phrase reordering between different languages are precisely thekindsoffactsthatparsingapproachestomachine translation are designed to handle and do successfully handle (Wu, 1997; Melamed, 2003; Chiang, 2005).
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+Crucially, our work distinguishes itself from previous hierarchical models in that it does not rely on any cubic-time parsing algorithms such as CKY (used in, e.g., (Chiang, 2005)) or the Earley algorithm (used in (Watanabe et al., 2006)).
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+To be able identify that adjacent blocks (e.g., the development and and progress) can be merged into larger blocks, our model infers binary (non-linguistic) trees reminiscent of (Wu, 1997; Chiang, 2005).
+
+Title:D08-1076		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Macherey, Wolfgang; Och, Franz Josef; Thayer, Ignacio; Uszkoreit, Jakob
+It is also straightforward to extend the suggested method to hypergraphs and forests as they are used, e.g., in hierarchical and syntax-augmented systems (Chiang, 2005; Zollmann and Venugopal, 2006).
+
+Title:P08-1115		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Dyer, Chris; Muresan, Smaranda; Resnik, Philip
+Each cell ij in this table is a tripleFij,pij,Rij 1013 2.2 Parsing word lattices Chiang (2005) introduced hierarchical phrase-based translation models, which are formally based on synchronous context-free grammars (SCFGs).
+
+Title:P08-1115		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Dyer, Chris; Muresan, Smaranda; Resnik, Philip
+We used both a phrase-based translation model, decoded using our modified version of Moses (Koehn et al., 2007), and a hierarchical phrase-based translation model, using our modified version of Hiero (Chiang, 2005; Chiang, 2007).
+
+Title:P08-1115		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Dyer, Chris; Muresan, Smaranda; Resnik, Philip
+In addition, we generalize lattice decoding algorithmically, extending it for the first time to hierarchical phrase-based translation (Chiang, 2005; Chiang, 2007).
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+This is because the formal syntax is learned from phrase translational equivalences directly without relying on any linguistic theory (Chiang, 2005).
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+As indicated before (Chiang, 2005; Zhang et al., 2007), the above scheme generates a very large number of rules, which not only makes the system too complicated but also introduces too many undesirable ambiguities.
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+Our analysis further finds that 4 This claim is mainly hold for linguistically-informed SCFG since formal SCFG and BTG already showed much better performance in the formally syntax-based translation framework (Chiang, 2005).
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+Based on these grammars, a great number of SMT models have been recently proposed, including string-to-string model (Synchronous FSG) (Brown et al., 1993; Koehn et al., 2003), tree-to-string model (TSG-string) (Huang et al., 2006; Liu et al., 2006; Liu et al., 2007), string-totree model (string-CFG/TSG) (Yamada and Knight, 2001; Galley et al., 2006; Marcu et al., 2006), tree-to-tree model (Synchronous CFG/TSG, Data-Oriented Translation) (Chiang, 2005; Cowan et al., 2006; Eisner, 2003; Ding and Palmer, 2005; Zhang et al., 2007; Bod, 2007; Quirk wt al., 2005; Poutsma, 2000; Hearne and Way, 2003) and so on.
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+Please refer to (Chiang, 2005; Liu et al., 2006; Zhang et al., 2007) for the implementation details.
+
+Title:C08-1138		Conference:International Conference On Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Li, Haizhou; Aw, Aiti; Li, Sheng
+Our rule extraction algorithm is an extension of that presented at (Chiang, 2005; Liu et al., 2006; Zhang et al., 2007).
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+Such rules are not allowed in Hiero-style models, as there is no lexical item between the two variables (Chiang, 2005) in the source side.
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+Slightly different from the decoder in (Chiang, 2005), we implemented the dotted-rule in Early-style parser to handle rules containing more than two variables.
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+The rules we extract belong to one of the following categories: contains only words, and lscript is NULL; this corresponds to the general blocks used in phrasebased decoder (Och and Ney, 2004); contains words and variables of [X,0] and [X,1], and lscript is NULL; this corresponds to the Hiero rules as in Chiang (2005); contains words and variables in the form of [X,TAG2], in which TAG is from the LDC tagset; this defines a well formed subtree, in which at least one child (constituent) is aligned to continuous target ngrams.
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+We adopt the notations used in (Chiang, 2005).
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+This usually leads to too many redundant translations, which worsens the spurious ambiguities (Chiang, 2005) problems for both decoding and optimization (i.e., parameter tuning).
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+Another method to address the re-ordering problem in translation is the Hiero model proposed by Chiang (2005), in which a probabilistic synchronous context free grammar (PSCFG) was applied to guide the decoding.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+Chiang (2005) distinguishes statistical MT approaches that are syntactic in a formal sense, going beyond the nite-state underpinnings of phrasebased models, from approaches that are syntactic in a linguistic sense, i.e. taking advantage of a priori language knowledge in the form of annotations derived from human linguistic analysis or treebanking.1 The two forms of syntactic modeling are doubly dissociable: current research frameworks include systems that are nite state but informed by linguistic annotation prior to training (e.g., (Koehn and Hoang, 2007; Birch et al., 2007; Hassan et al., 2007)), and also include systems employing contextfree models trained on parallel text without bene t of any prior linguistic analysis (e.g.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+Figure 1: Illustration of Chiangs (2005) syntactic constituency feature, which does not distinguish among constituent types.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+1004 Chiang (2005) conjectured that there might be value in allowing the Hiero model to favor hypotheses for which the synchronous derivation respects linguistically motivated source-language constituency boundaries, as identi ed using a parser.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+2 Hierarchical Phrase-based Translation 2.1 Hiero Hiero (Chiang, 2005; Chiang, 2007) is a hierarchical phrase-based statistical MT framework that generalizes phrase-based models by permitting phrases with gaps.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+3 Soft Syntactic Constraints, Revisited On the face of it, there are any number of possible reasons Chiangs (2005) soft constraint did not work including, for example, practical issues like the quality of the Chinese parses.5 However, we focus here on two conceptual issues underlying his use of source language syntactic constituents.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+In addition to the baseline condition, and baseline plus Chiangs (2005) original constituency feature, experimental conditions augmented the baseline with additional features as described in Section 3.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+7 Conclusion When hierarchical phrase-based translation was introduced by Chiang (2005), it represented a new and successful way to incorporate syntax into statistical MT, allowing the model to exploit non-local dependencies and lexically sensitive reordering without requiring linguistically motivated parsing of either the source or target language.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+Second, the Chiang (2005) constituency feature gives a rule additional credit when the rules source side overlaps exactly with a source-side syntactic constituent.
+
+Title:P08-1114		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Marton, Yuval; Resnik, Philip
+(Chiang, 2005; Chiang, 2007; Wu, 1997)).
+
+Title:P08-1011		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Dongdong; Li, Mu; Duan, Nan; Li, Chi-Ho; Zhou, Ming
+In most statistical machine translation (SMT) models (Och et al., 2004; Koehn et al., 2003; Chiang, 2005), some of measure words can be generated without modification or additional processing.
+
+Title:P08-1011		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Dongdong; Li, Mu; Duan, Nan; Li, Chi-Ho; Zhou, Ming
+We used an SMT system similar to Chiang (2005), in which FBIS corpus is used as the bilingual training data.
+
+Title:D08-1090		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Snover, Matthew; Dorr, Bonnie Jean; Schwartz, Richard M.
+While both adaptation methods are integrated into a hierarchical translation model (Chiang, 2005), they are largely implementation independent.
+
+Title:W08-0510		Conference:Software Engineering, Testing, and Quality Assurance for Natural Language Processing		Author:Hoang, Hieu; Koehn, Philipp
+0 20 40 60 80 100 120 140 160 No v06 De c06 Ja n07 Fe b07 Ma r-0 7 Ap r-0 7 Ma y07 Ju n07 Ju l-0 7 Au g07 Se p07 Oc t-0 7 No v07 De c07 Ja n08 Fe b08 Figure 6 Emails to Moses support mailing list 5 Future Work There has been some important developments in phrase-based translation in recent years, including the hierarchical phrase-based model as described in (Chiang 2005).
+
+Title:W08-0510		Conference:Software Engineering, Testing, and Quality Assurance for Natural Language Processing		Author:Hoang, Hieu; Koehn, Philipp
+We note that Hiero (Chiang 2005) is written in a scripting language with performance critical components rewritten in a compiled language.
+
+Title:C08-1137		Conference:International Conference On Computational Linguistics		Author:Zhang, Jiajun; Zong, Chengqing; Li, Shoushan
+(2005); and the formal syntax-based reordering models were proposed by Chiang (2005) and Xiong et al.
+
+Title:P08-2041		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+The hierarchical phrase-based model (Chiang, 2005) used hierarchical phrase pairs to strengthen the generalization ability of phrases and allow long distance reorderings.
+
+Title:I08-4001		Conference:Proceedings of the Sixth SIGHAN Workshop on Chinese Language Processing		Author:Li, Zhoujun; Chao, Wen-Han; Chen, Yue-Xin
+We can learn these fixed structures and take them as rules, Chiang (2005) presents a method to learn these rules, and uses them in the SMT.
+
+Title:C08-1127		Conference:International Conference On Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+1 We inherit the definitions of formal and linguistic from (Chiang, 2005) which makes a distinction between formally syntax-based SMT and linguistically syntax-based SMT.
+
+Title:C08-1127		Conference:International Conference On Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+1 Chiang (2005) attempts to integrate linguistic information into his formally c2008.
+
+Title:C08-1127		Conference:International Conference On Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+1 Introduction Formal grammar used in statistical machine translation (SMT), such as Bracketing Transduction Grammar (BTG) proposed by (Wu, 1997) and the synchronous CFG presented by (Chiang, 2005), provides a natural platform for integrating linguistic knowledge into SMT because hierarchical structures produced by the formal grammar resemble linguistic structures.
+
+Title:P08-1023		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Mi, Haitao; Huang, Liang; Liu, Qun
+Depending on the type of input, these efforts can be divided into two broad categories: the string-based systems whose input is a string to be simultaneously parsed and translated by a synchronous grammar (Wu, 1997; Chiang, 2005; Galley et al., 2006), and the tree-based systems whose input is already a parse tree to be directly converted into a target tree or string (Lin, 2004; Ding and Palmer, 2005; Quirk et al., 2005; Liu et al., 2006; Huang et al., 2006).
+
+Title:P08-1023		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Mi, Haitao; Huang, Liang; Liu, Qun
+These phrases are called syntactic phrases which are consistent with syntactic constituents (Chiang, 2005), and have been shown to be helpful in tree-based systems (Galley et al., 2006; Liu et al., 2006).
+
+Title:D08-1010		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Liu, Qun; He, Zhongjun; Liu, Yang; Lin, Shouxun
+(2007) showed improvents by integrating wordsense-disambiguation (WSD) system into a phrasebased (Koehn, 2004) and a hierarchical phrasebased (Chiang, 2005) SMT system, respectively.
+
+Title:D08-1010		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Liu, Qun; He, Zhongjun; Liu, Yang; Lin, Shouxun
+In our previous work (He et al., 2008), we reported improvements by integrating a MERS model into a formally syntax-based SMT model, the hierarchical phrase-based model (Chiang, 2005).
+
+Title:D08-1077		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Menezes, Arul; Quirk, Chris
+Hierarchical systems, such as (Chiang, 2005) in principle have the capacity to learn insertions and deletions grounded by minimal lexical cues.
+
+Title:D08-1077		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Menezes, Arul; Quirk, Chris
+This is analogous to the glue rules of Chiang (2005).
+
+Title:W08-0302		Conference:Proceedings of the Third Workshop on Statistical Machine Translation		Author:Gimpel, Kevin; Smith, Noah A.
+models, including the lexicalized reordering model and the lexical translation model in the Moses MT system, or hierarchical or syntactic models (Chiang, 2005).
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+2.4 Decoding Following previous work on hierarchical MT (Chiang, 2005; Galley et al., 2006), we solve decoding as chart parsing.
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+1 Introduction In recent years, hierarchical methods have been successfully applied to Statistical Machine Translation (Graehl and Knight, 2004; Chiang, 2005; Ding and Palmer, 2005; Quirk et al., 2005).
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+Hierarchical rules were extracted from a subset which has about 35M/41M words5, and the rest of the training data were used to extract phrasal rules as in (Och, 2003; Chiang, 2005).
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+For comparison purposes, we replicated the Hiero system as described in (Chiang, 2005).
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+For comparison purposes, we replicated the Hiero decoder (Chiang, 2005) as our baseline.
+
+Title:P08-1066		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Shen, Libin; Xu, Jinxi; Weischedel, Ralph M.
+Following (Chiang, 2005), we also use concatenation rules like X XX for backup.
+
+Title:P08-1024		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Blunsom, Philip; Cohn, Trevor; Osborne, Miles
+The full derivation chart is produced using a CYK parser in the same manner as Chiang (2005), and has complexity O(|e|3).
+
+Title:P08-1024		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Blunsom, Philip; Cohn, Trevor; Osborne, Miles
+However, while Chiang (2005) stores an abbreviated context composed of the n 1 target words on the left and right edge of the target substring, here we store the entire target string.
+
+Title:I08-2087		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Zhang, Dakun; Sun, Le; Li, Wenbo
+However, formally syntax-based methods propose simple but efficient ways to parse and translate sentences (Wu 1997; Chiang 2005).
+
+Title:D08-1022		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mi, Haitao; Huang, Liang
+(2006) string-to-string Chiang (2005) Table 1: A classification of syntax-based MT. The first three use linguistic syntax, while the last one only formal syntax.
+
+Title:D08-1022		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mi, Haitao; Huang, Liang
+To make things worse, modern statistical parsers are often trained on domains quite different from those used in MT. By contrast, formally syntax-based models (Chiang, 2005) do not rely on parse trees, yet usually perform better than these linguistically sophisticated counterparts.
+
+Title:D08-1022		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mi, Haitao; Huang, Liang
+The final result with both forest-based extraction and forest-based decoding reaches a BLEU score of 0.2816, outperforming that of Hiero (Chiang, 2005), one of the best performing systems to date.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+3.1 The MaxEnt RS Model Following (Chiang, 2005), we use , to represent a SCFG rule extracted from the training corpus, where and are source and target strings, respectively.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+(2007) incorporated a WSD system into the hierarchical SMT system, Hiero (Chiang, 2005), and reported statistically significant improvement.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+We use the same method suggested in (Chiang, 2005) to extract SCFG grammar rules.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+2.2 The Hierarchical Model The hierarchical model (Chiang, 2005; Chiang, 2007) is built on a weighted synchronous contextfree grammar (SCFG) . A SCFG rule has the following form: X ,,(4) where X is a nonterminal, is an LHS string consists of terminals and nonterminals, is the translation of , defines a one-one correspondence between nonterminals in and .
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+In (Chiang, 2005), the log-linear model combines 8 features: the translation probabilities P(|) and P(|), the lexical weights P w (|) and P w (|), the language model, the word penalty, the phrase penalty, and the glue rule penalty.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+Take the hierarchical model (Chiang, 2005) as an example.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+We integrate the MaxEnt RS models into the state-ofthe-art hierarchical SMT system (Chiang, 2005).
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+These features can be easily gathered according to Chinags rule extraction method (Chiang, 2005).
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+1 Introduction The syntax-based statistical machine translation (SMT) models (Chiang, 2005; Liu et al., 2006; Galley et al., 2006; Huang et al., 2006) use rules with hierarchical structures as translation knowledge, which can capture long-distance reorderings.
+
+Title:C08-1041		Conference:International Conference On Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+Note that following (Chiang, 2005), we limit the number of nonterminals of a rule up to 2.
+
+Title:P08-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Hao; Quirk, Chris; Moore, Robert C.; Gildea, Daniel
+Formally, given a word-based ITG alignment, the bootstrapping algorithm finds all the phrase pairs according to the definition of Och and Ney (2004) and Chiang (2005) with the additional constraint that each phrase pair contains at most one word link.
+
+Title:D08-1066		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mylonakis, Markos; Sima'an, Khalil
+This SCFG (Chiang, 2005b) has two binary synchronous rules that correspond resp.
+
+Title:D08-1066		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mylonakis, Markos; Sima'an, Khalil
+Coming up-to-date, (Blunsom et al., 2008) attempt a related estimation problem to (Marcu and Wong, 2002), using the expanded phrase pair set of (Chiang, 2005a), working with an exponential model and concentrating on marginalizing out the latent segmentation variable.
+
+Title:D08-1066		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mylonakis, Markos; Sima'an, Khalil
+We use binary Synchronous ContextFree Grammar (bSCFG), based on Inversion Transduction Grammar (ITG) (Wu, 1997; Chiang, 2005a), to define the set of eligible segmentations for an aligned sentence pair.
+
+Title:W08-0410		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Clark, Jonathan H.; Frederking, Robert E.; Levin, Lori S.
+In fact, some structurebased systems have already shown that they can outperform phrase-based SMT systems (Chiang, 2005).
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+1Chiang (2005) uses source length limit 5 and initial phrase length limit 10.
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+Chiang (2005) places restrictions on the extracted rules which we adhere to as well.
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+2.3 Syntax Augmented MT Syntax Augmented MT (SAMT) (Zollmann and Venugopal, 2006) extends Chiang (2005) to include nonterminal symbols from target language phrase structure parse trees.
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+PSCFG approaches such as Chiang (2005) and Zollmann and Venugopal (2006) typically begin with a phrase-based model as the foundation for the PSCFG rules described above.
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+2.2 Hierarchical MT Building upon the success of phrase-based methods, Chiang (2005) presents a PSCFG model of translation that uses the bilingual phrase pairs of phrase-based MT as starting point to learn hierarchicalrules.
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+While previous work demonstrates impres1145 sive improvements of PSCFG over phrase-based approaches for large Chinese-to-English data scenarios (Chiang, 2005; Chiang, 2007; Marcu et al., 2006; DeNeefe et al., 2007), these phrase-based baseline systems were constrained to distortion limits of four (Chiang, 2005) and seven (Chiang, 2007; Marcu et al., 2006; DeNeefe et al., 2007), respectively, while the PSCFG systems were able to operate within an implicit reordering window of 10 and higher.
+
+Title:D08-1012		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Petrov, Slav; Haghighi, Aria; Klein, Dan
+Whenever we combine two dynamic programming items, we need to score the fluency of their concatentation by incorporating the score of any language model features which cross the target side boundaries of the two concatenated items (Chiang, 2005).
+
+Title:P08-1025		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel
+The Hiero-style rules of (Chiang, 2005), which are not strictly binary but binary only on nonterminals: X yu X(1) you X(2); have X(2) with X(1) can be handled similarly through either offline binarization or allowing a fixed maximum number of gap words between the right hand side nonterminals in the decoder.
+
+Title:P08-1025		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel
+For these reasons, the parsing problems for more realistic synchronous CFGs such as in Chiang (2005) and Galley et al.
+
+Title:C08-1136		Conference:International Conference On Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel; Chiang, David
+Extraction of such phrases is a common feature of state-of-the-art phrase-based and syntax-based machine translation systems (Och and Ney, 2004a; Chiang, 2005). (self citation)
+
+Title:C08-1136		Conference:International Conference On Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel; Chiang, David
+From wordlevel alignments, such systems extract the grammar rules consistent either with the alignments and parse trees for one of languages (Galley et al., 2004), or with the the word-level alignments alone without reference to external syntactic analysis (Chiang, 2005), which is the scenario we address here. (self citation)
+
+Title:C08-1136		Conference:International Conference On Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel; Chiang, David
+But for machine translation, one may wish to use a single nonterminal, such that the extracted rules can recombine freely, as in Chiang (2005). (self citation)
+
+Title:D08-1024		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Chiang, David; Marton, Yuval; Resnik, Philip
+5.1 Experimental setup The baseline model was Hiero with the following baseline features (Chiang, 2005; Chiang, 2007): two language models phrase translation probabilities p(f | e) and p(e| f) lexical weighting in both directions (Koehn et al., 2003) word penalty penalties for: automatically extracted rules identity rules (translating a word into itself) two classes of number/name translation rules glue rules The probability features are base-100 logprobabilities. (self citation)
+
+Title:D08-1024		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Chiang, David; Marton, Yuval; Resnik, Philip
+Chiang (2005) experimented with a constituency feature that rewarded rules whose source language side exactly spans a syntactic constituent according to the output of an external source-language parser. (self citation)
+
+Title:D08-1024		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Chiang, David; Marton, Yuval; Resnik, Philip
+One recent example of this limitation is a series of experiments by Marton and Resnik (2008), in which they added syntactic features to Hiero (Chiang, 2005; Chiang, 2007), which ordinarily uses no linguistically motivated syntactic information. (self citation)
+
+Title:D08-1024		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Chiang, David; Marton, Yuval; Resnik, Philip
+3 Soft syntactic constraints The first features we explore are based on a line of research introduced by Chiang (2005) and improved on by Marton and Resnik (2008). (self citation)
+
+Title:D08-1024		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Chiang, David; Marton, Yuval; Resnik, Philip
+(2007), and the models of Chiang (2005) and Marton 231 and Resnik (2008). (self citation)
+
+Title:W08-0411		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Lavie, Alon; Parlikar, Alok; Ambati, Vamshi
+The underlying formalisms used has been quite broad and include simple formalisms such as ITGs (Wu, 1997), hierarchicalsynchronousrules(Chiang, 2005), string to tree models by (Galley et al., 2004) and (Galley et al., 2006), synchronous CFG models such (Xia and McCord, 2004) (Yamada and Knight, 2001), synchronous Lexical Functional Grammar inspired approaches (Probst et al., 2002) and others.
+
+Title:W08-0411		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Lavie, Alon; Parlikar, Alok; Ambati, Vamshi
+(Chiang, 2005) (Imamura et al., 2004) (Galley et al., 2004).
+
+Title:D09-1038		Conference:EMNLP		Author:Xiao, Tong; Li, Mu; Zhang, Dongdong; Zhu, Jingbo; Zhou, Ming
+1 Introduction Recently Statistical Machine Translation (SMT) systems based on Synchronous Context Free Grammar (SCFG) have been extensively investigated (Chiang, 2005; Galley et al., 2004; Galley et al., 2006) and have achieved state-of-the-art performance.
+
+Title:P09-1009		Conference:ACL-IJCNLP		Author:Snyder, Benjamin; Naseem, Tahira; Barzilay, Regina
+More general formalisms for the same purpose were later developed (Wu and Wong, 1998; Chiang, 2005; Melamed, 2003; Eisner, 2003; Zhang and Gildea, 2005; Blunsom et al., 2008).
+
+Title:W09-0436		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Chang, Pi-Chuan; Jurafsky, Daniel; Manning, Christopher D.
+Part of the solution to dealing with these ordering issues is hierarchical decoding, such as the Hiero system (Chiang, 2005), a method motivated by {(DE) examples like the one in Figure 1.
+
+Title:W09-0436		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Chang, Pi-Chuan; Jurafsky, Daniel; Manning, Christopher D.
+Figure 1: An example of the DE construction from (Chiang, 2005) classes.
+
+Title:P09-1087		Conference:ACL-IJCNLP		Author:Galley, Michel; Manning, Christopher D.
+1 Introduction Hierarchical approaches to machine translation have proven increasingly successful in recent years (Chiang, 2005; Marcu et al., 2006; Shen et al., 2008), and often outperform phrase-based systems (Och and Ney, 2004; Koehn et al., 2003) on target-language fluency and adequacy.
+
+Title:D09-1073		Conference:EMNLP		Author:Zhang, Min; Li, Haizhou
+Recently, many phrase reordering methods have been proposed, ranging from simple distancebased distortion model (Koehn et al., 2003; Och and Ney, 2004), flat reordering model (Wu, 1997; Zens et al., 2004), lexicalized reordering model (Tillmann, 2004; Kumar and Byrne, 2005), to hierarchical phrase-based model (Chiang, 2005; Setiawan et al., 2007) and classifier-based reordering model with linear features (Zens and Ney, 2006; Xiong et al., 2006; Zhang et al., 2007a; Xiong et al., 2008).
+
+Title:D09-1073		Conference:EMNLP		Author:Zhang, Min; Li, Haizhou
+1 Introduction Phrase-based method (Koehn et al., 2003; Och and Ney, 2004; Koehn et al., 2007) and syntaxbased method (Wu, 1997; Yamada and Knight, 2001; Eisner, 2003; Chiang, 2005; Cowan et al., 2006; Marcu et al., 2006; Liu et al., 2007; Zhang et al., 2007c, 2008a, 2008b; Shen et al., 2008; Mi and Huang, 2008) represent the state-of-the-art technologies in statistical machine translation (SMT).
+
+Title:W09-0416		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Du, Jinhua; He, Yifan; Penkale, Sergio; Way, Andy
+3) HPB: a typical hierarchical phrase-based system (Chiang, 2005).
+
+Title:W09-0416		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Du, Jinhua; He, Yifan; Penkale, Sergio; Way, Andy
+2.3 Hierarchical Machine Translation HPB translation system is a re-implementation of the hierarchical phrase translation model which is based on PSCFG (Chiang, 2005).
+
+Title:N09-1029		Conference:HLT-NAACL		Author:Chen, Han-Bin; Wu, Jian-Cheng; Chang, Jason S.
+In hierarchical phrase-based systems (Chiang, 2005), for example, SCFG rules are automatically learned from aligned bilingual corpus, and are applied in CKY style decoding.
+
+Title:N09-1029		Conference:HLT-NAACL		Author:Chen, Han-Bin; Wu, Jian-Cheng; Chang, Jason S.
+Each sequences of consecutive phrases, mapping to cells in a CKY matrix, are then translated through a bilingual phrase table and scored as implemented in (Koehn et al., 2005; Chiang, 2005).
+
+Title:N09-1029		Conference:HLT-NAACL		Author:Chen, Han-Bin; Wu, Jian-Cheng; Chang, Jason S.
+6 Decoding We develop a bottom-up CKY style decoder in our system, similar to Chiang (2005).
+
+Title:D09-1114		Conference:EMNLP		Author:Duan, Nan; Li, Mu; Xiao, Tong; Zhou, Ming
+The first one (SYS1) is a system based on the hierarchical phrase-based model as proposed in (Chiang, 2005).
+
+Title:D09-1114		Conference:EMNLP		Author:Duan, Nan; Li, Mu; Xiao, Tong; Zhou, Ming
+In the example, the Chinese source sentence is translated with two settings of a hierarchical phrase-based system (Chiang, 2005).
+
+Title:D09-1114		Conference:EMNLP		Author:Duan, Nan; Li, Mu; Xiao, Tong; Zhou, Ming
+Since the success of phrase-based methods (Och and Ney, 2004; Koehn, 2004), models based on formal syntax (Chiang, 2005) or linguistic syntax (Liu et al., 2006; Marcu et al., 2006) have also achieved state-of-the-art performance.
+
+Title:W09-0439		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Foster, George; Kuhn, Roland
+1 Introduction Most recent approaches in SMT, eg (Koehn et al., 2003; Chiang, 2005), use a log-linear model to combine probabilistic features.
+
+Title:D09-1021		Conference:EMNLP		Author:Carreras, Xavier; Collins, Michael John
+Early examples of this work include (Alshawi, 1996; Wu, 1997); more recent models include (Yamada and Knight, 2001; Eisner, 2003; Melamed, 2004; Zhang and Gildea, 2005; Chiang, 2005; Quirk et al., 2005; Marcu et al., 2006; Zollmann and Venugopal, 2006; Nesson et al., 2006; Cherry, 2008; Mi et al., 2008; Shen et al., 2008).
+
+Title:D09-1021		Conference:EMNLP		Author:Carreras, Xavier; Collins, Michael John
+1 Introduction Syntax-based models for statistical machine translation (SMT) have recently shown impressive results; many such approaches are based on either synchronous grammars (e.g., (Chiang, 2005)), or tree transducers (e.g., (Marcu et al., 2006)).
+
+Title:D09-1123		Conference:EMNLP		Author:Hassan, Hany; Sima'an, Khalil; Way, Andy
+They use an existing parser to parse the target side of the parallel corpus in order to extract a syntactically motivated, bilingual synchronous grammar as in (Chiang, 2005).
+
+Title:D09-1123		Conference:EMNLP		Author:Hassan, Hany; Sima'an, Khalil; Way, Andy
+Likewise, the model in (Zollmann and Venugopal, 2006) extends (Chiang, 2005) by augmenting the hierarchical phrases with syntactic categories derived from parsing the target side of a parallel corpus.
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+The orthodox phrase-based model was enhanced in Chiang (2005), where a hierarchical phrase model allowing for multiple generalizations within each phrase was introduced.
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+The rule recursive generalization procedure coincides with the one proposed in Chiang (2005), but violates the restrictions introduced for singlecategory grammar; for example, rules that contain adjacent generalized elements are not discarded.
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+This problem was successfully addressed when the MT system based on generalized hierarchically structured phrases was introduced and discussed in Chiang (2005).
+
+Title:N09-1025		Conference:HLT-NAACL		Author:Chiang, David; Knight, Kevin; Wang, Wei
+We also add more than 10,000 features to Hiero (Chiang, 2005) and obtain a +1.5 Bleu improvement. (self citation)
+
+Title:N09-1025		Conference:HLT-NAACL		Author:Chiang, David; Knight, Kevin; Wang, Wei
+3 Systems Used 3.1 Hiero Hiero (Chiang, 2005) is a hierarchical, string-tostring translation system. (self citation)
+
+Title:D09-1040		Conference:EMNLP		Author:Marton, Yuval; Callison-Burch, Chris; Resnik, Philip
+1 Introduction Phrase-based systems, flat and hierarchical alike (Koehn et al., 2003; Koehn, 2004b; Koehn et al., 2007; Chiang, 2005; Chiang, 2007), have achieved a much better translation coverage than wordbased ones (Brown et al., 1993), but untranslated words remain a major problem in SMT.
+
+Title:N09-1026		Conference:HLT-NAACL		Author:DeNero, John; Bansal, Mohit; Pauls, Adam; Klein, Dan
+(2006) follow Chiang (2005) in disallowing adjacent nonterminals.
+
+Title:J09-4009		Conference:Computational Linguistics		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel; Knight, Kevin
+Introduction Several recent syntax-based models for machine translation (Chiang 2005; Galley et al. 2004) can be seen as instances of the general framework of synchronous grammars and tree transducers.
+
+Title:J09-4009		Conference:Computational Linguistics		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel; Knight, Kevin
+One way around this difficulty is to stipulate that all rules must be binary from the outset, as in Inversion Transduction Grammar (ITG) (Wu 1997) and the binary SCFG employed by the Hiero system (Chiang 2005) to model the hierarchical phrases.
+
+Title:J09-4009		Conference:Computational Linguistics		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel; Knight, Kevin
+However, in the source-channel approach to machine translation, we need to combine probabilities from the translation model (TM) (an SCFG) with the language model (an n-gram), which has been shown to be very important for translation quality (Chiang 2005).
+
+Title:J09-4009		Conference:Computational Linguistics		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel; Knight, Kevin
+As illustrated in Figure 2, PP-VP has contiguous spans on both sourceand target-sides, so that we can generate a binary-branching SCFG: (4) S ! NP 1 PP-VP 2 , NP 1 PP-VP 2 PP-VP ! VP 1 PP 2 , PP 2 VP 1 In this case m-gram integrated decoding can be done in O(jwj3+4(m1)) time, which is a much lower-order polynomial and no longer depends on rule size (Wu 1996), allowing the search to be much faster and more accurate, as is evidenced in the Hiero system of Chiang (2005), which restricts the hierarchical phrases to form binary-branching SCFG rules.
+
+Title:E09-1044		Conference:EACL		Author:Iglesias, Gonzalo; Gispert, Adri&agrave;; de; Banga, Eduardo R.; Byrne, William
+Marton and Resnik (2008) exploit shallow correspondences of hierarchical rules with source syntactic constituents extracted from parallel text, an approach also investigated by Chiang (2005).
+
+Title:E09-1044		Conference:EACL		Author:Iglesias, Gonzalo; Gispert, Adri&agrave;; de; Banga, Eduardo R.; Byrne, William
+1 Introduction Hierarchical phrase-based translation (Chiang, 2005) has emerged as one of the dominant current approaches to statistical machine translation.
+
+Title:W09-0434		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Birch, Alexandra; Blunsom, Philip; Osborne, Miles
+Some grammar-based models such as the hierarchical model (Chiang, 2005) and the syntactified target language phrases model (Marcu et al., 2006) have shownbetterperformancethanphrase-basedmodels on certain language pairs.
+
+Title:N09-1049		Conference:HLT-NAACL		Author:Iglesias, Gonzalo; Gispert, Adri&agrave;; de; Banga, Eduardo R.; Byrne, William
+1 Introduction Hierarchical phrase-based translation generates translation hypotheses via the application of hierarchical rules in CYK parsing (Chiang, 2005).
+
+Title:N09-1049		Conference:HLT-NAACL		Author:Iglesias, Gonzalo; Gispert, Adri&agrave;; de; Banga, Eduardo R.; Byrne, William
+3.1 Building the Rule Sets We extract hierarchical phrases from word alignments, applying the same restrictions as introduced by Chiang (2005).
+
+Title:N09-1049		Conference:HLT-NAACL		Author:Iglesias, Gonzalo; Gispert, Adri&agrave;; de; Banga, Eduardo R.; Byrne, William
+Cube pruning is used to apply language models at each cell of the CYK grid as part of the search for a k-best list of translation candidates (Chiang, 2005; Chiang, 2007).
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+Our model falls somewhere between PSCFGs that extract nonterminal symbols from parse trees and treat them as part of 236 the derivation (Zollmann and Venugopal, 2006) and unlabeled hierarchical structures (Chiang, 2005); we treat nonterminal labels as random variables chosen at each node, with each (unlabeled) rule expressing preferences for particular nonterminal labels, learned from data.
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+In this work, we define N ={S,X} H={NP,DT,NN}=NSAMT where N corresponds to the generic labels of Chiang (2005) and H corresponds to the syntactically motivated SAMT labels from (Zollmann and Venugopal, 2006), and pi maps all elements of H to X. We will use hargs(r) to denote the set of all vectorh =h0,h1,,hkHk+1 that are valid bindings for the rule with nonzero preference probability.
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+The system Hier. uses a grammar with a single nonterminal label as in Chiang (2005).
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+In this work we address the increased fragmentation resulting from rules with labeled nonterminals compared to unlabeled rules (Chiang, 2005).
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+Each hiH. When N,H are defined to include just a single generic symbol as in (Chiang, 2005), we produce the unlabeled grammar discussed above.
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+The translation of the Chinese word sequence ( m can be performed by expanding the nonterminal in the rule a place where I can X1 with either eat or dish. A hierarchical system (Chiang, 2005) would allow either expansion, relying on features like pLM to select the best translation since both expansions occurred the same number of times in the data.
+
+Title:N09-1027		Conference:HLT-NAACL		Author:Venugopal, Ashish; Zollmann, Andreas; Smith, Noah A.; Vogel, Stephan
+Chiang (2005), Zollmann and Venugopal (2006) and Galley et al.
+
+Title:W09-1908		Conference:Proceedings of the NAACL HLT 2009 Workshop on Active Learning for Natural Language Processing		Author:Ambati, Vamshi; Carbonnell, Jaime G.
+Recent research in syntax based machine translation (Yamada and Knight, 2001; Chiang, 2005) incorporates syntactic information to ameliorate the reordering problem faced by PB-SMT approaches.
+
+Title:W09-1908		Conference:Proceedings of the NAACL HLT 2009 Workshop on Active Learning for Natural Language Processing		Author:Ambati, Vamshi; Carbonnell, Jaime G.
+While traditional approaches to syntax based MT were dependent on availability of manual grammar, more recent approaches operate within the resources of PB-SMT and induce hierarchical or linguistic grammars from existing phrasal units, to provide better generality and structure for reordering (Yamada and Knight, 2001; Chiang, 2005; Wu, 1997).
+
+Title:P09-1066		Conference:ACL-IJCNLP		Author:Li, Mu; Duan, Nan; Zhang, Dongdong; Li, Chi-Ho; Zhou, Ming
+This step seems to be redundant for CKY-style MT decoders (Liu et al., 2006; Xiong et al., 2006; Chiang, 2005) since the grouping is immediately available from decoders because all hypotheses spanning the same range of source sentence have been stacked together in the same chart cell.
+
+Title:P09-1066		Conference:ACL-IJCNLP		Author:Li, Mu; Duan, Nan; Zhang, Dongdong; Li, Chi-Ho; Zhou, Ming
+2 Collaborative Decoding 2.1 Overview Collaborative decoding does not present a full SMT model as other SMT decoders do such as Pharaoh (Koehn, 2004) or Hiero (Chiang, 2005).
+
+Title:P09-2060		Conference:ACL-IJCNLP: Short Papers		Author:Yang, Mei; Zheng, Jing
+1 Introduction Phrase-based translation (Koehn et al., 2003) and hierarchical phrase-based translation (Chiang, 2005) are the state of the art in statistical machine translation (SMT) techniques.
+
+Title:D09-1008		Conference:EMNLP		Author:Shen, Libin; Xu, Jinxi; Zhang, Bing; Matsoukas, Spyros; Weischedel, Ralph M.
+Marton and Resnik (2008) introduced features defined on constituent labels to improve the Hiero system (Chiang, 2005).
+
+Title:E09-1043		Conference:EACL		Author:Hoang, Hieu; Koehn, Philipp
+Syntax-based and hierarchical models such as (Chiang, 2005) attempts to address this problem.
+
+Title:P09-2031		Conference:ACL-IJCNLP: Short Papers		Author:He, Zhongjun; Meng, Yao; L&uuml;, Yajuan; Yu, Hao; Liu, Qun
+1 Introduction In statistical machine translation (SMT) community, the state-of-the-art method is to use rules that contain hierarchical structures to model translation, such as the hierarchical phrase-based model (Chiang, 2005).
+
+Title:P09-2031		Conference:ACL-IJCNLP: Short Papers		Author:He, Zhongjun; Meng, Yao; L&uuml;, Yajuan; Yu, Hao; Liu, Qun
+Note that the first 3 settings are used in (Chiang, 2005) for rule extraction.
+
+Title:P09-2031		Conference:ACL-IJCNLP: Short Papers		Author:He, Zhongjun; Meng, Yao; L&uuml;, Yajuan; Yu, Hao; Liu, Qun
+This step is analogous to the rule extraction as described in (Chiang, 2005).
+
+Title:P09-2031		Conference:ACL-IJCNLP: Short Papers		Author:He, Zhongjun; Meng, Yao; L&uuml;, Yajuan; Yu, Hao; Liu, Qun
+3.1 Results We reimplemented the state-of-the-art hierarchical MT system, Hiero (Chiang, 2005), as the baseline system.
+
+Title:P09-2031		Conference:ACL-IJCNLP: Short Papers		Author:He, Zhongjun; Meng, Yao; L&uuml;, Yajuan; Yu, Hao; Liu, Qun
+The hierarchical phrase-based model (Chiang, 2005) is used to build a translation system.
+
+Title:P09-1111		Conference:ACL-IJCNLP		Author:G&oacute;mez-Rodr&iacute;guez, Carlos; Satta, Giorgio
+rewriting, up to some bounded degree, and have recently been exploited, in some syntactic variant, in syntax-based machine translation (Chiang, 2005; Melamed, 2003) as well as in the modeling of syntax-semantic interface (Nesson and Shieber, 2006).
+
+Title:W09-0809		Conference:Proceedings of the EACL 2009 Workshop on Computational Approaches to Semitic Languages		Author:Elming, Jakob; Habash, Nizar
+Separating the scoring from the source language reordering also has the advantage that the approach in essence is compatible with other approaches such as a traditional PSMT system (Koehn et al., 2003b) or a hierarchical phrase system (Chiang, 2005).
+
+Title:W09-0809		Conference:Proceedings of the EACL 2009 Workshop on Computational Approaches to Semitic Languages		Author:Elming, Jakob; Habash, Nizar
+We are also interested in examining the approach within a standard phrase-based decoder such as Moses (Koehn et al., 2003b) or a hierarchical phrase system (Chiang, 2005).
+
+Title:P09-1065		Conference:ACL-IJCNLP		Author:Liu, Yang; Mi, Haitao; Feng, Yang; Liu, Qun
+first model was the hierarchical phrase-based model (Chiang, 2005; Chiang, 2007).
+
+Title:P09-1065		Conference:ACL-IJCNLP		Author:Liu, Yang; Mi, Haitao; Feng, Yang; Liu, Qun
+For example, Figure 1 shows a sequence of SCFG rules (Chiang, 2005; Chiang, 2007) that translates a Chinese sentence fabiao yanjiang into an English sentence give a talk.
+
+Title:P09-1065		Conference:ACL-IJCNLP		Author:Liu, Yang; Mi, Haitao; Feng, Yang; Liu, Qun
+We evaluated our joint decoder that integrated a hierarchical phrase-based model (Chiang, 2005; Chiang, 2007) and a tree-to-string model (Liu et al., 2006) on the NIST 2005 Chinese-English testset.
+
+Title:D09-1023		Conference:EMNLP		Author:Gimpel, Kevin; Smith, Noah A.
+220 (Koehn et al., 2003); they can overlap.5 Additionally, since phrase features can be any function of words and alignments, we permit features that consider phrase pairs in which a target word outside the target phrase aligns to a source word inside the source phrase, as well as phrase pairs with gaps (Chiang, 2005; Ittycheriah and Roukos, 2007).
+
+Title:P09-1036		Conference:ACL-IJCNLP		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+In contrast to the constituent matching/violation counting (CMVC) (Chiang, 2005; Marton and Resnik, 2008; Cherry, 2008), our SDB model has 2Here we expand the definition of phrase to include both syntactic and non-syntactic phrases.
+
+Title:P09-1036		Conference:ACL-IJCNLP		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+To better leverage syntactic constraint yet still allow non-syntactic translations, Chiang (2005) introduces a count for each hypothesis and accumulates it whenever the hypothesis exactly matches syntactic boundaries on the source side.
+
+Title:D10-1060		Conference:EMNLP		Author:Shen, Libin; Zhang, Bing; Matsoukas, Spyros; Xu, Jinxi; Weischedel, Ralph M.
+1 Introduction A statistical phrasal (Koehn et al., 2003; Och and Ney, 2004) or hierarchical (Chiang, 2005; Marcu et al., 2006) machine translation system usually relies on a very large set of translation rules extracted from bi-lingual training data with heuristic methods on word alignment results.
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+3.1 Context Features In the hierarchical phrase-based translation method, the translation rules are extracted by abstracting some words from an initial phrase pair (Chiang, 2005).
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+Following (Chiang, 2005; Chiang, 2007), 4 features are computed for each rule: )|( P and )|( P are direct and inverse rule-based conditional probabilities; )|( wP and )|( wP are direct and inverse lexical weights (Koehn et al., 2003).
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+2 Hierarchical phrase-based MT system The hierarchical phrase-based translation method (Chiang, 2005; Chiang, 2007) is a formal syntaxbased translation modeling method; its translation model is a weighted synchronous context free grammar (SCFG).
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+Empirically, this method has yielded better performance on language pairs such as ChineseEnglish than the phrase-based method because it permits phrases with gaps; it generalizes the normal phrase-based models in a way that allows long-distance reordering (Chiang, 2005; Chiang, 2007).
+
+Title:P10-1086		Conference:ACL		Author:Chen, Boxing; Foster, George; Kuhn, Roland
+5.2 Results For the baseline, we train the translation model by following (Chiang, 2005; Chiang, 2007) and our decoder is Joshua5, an open-source hierarchical phrase-based machine translation system written in Java.
+
+Title:P10-1112		Conference:ACL		Author:Bansal, Mohit; Klein, Dan
+(Galley et al., 2004; Chiang, 2005; Deneefe and Knight, 2009).
+
+Title:C10-1051		Conference:COLING		Author:He, Yanqing; Zhou, Yu; Zong, Chengqing; Wang, Huilin
+A hierarchical phrase-based translation model (HPTM) reorganizes phrases into hierarchical ones by reducing sub-phrases to variables (Chiang 2005).
+
+Title:C10-1051		Conference:COLING		Author:He, Yanqing; Zhou, Yu; Zong, Chengqing; Wang, Huilin
+It is worth noting that our MEBTG system uses cube-pruning algorithm (Chiang 2005) from bottom to up to generate the 4 LDC corpus lists: LDC2000T46, LDC2000T50, LDC2002E18, LDC2002E27, LDC2002L27, LDC2002T01, LDC2003E07, LDC2003E14, LDC2003T17, LDC2004E12, LDC2004T07, LDC2004T08, LDC2005T01, LDC2005T06, LDC2005T10, LDC2005T34, LDC2006T04, LDC2007T09 5 We are extremely thankful to David Chiang who originally implement the PYTHON decoder and share with us.
+
+Title:C10-1051		Conference:COLING		Author:He, Yanqing; Zhou, Yu; Zong, Chengqing; Wang, Huilin
+According to Chiang (2005), given the chunk chunk c , a CKY parser finds chunk e , the English yield of the best derivation hptm D that has Chinese yield chunk c : () () ( arg max Pr( )) hptm chunk chunk chunk hptm chunk hptm CD C eeD eD Here the chunks not the whole source sentence are fed into HPTM decoder to get the L-best translations and feature scores of the chunks.
+
+Title:C10-1051		Conference:COLING		Author:He, Yanqing; Zhou, Yu; Zong, Chengqing; Wang, Huilin
+The formally syntax-based models use synchronous context-free grammar (SCFG) but induce a grammar from a parallel text without relying on any linguistic annotations or assumptions (Chiang, 2005; Xiong et al., 2006).
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+CFSM is the probability of source-side rule selection that can be estimated based on maximum likelihood estimation (MLE) method: Ps() = summationtext Count(,) Count() (3) where the numerator is the total count of bilingual rule pairs with the same source-side rule that are extracted based on the extraction algorithm in (Chiang, 2005), and the denominator is the total amount of source-side rule patterns contained in the monolingual source side of the training corpus.
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+For the training of CBSM, if the SCFG rule rs,rtcan be extracted based on the rule extraction algorithm in (Chiang, 2005), = 1,C(rs) is constructed as a positive instance, otherwise = 0,C(rs) is constructed as a negative instance.
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+In hierarchical phrase-based SMT systems, due to the flexibility of rule matching, a huge number of hierarchical rules could be automatically learnt from bilingual training corpus (Chiang, 2005).
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+2 Hierarchical Rule Selection Model Following (Chiang, 2005),,is used to represent a synchronous context free grammar (SCFG) rule extracted from the training corpus, where and are the source-side and target-side rule respectively.
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+In the original work (Chiang, 2005), the target-side rule selection is analogous to the model in traditional phrase-based SMT system such as Pharaoh (Koehn et al., 2003).
+
+Title:P10-2002		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Cui, Lei; Zhang, Dongdong; Li, Mu; Zhou, Ming; Zhao, Tiejun
+4 Experiments 4.1 Experiment setting We implement a hierarchical phrase-based system similar to the Hiero (Chiang, 2005) and evaluate our method on the Chinese-to-English translation task.
+
+Title:W10-2915		Conference:Proceedings of the Fourteenth Conference on Computational Natural Language Learning		Author:Mylonakis, Markos; Sima'an, Khalil
+Although SCFGS were initially introduced for machine translation as a stochastic word-based translation process in the form of the InversionTransduction Grammar (Wu, 1997), they were actually able to offer state-of-the-art performance in their latter phrase-based implementation by Chiang (Chiang, 2005).
+
+Title:W10-2915		Conference:Proceedings of the Fourteenth Conference on Computational Natural Language Learning		Author:Mylonakis, Markos; Sima'an, Khalil
+In contrast, (Blunsom et al., 2008a) works with the expanded phrase pair set of (Chiang, 2005), formulating an exponential model and concentrating on marginalising out the latent segmentation variables.
+
+Title:C10-2095		Conference:COLING - POSTERS		Author:Maskey, Sameer; Rennie, Steven; Zhou, Bowen
+The alignment pairs are then used to extract phrases tables (Koehn et al., 2003), hierarchical rules (Chiang, 2005), or tree-to-string mappings (Yamada and Knight, 2001).
+
+Title:W10-2413		Conference:Proceedings of the 2010 Named Entities Workshop		Author:P. V. S., Avinesh; Parikh, Ankur
+In the recent years Statistical Machine Translation (SMT) systems (Brown et al., 1990), (Yamada and Knight, 2001), (Chiang, 2005), (Charniak et al., 2003) have been in focus.
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+The most common algorithm for decoding with SCFG is currently CKY+ with cube pruning works for both hierarchical and syntactic systems, as implemented in Hiero (Chiang, 2005), Joshua (Li et al., 2009), and Moses (Hoang et al., 2009) Rewrite rules in hierarchical systems have general applicability as their non-terminals are undecorated, giving hierarchical system broad coverage.
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+all non-terminals and LHS must span a parse constituent 412 5.1 Rule probabilities Maximum likelihood phrase probabilities, p(t|s), are calculated for phrase pairs, using fractional counts as described in (Chiang, 2005).
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+5 Rule Extraction Rule extraction follows the algorithm described in (Chiang, 2005).
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+2 Past Work Hierarchical machine translation (Chiang, 2005) extends the phrase-based model by allowing the use of non-contiguous phrase pairs (production rules).
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+However, (Chiang, 2005) also describe heuristic constraints that are used during 409 rule extraction to reduce spurious ambiguity.
+
+Title:W10-1761		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hoang, Hieu; Koehn, Philipp
+This follows on from earlier work in (Chiang, 2005) but they see gains when finer grain feature functions which different constituency types.
+
+Title:D10-1052		Conference:EMNLP		Author:Setiawan, Hendra; Dyer, Chris; Resnik, Philip
+For translation experiments, we used cdec (Dyer et al., 2010), a fast implementation of hierarchical phrase-based translation models (Chiang, 2005), which represents a state-of-the-art translation system.
+
+Title:C10-1075		Conference:COLING		Author:Li, Mu; Zhao, Yinggong; Zhang, Dongdong; Zhou, Ming
+In addtion to the standard features used in Chiang (2005), we also used a lexicon feature indicating how many word paris in the translation found in a conventional Chinese-English lexicon.
+
+Title:C10-1075		Conference:COLING		Author:Li, Mu; Zhao, Yinggong; Zhang, Dongdong; Zhou, Ming
+4.2 Machine Translation System We used an in-house implementation of the hierarchical phrase-based decoder as described in Chiang (2005).
+
+Title:P10-1109		Conference:ACL		Author:Maletti, Andreas
+To overcome this problem and certain dependency problems, Shieber and Schabes (1990) and Shieber (2007) suggest a stronger model called synchronous tree-adjoining grammar (STAG), which in addition to the substitution operation of STSG (Chiang, 2005) also has an adjoining operation.
+
+Title:C10-1043		Conference:COLING		Author:Genzel, Dmitriy
+2 Related Work Many solutions to the reordering problem have been proposed, e.g. syntax-based models (Chiang, 2005), lexicalized reordering (Och et al., 2004), and tree-to-string methods (Zhang et al., 2006).
+
+Title:W10-3812		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Khalilov, Maxim; Sima'an, Khalil
+More recent work handles word order differences between source and target languages using hierarchical methods that draw on Inversion Transduction Grammar (ITG), e.g., (Wu and Wong, 1998; Chiang, 2005).
+
+Title:P10-1076		Conference:ACL		Author:Xiao, Tong; Zhu, Jingbo; Zhu, Muhua; Wang, Huizhen
+Many SMT frameworks have been developed, including phrase-based SMT (Koehn et al., 2003), hierarchical phrase-based SMT (Chiang, 2005), syntax-based SMT (Eisner, 2003; Ding and Palmer, 2005; Liu et al., 2006; Galley et al., 2006; Cowan et al., 2006), etc. With the emergence of various structurally different SMT systems, more and more studies are focused on combining multiple SMT systems for achieving higher translation accuracy rather than using a single translation system.
+
+Title:P10-1076		Conference:ACL		Author:Xiao, Tong; Zhu, Jingbo; Zhu, Muhua; Wang, Huizhen
+In this system all phrase pairs are limited to have source length of at most 3, and the reordering limit is set to 8 by default 4 . The second SMT system is an in-house reimplementation of the Hiero system which is based on the hierarchical phrase-based model proposed by Chiang (2005).
+
+Title:C10-2086		Conference:COLING - POSTERS		Author:Liu, Shui; Li, Sheng; Zhao, Tiejun; Zhang, Min; Liu, Pengyuan
+Chiang(2005), Marton and Resnik(2008) explored the constituent match/violation in hiero; Xiong (2009 a) added constituent parse tree based linguistic analysis into BTG model; Xiong (2009 b) added source dependency structure to BTG; Zhang(2009) added tree-kernel to BTG model.
+
+Title:C10-2086		Conference:COLING - POSTERS		Author:Liu, Shui; Li, Sheng; Zhao, Tiejun; Zhang, Min; Liu, Pengyuan
+Chiang (2005), Wu (1997) and Xiong (2006) learn the syntax rules using the formal grammars.
+
+Title:W10-1715		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Koehn, Philipp; Haddow, Barry; Williams, Philip; Hoang, Hieu
+We build two translation systems: One using tree-based models without additional linguistic annotation, which are known as hierarchical phrasebased models (Chiang, 2005), and another system that uses linguistic annotation on the target side, which are known under many names such as string-to-tree models or syntactified target models (Marcu et al., 2006).
+
+Title:C10-1056		Conference:COLING		Author:Huang, Fei; Xiang, Bing
+al. 2004) or hybrid systems (Chiang 2005; Zollmann and Venugopal 2006), are typically built with bilingual phrase pairs, which are extracted from parallel sentences with word alignment.
+
+Title:W10-3804		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Cao, Hailong; Finch, Andrew; Sumita, Eiichiro
+1 Introduction Both PBMT models (Koehn et al., 2003; Chiang, 2005) and syntax-based machine translation models (Yamada et al., 2000; Quirk et al., 2005; Galley et al., 2006; Liu et al., 2006; Marcu et al., 2006; and numerous others) are the state-of-theart statistical machine translation (SMT) methods.
+
+Title:D10-1054		Conference:EMNLP		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+In this paper, we follow the constraint as described in (Chiang, 2005) that a hierarchical rule can have at most two variables and they cannot be adjacent on the source side.
+
+Title:D10-1054		Conference:EMNLP		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+We integrate the MaxEnt based phrase reordering models as features into the HPB model (Chiang, 2005).
+
+Title:D10-1054		Conference:EMNLP		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+The other reason is that it can cause a spurious ambiguity problem (Chiang, 2005).
+
+Title:D10-1054		Conference:EMNLP		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+1 Introduction The hierarchical phrase-based (HPB) model (Chiang, 2005; Chiang, 2007) has been widely adopted in statistical machine translation (SMT).
+
+Title:D10-1054		Conference:EMNLP		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+559 4 Experiments We carried out experiments on four systems: HPB: replication of the Hiero system (Chiang, 2005); HPB+MEHR: HPB with MaxEnt based classifier for hierarchical rules, as described in Section 2.1; HPB+MEGR: HPB with MaxEnt based classifier for glue rules, as described in Section 2.2; HPB+MER: HPB with MaxEnt based classifier for both hierarchical and glue rules.
+
+Title:N10-3010		Conference:Proceedings of the NAACL HLT 2010 Student Research Workshop		Author:P. V. S., Avinesh
+1 Introduction In recent years SMT systems (Brown et al., 1990), (Yamada and Knight, 2001), (Chiang, 2005), (Charniak et al., 2003) have been in focus.
+
+Title:N10-3010		Conference:Proceedings of the NAACL HLT 2010 Student Research Workshop		Author:P. V. S., Avinesh
+In the modified version of mining frequent itemsets we also include generalization of the frequent sets, similar to the work done by (Chiang, 2005).
+
+Title:P10-2026		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Wang, Zhiyang; L&uuml;, Yajuan; Liu, Qun; Hwang, Young-Sook
+Then we use the same method suggested in (Chiang, 2005) to extract SCFG grammar rules within dependency constraint on both sides except that unaligned words are allowed at the edge of phrases.
+
+Title:P10-2026		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Wang, Zhiyang; L&uuml;, Yajuan; Liu, Qun; Hwang, Young-Sook
+1 Introduction Hierarchical phrase-based (HPB) model (Chiang, 2005) is the state-of-the-art statistical machine translation (SMT) model.
+
+Title:J10-3008		Conference:Computational Linguistics		Author:Gispert, Adri&agrave;; de; Iglesias, Gonzalo; Blackwood, Graeme; Banga, Eduardo R.; Byrne, William
+Introduction Hierarchical phrase-based translation (Chiang 2005) is one of the current promising approaches to statistical machine translation (SMT).
+
+Title:J10-3008		Conference:Computational Linguistics		Author:Gispert, Adri&agrave;; de; Iglesias, Gonzalo; Blackwood, Graeme; Banga, Eduardo R.; Byrne, William
+Consistent with the observation by Chiang (2005), this leads to improvements in minimum error rate training.
+
+Title:J10-3008		Conference:Computational Linguistics		Author:Gispert, Adri&agrave;; de; Iglesias, Gonzalo; Blackwood, Graeme; Banga, Eduardo R.; Byrne, William
+Spurious ambiguity (Chiang 2005) was described as a situation where the decoder produces many derivations that are distinct yet have the same model feature vectors and give the same translation.
+
+Title:D10-1041		Conference:EMNLP		Author:Du, Jinhua; Jiang, Jie; Way, Andy
+Furthermore, currentSMTsystems,eitherphrase-based(Koehnetal., 2003; Chiang, 2005) or syntax-based (Zollmann and Venugopal, 2006), use phrases as the fundamental translation unit, so how much the phrase table and training data can cover the test set is an important factor which influences the translation quality.
+
+Title:N10-1014		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Pauls, Adam; Klein, Dan; Chiang, David; Knight, Kevin
+Still others induce their syntax from the data (Chiang, 2005). (self citation)
+
+Title:C10-1033		Conference:COLING		Author:Du, Jinhua; Way, Andy
+The former is the state-of-the-art PB-SMT system while the latter is a new extended system of the Moses toolkit re-implementing the hierarchical PB-SMT (HPB) model (Chiang, 2005).
+
+Title:C10-1033		Conference:COLING		Author:Du, Jinhua; Way, Andy
+287 a0a1 a2 [a3 a4a5 a6 a7a8]A a9 [a10a11 a12a13 a14a15]B a16 Aozhou shi yu Beihan you bangjiao DE shaoshu guojia zhiyi . Australia is with North Korea have diplomatic relations that few countries one of . Australia is [one of the few countries]that[have diplomatic relations with North Korea] . Reordered: a0a1 a2 [a10a11a12a13a14a15]B a9 [a3a4a5a6a7a8]A a16 Literal Translation: Original: Reference: Australia is [one of the few countries] [have diplomatic relations with North Korea] . Figure 2: An example of DE construction reordering (extended from the original figure in (Chiang, 2005)) Chang et al.
+
+Title:P10-1034		Conference:ACL		Author:Wu, Xianchao; Matsuzaki, Takuya; Tsujii, Jun'ichi
+The baseline system for comparison is Joshua (Li et al., 2009), a freely available decoder for hierarchical phrase-based SMT (Chiang, 2005).
+
+Title:P10-2034		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Iwata, Tomoharu; Mochihashi, Daichi; Sawada, Hiroshi
+Grammar induction using bilingual parallel corpora has been studied mainly in machine translation research (Wu, 1997; Melamed, 2003; Eisner, 2003; Chiang, 2005; Blunsom et al., 2009; Snyder et al., 2009).
+
+Title:C10-2021		Conference:COLING - POSTERS		Author:Cmejrek, Martin; Zhou, Bowen
+1.2 Formally syntax-based models Our baseline model follows the Chiangs hierarchical model (Chiang, 2007; Chiang, 2005; Zhou et al., 2008) based on Synchronous Context-free Grammar (SCFG).
+
+Title:J10-3009		Conference:Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Aw, Aiti; Li, Haizhou
+2 Chiang (2005) also generates hierarchical structures in phrasal SMT.
+
+Title:C10-2044		Conference:COLING - POSTERS		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+Chiang (2005) introduced a constituent feature to reward phrases that match a syntactic tree but did not yield significant improvement.
+
+Title:C10-2044		Conference:COLING - POSTERS		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+1 Introduction The hierarchial phrase-based (HPB) model (Chiang, 2005) outperformed previous phrase-based models (Koehn et al., 2003; Och and Ney, 2004) by utilizing hierarchical phrases consisting of both words and variables.
+
+Title:P10-1146		Conference:ACL		Author:Chiang, David
+We therefore propose to move these constraints from the formalism into the model, implemented as features in the hierarchical phrasebased model Hiero (Chiang, 2005). (self citation)
+
+Title:P10-1146		Conference:ACL		Author:Chiang, David
+The simplest of these (Chiang, 2005) make no use of information from syntactic theories or syntactic annotations, whereas others have successfully incorporated syntactic information on the target side (Galley et al., 2004; Galley et al., 2006) or the source side (Liu et al., 2006; Huang et al., 2006). (self citation)
+
+Title:P10-1146		Conference:ACL		Author:Chiang, David
+All systems used the glue rule (Chiang, 2005), which allows the decoder, working bottom-up, to stop building hierarchical structure and instead concatenate partial translations without any reordering. (self citation)
+
+Title:C10-1126		Conference:COLING		Author:Visweswariah, Karthik; Navratil, Jiri; Sorensen, Jeffrey S.; Chenthamarakshan, Vijil; Kambhatla, Nanda
+Hierarchical phrase-based decoding (Chiang, 2005) also allows for long range reordering without explicitly modeling syntax.
+
+Title:N10-1130		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Maletti, Andreas
+It is argued by Chiang (2005) and Graehl et al.
+
+Title:N10-1130		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Maletti, Andreas
+The tree c[t] is obtained from c by replacing the symbol square by t. A weighted synchronous tree substitution grammar (STSG) is a system (N,,,I,P) where N is an alphabet of nonterminals, and are ranked alphabets of input and output symbols, respectively, I: NR assigns initial weights, and P is a finite set of productions n: t au with nN, tT(N), aR, and uT(N) such that every nprime N that occurs in t occurs exactly once in u and vice versa, and t /N or u /N. Note that our distinction between nonterminals and terminals is rather uncommon for STSG [see Chiang (2005)], but improves the generative power.
+
+Title:N10-1130		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Maletti, Andreas
+A detailed exposition to STSGs and STSGs in normal form (also called synchronous context-free grammars) can be found in Chiang (2005).
+
+Title:W10-3809		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Venkatapathy, Sriram; Sangal, Rajeev; Joshi, Aravind K.; Gali, Karthik
+1 Introduction Syntax based approaches for Machine Translation (MT) have gained popularity in recent times because of their ability to handle long distance reorderings (Wu, 1997; Yamada and Knight, 2002; Quirk et al., 2005; Chiang, 2005), especially for divergent language pairs such as English-Hindi (or English-Urdu).
+
+Title:W10-3809		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Venkatapathy, Sriram; Sangal, Rajeev; Joshi, Aravind K.; Gali, Karthik
+Some of the limitations with the syntax based approaches such as (Yamada and Knight, 2002; Quirk et al., 2005; Chiang, 2005) are, (1) They do not offer flexibility for adding linguistically motivated features, and (2) It is not possible to use morphological factors in the syntax based approaches.
+
+Title:N10-1016		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Li, Haizhou
+More previously, (Chiang, 2005) rewards hypotheses whenever they exactly match constituent boundaries of parse trees on the source side.
+
+Title:N10-1016		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Li, Haizhou
+1 Introduction It has been known that phrase-based decoding (phrase segmentation/translation/reordering (Chiang, 2005))shouldbeconstrainedtosomeextentnot only for transferring the NP-hard problem (Knight, 1999) into a tractable one in practice but also for improving translation quality.
+
+Title:N10-1016		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Xiong, Deyi; Zhang, Min; Li, Haizhou
+(Cherry, 2008) and (Marton and Resnik, 2008) introduce syntactic constraints into the standardphrase-baseddecoding(Koehnetal., 2003)and hierarchical phrase-based decoding (Chiang, 2005) respectively by using a counting feature which accumulates whenever hypotheses violate syntactic boundaries of source-side parse trees.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Chiang (2005) describes a procedure to extract PSCFG rules from word-aligned (Brown et al., 1993) corpora, where all nonterminals share the same generic label X. In Galley et al.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Our models improve translation quality over the single generic label approach of Chiang (2005) and perform on par with the syntactically motivated approach from Zollmann and Venugopal (2006) on the NIST large Chineseto-English translation task.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Zollmann and Venugopal (2006) directly extend the rule extraction procedure from Chiang (2005) to heuristically label any phrase pair based on target language parse trees.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Several techniques have been recently proposed to automatically identify and estimate parameters for PSCFGs (or related synchronous grammars) from parallel corpora (Galley et al., 2004; Chiang, 2005; Zollmann and Venugopal, 2006; Liu et al., 2006; Marcu et al., 2006).
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Evaluated on a Chinese-to-English translation task, our approach improves translation quality over a popular PSCFG baselinethe hierarchical model of Chiang (2005) and performs on par with the model of Zollmann and Venugopal (2006), using heuristically generated labels from parse trees.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+Unsupervised synchronous grammar induction, apart from the contribution of Chiang (2005) discussed earlier, has been proposed by Wu (1997) for inversion transduction grammars, but as Chiangs model only uses a single generic nonterminal label.
+
+Title:P11-1001		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zollmann, Andreas; Vogel, Stephan
+PSCFGs are defined by a source terminal set (source vocabulary) TS, a target terminal set (target vocabulary)TT, a shared nonterminal set N and rules of the form: A,,wwhere AN is a labeled nonterminal referred to as the left-hand-side of the rule, (NTS) is the source side of the rule, (NTT) is the target side of the rule, w [0,) is a non-negative real-valued weight assigned to the rule; in our model,wis the product of features i raised to the power of weight i. Chiang (2005) learns a single-nonterminal PSCFG from a bilingual corpus by first identifying initial phrase pairs using the technique from Koehn et al.
+
+Title:W11-1015		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Hanneman, Greg; Burroughs, Michelle; Lavie, Alon
+We include comparisons of our work against the Hiero system (Chiang, 2005), the Stat-XFER system rule learner most recently described by Ambati et al.
+
+Title:W11-1015		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Hanneman, Greg; Burroughs, Michelle; Lavie, Alon
+Some SCFG rule extraction techniques require only Viterbi word alignment links between the source and target sides of the input corpus (Chiang, 2005), while methods based on linguistic constituency structure require the source and/or target side of the input to be parsed.
+
+Title:P11-2072		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Chung, Tagyoung; Fang, Licheng; Gildea, Daniel
+Hiero (Chiang, 2005) represents a more restricted form of SCFG, while GHKM (Galley et al., 2004) uses a general form of SCFG.
+
+Title:P11-2072		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Chung, Tagyoung; Fang, Licheng; Gildea, Daniel
+Therefore, we may opt to add glue rules as used in Hiero (Chiang, 2005): S null C, C S null S C, S C where S is the goal state and C is the glue nonterminal that can produce any nonterminals.
+
+Title:P11-1130		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Nakov, Preslav; Ng, Hwee Tou
+While several significantly improved models have been developed since then, including phrase-based (Koehn et al., 2003), hierarchical (Chiang, 2005), treelet (Quirk et al., 2005), and syntactic (Galley et al., 2004) models, they all preserved the assumption that words should be atomic.
+
+Title:W11-2165		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Gimpel, Kevin; Smith, Noah A.
+In addition to the gappy phrase-based (Simard et al., 2005) and hierarchical phrase-based (Chiang, 2005) models mentioned earlier, other researchers have explored the use of bilingual gappy structures for machine translation.
+
+Title:W11-2165		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Gimpel, Kevin; Smith, Noah A.
+c2011 Association for Computational Linguistics Generative Models of Monolingual and Bilingual Gappy Patterns Kevin Gimpel Noah A. Smith Language Technologies Institute Carnegie Mellon University Pittsburgh, PA 15213, USA {kgimpel,nasmith}@cs.cmu.edu Abstract A growing body of machine translation research aims to exploit lexical patterns (e.g., ngrams and phrase pairs) with gaps (Simard et al., 2005; Chiang, 2005; Xiong et al., 2011).
+
+Title:W11-2165		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Gimpel, Kevin; Smith, Noah A.
+The widely-used hierarchical phrase-based translation framework was introduced by Chiang (2005) and also relies on a simple heuristic for phrase pair extraction.
+
+Title:P11-1104		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Liu, Zhanyi; Wang, Haifeng; Wu, Hua; Liu, Ting; Li, Sheng
+In order to further improve the reordering performance, many structure-based methods are proposed, including the reordering model in hierarchical phrase-based SMT systems (Chiang, 2005) and syntax-based SMT systems (Zhang et al., 2007; Marton and Resnik, 2008; Ge, 2010; Visweswariah et al., 2010).
+
+Title:P11-1104		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Liu, Zhanyi; Wang, Haifeng; Wu, Hua; Liu, Ting; Li, Sheng
+3.3 Integrated into SMT system The SMT systems generally employ the log-linear model to integrate various features (Chiang, 2005; Koehn et al., 2007).
+
+Title:P11-1104		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Liu, Zhanyi; Wang, Haifeng; Wu, Hua; Liu, Ting; Li, Sheng
+Hierarchical phrasebased SMT methods employ SCFG bilingual translation model and allow flexible reordering (Chiang, 2005).
+
+Title:P11-1003		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Wu, Xianchao; Matsuzaki, Takuya; Tsujii, Jun'ichi
+Thus, flat phrases (Koehn et al., 2003), hierarchical phrases (Chiang, 2005), and syntactic tree fragments (Galley et al., 2006; Mi and Huang, 2008; Wu et al., 2010) are gradually used in SMT.
+
+Title:P11-1003		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Wu, Xianchao; Matsuzaki, Takuya; Tsujii, Jun'ichi
+Joshua v1.3 (Li et al., 2009), which is a freely available decoder for hierarchical phrasebased SMT (Chiang, 2005), is used as an external baseline system for comparison.
+
+Title:D11-1020		Conference:EMNLP		Author:Xie, Jun; Mi, Haitao; Liu, Qun
+This model significantly outperforms the state-of-the-art hierarchical phrasebased model (Chiang, 2005).
+
+Title:D11-1020		Conference:EMNLP		Author:Xie, Jun; Mi, Haitao; Liu, Qun
+The hierarchical phrase-based model prohibits any nonterminal X from spanning a substring longer than 10 on the source side to make the decoding algorithm asymptotically linear-time (Chiang, 2005).
+
+Title:W11-1009		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Attardi, Giuseppe; Chanev, Atanas; Miceli Barone, Antonio Valerio
+Many similar approaches are based on constituent grammars, among which we mention (Chiang, 2005) who introduced hierarchical translation models.
+
+Title:P11-1065		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Mylonakis, Markos; Sima'an, Khalil
+The HR-SCFG we adopt allows capturing more complex reordering phenomena and, in contrast to both (Chiang, 2005; Zollmann and Venugopal, 2006), is not exposed to the issues highlighted in section 2.1.
+
+Title:P11-1065		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Mylonakis, Markos; Sima'an, Khalil
+2 Joint Translation Model Our model is based on a probabilistic Synchronous CFG (Wu, 1997; Chiang, 2005).
+
+Title:P11-1065		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Mylonakis, Markos; Sima'an, Khalil
+The Hiero system (Chiang, 2005) utilised an ITG-flavour which focused on hierarchicalphrase-pairstocapturecontext-driventranslation and reordering patterns with gaps, offering competitive performance particularly for language pairs with extensive reordering.
+
+Title:P11-1065		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Mylonakis, Markos; Sima'an, Khalil
+We compare against a state-of-the-art hierarchical translation (Chiang, 2005) baseline, based on the Joshua translation system under the default training anddecodingsettings(josh-base).
+
+Title:D11-1044		Conference:EMNLP		Author:Gimpel, Kevin; Smith, Noah A.
+(2008) presented an extension to Hiero (Chiang, 2005) in which rules have target-side dependency syntax and therefore enable the use of a dependency language model.
+
+Title:D11-1044		Conference:EMNLP		Author:Gimpel, Kevin; Smith, Noah A.
+Models that employ syntax or syntaxlike representations (Chiang, 2005; Galley et al., 2006; Zollmann and Venugopal, 2006; Huang et al., 2006) handle long-distance reordering better than phrase-based systems (Auli et al., 2009) but often require constraints on the formalism or rule extraction method in order to achieve computational tractability.
+
+Title:D11-1044		Conference:EMNLP		Author:Gimpel, Kevin; Smith, Noah A.
+The conventional wisdom holds that hierarchical phrase-based translation (Chiang, 2005) performs better than phrasebased translation for language pairs that require large amounts of reordering, such as ZH-EN and UR-EN.
+
+Title:P11-2080		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Chiang, David; DeNeefe, Steve; Pust, Michael
+5 Experiments Setup We tested these features on two machine translation systems: a hierarchical phrasebased (string-to-string) system (Chiang, 2005) and a syntax-based (string-to-tree) system (Galley et al., 2004;Galley et al.,2006).For Arabic-English translation, both systems were trained on 190+220 million words of parallel data;for Chinese-English,the string-to-string system was trained on 240+260million words of parallel data,and the string-to-tree system, 58+65 million words. (self citation)
+
+Title:P11-1021		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Tan, Ming; Zhou, Wenli; Zheng, Lei; Wang, Shaojun
+Finally, we ap201 ply our language models to the task of re-ranking the N-best list from Hiero (Chiang, 2005; Chiang, 2007), a state-of-the-art parsing-based MT system, we achieve significantly better translation quality measured by the BLEU score and readability.
+
+Title:P11-1021		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Tan, Ming; Zhou, Wenli; Zheng, Lei; Wang, Shaojun
+This list was generated on 919 sentences from the MT03 Chinese-English evaluation set by Hiero (Chiang, 2005; Chiang, 2007), a state-of-the-art parsing-based translation model.
+
+Title:P11-1021		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Tan, Ming; Zhou, Wenli; Zheng, Lei; Wang, Shaojun
+It is expected that putting the our composite language into a one pass decoder of both phrase-based (Koehn et al., 2003) and parsing-based (Chiang, 2005; Chiang, 2007) MT systems should result in much improved BLEU scores.
+
+Title:D11-1108		Conference:EMNLP		Author:Ganitkevitch, Juri; Callison-Burch, Chris; Napoles, Courtney; van Durme, Benjamin
+These include sentence alignment (Gale and Church, 1993; Barzilay and Elhadad, 2003), word alignment and noisy channel decoding (Brown et al., 1990; Quirk et al., 2004), phrase-based models (Koehn et al., 2003; Bannard and Callison-Burch, 2005), hierarchical phrase-based models (Chiang, 2005; Madnani et al., 2007), log-linear models and minimum error rate training (Och, 2003a; Madnani et al., 2007; Zhao et al., 2008a), and here syntaxbased machine translation (Wu, 1997; Yamada and Knight, 2001; Melamed, 2004; Quirk et al., 2005).
+
+Title:D11-1108		Conference:EMNLP		Author:Ganitkevitch, Juri; Callison-Burch, Chris; Napoles, Courtney; van Durme, Benjamin
+The SCFG formalism (Aho and Ullman, 1972) was repopularized for statistical machine translation by Chiang (2005).
+
+Title:D11-1108		Conference:EMNLP		Author:Ganitkevitch, Juri; Callison-Burch, Chris; Napoles, Courtney; van Durme, Benjamin
+These phrase extraction heuristics have been extended so that they extract synchronous grammar rules (Galley et al., 2004; Chiang, 2005; Zollmann and Venugopal, 2006; Liu et al., 2006).
+
+Title:D11-1108		Conference:EMNLP		Author:Ganitkevitch, Juri; Callison-Burch, Chris; Napoles, Courtney; van Durme, Benjamin
+(2007) extended the technique to hierarchical phrase-based machine translation (Chiang, 2005), which is formally a synchronous context-free grammar (SCFG) and thus can be thought of as a paraphrase grammar.
+
+Title:P11-1066		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zhou, Guangyou; Cai, Li; Jun, Zhao; Liu, Kang
+3 Our Approach: Phrase-Based Translation Model for Question Retrieval 3.1 Phrase-Based Translation Model Phrase-based machine translation models (Koehn et al., 2003; D. Chiang, 2005; Och and Ney, 2004) have shown superior performance compared to word-based translation models.
+
+Title:W11-2166		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Hopkins, Mark; Langmead, Greg; Vo, Tai
+523 Extraction Program Method Primary Secondary Labeling Protocol Protocol Protocol PBMT (Och et al., 1999) RANKPP0 TRIVSPA TRIVLP Hiero (Chiang, 2005) RANKPP TRIVSPA TRIVLP GHKM (Galley et al., 2004) MAPPPt TRIVSPA PMAPLPt SAMT (Zollmann and Venugopal, 2006) RANKPP TRIVSPA PMAPLPt Forest GHKM (Mi and Huang, 2008) MAPPPT TRIVSPA PMAPLPT Tree-to-Tree GHKM (Liu et al., 2009) MAPPPt MAPSP,A IMAPLP{t},{} Forest-to-Forest GHKM (Liu et al., 2009) MAPPPT MAPSPT,A IMAPLPT,T Fuzzy Dual Syntax (Chiang, 2010) MAPPPt MAPSP,A IMAPLP{t},{} Table 1: Various rule extraction methods, expressed as extraction programs.
+
+Title:W11-2166		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Hopkins, Mark; Langmead, Greg; Vo, Tai
+Around the middle of the last decade, two extraction paradigms were proposed for syntax-based machine translation: the Hiero paradigm of (Chiang, 2005) and the GHKM paradigm of (Galley et al., 2004).
+
+Title:P11-1124		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Ma, Yanjun; He, Yifan; Way, Andy; van Genabith, Josef
+Currently, only a standard phrase-based SMT system is used, so we plan to test our method on a hierarchical system (Chiang, 2005) to facilitate direct comparison with (Koehn and Senellart, 2010).
+
+Title:P11-1124		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Ma, Yanjun; He, Yifan; Way, Andy; van Genabith, Josef
+For example, (Koehn and Senellart, 2010) showed that reusing these translations as large rules in a hierarchical system (Chiang, 2005) can be beneficial when the fuzzy match score is above 70%, while (Zhechev and van Genabith, 2010) reported that it is only beneficial to a phrase-based system when the fuzzy match score is above 90%.
+
+Title:P11-1083		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Maletti, Andreas
+Chiang (2005) and Graehl et al.
+
+Title:P11-1027		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Pauls, Adam; Klein, Dan
+4.2 Exploiting Scrolling Queries Decoders with integrated language models (Och and Ney, 2004; Chiang, 2005) score partial translation hypotheses in an incremental way.
+
+Title:D11-1149		Conference:EMNLP		Author:Lu, Wei; Ng, Hwee Tou
+Following popular approaches to learning feature weights in the machine translation community (Och and Ney, 2004; Chiang, 2005), we use the minimum error rate training (MERT) (Och, 2003) algorithm to learn the feature weights that directly optimize certain automatic evaluation metric.
+
+Title:D11-1149		Conference:EMNLP		Author:Lu, Wei; Ng, Hwee Tou
+Current state-of-theart string-based translation systems (Koehn et al., 2003; Chiang, 2005; Galley and Manning, 2010) typically begin with a word-aligned corpus to construct phrasal correspondences.
+
+Title:D11-1149		Conference:EMNLP		Author:Lu, Wei; Ng, Hwee Tou
+We thus compare our system against two stateof-the-art machine translation systems: a phrasebased translation system, implemented in the Moses toolkit (Koehn et al., 2007)6, and a hierarchical phrase-based translation system, implemented in the Joshua toolkit (Li et al., 2009), which is a reimplementation of the original Hiero system (Chiang, 2005; Chiang, 2007).
+
+Title:W11-2211		Conference:Proceedings of the First workshop on Unsupervised Learning in NLP		Author:Huck, Matthias; Vilar, David; Stein, Daniel; Ney, Hermann
+In hierarchical phrase-based translation (Chiang, 2005) a weighted synchronous context-free grammar is induced from parallel text, the search is based on CYK+ parsing (Chappelier and Rajman, 1998) and typically carried out using the cube pruning algorithm (Huang and Chiang, 2007).
+
+Title:W11-2211		Conference:Proceedings of the First workshop on Unsupervised Learning in NLP		Author:Huck, Matthias; Vilar, David; Stein, Daniel; Ney, Hermann
+1 Hierarchical phrase-based translation has been pioneered by David Chiang (Chiang, 2005; Chiang, 2007) with his Hiero system.
+
+Title:P11-1008		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Rush, Alexander M.; Collins, Michael John
+3 Background: Hypergraphs Translation with many syntax-based systems (e.g., (Chiang, 2005; Marcu et al., 2006; Shen et al., 2008; Huang and Mi, 2010)) can be implemented as a two-step process.
+
+Title:P11-1008		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Rush, Alexander M.; Collins, Michael John
+The decoding problem for a broad range of these systems (e.g., (Chiang, 2005; Marcu et al., 2006; Shen et al., 2008)) corresponds to the intersection of a (weighted) hypergraph with an n-gram language model.1 The hypergraph represents a large set of possible translations, and is created by applying a synchronous grammar to the source language string.
+
+Title:P11-1008		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Rush, Alexander M.; Collins, Michael John
+For example, in the system of (Chiang, 2005), the hypergraph is created as follows: first, the source side of the synchronous grammar is used to create a parse forest over the source language string.
+
+Title:P11-1126		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Duan, Nan; Li, Mu; Zhou, Ming
+1 Introduction Besides tremendous efforts on constructing more complicated and accurate models for statistical machine translation (SMT) (Och and Ney, 2004; Chiang, 2005; Galley et al., 2006; Shen et al., 2008; Chiang 2010), many researchers have concentrated on the approaches that improve translation quality using information between hypotheses from one or more SMT systems as well.
+
+Title:P11-1126		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Duan, Nan; Li, Mu; Zhou, Ming
+It includes hierarchical rules extracted using Chiang (2005)s method and glue rules.
+
+Title:P11-1126		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Duan, Nan; Li, Mu; Zhou, Ming
+The first one is based on BTG (Wu, 1997), and the second one is based on SCFG, similar to Chiang (2005).
+
+Title:D11-1019		Conference:EMNLP		Author:Zhang, Jiajun; Zhai, Feifei; Zong, Chengqing
+Zollmann and Venugopal (2006) augment the hierarchical string-to-string rules (Chiang, 2005) with target-side syntax.
+
+Title:D11-1079		Conference:EMNLP		Author:Gao, Yang; Koehn, Philipp; Birch, Alexandra
+To discourage nonconstituent translation, Chiang (2005) has proposed a constituency feature to examine whether a source rule span matches the source constituent as defined by phrase structure parsing.
+
+Title:D11-1079		Conference:EMNLP		Author:Gao, Yang; Koehn, Philipp; Birch, Alexandra
+For example, constituency constraints in (Chiang, 2005; Marton and Resnik, 2008; Chiang et al., 2009) would penalize Rule 7 below which is useful for GermanEnglish translation (Koehn et al., 2003), and Rule 8 which can be applied to the Figure 1 sentence.
+
+Title:P11-1063		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Schwartz, Lane; Callison-Burch, Chris; Schuler, William; Wu, Stephen
+620 statistical MT that can run in linear-time (4) Integration with Moses (5) along with empirical results for perplexity and significant translation score improvement on a constrained UrduEnglish task (6) 2 Related Work Neither phrase-based (Koehn et al., 2003) nor hierarchical phrase-based translation (Chiang, 2005) take explicit advantage of the syntactic structure of either source or target language.
+
+Title:W11-2143		Conference:Proceedings of the Sixth Workshop on Statistical Machine Translation		Author:Hanneman, Greg; Lavie, Alon
+Although we found mixed results in their application within our current system, the success of Hiero-derived MT systems (Chiang, 2005; Chiang, 2010) shows that high translation quality can be achieved with rules that are only partially abstract.
+
+Title:W11-1012		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Gao, Qin; Vogel, Stephan
+The algorithm is similar to that described by Chiang (2005).
+
+Title:W11-1012		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Gao, Qin; Vogel, Stephan
+2 Background 2.1 Hierarchical Phrase-based Machine Translation Proposed by Chiang (2005), the Hierarchical Phrase-based Machine Translation model (commonly known as the Hiero model) has achieved results comparable, if not superior, to conventional Phrase-based approaches.
+
+Title:D11-1035		Conference:EMNLP		Author:Liu, Chang; Dahlmeier, Daniel; Ng, Hwee Tou
+In this work, we investigate the effect of MERT using BLEU, TER, and two variants of TESLA, TESLA-M and TESLA-F, on Joshua (Li et al., 2009), a state-of-the-art hierarchical phrase-based SMT system (Chiang, 2005; Chiang, 2007).
+

@@ -1,0 +1,15 @@
+We develop a method for predicting query performance by computing the relative entropy between a query language model and the corresponding collection language model
+The resulting clarity score measures the coherence of the language usage in documents whose models are likely to generate the query
+In particular, we compare the automatic thresholds to optimum thresholds and also check how frequently results as good are achieved in sampling experiments that randomly assign queries to the two classes
+In the field of IR, the predicted query difficulty was found to correlate strongly with the average precision (AP) [9]
+(2002) to determine the threshold for a clarity score metric measuring the performance of queries in general IR searches
+The prediction methods documented in the literature use a variety of available data as a basis for prediction, such as a query, its properties with respect to the retrieval space [7], the output of the retrieval system [5], or the output of other systems [3]
+Term clarity [10] is a characteristic of the term itself, and initially we thought that it would correlate well with necessity
+Clarity Score [8] is based on the intuition that the top m ranked documents of an unambiguous query will be topically cohesive and terms particular to the topic will appear with high frequency
+The uncommon, nonspecific and sometimes ambiguous queries always lead to non-relevant and even puzzling results [2], [3]
+Thus, queries that reflect the user¡¯s topical intention perform well to retrieve topical relevant and high-quality documents [2]
+These include predicting the quality (or performance) of queries using either pre-retrieval indicators like Query Scope [10], or post-retrieval indicators like Query Clarity [7]
+Previously, divergence has been used to measure how strongly a subset of documents is distinguished from a collection, and has been applied to the task of query difficulty prediction [5]
+Measures such as query clarity [6], Jensen-Shannon divergence [4], and weighted information gain [23] have been developed to predict performance on a query (as measured by average precision, for example)
+The clarity prediction paradigm [4] is based on measuring the ¡°focus¡± (clarity) of the result-list with respect to the corpus by computing different forms of their ¡°distance¡± [5,6,7]
+[6] showed that query performance can be predicted using the relative entropy between a query language model and the corresponding collection language model as a clarity score

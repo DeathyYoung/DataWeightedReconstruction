@@ -1,0 +1,15 @@
+We present a cut and paste based text summa- rizer, which uses operations derived from an anal- edits extracted sentences, using reduction to remove inessential phrases and combination to merge re- suiting phrases together as coherent sentences
+Starting from the early work of Jing & McKeown (2000), in the last decade SC has received considerable attention in the NLP community
+Rewrite operations other than deletion tend to be hand-crafted and domain specific (Jing and McKeown, 2000)
+83 Table 4: Mean ratings for automatic compressions nally, we added a simple baseline compression algorithm proposed by Jing and McKeown (2000) which removed all prepositional phrases, clauses, toinfinitives, and gerunds
+Automatic text summarization approaches have offered reasonably well-performing approximations for identifiying important sentences (Lin and Hovy, 2002; Schiffman et al
+Additionally, some research has explored cutting and pasting segments of text from the full document to generate a summary (Jing and McKeown 2000)
+Our work in sentence reformulation is different from cut-and-paste summarization (Jing and McKeown 2000) in many ways
+While earlier approaches for text compression were based on symbolic reduction rules (Grefenstette 1998; Mani, Gates, and Bloedorn 1999), more recent approaches use an aligned corpus of documents and their human written summaries to determine which constituents can be reduced (Knight and Marcu 2002; Jing and McKeown 2000; Reizler et al
+Jing and McKeown (2000) first extract sentences, then remove redundant phrases, and use (manual) recombination rules to produce coherent output
+Previous research has addressed revision in single-document summaries [Jing & McKeown, 2000] [Mani et al, 1999] and has suggested that revising summaries can make them more informative and correct errors
+Close to the problem studied here is Jing and McKeowns (Jing and McKeown, 2000) cut-and-paste method founded on EndresNiggemeyers observations
+This distinguishes our approach from traditional sentence fusion approaches (Jing and McKeown, 2000; Barzilay and McKeown, 2005; Filippova and Strube, 2008b) which generally attempt to retain common information but are typically evaluated in an abstractive summarization context in which additional information in the fusion output does not negatively impact judgments
+, 1994), compression of sentences with Automatic Translation approaches (Knight and Marcu, 2000), Hidden Markov Model (Jing and McKeown, 2000), Topic Signatures based methods (Lin and Hovy, 2000, Lacatusu et al
+Our abstractors performed the same cut-and-paste operations that Jing and McKeown noted in their work, and we think that our two-step model will be a reasonable starting point for our subsequent research
+Jing and McKeown (2000) studied what edits people use to create summaries from sentences in the source text

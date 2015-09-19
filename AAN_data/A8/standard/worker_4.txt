@@ -1,0 +1,15 @@
+2 Training the Error Model Given a set of (Q, C) pairs as training data, we follow a method commonly used in SMT (Och and Ney, 2004) to extract biphrases and estimate their replacement probabilities
+Och and Ney (2004) reformulate equation 3 as a linear combination of feature functions hm(e,f) and weights m, including feature functions for translation models hi(e,f) = P(f|e) and language models hj(e) = P(e): e = argmaxe Msummationdisplay m=1 mhm(e,f) (4) The translation model used in our approach is based on the sequence of alignment models described in Och and Ney (2003)
+Examples of realistic systems are the phrase-based ATS system of Och and Ney (2004), the phrasal-syntax hybrid system Hiero (Chiang, 2005), and the GHKM syntax system (Galley et al
+1 Introduction The recent advances in statistical machine translation have been achieved by discriminatively training a small number of real-valued features based either on (hierarchical) phrase-based translation (Och and Ney, 2004; Koehn et al
+All phrase pairs in this paper are extracted with the phrase-extract algorithm (Och and Ney, 2004), with maximum length set to 7
+We only enforce one criterion on Li,ST and Ri,ST : they have to be the maximal alignment blocks satisfying the consistent heuristic (Och and Ney, 2004) that end or start with Yi,ST on the source S side respectively
+, 2006) machine translation system usually relies on a very large set of translation rules extracted from bi-lingual training data with heuristic methods on word alignment results
+Our in-house decoder is based on the alignment template approach to translation and uses a small set of standard feature functions during decoding (Och and Ney, 2004)
+Introduction The alignment template translation model (Och and Ney 2004) and related phrase-based models advanced the state of the art in machine translation by expanding the basic unit of translation from words to phrases, that is, substrings of potentially unlimited size (but not necessarily phrases in any syntactic theory)
+1 Baseline MT System: Alignment Templates Our baseline MT system is the alignment template system described in detail by Och, Tillmann, and Ney (1999) and Och and Ney (2004)
+2 The Problem of Coverage in SMT Statistical machine translation made considerable advances in translation quality with the introduction of phrase-based translation (Marcu and Wong, 2002; Koehn et al
+1 Introduction Recent work in statistical machine translation (MT) has sought to overcome the limitations of phrasebased models (Marcu and Wong, 2002; Koehn et al
+Phrase pairs with a maximum target or source length of 7 tokens are extracted using the method of Och and Ney (2004)
+6 Experimental Results Lattices were generated using a phrase-based MT system similar to the alignment template system described in (Och and Ney, 2004)
+To cope with this problem, we propose a cascaded linear model inspired by the log-linear model (Och and Ney, 2004) widely used in statistical machine translation to incorporate different kinds of knowledge sources

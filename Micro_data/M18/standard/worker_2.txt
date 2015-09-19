@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph.
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists.
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. 
+We also give empir-ical evidence that the plans produced by Graphplan are quite sensible.
+Since searches made by this approach are fundamentally different from the searches of other common planning methods, they provide a new perspective on the planning problem.
+Most planning research currently focusses on GraphPlan-based planners [15] and SatPlan-based planners [16]...
+Certain applications in robotic path planning used plan graphs (Blum & Furst, 1997) to compute an estimate of the resources and time required to achieve goals from states encountered in the search process
+A planner, based on the GraphPlan algorithm [2], that is able to automatically configure appliances to enable the user¡¯s desired content flows
+These techniques have connections to other prominent approaches to AI planning and automated reasoning, such as Blum and Furst¡¯s planning graphs [1], disjunctive temporal reasoning problems [13, 14], and the Walksat procedure for satisfiability checking [12]
+Possible candidate action sequences of the graph are then searched backward to form a final plan [1]
+Graph based planning Graph based planning utilizes planning graph [1] as a heuristic to constrain the search for plans.
+In FF, a planning graph (Blum & Furst, 1995) is built forward from the current state using relaxed actions¨Dthis is known as a relaxed planning-graph (RPG)
+We have shown elsewhere that the heuristic represented by the planning graph [11] can be understood as a precise form of deductive inference over the stratified theory that encodes the problem [31]
+The plan graph is a data structure that was devised for the efficient GRAPHPLAN framework of planning in STRIPS domains with restrictions on where negated propositions occur in the problem specification (Blum & Furst 1997)
+Certain applications in robotic path planning used plan graphs (Blum & Furst, 1997) to compute an estimate of the resources and time required to achieve goals from states encountered in the search process

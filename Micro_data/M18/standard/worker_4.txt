@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph.
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists.
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. 
+Do and Kambhampati (2000) showed that constraint satisfaction techniques can be applied to plan extraction from the planning graph (Blum and Furst, 1997).
+This is done by a Graphplan-like procedure [1], which due to the absence of deletes constructs a planning graph with no mutexes, from which a plan FF(s) is extracted backtrack-free [11]...
+A standard technique to compute this relaxation consists of generating a relaxed graph-plan following GRAPHPLAN (Blum & Furst 1995)
+POLLy consists of two parts: an AI Planner based on GraphPlan [5] and a Spoken Language Generator (SLG), as illustrated in Figure 1. GraphPlan is a classic STRIPS-style planner which, given a goal, e.g
+These techniques have connections to other prominent approaches to AI planning and automated reasoning, such as Blum and Furst¡¯s planning graphs [1], disjunctive temporal reasoning problems [13, 14], and the Walksat procedure for satisfiability checking [12]...
+Inference of facts that hold at given time points was first considered in the GraphPlan algorithm of Blum and Furst in the form of mutexes [1]
+We have shown elsewhere that the heuristic represented by the planning graph [11] can be understood as a precise form of deductive inference over the stratified theory that encodes the problem [31]
+Graphplan (Blum and Furst 1997) and Blackbox (Kautz and Selman 1997) have introduced two fundamental concepts to planning with discrete actions
+Graphplan [2] is a general-purpose planner for STRIPS-like domains, which exploits the benefits of graph algorithms in order to reduce search space and provide better solutions
+Most importantly, the weak plan represents the optimistic shortest backbone path to the goal because Graphplan always returns the shortest path, i.e., optimal number of time steps [1]
+starting with [9]), where highly-sophisticated planning algorithms have been developed, such that complex, real-world planning problems can now be efficiently solved
+The relaxed plan is computed using a Graphplan-style (Blum & Furst, 1997) technique combining a forward chaining graph construction phase with a backward chaining plan extraction phase

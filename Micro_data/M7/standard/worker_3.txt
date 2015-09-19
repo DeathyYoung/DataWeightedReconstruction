@@ -1,0 +1,15 @@
+In this paper, we outline a theory of linguistic structure which talks about talking about trees; we call this theory computational
+This paper will focus primarily on one set of motivations for this theory, those engendered by attempts to handle certain syntactic phenomena within the framework of deterministic parsing
+We have adopted, in this project, the straightforward view of incremental parsing as a process of repeatedly adding3 to partial structural descriptions of sentence-initial fragments (Barton & Berwick, 1985; Marcus, Hindle, & Fleck, 1983; Weinberg, 1993)
+There is no attempt to relegate all resolution information to the semantic component, as in Kamp and Reyle (1993)
+Grammar formalisms have been proposed that derive logical descriptions of trees representing the syntax of a string [15,23,26]
+Preprint submitted to Elsevier Science 29 April 2003 Dominance based tree descriptions were rst used in automata theory in the sixties [3], rediscovered in computational linguistics in the early eighties [4], and investigated from a logical point of view in the early nineties [5]
+Acceptance of a string is then equivalent to the satisfiability of the corresponding logical formula
+The semantic component of a grammar usually outputs representations which at least determine truth-conditions, but we shall move from truth-conditions to descriptions of truth-conditions, just as Marcus et al
+For instance, the language of dominance constraints [15, 24, 1, 9] is a decidable fragment of parallelism constraints for ? Supported by the DFG through the Graduiertenkolleg Kognition in Saarbr¨ ucken
+This "core parser" has been the subject of a number of computational implementations, including Marcus's deterministic parser (1980), Description theory (henceforth, D-theory) (Marcus et al (1983)), and Abney's licensing based model (1987, 1989)
+The use of domination has found a number of applications, such as in deterministic parsers based on Description theory (Marcus, Hindle & Fleck, 1983), in a compact organization of the basic structures of Tree-Adjoining Grammars (Vijay-Shanker & Schabes, 1992), and in a new characterization of the adjoining operation that allows a clean integration of TAGs into the unification-based framework (Vijay-Shanker, 1992) Our logic serves
+The "D-theory" approach of Marcus, Hindle, & Fleck (1983), in which the parser maintains a description of the utterance being parsed, seems especially amenable to formulation as a logical system
+Literature on parsing natural language has recently been concerned with topics which are unfamiliar to traditional Computational Linguistics such as functional similarities of different syntactic constructions (I), reanalysis of 'indelible' structures (9), manipulation of 'indelible' trees (7)
+For an interestingly different reason, a preference for local attachment in (3) is also predicted by a number of proposals in the framework of D(escription)-theory (Marcus et al
+Dominance constraints are logical descriptions of trees [2,10] that can talk about the mother and ancestor relations between the nodes of a tree

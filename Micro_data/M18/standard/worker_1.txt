@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph.
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists.
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. 
+Heuristics derived from planning graphs [4] are widespread in planning
+This is done by a Graphplan-like procedure [1], which due to the absence of deletes constructs a planning graph with no mutexes, from which a plan FF(s) is extracted backtrack-free [11]...
+Graphplan [2] is a general-purpose planner for STRIPS-like domains, which exploits the benefits of graph algorithms in order to reduce search space and provide better solutions
+Since FIP uses planning graphs to conduct a search, the size of the planning graph and the time required to expand it are polynomial in the size of the planning problem [1]...
+We carried out this evaluation by integrating the usage of tractable class into the GraphPlan based planning algorithm (Blum and Furst, 1997)
+Many centralized techniques and popular planners for functional planning, such as [1] [8], employ Planning graph that is a special graph based representation for a plan
+Possible candidate action sequences of the graph are then searched backward to form a final plan [1
+His technique is inspired by work of Blum and Furst (1997) on planning, which exploits the construction and the analysis of graphs of goals without the need of a plan hierarchy
+The disadvantage of the latter of these approaches is that it ignores any positive interactions (shared actions) between the action sequences for each goal: it is this problem which was addressed by the heuristic used in FF. 
+Extensions of GRAPHPLAN: the use of planning graphs [1] has also been extended to temporal problems by several planners
+Graphplan (Blum and Furst 1997) and Blackbox (Kautz and Selman 1997) have introduced two fundamental concepts to planning with discrete actions
+An LA-graph can be seen as a variant of the well-known planning graph [3] representation for propositional (STRIPSlike) planning problems

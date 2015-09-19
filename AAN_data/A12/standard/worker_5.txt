@@ -1,0 +1,15 @@
+We present a novel sentence reduction system for automatically removing extraneous phrases from sentences that are extracted from a document for summarization purpose.
+The system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed, including syn- tactic knowledge, context information, and statistics computed from a corpus which consists of examples written by human professionals. 
+Sentence simplification systems (Chandrasekar et al. , 1996; Mahesh, 1997; Carroll et al. , 1998; Grefenstette, 1998; Jing, 2000; Knight and Marcu, 2000) are capable of compressing long sentences by deleting unimportant words and phrases.
+Jing and McKeown (2000) and Jing (2000) propose a cut-and-paste strategy as a computational process of automatic abstracting and a sentence reduction strategy to produce concise sentences.
+Given the need to ensure grammatical sentences, a number of researchers have used syntax-directed approaches that perform transformations on the output of syntactic parsers (Jing, 2000; Dorr et al. , 2003).
+Interfacing extractive summarization with a sentence compression module could improve the conciseness of the generated summaries and render them more informative (Jing, 2000; Lin, 2003; Zajic et al., 2007).
+1 Introduction Sentence compression is the task of producing a shorter form of a grammatical source (input) sentence, so that the new form will still be grammatical and it will retain the most important information of the source (Jing, 2000).
+In contrast to Jing (2000), the bulk of the research on sentence compression relies exclusively on corpus data for modelling the compression process without recourse to extensive knowledge sources (e.g. , WordNet).
+The conciseness can be improved when sentence extraction is interfaced with sentence compression, where words and clauses are deleted based on rules typically operating over parsed input (Jing, 2000; Daume III and Marcu, 2002; Lin, 2003; Daume III, 2006; Zajic et al., 2007; Martins and Smith, 2009).
+A syntactic approach considers the alignment over parse trees (Jing, 2000), and a similar technique has been used with dependency trees to evaluate the quality of sentence fusions (Marsi and Krahmer, 2005).
+Ziff-Davis Corpus Most previous work (Jing 2000; Knight and Marcu 2002; Riezler et al. 2003; Nguyen et al. 2004a; Turner and Charniak 2005; McDonald 2006) has relied on automatically constructed parallel corpora for training and evaluation purposes.
+To overcome this problem, linguistic parsing and generation systems are used in the sentence condensation approaches of Knight and Marcu (2000) and Jing (2000).
+4.2 Sentence reduction The task of the sentence reduction module, described in detail in (Jing, 2000), is to remove extraneous phrases from extracted sentences. 
+Since we only use shallow methods for textual analysis that do not generate a. dependency structure, we cannot use complex methods for text reduction as described, e.g., in (Jing, 2000).
+In fact, professional abstractors tend to use these operations to transform selected sentences from an article into the corresponding summary sentences (Jing, 2000).

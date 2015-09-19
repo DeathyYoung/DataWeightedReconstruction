@@ -1,0 +1,15 @@
+We use logical inference techniques forrecognising textual entailment. 
+As theperformance of theorem proving turnsout to be highly dependent on not read-ily available background knowledge
+we incorporate model building, a techniqueborrowed from automated reasoning, and show that it is a useful robust method toapproximate entailment. 
+Finally, we usemachine learning to combine these deepsemantic analysis techniques with simpleshallow word overlap
+Our results also show that the different tech-niques that we employ perform very dif-ferently on some of the subsets of the RTEcorpus and as a result, it is useful to use thenature of the dataset as a feature.
+Finally, a few efforts (Akhmatova, 2005; Fowler et al. , 2005; Bos and Markert, 2005) have tried to 42 translate sentences into formulas of first-order logic, in order to test logical entailment with a theorem prover.
+For example, two high-accuracy systems are those described in (Tatu and Moldovan, 2005), achieving 60.4% accuracy with no task-specific information, and (Bos and Markert, 2005), which achieves 61.2% task-dependent accuracy, i.e. when able to use the specific task labels as input.
+Some NLP applications deal indirectly with negation, e.g., machine translation (van Munster, 1988), text classification (Rose et al., 2003) and recognizing entailments (Bos and Markert, 2005).
+Bos and Markert (2005) describe a system for Recognizing Textual Entailment (RTE) that uses Boxer to convert both the premise and hypothesis of an RTE pair into first-order logical semantic representations and then uses a theorem prover to check for logical entailment.
+Note that when running an example in the theorem prover, weights are not possible, so any rule that would be weighted in an MLN is simply treated as a hard clause following Bos and Markert (2005).
+They, therefore, tend to have high precision at the cost of low recall (Bos and Markert, 2005).
+We show comparable results from recent systems based on lexical similarity (Jijkoun and de Rijke, 2005), graph alignment (Haghighi et al. , 2005), weighted abduction (Raina et al. , 2005), and a mixed system including theorem proving (Bos and Markert, 2005).
+The RTE problem as presented in the PASCAL RTE dataset is particularly attractive in that it is a reasonably simple task for human annotators with high inter-annotator agreement (95.1% in one independent labeling (Bos and Markert, 2005)), but an extremely challenging task for automated systems.
+Several models, ranging from the simple lexical similarity between T and H to advanced Logic Form Representations, have been proposed (Corley and Mihalcea, 2005; Glickman and Dagan, 2004; de Salvo Braz et al., 2005; Bos and Markert, 2005).
+Many previous approaches have used a logical form representation of the text and hypothesis sentences, focusing on deriving a proof by which one can infer the hypothesis logical form from the text logical form (Bayer et al. , 2005; Bos and Markert, 2005; Raina et al. , 2005; Tatu and Moldovan, 2005).

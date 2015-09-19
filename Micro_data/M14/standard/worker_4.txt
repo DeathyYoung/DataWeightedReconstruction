@@ -1,0 +1,15 @@
+This paper describes a new statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+Standard bigram probability estimation techniques are extended to calculate probabilities of dependencies between pairs of words
+With a beam search strategy parsing speed can be improved to over 200 sentences a minute with negligible loss in accuracy
+Natural language processing systems performing automatic text generation or translation constrain bigrams and trigrams of words [3], [10] to generate not just words but viable phrases
+Our method to tag word dependencies is by using the Collins (1996) parser to get a statistical syntactic parse of the passages
+Left/right context annotation principles (L/R): these are based on an automatic partition of local trees of depth one (corresponding to CFG rules) into head (we adapt head-lexicalisation rules from Magerman, 1994; Collins, 1996), left- and right-context
+(1) The method where the dependency is generated based on the dependency constraint [7, 21] (2) The head information is attached to the grammatical rule, and the parse tree is converted to the dependency structure based on that information [4, 5, 9]
+The dependency structure for the sentence can be computed from the parse tree for the sentence, by defining the category for each rule in CFG, called head child [5]
+The syntax analysis in Falcon is based on a statistical parser [4] while we use a dependency parser that computes all syntactically possible structures which we then filter according to a combination of hand-crafted rules and Brill and Resnik disambiguation procedure
+Collins (Collins, 1996) used dependencies as the backbone for his probabilistic parser and there has been work on learning both probabilistic (Carroll, 1992; Lee, 1999; Paskin, 2001) and transformation based dependency grammars (Hajic, 1997)
+An example of such a model is [74], which uses the parser of [75] to generate the candidate parses, and trains the parameters using maximum entropy
+While PCFG models do not perform as well as models that are sensitive to a wider range of dependencies (Collins 1996), their simplicity makes them straightforward to analyze both theoretically and empirically
+Collins (1996) proposed a statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+While the models of Collins (1996) and Eisner (1996) restricted the fragments to the locality of head-words, later models showed the importance of including context from higher nodes in the tree (Charniak 1997; Johnson 1998)
+These arguments will be essential for the generative piece of the summarizer; working from the output of a high-accuracy statistical parser [3], the categorizer will also perform knowledge acquisition as it goes

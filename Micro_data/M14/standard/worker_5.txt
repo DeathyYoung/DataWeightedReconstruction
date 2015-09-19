@@ -1,0 +1,15 @@
+This paper describes a new statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+Standard bigram probability estimation techniques are extended to calculate probabilities of dependencies between pairs of words
+Tests using Wall Street Journal data show that the method performs at least as well as SPATTER (Magerman 95; Jelinek et al
+We adopt the deleted interpolation smoothing strategy of Collins [12], which backs off to PoS for unseen dependency events
+Different from [15], instead of just using commas as baseNP delimiters, we consider whether there is an intra-sentence punctuation between the words by introducing the variable ( when there is an intra-sentence punctuation mark between and , and otherwise)
+We employed readily available natural language processing tools; the key component is a statistical parser [3], which allows us to obtain a phrase structure parse tree for a sentence (fig
+), Context-Free Grammars (CFGs) can be transformed to lexicalized CFGs provided that a head-marking scheme for rules is given
+While the models of Collins (1996) and Eisner (1996) restricted the fragments to the locality of head-words, later models showed the importance of including context from higher nodes in the tree (Charniak 1997; Johnson 1998a)
+The proposed method calculates English dependency structures from phrase structures by determining the head child in each Table 2: Experimental results item precision (%) recall (%) proposed method 80
+The statistical parsing community has recently begun to pay more attention to parsing dependency structures [3, 2, 7], and, in particular, to the use of dependencies to help parsing phrase-structures [1, 4]
+For the discourse structure analysis, we suggest a statistical model with discourse segment boundaries (DSBs) similar to the idea of gaps suggested for a statistical parsing (Collins (1996))
+Table 5 shows that the maximum entropy parser compares favorably to other state-of-the-art systems (Magerman, 1995; Collins, 1996; Goodman, 1997; Charniak, 1997; Collins, 1997) and shows that only the results of Collins (1997) are better in both precision and recall
+The Collins parser (Collins96) shows that dependencygrammar–like bigram constraints may be the most adequate, so the equivalence classification [WkTk] should contain at least {h_0, h_{-1}}
+History-based parsers are generally modeled upon probabilistic context-free grammars, and produce more accurate results if they learn about bilexical dependencies between head words of constituents [2,3]
+Since bigrams can be used to calculate the probabilistic space in which language occurs, they have been put to a variety of uses (Collins, 1996; Pedersen, 2001)

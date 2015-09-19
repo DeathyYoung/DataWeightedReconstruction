@@ -1,0 +1,15 @@
+Using an open-source, Java toolkit of name-matching methods, we experimentally compare string distance metrics on the task of matching entity names
+We inves- tigate a number of different metrics proposed by differ- ent communities, including edit-distance metrics, fast heuristic string comparators, token-based distance met- rics, and hybrid methods
+Since this challenge of matching attribute values is essentially a name matching task, we calculate the agreement between attribute values using SoftTF-IDF with Jaro-Winkler as the similarity measure [15]
+Comparison studies have shown that SoftTFIDF performs best for named entity matching [5]
+Traditionally, approaches that deal with textual data employ a bag-of-words model and rely on string similarity measures to compare resources [7]
+To measure the string similarity between a pair of tokens, sim(t1,t2), we use two string similarity measures, namely the edit distance and trigrams [10]
+Token-based methods are usually an order of magnitude faster than character-based methods [8]
+The approach of calculating a similarity score between a pair of entities has been studied and applied a variety of areas in the past, including string similarity (or distance) [2, 4], document similarity used in document clustering [1] and information filtering [8]
+We know that if we use other similarity measures like Monger-Elkan distance function [8], or Jaro metric [9, 10], or Jaro-Winkler metr ic, which can produce better results [6] than Levenshtein similarity distance, we can get better candidate result's states
+Similarity measures that can be used to estimate a semantic similarity between named entities or terms have been extensively studied ([6])
+Traditionally, algorithms for computing string similarity have largely relied on the syntactic representation of the strings, most popular of them being variants of edit distance [19] and variants of TF-IDF cosine similarity [11]
+The similarity metric soft-TFIDF widely used in information retrieval is a combination of a character-based and a token-based distance metric
+[20] also used TF-IDF based flexible string matching to deduplicate records on large databases
+[14] studies the name matching for information integration using string-based and token-based methods, while [28] conducts an in-depth study on the RL problem in digital library context
+Pattern-matching techniques are commonly used in approximate string matching [8, 9, 10], which is used for data linkage [11, 12], duplicate detection [13], information retrieval [14] and correction of spelling errors [4, 8, 15]

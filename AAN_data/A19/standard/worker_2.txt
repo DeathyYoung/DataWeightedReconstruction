@@ -1,0 +1,15 @@
+We use the data provided for the French-English shared task of the 2003 HLTNAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003).
+While these models have proven effective at the word alignment task (Mihalcea & Pedersen 2003), there are significant practical limitations in their output.
+2 Prior Work The 2003 HLT-NAACL Workshop on Building and Using Parallel Texts (Mihalcea and Pedersen, 2003) reflected the increasing importance of the wordalignment task, and established standard performance measures and some benchmark tasks.
+Mihalcea and Pedersen (2003) described a shared task where the goal was to achieve the best AER.
+It was the basis for a system that performed very well in a comparison of several alignment systems (Dejean et al. , 2003; Mihalcea and Pedersen, 2003).
+Cherry and Lins (2003) method obtained an AER of 5.7% as reported by Mihalcea and Pedersen (2003), the previous lowest reported error rate for a method that makes no use of the IBM models.
+All of them are taken from the two shared tasks in word alignments developed in HLT/NAACL 2003 (Mihalcea and Pedersen, 2003) and ACL 2005 (Joel Martin, 2005).
+As a result of this, different task on aligments in statistical machine translation have been proposed in the last few years (HLTNAACL 2003 (Mihalcea and Pedersen, 2003) and ACL 2005 (Joel Martin, 2005)).
+4 Experiments We applied our algorithms to word-level alignment using the English-French Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+Our decoder is a reimplementation in Perl of the algorithm used by the Pharaoh decoder as described by Koehn (2003).2 The data we used comes from an English-French bilingual corpus of Canadian Hansards parliamentary proceedings supplied for the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+4 Experiments 4.1 Experimental Setting For an empirical evaluation of the proposed method, we used a bilingual parallel corpus of English-French Hansards (Mihalcea and Pedersen, 2003).
+5 Experiments We evaluated our approaches using the EnglishFrench Hansards data from the 2003 NAACL shared task (Mihalcea and Pedersen, 2003).
+In some approaches such relations are constructed in form of an exhaustive set of links between all word pairs included in both expressions (Melamed, 1998; Mihalcea and Pedersen, 2003).
+7 Evaluation We used the same training and test data as in our previous work, a subset of the Canadian Hansards bilingual corpus supplied for the bilingual word alignment workshop held at HLT-NAACL 2003 (Mihalcea and Pedersen, 2003).
+As a point of comparison, the SMT community has been evaluating performance of word-alignment systems on an even smaller dataset of 447 pairs of non-overlapping sentences (Mihalcea and Pedersen, 2003).

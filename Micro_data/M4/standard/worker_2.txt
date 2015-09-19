@@ -1,0 +1,15 @@
+This paper proposes a two-phase example-based machine translation methodology which develops translation templates from examples and then translates using template matching
+This method improves translation quality and facilitates customization of machine translation systems
+Correspondence between units is determined by suing a bilingual dictionary and by analyzing the syntactic structure of the sentences
+Syntactic ambiguity and ambiguity in correspondence between units are simultaneously resolved
+All of the translation templates generated from a bilingual corpus are grouped by their source language part, and then further refined to resolved conflicts among templates whose source language parts are the same but whose target language parts are different
+By using the proposed method, not only transfer rules but also knowledge for lexical selection is effectively extracted from a bilingual corpus
+[16] makes use of syntactic phrases from parsed trees but the templates created are less controllable as the method collapses phrases only by linguistic phrase labels
+Phrase alignment is implemented on parsing trees of source and target sentences according to word alignment results [2]
+Patterns have several formats such as sentence-based patterns [1], [6], phrase-based patterns [8] and collocation-based patterns [2], [7]
+A number of example-based machine translation (EBMT) systems operate by extracting and recombining translation patterns or templates from bilingual texts (Kaji et al, 1992; Güvenir & Cicekli, 1998; Brown 1999; Carl 1999; McTait & Trujillo, 1999)
+ID3 learning algorithm is applied to obtain transfer rules from case-frame representations of simple sentences with a thesaurus for generalization (Akiba et
+Crossing constraints are implicit in many phrasal matching approaches, both constituency-oriented (Kaji, Kida, & Morimoto 1992; Cranias, Papageorgiou, & Piperidis 1994; Grishman 1994) and dependency-oriented (Sadler & Vendelmans 1990; Matsumoto, Ishimoto, & Utsuro 1993)
+Initial in-depth structure alignment methods attempt to identify complex, hierarchical structures such as phrase structures (Kaji et al
+Initial in-depth structure alignment methods attempt to identify complex, hierarchical structures such as phrase structures (Kaji et al
+Utilizing templates is more flexible as compared to word-for-word translation [4] and to pre-defined rules which would be hard to modify at a later time

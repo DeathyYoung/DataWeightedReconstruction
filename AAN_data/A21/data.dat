@@ -1,0 +1,108 @@
+Title:W05-1203		Conference:Workshop On Empirical Modeling Of Semantic Equivalence And Entailment		Author:Corley, Courtney D.; Mihalcea, Rada
+This paper presents a knowledge-basedmethod for measuring the semantic-similarity of texts. While there is a largebody of previous work focused on find-ing the semantic similarity of conceptsand words, the application of these word-oriented methods to text similarity has notbeen yet explored. In this paper, we in-troduce a method that combines word-to-word similarity metrics into a text-to-text metric, and we show that this methodoutperforms the traditional text similaritymetrics based on lexical matching.
+
+Title:I05-5002		Conference:Proceedings of the Third International Workshop on Paraphrasing (IWP2005)		Author:Dolan, William B.; Brockett, Chris
+It has already been applied in this way by Corley & Mihalcea (2005) and Wu (2005).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+Second, we can use one of the WordNet (Miller, 1995) similarities indicated with d(lw,lwprime) (in line with what was done in (Corley and Mihalcea, 2005)) and different relation between words such as the lexical entailment between verbs (Ent) and derivationally relation between words (Der).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+The above word similarity measure can be used to compute the similarity between T and H. In line with (Corley and Mihalcea, 2005), we define it as: s1(T,H) = summationdisplay (wt,wh)A simw(wt,wh)idf(wh) summationdisplay whWH idf(wh) (3) where idf(w) is the inverse document frequency of the word w. For sake of comparison, we consider also the corresponding more classical version that does not apply the inverse document frequency s2(T,H) = summationdisplay (wt,wh)A simw(wt,wh)/|WH| (4) From the above intra-pair similarities, s1 and s2, we can obtain the baseline cross-pair similarities based on only lexical information: Ki((Tprime,Hprime),(Tprimeprime,Hprimeprime)) = si(Tprime,Hprime)si(Tprimeprime,Hprimeprime), (5) where i {1,2}.
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+A first class of methods defines measures of the distance or similarity between T and H either assuming the independence between words (Corley and Mihalcea, 2005; Glickman et al. , 2005) in a bag-of-word fashion or exploiting syntactic interpretations (Kouylekov and Magnini, 2005).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+For example, the sentence T1: At the end of the year, all solid companies pay dividends. entails the hypothesis H1: At the end of the year, all solid insurance companies pay dividends. but it does not entail the hypothesis H2: At the end of the year, all solid companies pay cash dividends. Although these implications are uncontroversial, their automatic recognition is complex if we rely on models based on lexical distance (or similarity) between hypothesis and text, e.g., (Corley and Mihalcea, 2005).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+The wn::similarity package (Pedersen et al. , 2004) to compute the Jiang&Conrath (J&C) distance (Jiang and Conrath, 1997) as in (Corley and Mihalcea, 2005).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+Third, the dramatic improvement observed in (Corley and Mihalcea, 2005) on the dataset Train:D1-Test:T1 is given by the idf rather than the use of the J&C similarity (second vs. third columns).
+
+Title:P06-1051		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+Our approach is in line with many other researches (e.g. , (Corley and Mihalcea, 2005; Glickman et al. , 2005)).
+
+Title:P06-1100		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Pennacchiotti, Marco; Pantel, Patrick
+Also, we will try different similarity score functions for both the clustering and the anchor approaches, as those surveyed in Corley and Mihalcea (2005).
+
+Title:W06-3806		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+3.1 Experimented kernels We compared three different kernels: (1) the kernel Kl((Tprime,Hprime),(Tprimeprime,Hprimeprime)) based on the intra-pair 35 Datasets Kl Kl +Kt Kl +Ks Train:D1 Test:T1 0.5888 0.6213 0.6300 Train:T1 Test:D1 0.5644 0.5732 0.5838 Train:D2(50%)prime Test:D2(50%)primeprime 0.6083 0.6156 0.6350 Train:D2(50%)primeprime Test:D2(50%)prime 0.6272 0.5861 0.6607 Train:D2 Test:T2 0.6038 0.6238 0.6388 Mean 0.5985 0.6040 0.6297 ( 0.0235 ) ( 0.0229 ) ( 0.0282 ) Table 1: Experimental results lexical similarity siml(T,H) as defined in (Corley and Mihalcea, 2005).
+
+Title:W06-3806		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+We also used the following resources: the Charniak parser (Charniak, 2000) to carry out the syntactic analysis; the wn::similaritypackage (Pedersen et al. , 2004) to compute the Jiang&Conrath (J&C) distance (Jiang and Conrath, 1997) needed to implement the lexical similarity siml(T,H) as defined in (Corley and Mihalcea, 2005); SVM-lightTK (Moschitti, 2004) to encode the basic tree kernel function, KT, in SVM-light (Joachims, 1999).
+
+Title:W06-3806		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+Then, we use this cross-pair similarity with more traditional intra-pair similarities (e.g. , (Corley and Mihalcea, 2005)) to define a novel kernel function.
+
+Title:W06-3806		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+First, as observed in (Corley and Mihalcea, 2005) the lexical-based distance kernel Kl shows an accuracy significantly higher than the random baseline, i.e. 50%.
+
+Title:W06-3806		Conference:TextGraphs Workshop On Graph Based Methods For Natural Language Processing		Author:Zanzotto, Fabio Massimo; Moschitti, Alessandro
+In line with many other researches (e.g. , (Corley and Mihalcea, 2005)), we determine these anchors using different similarity or relatedness dectors: the exact matching between tokens or lemmas, a similarity between tokens based on their edit distance, the derivationally related form relation and the verb entailment relation in WordNet, and, finally, a WordNet-based similarity (Jiang and Conrath, 1997).
+
+Title:W06-1621		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Glickman, Oren; Shnarch, Eyal; Dagan, Ido
+(Bos and Markert, 2005; Corley and Mihalcea, 2005; Jijkoun and de Rijke, 2005; Glickman et al. , 2006)) applied or utilized lexical based word overlap measures.
+
+Title:W06-1603		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Qiu, Long; Kan, Min-Yen; Chua, Tat-Seng
+PR systems that can be broadly categorized as IR-based include (Corley and Mihalcea, 2005; Brockett and Dolan, 2005).
+
+Title:W06-1603		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Qiu, Long; Kan, Min-Yen; Chua, Tat-Seng
+The system performance reported in (CM05; (Corley and Mihalcea, 2005)), which is among the best we are aware of, is also included for comparison.
+
+Title:J06-1003		Conference:Computational Linguistics		Author:Budanitsky, Alexander; Hirst, Graeme
+On the other hand, Corley and Mihalcea (2005) found little difference between the measures when using them in an algorithm for computing text similarity.
+
+Title:W07-1406		Conference:ACL-PASCAL Workshop on Textual Entailment and Paraphrasing		Author:Wang, Rui; Neumann, G&uuml;nter
+36 2 Related Work Conventional methods for RTE define measures for the similarity between T and H either by assuming an independence between words (Corley and Mihalcea, 2005) in a BoW fashion or by exploiting syntactic interpretations.
+
+Title:W07-1406		Conference:ACL-PASCAL Workshop on Textual Entailment and Paraphrasing		Author:Wang, Rui; Neumann, G&uuml;nter
+The first backup strategy is a straightforward BoW method that we will not present in this paper (see more details in (Corley and Mihalcea, 2005)); Id Ta s k Te x t H y po th e s i s En ta i l s ? 1IE The sale was made to pay Yukos' US$ 27.5 billion tax bill, Yuganskneftegaz was originally sold for US$ 9.4 billion to a little known com pany Baikalfinansgroup which was later bought by the Russian state-owned oil Baikalfinansgroup was sold to Rosneft.
+
+Title:W07-1412		Conference:ACL-PASCAL Workshop on Textual Entailment and Paraphrasing		Author:Zanzotto, Fabio Massimo; Pennacchiotti, Marco; Moschitti, Alessandro
+The classifier uses as the only feature the lexical overlap similarity score described in (Corley and Mihalcea, 2005); -lex+tap: these configurations mix lexical overlap and our typed anchor approaches; -lex+tree: the comparison of this configuration with lex+tap should further support the validity of our intuition on typed anchors; Preliminary experiments have been performed using two datasets: RTE2 (the 1600 entailment pairs from the RTE-2 challenge) and RTE3d (the development dataset of this challenge).
+
+Title:W08-2004		Conference:Coling 2008: Proceedings of the workshop on Speech Processing for Safety Critical Translation and Pervasive Applications		Author:Moschitti, Alessandro; Zanzotto, Fabio Massimo
+Otherwise, WordNet (Miller, 1995) similarities (as in (Corley and Mihalcea, 2005)) and different relation between words such as verb entailment and derivational morphology are applied.
+
+Title:W08-2004		Conference:Coling 2008: Proceedings of the workshop on Speech Processing for Safety Critical Translation and Pervasive Applications		Author:Moschitti, Alessandro; Zanzotto, Fabio Massimo
+Several models, ranging from the simple lexical similarity between T and H to advanced Logic Form Representations, have been proposed (Corley and Mihalcea, 2005; Glickman and Dagan, 2004; de Salvo Braz et al., 2005; Bos and Markert, 2005).
+
+Title:W08-2004		Conference:Coling 2008: Proceedings of the workshop on Speech Processing for Safety Critical Translation and Pervasive Applications		Author:Moschitti, Alessandro; Zanzotto, Fabio Massimo
+(Corley and Mihalcea, 2005; Glickman et al., 2005).
+
+Title:P09-1053		Conference:ACL-IJCNLP		Author:Das, Dipanjan; Smith, Noah A.
+Such overlap features give the best-published classification accuracy for the paraphrase identification task (Zhang and Patrick, 2005; Finch et al., 2005; Wan et al., 2006; Corley and Mihalcea, 2005, inter alia), but do not explicitly model correspondence structure (or alignment) between the parts of two sentences.
+
+Title:P09-1053		Conference:ACL-IJCNLP		Author:Das, Dipanjan; Smith, Noah A.
+As noted, the most successful work has used edit distance (Zhang and Patrick, 2005) or bag-of-words features to measure sentence similarity, along with shallow syntactic features (Finch et al., 2005; Wan et al., 2006; Corley and Mihalcea, 2005).
+
+Title:J10-3003		Conference:Computational Linguistics		Author:Madnani, Nitin; Dorr, Bonnie Jean
+Paraphrase Recognition and Textual Entailment A problem closely related to, and as important as, generating paraphrases is that of assigning a quantitative measurement to the semantic similarity of two phrases (Fujita and Sato 2008a) or even two given pieces of text (Corley and Mihalcea 2005; Uzuner and Katz 2005).
+
+Title:C10-2048		Conference:COLING - POSTERS		Author:Ho, ChukFong; Azmi Murad, Masrah Azrifah; Abdul Kadir, Rabiah; C. Doraisamy, Shyamala
+Corley and Mihalcea (2005) proposed a hybrid method by combining six existing knowledge-based methods.
+
+Title:J10-1002		Conference:Computational Linguistics		Author:Tsang, Vivian; Stevenson, Suzanne
+For example, Corley and Mihalcea (2005) consider the ontological distance between the conceptsrepresentingthetextsbutignoretheirdistributionalinformation.Ontheother hand,ScottandMatwin(1998),McCarthy(2000),andMohammadandHirst(2006)take the distributional distance between concept vectors representing the texts but do not considertheontologicalrelationsamongtheconcepts.
+
+Title:W11-1302		Conference:Proceedings of the Workshop on Distributional Semantics and Compositionality		Author:Zanzotto, Fabio Massimo; Dell'Arciprete, Lorenzo
+This simple feature is the lexical similarity between T andH computed using WordNet-based metrics as in (Corley and Mihalcea, 2005).
+
+Title:D11-1096		Conference:EMNLP		Author:Croce, Danilo; Moschitti, Alessandro; Basili, Roberto
+(Pedersen et al., 2004b; Sahlgren, 2006; Corley and Mihalcea, 2005; Mihalcea et al., 2005).
+
+Title:D11-1061		Conference:EMNLP		Author:Zanzotto, Fabio Massimo; Pennaccchiotti, Marco; Tsioutsiouliklis, Kostas
+In practice, we implement WBOW by using the text similarity measure defined in (Corley and Mihalcea, 2005) as the single feature in the SVM classifier that, as in BOW, learns the threshold on this single feature.
+
+Title:D11-1061		Conference:EMNLP		Author:Zanzotto, Fabio Massimo; Pennaccchiotti, Marco; Tsioutsiouliklis, Kostas
+Three main classes of features have been so far explored in RTE: distance/similarity feature spaces (Corley and Mihalcea, 2005; Newman et al., 2005; Haghighi et al., 2005; Hickl et al., 2006), entailment trigger feature spaces (de Marneffe et al., 2006; MacCartney et al., 2006), and pair content feature spaces (Zanzotto et al., 2009).
+
+Title:D11-1061		Conference:EMNLP		Author:Zanzotto, Fabio Massimo; Pennaccchiotti, Marco; Tsioutsiouliklis, Kostas
+4.2 WordNet-based bag-of-word model (WBOW) The second baseline model was first defined in (Corley and Mihalcea, 2005) and since then has been used by many RTE systems.
+
+Title:W11-2402		Conference:Proceedings of the TextInfer 2011 Workshop on Textual Entailment		Author:Shnarch, Eyal; Goldberger, Jacob; Dagan, Ido
+Other works (Corley and Mihalcea, 2005; Zanzotto and Moschitti, 2006) have applied heuristic formu10 las to estimate the similarity between text fragments based on a similarity function between their terms.
+

@@ -1,0 +1,153 @@
+Title:A00-2034		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Diana McCarthy (University of Sussex, East Sussex UK)
+We propose a method for identifying diathesis alter- nations where a particular argument type is seen in slots which have different grammatical roles in the alternating forms. The method uses selectional pref- erences acquired as probability distributions over WordNet. Preferences for the target slots are com- pared using a measure of distributional similarity. The method is evaluated on the causative and cona- tive alternations, but is generally applicable and does not require a priori knowledge specific to the alternation.
+
+Title:C00-2118		Conference:International Conference on Computational Linguistics		Author:Suzanne Stevenson (University of Toronto, Toronto ON);Paola Merlo (University of Geneva, Geneva Switzerland)
+1999; Steve.nson et a l. , ] 999; McCarthy, 2000)
+
+Title:J01-3003		Conference:Computational Linguistics Journal		Author:Paola Merlo (University of Geneva, Geneva Switzerland);Suzanne Stevenson (University of Toronto, Toronto ON)
+McCarthy (2000) shows that a method very similar to ours can be used for identifying alternations.
+
+Title:J01-3003		Conference:Computational Linguistics Journal		Author:Paola Merlo (University of Geneva, Geneva Switzerland);Suzanne Stevenson (University of Toronto, Toronto ON)
+Also, the method of counting correctness entails that some "correct" classes may be split across distant clusters (this level of detail is not reported), so it is unclear how coherent the class behaviour actually is. McCarthy (2000) proposes a method to identify diathesis alternations.
+
+Title:J01-3003		Conference:Computational Linguistics Journal		Author:Paola Merlo (University of Geneva, Geneva Switzerland);Suzanne Stevenson (University of Toronto, Toronto ON)
+On the other hand, when learning of thematic role assignment has been the explicit goal, the text has been semantically annotated (Webster and Marcus 1989), or external semantic resources have been consulted (Aone and McKee 1996; McCarthy 2000).
+
+Title:J01-3003		Conference:Computational Linguistics Journal		Author:Paola Merlo (University of Geneva, Geneva Switzerland);Suzanne Stevenson (University of Toronto, Toronto ON)
+We, like others in a computational framework, have extended this idea by showing that statistics over the alternants of a verb effectively capture information about its class (Lapata 1999; McCarthy 2000; Lapata and Brew 1999).
+
+Title:J01-3003		Conference:Computational Linguistics Journal		Author:Paola Merlo (University of Geneva, Geneva Switzerland);Suzanne Stevenson (University of Toronto, Toronto ON)
+Other work has attempted to learn deeper semantic properties such as selectional restrictions (Resnik 1996; Riloff and Schmelzenbach 1998), verbal aspect (Klavans and Chodorow 1992; Siegel 1999), or lexical-semantic verb classes such as those proposed by Levin (1993) (Aone and McKee 1996; McCarthy 2000; Lapata and Brew 1999; Schulte im Walde 2000).
+
+Title:J02-3001		Conference:Computational Linguistics Journal		Author:Daniel Gildea (University of California at Berkeley, Berkeley CA);Daniel Jurafsky (University of Colorado at Boulder, Boulder CO)
+To do this, counts of training data were percolated up the semantic hierarchy in a technique similar to that of, for example, McCarthy (2000).
+
+Title:J02-2003		Conference:Computational Linguistics Journal		Author:Stephen Clark (University of Edinburgh, Edinburgh UK);David Weir (University of Sussex, East Sussex UK)
+Previous work has considered how to estimate probabilities using classes from WordNet in the context of acquiring selectional preferences (Resnik 1998; Ribas 1995; Li and Abe 1998; McCarthy 2000), and this previous work has also addressed the question of how to determine a suitable level of generalization in the hierarchy.
+
+Title:J02-2003		Conference:Computational Linguistics Journal		Author:Stephen Clark (University of Edinburgh, Edinburgh UK);David Weir (University of Sussex, East Sussex UK)
+This is the approach taken by Li and Abe (1998), Ribas (1995), and McCarthy (2000).
+
+Title:J02-2003		Conference:Computational Linguistics Journal		Author:Stephen Clark (University of Edinburgh, Edinburgh UK);David Weir (University of Sussex, East Sussex UK)
+Ribas (1995), Li and Abe (1998), McCarthy (2000), and Wagner (2000) all use some kind of thresholding when dealing with counts in the hierarchy (although not in the context of a chi-square test).
+
+Title:J02-2003		Conference:Computational Linguistics Journal		Author:Stephen Clark (University of Edinburgh, Edinburgh UK);David Weir (University of Sussex, East Sussex UK)
+We used McCarthys (2000) implementation of MDL.
+
+Title:J02-2003		Conference:Computational Linguistics Journal		Author:Stephen Clark (University of Edinburgh, Edinburgh UK);David Weir (University of Sussex, East Sussex UK)
+Alternative Class-Based Estimation Methods The approaches used for comparison are that of Resnik (1993, 1998), subsequently developed by Ribas (1995), and that of Li and Abe (1998), which has been adopted by McCarthy (2000).
+
+Title:W02-1016		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Chris Brew (Ohio State University, Columbus OH);Sabine Schulte Im Walde (University of Stuttgart, Stuttgart Germany)
+6 Related work Levins (Levin, 1993) classi cation has provoked several studies that aim to acquire lexical semantic information from corpora using cues pertaining to mainly syntactic structure Score Method Cluster 1.0 both freuen argern 1.0 skew liegen sitzen stehen 0.96 skew dienen folgen helfen 0.96 skew beschreiben charakterisieren interpretieren 0.96 skew beharren insistieren, pochen 0.96 bcos liegen stehen 0.93 skew liefern vermitteln zustellen 0.93 both d ammern nieseln regnen schneien 0.93 skew ahnen vermuten wissen Table 5: Cluster quality by origin (Merlo and Stevenson, 2001; Schulte im Walde, 2000; Lapata, 1999; McCarthy, 2000; Lapata and Brew, 1999).
+
+Title:C02-1013		Conference:International Conference on Computational Linguistics		Author:John Carroll (University of Sussex, East Sussex UK);Ted Briscoe (Cambridge University, Cambridge UK)
+Research on unsupervised acquisition of lexical information from corpora, such as argument structure of predicates (Briscoe and Carroll, 1997; McCarthy, 2000), word classes for disambiguation (Clark and Weir, 2001), and collocations (Lin 1999), has used grammatical relation/head/dependent tuples
+
+Title:C02-1132		Conference:International Conference on Computational Linguistics		Author:Daniel Gildea (University of Pennsylvania, Philadelphia PA)
+McCarthy (2000), Merlo and Stevenson (2001), and Schulte im Walde (2000) have evaluated their systems accuracy against human judgments of verb classification, with the comprehensive verb classes of Levin (1993) often serving as a gold standard.
+
+Title:C02-1132		Conference:International Conference on Computational Linguistics		Author:Daniel Gildea (University of Pennsylvania, Philadelphia PA)
+As in McCarthy (2000), the nouns are classified using WordNet.
+
+Title:C02-1132		Conference:International Conference on Computational Linguistics		Author:Daniel Gildea (University of Pennsylvania, Philadelphia PA)
+This idea has been used by McCarthy (2000) to identify verbs participating in specific alternations by looking for overlap between nouns used in different positions, and by using WordNet to classify role fillers into semantic categories.
+
+Title:J03-2004		Conference:Computational Linguistics Journal		Author:Mirella Lapata (University of Sheffield, Sheffield UK);Alex Lascarides (University of Edinburgh, Edinburgh UK)
+Probabilities can be defined in terms of senses from a semantic hierarchy by exploiting the fact that the senses can be grouped into classes consisting of semantically similar senses (Resnik 1993; Clark and Weir 2001; McCarthy 2000; Li and Abe 1998).
+
+Title:J03-2004		Conference:Computational Linguistics Journal		Author:Mirella Lapata (University of Sheffield, Sheffield UK);Alex Lascarides (University of Edinburgh, Edinburgh UK)
+Furthermore, in agreement with other lexical acquisition studies (Merlo and Stevenson 2001; Barzilay and McKeown 2001; Siegel and McKeown 2000; Light 1996; McCarthy 2000; Rooth et al. 1999), we showed that it is possible to extract semantic information from corpora even if they are not semantically annotated in any way.
+
+Title:J03-3005		Conference:Computational Linguistics Journal		Author:Frank Keller (University of Edinburgh, Edinburgh UK);Mirella Lapata (University of Sheffield, Sheffield UK)
+Other, more sophisticated class-based methods do away with the simplifying assumption that the argument co-occurring with a given predicate (adjective, noun, verb) is distributed evenly across its conceptual classes and attempt to find the right level of generalization in a concept hierarchy, by discounting, for example, the contribution of very general classes (Clark and Weir 2001; McCarthy 2000; Li and Abe 1998).
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+Note that we did not hand-verify that individual verbs allowed or disallowed the alternation, as McCarthy (2000) had done, because we wanted to evaluate our method in the presence of noise of this kind.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+The two profiles become: a19a21a20a23a22a23a24a26a25a28a27 a29a32a31a34a33a35a37a36a6a35a39a38a40a37a36a6a35a37a38a41a37a36a4a35a39a36a14a35a37a36a6a35a39a36a14a35a37a36a6a35a39a38a41a37a36a6a35a37a38a43a42a13a44 a19a21a20a23a22a23a24a26a25a28a27a14a30 a31a34a33a35a37a36a6a35a39a36a6a35a37a36a14a35a39a38a45a39a36a6a35a37a38a45a39a36a4a35a39a38a41a37a36a6a35a37a38a41a37a36a6a35a39a36a6a35a46a44 In the first method (that of McCarthy, 2000), the two profiles become identical
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+Because we demonstrate our new SPD measure on the same problem as McCarthy (2000), we provide more detail of her method here, for comparison.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+The method addresses conceptual problems of an earlier measure proposed by McCarthy (2000), which was limited to tree cut models (Li and Abe, 1998) and failed to distinguish detailed semantic differences between them.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+As in McCarthy (2000), we cast argument alternation detection as a comparison of sense profiles across two different argument positions of a verb.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+This means that the kind of straightforward propagation method used by McCarthy (2000) is not applicable to sense profiles of this type.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+We illustrate with an example the differences between our measure and both McCarthys (2000) method and general vector distance measures.
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+4.2 Verb Selection We evaluate our method on the causative alternation in order for comparison to the earlier method of McCarthy (2000).
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+2 Related Work Our method draws on, and extends, earlier work in verb lexical semantics (Resnik, 1993; McCarthy, 2000).
+
+Title:W04-2411		Conference:International Conference on Computational Natural Language Learning		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+By comparison, McCarthy (2000) attained 73% accuracy on her set of hand-selected test verbs in a similar task; however, when applied to our randomly selected verbs, our replication of her method achieved an overall performance of 67%, and performed very poorly on low frequency verbs.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+We will refer in the remainder of the paper to such a probability distribution over WordNet as a selectional profile. As mentioned above, McCarthy (2000) suggested the use of selectional profiles to capture generalizations over argument slots, so that two argument slots could be effectively compared for detecting alternations.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+We illustrate with an example the differences between our measure and both McCarthys (2000) method and general vector distance measures.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+The two profiles become: a22a24a23a28a25a28a27a50a29a32a31a4a33a51a34a52a36 a38a44a42a19a38a40a39 a41a44a42a19a38a44a39 a45a44a42a14a38a40a42a6a38a44a42a19a38a40a42a6a38a44a42a19a38a40a39 a45a44a42a19a38a44a39a54a53a4a47 a22a24a23a28a25a28a27a50a29a32a31 a48 a34a52a36 a38a44a42a19a38a40a42a19a38a44a42a6a38a40a39 a46a40a42a19a38a44a39 a46a40a42a14a38a40a39 a45a44a42a19a38a44a39 a45a44a42a19a38a40a42a19a38a20a47 In the first method (that of McCarthy, 2000), the two profiles become identical.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+(For comparison, McCarthy (2000) achieves 73% on her set of hand-selected verbs, but our implementation of her method yields much lower performance on our randomly selected test verbs.)
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+(Note that we did not hand-verify that individual verbs allowed or disallowed the alternation, as McCarthy (2000) had done, because we wanted to evaluate our method in the presence of noise of this kind.)
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+The method addresses conceptual problems of an earlier measure proposed by McCarthy (2000), which was limited to tree cut models (Li and Abe, 1998) and failed to distinguish detailed semantic differences between them.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+tactic positions (or slots) that alternatesuch as snow occurring as intransitive subject and transitive object in the causative alternation in (1) (Merlo and Stevenson, 2001; McCarthy, 2000).
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+In contrast to comparing head nouns directly, McCarthy (2000) instead compares the selectional preferences for each of the two slots (captured by a probability distribution over WordNet).
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+This means that the kind of straightforward propagation method used by McCarthy (2000) is not applicable to selectional profiles of this type.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+By comparison, McCarthy (2000) attained 73% accuracy on her set of hand-selected test verbs in a similar task; however, when applied to our various sets of randomly selected verbs, our replication of her method performed very poorly, rarely reaching above chance performance.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+In this example, one can propagate the distributions to the lowest common subsumers (i.e. , B, C, and D) as in McCarthy (2000).
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+The approach of McCarthy (2000), on the other hand, addresses the generalization problem by comparing probability distributions over WordNet.
+
+Title:W04-2605		Conference:Computational Lexical Semantics Workshop		Author:Vivian Tsang (University of Toronto, Toronto ON);Suzanne Stevenson
+4.2 Verb Selection We evaluate our method on the causative alternation in order for comparison to the earlier methods of McCarthy (2000) and Merlo and Stevenson (2001).
+
+Title:J04-1003		Conference:Computational Linguistics Journal		Author:Mirella Lapata (University of Sheffield, Sheffield UK);Chris Brew (Ohio State University, Columbus OH)
+Related Work Levins (1993) seminal study on diathesis alternations and verb semantic classes has recently influenced work in dictionary creation (Dorr 1997; Dang et al. 1998; Dorr and Jones 1996) and notably lexicon acquisition on the basis of the assumption that verbal meaning can be gleaned from corpora using cues pertaining to syntactic structure (Merlo and Stevenson 2001; Schulte im Walde 2000; Lapata 1999; McCarthy 2000).
+
+Title:J04-1003		Conference:Computational Linguistics Journal		Author:Mirella Lapata (University of Sheffield, Sheffield UK);Chris Brew (Ohio State University, Columbus OH)
+These exploit syntactic cues, or at least cues that are plausibly related to syntax (Merlo and Stevenson 2001; Schulte im Walde 2000; Lapata 1999; McCarthy 2000)
+
+Title:W04-2206		Conference:Workshop On Multilingual Linguistic Resources		Author:Sanae Fujita (NTT Communication Science Laboratories, Kyoto Japan);Francis Bond
+The mapping for the dependents in the alternation can be taken from existing lexical resources (Dorr, 1997), learned from corpora (McCarthy, 2000) or learned from existing lexicons (Bond et al. , 2002).
+
+Title:W04-2206		Conference:Workshop On Multilingual Linguistic Resources		Author:Sanae Fujita (NTT Communication Science Laboratories, Kyoto Japan);Francis Bond
+Another extension is to apply the method to other alternations, using either linguists data or automatically acquired alternations (Oishi and Matsumoto, 1997; Furumaki and Tanaka, 2003; McCarthy, 2000).
+
+Title:J05-1004		Conference:Computational Linguistics Journal		Author:Martha Palmer (University of Rochester, Rochester NY);Daniel Gildea (University of Pennsylvania, Philadelphia PA);Paul Kingsbury
+More recent work has attempted to group verbs into classes based on alternations, usually taking Levins classes as a gold standard (McCarthy 2000; Merlo and Stevenson 2001; Schulte im Walde 2000; Schulte im Walde and Brew 2002).
+
+Title:D07-1039		Conference:Conference on Empirical Methods in Natural Language Processing		Author:Diana McCarthy (University of Sussex, East Sussex UK);Sriram Venkatapathy (International Institute of Information Technology, Hyderabad India);Aravind K. Joshi (University of Pennsylvania, Philadelphia PA)
+We hope to use these models in tasks such as diathesis alternation detection (McCarthy, 2000; Tsang and Stevenson, 2004) and contrast with WordNet models previously used for this purpose.
+
+Title:P12-1044		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Thomas Lippincott;Diarmuid ? S¨¦aghdha;Anna Korhonen
+In a sense this is encouraging, as it motivates our most exciting future work: augmenting this simplemodel to explicitly capture complementary infor mation such as distributional semantics (Blei et al, 2003), diathesis alternations (McCarthy, 2000) and selectional preferences (O? Se?aghdha, 2010)
+

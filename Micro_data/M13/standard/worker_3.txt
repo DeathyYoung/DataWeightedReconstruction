@@ -1,0 +1,15 @@
+Current specialized planners for query processing are designed to work in local, reliable, and predictable environments
+, Ariadne [30], TSIMMIS [8], and Whirl [9]) extend the database querying models using combinations of templates or menu-based forms to incorporate queries that are restricted to a single domain (or a set of domains)
+Ariadne uses an independent domain model [30] for each application, that integrates the information from the underlying sources and provides a single terminology for querying
+Ariadne¡¯s Theseus [30] pre-compiles part of the integration model and uses a local search method for generating query plans across a large number of sources
+Research in information gathering has dealt, among other issues, with using multiple information sources to gather the requested (or relevant) information (cf
+Research in query answering and information retrieval has dealt, among others, with using multiple information sources to gather the requested (or relevant) information (cf
+In some cases, the interleaving of planning and execution [3, 7] is a good strategy to deal with volatile information
+Query planning (Knoblock 1995) involves generating a set of sub-queries from a high-level user query based on the data source locations that have parts of the required information to answer the query
+There are some previously published works on information manipulation [7, 2] which consider not only information gathering (or in other words, sensing) but also actions
+Recent applications have illustrated the power of planning techniques in remarkably complex v irtual environments such as information g athering (Knoblock, 1995), intelligent t utoring (Rickel and Johnson, 1997) and military simulations (Hill, 1997)
+In some cases a loose coupling of the planner and executor may be sufficient, but in the case where the planner is executing actions in parallel, it may be possible to refine plans in which other actions continue to be executed (Knoblock 1995)
+Sage [14] is an augmented version of UCPOP that constructs plans for how to gather information during plan execution
+The ability to plan sensory actions too was realized in various STRIPS-based approaches, such as IPEM (Ambros-Ingerson & Steel 1988), UWL (Etzioni et al
+Early work integrating planning and execution like STRIPS/PLANEX (Fikes, 1971a)(Fikes, 1971b), Universal Plans (Schoppers, 1987), IPEM (Allen, 1990), BUMP (Olawsky, 1990), XII (Golden, 1994), SIPE-2/PRS-CL (Wilkins, 1988 (Georgeff, 1988) e SAGE (Knoblock, 1995), as well early works in planning with incomplete information like UCPOP (Penberthy, 1992), BURIDAN and C-BURIDAN (Kushmeric, 1995), among others, had been collaborated to the
+The RETSINA planner has some similarities with Knoblock¡¯s Sage [7], mainly in the concurrency of planning and information gathering and the close connection between the planner and the execution monitor through monitoring fla ws

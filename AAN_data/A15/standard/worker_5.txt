@@ -1,0 +1,15 @@
+Chiang (2005) introduced a constituent feature to reward phrases that match a syntactic tree but did not yield significant improvement
+A hierarchical phrase-based translation model (HPTM) reorganizes phrases into hierarchical ones by reducing sub-phrases to variables (Chiang 2005)
+The model of Chiang (2005) employs a synchronous context-free grammar to allow hierarchical approaches to reordering
+Phrase-based rules have also been replaced with synchronous context free grammars (Chiang, 2005) and with tree fragments (Huang and Knight, 2006)
+Marton and Resnik (2008) introduced features defined on constituent labels to improve the Hiero system (Chiang, 2005)
+, 2006) machine translation system usually relies on a very large set of translation rules extracted from bi-lingual training data with heuristic methods on word alignment results
+Marton and Resnik (2008) exploit shallow correspondences of hierarchical rules with source syntactic constituents extracted from parallel text, an approach also investigated by Chiang (2005)
+Introduction Hierarchical phrase-based translation (Chiang 2005) is one of the current promising approaches to statistical machine translation (SMT)
+Chiang (2005) introduced a hierarchical phrasebased translation model that combined the strength of the phrase-based approach and a synchronous-CFG formalism (Aho and Ullman, 1969): A rewrite system initiated from a start symbol which synchronously rewrites paired nonterminals
+In hierarchical phrase-based translation (Chiang, 2005) a weighted synchronous context-free grammar is induced from parallel text, the search is based on CYK+ parsing (Chappelier and Rajman, 1998) and typically carried out using the cube pruning algorithm (Huang and Chiang, 2007)
+The hierarchical phrase-based model (Chiang, 2005) used hierarchical phrase pairs to strengthen the generalization ability of phrases and allow long distance reorderings
+Additionally, we incorporate the pruning techniques used in (Chiang 2005), by which any hypothesis with a probability lower thantimes the highest probability for one sentence is discarded
+2 Hierarchical translation Hierarchical systems (Chiang, 2005) induce a context-free grammar with one non-terminal directly from the parallel corpus, with the advantage of not requiring any additional knowledge source or tools, such as a treebank or a parser
+The most common algorithm for decoding with SCFG is currently CKY+ with cube pruning works for both hierarchical and syntactic systems, as implemented in Hiero (Chiang, 2005), Joshua (Li et al
+More recent work handles word order differences between source and target languages using hierarchical methods that draw on Inversion Transduction Grammar (ITG), e

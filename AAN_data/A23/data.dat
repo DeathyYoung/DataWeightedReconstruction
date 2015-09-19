@@ -1,0 +1,87 @@
+Title:A94-1006		Conference:Applied Natural Language Processing Conference		Author:Ido Dagan (AT&T Bell Labs, Murray Hill NJ);Kenneth Ward Church
+We propose a semi-automatic tool, ter- might, that helps professional translators and terminologists identify technical terms and their translations. The tool makes use of part-of-speech tagging and word- alignment programs to extract candidate terms and their translations. Although the extraction programs are far from perfect, it isn't too hard for the user to filter out the wheat from the chaff. The extraction algorithms emphasize completeness. Alter- native proposals are likely to miss impor- tant but infrequent terms/translations. To reduce the burden on the user during the filtering phase, candidates are presented in a convenient order, along with some useful concordance evidence, in an interface that is designed to minimize keystrokes. Ter- might is currently being used by the trans-...
+
+Title:P95-1033		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Dekai Wu (University of Science and Technology, Clear Water Bay Hong Kong)
+1 Introduction Parallel corpora have been shown to provide an extremely rich source of constraints for statistical analysis (e.g. , Brown et al. 1990; Gale & Church 1991; Gale et al. 1992; Church 1993; Brown et al. 1993; Dagan et al. 1993; Dagan & Church 1994; Fung & Church 1994; Wu & Xia 1994; Fung & McKeown 1994).
+
+Title:P95-1033		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Dekai Wu (University of Science and Technology, Clear Water Bay Hong Kong)
+A simpler, related idea of penalizing distortion from some ideal matching pattern can be found in the statistical translation (Brown et al. 1990; Brown et al. 1993) and word alignment (Dagan et al. 1993; Dagan & Church 1994) models.
+
+Title:J96-1001		Conference:Computational Linguistics Journal		Author:Frank A. Smadja (NetPatrol Consulting, Haifa Israel);Vasileios Hatzivassiloglou (Columbia University, New York NY);Kathleen R. McKeown
+Note that these problems are quite similar to the difficulties in translating technical terminology, which also is usually part of a particular technical sublanguage (Dagan and Church 1994).
+
+Title:J96-1001		Conference:Computational Linguistics Journal		Author:Frank A. Smadja (NetPatrol Consulting, Haifa Israel);Vasileios Hatzivassiloglou (Columbia University, New York NY);Kathleen R. McKeown
+Another approach, begun more recently than our work, is taken by Dagan and Church (1994), who use statistical methods to translate technical terminology.
+
+Title:P96-1018		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Masahiko Haruno (NTT Communication Science Laboratories, Kyoto Japan);Takefumi Yamazaki
+1 Introduction Corpus-based approaches based on bilingual texts are promising for various applications(i.e. , lexical knowledge extraction (Kupiec, 1993; Matsumoto et al. , 1993; Smadja et al. , 1996; Dagan and Church, 1994; Kumano and Hirakawa, 1994; Haruno et al. , 1996), machine translation (Brown and others, 1993; Sato and Nagao, 1990; Kaji et al. , 1992) and information retrieval (Sato, 1992)).
+
+Title:A97-1050		Conference:Applied Natural Language Processing Conference		Author:Philip Resnik (University of Maryland, College Park MD);I. Dan Melamed (University of Pennsylvania, Philadelphia PA)
+This paper applies the SABLE system to a much smaller (approximately 400,000 word) corpus in a technical domain, and assesses its potential contribution to the semi-automatic acquisition process outlined above, very much in the spirit of Dagan and Church (1994) and Daille et al.
+
+Title:J97-3002		Conference:Computational Linguistics Journal		Author:Dekai Wu (University of Science and Technology, Clear Water Bay Hong Kong)
+In the case of word_align (Dagan, Church, and Gale 1993; Dagan and Church 1994), a penalty is imposed according to the deviation from an ideal matching, as constructed by linear interpolation?
+
+Title:W97-0119		Conference:Workshop On Very Large Corpora		Author:Pascale Fung (University of Science and Technology, Clear Water Bay Hong Kong);Kathleen R. McKeown (Columbia University, New York NY)
+1 Introduction Despite a surge in research using parallel corpora for various machine translation tasks (Brown et al. 1993),(Brown et al. 1991; Gale & Church 1993; Church 1993; Dagan & Church 1994; Simard et al. 1992; Chen 1993; Melamed 1995; Wu & Xia 1994; Wu 1994; Smadja et aI.
+
+Title:W97-1304		Conference:Workshop On Operational Factors In Practical Robust Anaphora Resolution For Unrestricted Texts		Author:Hiromi Nakaiwa (NTT Communication Science Laboratories, Kyoto Japan)
+Several methods have been proposed with regard to acquiring various kinds of rules such as translation rules, grammar rules, dictionary entries and so on from bilingual corpora (Dagan et al. , 1991; Dagan and Church, 1994; Fung and Church, 1994; Tanaka, 1994; Yamada et al. , 1995).
+
+Title:P97-1065		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Katerina T. Frantzi (Manchester Metropolitan University, Manchester UK)
+(Justeson and Katz, 1995) and (Dagan and Church, 1994) use the frequency of occurrence of the candidate string as a measure of its likelihood to be a term.
+
+Title:P97-1065		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Katerina T. Frantzi (Manchester Metropolitan University, Manchester UK)
+The choice of the linguistic filter affects the precision and recall of the results: having a 'closed' filter, that is, a strict one regarding the part-of-speech sequencies it accepts, like the N + that (Dagan and Church, 1994) use, wilt improve the precision but have bad effect on the recall.
+
+Title:P97-1065		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Katerina T. Frantzi (Manchester Metropolitan University, Manchester UK)
+(Dagan and Church, 1994), accept sequencies of nouns, which give them high precision, but not such a good recall as that of (Justeson and Katz, 1995), which allow some prepositions (i.e. oj~ to be part of the extracted candidate terms.
+
+Title:W97-0114		Conference:Workshop On Very Large Corpora		Author:Hiromi Nakaiwa (NTT Information and Communication Systems Laboratories, Yokosuka Japan)
+Several methods have been proposed with regard to aligning sentences (Brown et al. , 1991; Gale and Church, 1991; Haruno and Yamazaki, 1996; Kay and l~osche/sen, 1993), alJs~nlng words (Church, 1993; Kupiec, 1993; Matsumoto et al. , 1993; Wu, 1995; Yamada et al. , 1996) and acquiring rules from bilingual corpora (Dagan et al. , 1991; Dagan and Church, 1994; Fung and Church, 1994; Tana~, 1994; Yamada et al. , 1995).
+
+Title:P98-1117		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Philippe Langlais (Royal Institute of Technology, Stockholm Sweden);Michel Simard (University of Montreal, Montreal QU);Jean Veronis (University of Provence, Aix-en Provence France)
+Such a tool has proved extremely useful not only for translators, but also for bilingual lexicographers (Langlois, 1996) and terminologists (Dagan and Church, 1994).
+
+Title:P98-1004		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Lars Ahrenberg (Linkoping University, Linkoping Sweden);Mikael Andersson;Magnus Merkel
+Dagan and Church (1994) reports that their Termight system helped double the speed at which terminology lists could be compiled at the AT&T Business Translation Services.
+
+Title:P98-1069		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Pascale Fung (University of Science and Technology, Clear Water Bay Hong Kong);Lo Yuen Yee
+Some of the early statistical terminology translation methods are (Brown et al. , 1993; Wu and Xia, 1994; Dagan and Church, 1994; Gale and Church, 1991; Kupiec, 1993; Smadja et al. , 1996; Kay and RSscheisen, 1993; Fung and Church, 1994; Fung, 1995b).
+
+Title:W99-0602		Conference:2000 Joint SIGDAT Conference on Empirical Methods in Natural Language Processing and Very Large Corpora		Author:Michel Simard (University of Montreal, Montreal QU)
+Bilingual alignments have so far shown that they can play multiple roles in a wide range of linguistic applications, such as computer assisted translation (Isabelle et al. , 1993; Brown et al. , 1990), terminology (Dagan and Church, 1994) lexicography (Langlois, 1996; Klavans and Tzoukermann, 1995; Melamed, 1996), and cross-language information retrieval (Nie et al. , * This research was funded by the Canadian Department of Foreign Affairs and International Trade (http://~.dfait-maeci.gc.ca/), via the Agence de la francophonie (http://~
+
+Title:W99-0602		Conference:2000 Joint SIGDAT Conference on Empirical Methods in Natural Language Processing and Very Large Corpora		Author:Michel Simard (University of Montreal, Montreal QU)
+However, in the experiments described here, we focus on alignment at the level of sentences, this for a number of reasons: First, sentence alignments have so far proven their usefulness in a number of applications, e.g. bilingual lexicography (Langlois, 1996; Klavans and Tzoukermann, 1995; Dagan and Church, 1994), automatic translation verification (Macklovitch, 1995; Macklovitch, 1996) and the automatic acquisition of knowledge about translation (Brown et al. , 1993).
+
+Title:P99-1043		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Pascale Fung (University of Science and Technology, Clear Water Bay Hong Kong);Liu Xiaohu;Chi-Shun Cheung
+Co-occurrence information between neighboring words and words in the same sentence has been used in phrase extraction (Smadja, 1993; Fung and Wu, 1994), phrasal translation (Smadja et al. , 1996; Kupiec, 1993; Wu, 1995; Dagan and Church, 1994), target word selection (Liu and Li, 1997; Tanaka and Iwasaki, 1996), domain word translation (Fung and Lo, 1998; Fung, 1998), sense disambiguation (Brown et al. , 1991; Dagan et al. , 1991; Dagan and Itai, 1994; Gale et al. , 1992a; Gale et al. , 1992b; Gale et al. , 1992c; Shiitze, 1992; Gale et al. , 1993; Yarowsky, 1995), and even recently for query translation in cross-language IR as well (Ballesteros and Croft, 1998).
+
+Title:A00-1020		Conference:Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Sanda M. Harabagiu (Southern Methodist University, Dallas TX);Steven J. Maiorano (Intellectual Property Association, Washington D.C.)
+Most of the research has focused on bilingual terminology identification, either as parallel multiwords forms (e.g. the ChampoUion system (Smadja et a1.1996)), technical terminology (e.g. the Termight system (Dagan and Church, 1994) or broad-coverage translation lexicons (e.g. the SABLE system (Resnik and Melamed, 1997)).
+
+Title:N03-1035		Conference:Human Language Technologies		Author:Nina Wacholder (Rutgers University, New Brunswick NJ);Peng Song
+NP chunks (Abney 1991; Ramshaw and Marcus 1995; Evans and Zhai 1996; Frantzi and Ananiadou 1996) and technical terms (Dagan and Church 1994; Justeson and Katz 1995; Daille 1996; Jacquemin 2001; Bourigault et al. 2002) fall into this difficult-toassess category.
+
+Title:N03-1035		Conference:Human Language Technologies		Author:Nina Wacholder (Rutgers University, New Brunswick NJ);Peng Song
+2 The two techniques for automatic identification were the technical terms algorithm of Justeson and Katz (1995) and the head sorting method (Dagan and Church (1994); Wacholder (1998).
+
+Title:W03-1807		Conference:Workshop on Multiword Expressions		Author:Scott S. L. Piao (Lancaster University, Lancaster UK);Paul Rayson;Dawn Archer;Andrew T. Wilson;Tony McEnery
+Related Works Generally speaking, approaches to MWE extraction proposed so far can be divided into three categories: a) statistical approaches based on frequency and co-occurrence affinity, b) knowledgebased or symbolic approaches using parsers, lexicons and language filters, and c) hybrid approaches combining different methods (Smadja 1993; Dagan and Church 1994; Daille 1995; McEnery et al. 1997; Wu 1997; Wermter et al. 1997; Michiels and Dufour 1998; Merkel and Andersson 2000; Piao and McEnery 2001; Sag et al. 2001a, 2001b; Biber et al. 2003).
+
+Title:P05-1075		Conference:Annual Meeting of the Association of Computational Linguistics		Author:Paul Deane (Educational Testing Service, Princeton NJ)
+It is true that various term extraction systems have been developed, such as Xtract (Smadja 1993), Termight (Dagan & Church 1994), and TERMS (Justeson & Katz 1995) among others (cf.
+
+Title:W06-2403		Conference:Workshop On Multi-Word-Expressions In A Multilingual Context		Author:Scott S. L. Piao (Lancaster University, Lancaster UK);Guangfan Sun (China Center for Information Industry Development, Beijing China);Paul Rayson;Qi Yuan
+2 Related Work The issue of MWE processing has attracted much attention from the Natural Language Processing (NLP) community, including Smadja, 1993; Dagan and Church, 1994; Daille, 1995; 1995; McEnery et al. , 1997; Wu, 1997; Michiels and Dufour, 1998; Maynard and Ananiadou, 2000; Merkel and Andersson, 2000; Piao and McEnery, 2001; Sag et al. , 2001; Tanaka and Baldwin, 2003; Dias, 2003; Baldwin et al. , 2003; Nivre and Nilsson, 2004 Pereira et al,.
+
+Title:E09-1057		Conference:Annual Meeting of The European Chapter of The Association of Computational Linguistics		Author:Els Lefever (University College Ghent, Ghent Belgium; Ghent University, Ghent Belgium);Lieve Macken;V¨¦ronique Hoste
+On the one hand, the linguistically-based or rule-based approaches use linguistic information such as PoS tags, chunk information, etc. to filter out stop words and restrict candidate terms to predefined syntactic patterns (Ananiadou, 1994), (Dagan and Church, 1994).
+
+Title:E09-2012		Conference:Annual Meeting of The European Chapter of The Association of Computational Linguistics		Author:Athina Michou;Violeta Seretan
+Our system is most similar to Termight (Dagan and Church, 1994) and TransSearch (Macklovitch et al., 2000).
+
+Title:W12-3156		Conference:Workshop on Statistical Machine Translation		Author:Marine Carpuat;Michel Simard
+In fact, many automatic tools have been proposed to assist humans in this important task (Itagaki et al, 2007; Dagan and Church, 1994, among others)
+

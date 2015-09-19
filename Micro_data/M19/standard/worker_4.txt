@@ -1,0 +1,15 @@
+We present a framework for statistical machine translation of natural languages based on direct maximum entropy mod- els, which contains the widely used sour- ce-channel approach as a special case
+All knowledge sources are treated as feature functions, which depend on the source language sentence, the target language sentence and possible hidden variables
+This approach allows a baseline machine translation system to be extended easily by adding new feature functions
+log-linear interpolation [7] to combine the LM, TM, and joint probabilities, thus capturing this frequency information
+The maximum entropy (MaxEnt) model with moment constraints (MaxEnt-MC) on binary features has been shown effective in natural language processing (NLP) (e
+Log-linear interpolation models, which can be formally derived within the maximum entropy framework [1], are widely applied to statistical machine translation (SMT) [2]
+Typically, the log-linear parameters are optimized for optimum translation accuracy on a development set [19]
+The log linear model [8] provides a natural framework to integrate many components and to weigh them based on their performance by maximizing the likelihood on a parallel training corpus f S
+Och used an exchange algorithm to obtain an optimization criterion for bilingual word classes by applying a maximum-likelihood approach to the joint probability of a parallel corpus [8]
+Latter systems generalized the decoding approach to form what are now called hybrid generative¨Cdiscriminative models, using maximum entropy models (Och and Ney 2002) or direct optimization of error rates (Och 2003) to optimize functions
+Och used maximum entropy models to combine features into a log-linear model and improve the AT approach in [8] [9]
+This system directly models the posterior probability using a log-linear combination of several models [16]
+language model weight are optimized to maximize the BLEU score using the downhill simplex method [16]
+Och (2003) introduced minimum error rate training (MERT) as an alternative training regime to the conditional likelihood objective previously used with log-linear translation models (Och & Ney, 2002)
+In addition, unlike normal noisy-channel models, log-linear models need make no assumptions about the independence of features, allowing the addition of an arbitrary number of possibly non-independent additional features [11]

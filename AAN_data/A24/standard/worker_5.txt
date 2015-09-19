@@ -1,0 +1,15 @@
+We propose a method for identifying diathesis alter- nations where a particular argument type is seen in slots which have different grammatical roles in the alternating forms. 
+The method uses selectional pref- erences acquired as probability distributions over WordNet. 
+Preferences for the target slots are com- pared using a measure of distributional similarity. 
+The method is evaluated on the causative and cona- tive alternations, but is generally applicable and does not require a priori knowledge specific to the alternation.
+Also, the method of counting correctness entails that some "correct" classes may be split across distant clusters (this level of detail is not reported), so it is unclear how coherent the class behaviour actually is. McCarthy (2000) proposes a method to identify diathesis alternations.
+Another extension is to apply the method to other alternations, using either linguists data or automatically acquired alternations (Oishi and Matsumoto, 1997; Furumaki and Tanaka, 2003; McCarthy, 2000).
+The mapping for the dependents in the alternation can be taken from existing lexical resources (Dorr, 1997), learned from corpora (McCarthy, 2000) or learned from existing lexicons (Bond et al. , 2002).
+In a sense this is encouraging, as it motivates our most exciting future work: augmenting this simplemodel to explicitly capture complementary infor mation such as distributional semantics (Blei et al, 2003), diathesis alternations (McCarthy, 2000) and selectional preferences (O? Se?aghdha, 2010)
+By comparison, McCarthy (2000) attained 73% accuracy on her set of hand-selected test verbs in a similar task; however, when applied to our randomly selected verbs, our replication of her method achieved an overall performance of 67%, and performed very poorly on low frequency verbs.
+We will refer in the remainder of the paper to such a probability distribution over WordNet as a selectional profile. As mentioned above, McCarthy (2000) suggested the use of selectional profiles to capture generalizations over argument slots, so that two argument slots could be effectively compared for detecting alternations.
+The method addresses conceptual problems of an earlier measure proposed by McCarthy (2000), which was limited to tree cut models (Li and Abe, 1998) and failed to distinguish detailed semantic differences between them.
+In contrast to comparing head nouns directly, McCarthy (2000) instead compares the selectional preferences for each of the two slots (captured by a probability distribution over WordNet).
+This means that the kind of straightforward propagation method used by McCarthy (2000) is not applicable to selectional profiles of this type.
+We, like others in a computational framework, have extended this idea by showing that statistics over the alternants of a verb effectively capture information about its class (Lapata 1999; McCarthy 2000; Lapata and Brew 1999).
+On the other hand, when learning of thematic role assignment has been the explicit goal, the text has been semantically annotated (Webster and Marcus 1989), or external semantic resources have been consulted (Aone and McKee 1996; McCarthy 2000).

@@ -1,0 +1,15 @@
+This paper describes a system that leads us to believe in the feasibility of constructing natural spoken dialogue systems in task-oriented domains
+It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors
+Robustness is achieved by a combination of statistical error post-correction, syntactically- and semantically-driven robust parsing, and extensive use of the dialogue context
+We present an evaluation of the system using time-to-completion and the quality of the final solution that suggests that most native speakers of English can use the system successfully with virtually no training
+This is the model that details all the possibilities that can occur in the simulation Although being examined in particular are semi-structured dialogues such as conversations and interviews, the modeling of these types of simulations are considerably complex [1]
+, systemically analyzed the plan recognition theories, techniques and methods
+As stated by Allen [3], two methods can be considered for processing NL commands: the top-down and the bottom-up approach
+The other goal is the modification of the natural language processing capabilities into speaker-independence for limited domains and vocabularies, and the processing of spoken language [10] (cf
+Alternatively, the system developer might pursue the more rigorous approach based on discourse theory, attempting to model in the implemented system an understanding of the purpose behind the user’s utterance { whether it is a query, a conrmation and so on { and then getting the system to respond appropriately (Allen, Miller, Ringger and Sikorski 1996)
+As pointed out in [AMRS96] it is better to have a dialogue system that tries to guess a specificinterpretation in case of ambiguity rather than ask the user for a clarification
+[1], do display advanced dialogue capabilities, such as employing user-modeling and domain reasoning
+Our approach is related to other recent work on incremental language processing for dialogue systems (Allen et al
+There has been much related work on implementing collaborative dialogues in the context of specific applications, based either on discourse planning techniques (Chu-Carroll & Carberry 1995; Ahn et al
+, 1996) would respond to this apparently contradictory sequence of commands by sending the very same train, our enhanced HCI system notes the contradiction, and, by assessing the problem, identifies a possible mistake in its choice of referent for ‘the Boston train’
+Like (Brick and Scheutz, 2007) we analyze an utterance for its meaning, not just for syntactic structure (Allen et al

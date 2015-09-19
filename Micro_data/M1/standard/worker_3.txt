@@ -1,0 +1,15 @@
+We propose a formal model of Cross-Language Information Retrieval that does not rely on either query translation or document translation
+Our approach leverages recent advances in language modeling to directly estimate an accurate topic model in the target language, starting with a query in the source language
+The model integrates popular techniques of disambiguation and query expansion in a unified formal framework
+We describe how the topic model can be estimated with either a parallel corpus or a dictionary
+We test the framework by constructing Chinese topic models from English queries and using them in the CLIR task of TREC9
+The model achieves performance around 95% of the strong mono-lingual baseline in terms of average precision
+Lavrenko and et al [11] adapted the relevance model (Model 1) in two ways to perform CLIR, both based on the KL-divergence scoring function
+Translation probabilities are widely used in CLIR for handling translation ambiguities or are even built as a part of the statistical language modeling for CLIR [6, 9, 14]
+[14] use either parallel corpora or a bilingual lexicon to estimate a relevance model between two languages, and the model is used for QE and disambiguation
+At present, query translation has become the most popular technique for CLIR [6]
+It has been shown that expanding the query (for example, as in relevance models [9]) remediates this eect by making the probability distribution of the words in the query more comparable to the probability distribution of the words in the document
+Recently the language modeling technique has been introduced to information retrieval area and shown considerable success in many applications [15-19]
+The task of Cross-Language Information Retrieval (CLIR) addresses a situation when a query is posed in one language but the system is expected to return the documents written in another language [11]
+Other methods include the cross-lingual relevance model [14], which integrates popular techniques of disambiguation and query expansion
+Here we present an approach to retrieving handwritten historical documents from a single author, using a relevance-based language model [11, 12]

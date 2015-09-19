@@ -1,0 +1,15 @@
+We describe a practical parser for unre- stricted dependencies. 
+The parser creates links between words and names the links according to their syntactic functions. 
+2.1 Pre-processing tools Parser The current version of the evaluation workbench employs one of the high performance super-taggers for English Conexors FDG Parser (Tapanainen and Jarvinen, 1997).
+In order to determine the head of noun phrases we use the FDG tagger (Tapanainen and Jarvinen, 1997) which also provides partial dependency relations between the constituents of a sentence.
+The two grammar systems to compare are Link Grammar (Sleator and Temperley, 1993) and the Conexor Functional Dependency Grammar parser (Tapanainen and Jarvinen, 1997) (henceforth referred to as Conexor FDG).
+Conexor FDG (Tapanainen and Jarvinen, 1997) is a commercial parser and grammar, based on the theory of Functional Dependency Grammar, and was originally developed at the University of Helsinki.
+This tagger is a rule-based, robust syntactic parser available for several languages and based on Constraint Grammar and Functional Dependency Grammar (Tapanainen and Jarvinen, 1997).
+We start by parsing the corpus with a dependency parser (we use Connexors FDG (Tapanainen and Jarvinen, 1997)), treating every verb with its dependent constituents as a clause.
+Length in characters), calculated based on linguistic pre-processing made with the English Functional Dependency Grammar (Tapanainen and Jarvinen, 1997) (e.g., Case, Part-of-speech), fetched from precompiled lists of information (e.g., Is first name?), and features based on predictions concerning the context of the token (e.g, Class of previous token).
+The first constraint potentially simplifies dependency parsing, and non-projective dependencies are relatively well understood in the dependency parsing community (Tapanainen and Jarvinen, 1997; McDonald et al., 2005).
+Additionally we used head-noun features that were obtained from preanalysis of the training data set using the FDG shallow parser from Conexor (Tapanainen and Jarvinen, 1997).
+To identify associative constructions, we first process our texts using Conexors FDG parser (Tapanainen and Jarvinen, 1997).
+It is developped at the Xerox Research Centre Europe (XRCE) and shares the same computationnal paradigm as the PNLPL approach (Jensen, 1992) and the FDGP approach (Tapanainen and Jarvinen, 1997).
+4.2 Generating Dependency Patterns Three dependency parsers were used for these experiments: MINIPAR3 (Lin, 1999), the Machinese Syntax4 parser from Connexor Oy (Tapanainen and Jarvinen, 1997) and the Stanford5 parser (Klein and Manning, 2003).
+The rules for linking dependents to heads can specify constraints on the intervening material between them, so that, for instance, certain links may be prevented from crossing barriers such as punctuation or lexical items with certain parts of speech or morphological properties (Collins 1996; Giguet and Vergne 1997; Tapanainen and Jarvinen 1997).

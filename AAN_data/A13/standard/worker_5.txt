@@ -1,0 +1,15 @@
+Corpus preprocessing is done as the following: sentence segmentation was performed using the tool from CCG group at UIUC 1; words are then tokenized and tagged with part-of-speech using MXPOST (Ratnaparkhi, 1996) and dependency parsing is performed using MSTParser (McDonald et al
+One sees this clear trend in the supervised NLP literature examples include the Perceptron algorithm for tagging (Collins, 2002), MIRA for dependency parsing (McDonald et al
+Supported by the Lynn and William Frankel Center for Computer Sciences, Ben Gurion University Current dependency parsers can be categorized into three families: local-and-greedy transitionbased parsers (e
+Moreover, under this view, SMT becomes quite similar to sequential natural language annotation problems such as part-of-speech tagging and shallow parsing, and the novel training algorithm presented in this paper is actually most similar to work on training algorithms presented for these task, e
+In particuler, Single-best MIRA (McDonald et al, 2005) uses only the single margin constraint for the runner up y with the highest score
+Alternatively, discriminative parsing is tractable with exact and efficient search based on dynamic programming (DP) if all features are restricted to be local, that is, only looking at a local window within the factored search space (Taskar et al
+, 2004; Attardi, 2006; Johansson and Nugues, 2007; Titov and Henderson, 2007), and graph-based models support exact inference in at most cubic time, which is efficient enough to make global discriminative training practically feasible (McDonald et al
+Parsing is performed using the usual pipeline approach, first with the TreeTagger analyzer (Schmid, 1994) and then with a state-of-the-art dependency parser (McDonald et al
+In fact, some structured prediction algorithms, such as the MIRA algorithm used in dependency parsing (McDonald et al
+In the second category are those that employ exhaustive inference algorithms, usually by making strong independence assumptions, as is the case for edge-factored models (Paskin, 2001; McDonald et al
+189 In this short paper, we extend the baseline feature templates with the following: Distance between S0 and N0 Direction and distance between a pair of head and modifier have been used in the standard feature templates for maximum spanning tree parsing (McDonald et al
+, 2007) was used to POS tag the source sentencesand the parses were obtained using the first order MST parser (McDonald et al
+The training algorithm we propose in this paper is based on the K-best MIRA algorithm which has been used earlier in structured prediction problems (McDonald et al
+We show that the TSP distances for reordering can be learned from a small amount of high-quality word alignment data by means of pairwise word comparisons and an informative feature set involving words and part-of-speech (POS) tags adapted and extended from prior work on dependency parsing (McDonald et al
+MIRA is successfully employed in dependency parsing (McDonald et al

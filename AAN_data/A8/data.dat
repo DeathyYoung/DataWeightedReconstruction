@@ -1,0 +1,672 @@
+Title:J04-4002		Conference:Computational Linguistics		Author:Och, Franz Josef; Ney, Hermann
+Google RWTH AachenA phrase-based statistical machine translation approach ? the alignment template approach ? isdescribed. This translation approach allows for general many-to-many relations between words.Thereby, the context of words is taken into account in the translation model, and local changesin word order from source to target language can be learned explicitly. The model is describedusing a log-linear modeling approach, which is a generalization of the often used source?channel
+
+Title:N04-1021		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Och, Franz Josef; Gildea, Daniel; Khudanpur, Sanjeev P.; Sarkar, Anoop; Yamada, Kenji; Fraser, Alexander; Kumar, Shankar; Shen, Libin; Smith, David A.; Eng, Katherine; Jain, Viren; Jin, Zhen; Radev, Dragomir R.
+2.1 Baseline MT System: Alignment Templates Our baseline MT system is the alignment template system described in detail by Och, Tillmann, and Ney (1999) and Och and Ney (2004). (self citation)
+
+Title:P05-3025		Conference:Annual Meeting Of The Association For Computational Linguistics - Interactive Poster And Demonstration Sessions		Author:DeNeefe, Steve; Knight, Kevin; Chan, Hayward H.
+This phrase grid contains both phrases learned in our extracted rules (e.g. , the police from earlier) and phrases learned by the phrasebased translation system (Och and Ney, 2004)1.
+
+Title:P05-3025		Conference:Annual Meeting Of The Association For Computational Linguistics - Interactive Poster And Demonstration Sessions		Author:DeNeefe, Steve; Knight, Kevin; Chan, Hayward H.
+How does our framework compare to existing state-of-the-art phrase-based statistical MT systems such as Och and Ney (2004)?
+
+Title:W05-0832		Conference:Workshop On Building And Using Parallel Texts		Author:Henderson, John C.; Morgan, William T.
+Modern approaches to MT, especially statistical MT, typically operate on more fine-grained units, words and phrases (Och and Ney, 2004).
+
+Title:H05-1095		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Simard, Michel; Cancedda, Nicola; Cavestro, Bruno; Dymetman, Marc; Gaussier, Eric; Goutte, Cyril; Yamada, Kenji; Langlais, Philippe; Mauser, Arne
+This is the strategy that is usually adopted in other phrase-based MT approaches (Zens and Ney, 2003; Och and Ney, 2004).
+
+Title:P05-2012		Conference:Annual Meeting Of The Association For Computational Linguistics - Student Research Workshop		Author:Gispert, Adri&agrave;; de
+Among these models, the basic ones are a translation model Pr(e|f) and a target language model Pr(e), which can be complemented by reordering models (if the language pairs presents very long alignments in training), word penalty to avoid favoring short sentences, class-based target-language models, etc (Och and Ney, 2004).
+
+Title:H05-1011		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Moore, Robert C.
+Although the best performing systems are phrasebased (e.g, Och and Ney, 2004), possible phrase translations are normally first extracted from wordaligned bilingual text segments.
+
+Title:W05-1506		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Chiang, David
+For algorithms whose packed representations are graphs, such as Hidden Markov Models and other nitestate methods, Ratnaparkhis MXPARSE parser (Ratnaparkhi, 1997), and many stack-based machine translation decoders (Brown et al. , 1995; Och and Ney, 2004), the k-best paths problem is well-studied in both pure algorithmic context (see (Eppstein, 2001) and (Brander and Sinclair, 1995) for surveys) and NLP/Speech community (Mohri, 2002; Mohri and Riley, 2002).
+
+Title:H05-1096		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ueffing, Nicola; Ney, Hermann
+A detailed analysis will be given for two of them; the so-called alignment template system (Och and Ney, 2004), (denoted as AT in the tables) and the phrase-based translation system described in section 2.2 (denoted as PBT in the tables). (self citation)
+
+Title:H05-1096		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ueffing, Nicola; Ney, Hermann
+Nowadays, most of the state-of-the-art SMT systems are based on bilingual phrases (Bertoldi et al. , 2004; Koehn et al. , 2003; Och and Ney, 2004; Tillmann, 2003; Vogel et al. , 2004; Zens and Ney, 2004). (self citation)
+
+Title:W05-0835		Conference:Workshop On Building And Using Parallel Texts		Author:Vilar, Juan-Miguel; Vidal, Enrique
+Different models have been presented in the literature, see for instance (Brown et al. , 1993; Och and Ney, 2004; Vidal et al. , 1993; Vogel et al. , 1996).
+
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+To do this, we first identify initial phrase pairs using the same criterion as previous systems (Och and Ney, 2004; Koehn et al. , 2003): Definition 1.
+
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+1 Introduction The alignment template translation model (Och and Ney, 2004) and related phrase-based models advanced the previous state of the art by moving from words to phrases as the basic unit of translation.
+
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+(2003), which is based on that of Och and Ney (2004).
+
+Title:P05-1033		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Chiang, David
+Above the phrase level, these models typically have a simple distortion model that reorders phrases independently of their content (Och and Ney, 2004; Koehn et al. , 2003), or not at all (Zens and Ney, 2004; Kumar et al. , 2005).
+
+Title:P05-1032		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Callison-Burch, Chris; Bannard, Colin; Schroeder, Josh
+translation including the joint probability phrasebased model (Marcu and Wong, 2002) and a variant on the alignment template approach (Och and Ney, 2004), and contrast them to the performance of the word-based IBM Model 4 (Brown et al. , 1993).
+
+Title:P06-1090		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nagata, Masaaki; Saito, Kuniko; Yamamoto, Kazuhide; Ohashi, Kazuteru
+a1 Graduated in March 2006 Standard phrase-based translation systems use a word distance-based reordering model in which non-monotonic phrase alignment is penalized based on the word distance between successively translated source phrases without considering the orientation of the phrase alignment or the identities of the source and target phrases (Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:N06-1003		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Callison-Burch, Chris; Koehn, Philipp; Osborne, Miles
+2 The Problem of Coverage in SMT Statistical machine translation made considerable advances in translation quality with the introduction of phrase-based translation (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:W06-3102		Conference:Workshop On Statistical Machine Translation		Author:Durgar El-Kahlout, Ilknur; Oflazer, Kemal
+Limitations of basic word-based models prompted researchers to exploit morphological and/or syntactic/phrasal structure (Niessen and Ney, (2004), Lee,(2004), Yamada and Knight (2001), Marcu and Wong (2002), Och and Ney (2004),Koehn et al.
+
+Title:N06-3004		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Doctoral Consortium		Author:Huang, Liang
+2 Synchronous Binarization for MT Machine Translation has made very good progress in recent times, especially, the so-called phrasebased statistical systems (Och and Ney, 2004).
+
+Title:P06-1011		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Munteanu, Dragos Stefan; Marcu, Daniel
+All MT systems are trained using a variant of the alignment template model of Och and Ney (2004).
+
+Title:W06-2402		Conference:Workshop On Multi-Word-Expressions In A Multilingual Context		Author:Lambert, Patrik; Banches, Rafael E.
+3.1.2 Scoring Based on Bilingual Phrases Here we refer to Bilingual Phrase (BP) as the bilingual phrases used by Och and Ney (2004).
+
+Title:N06-1002		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Quirk, Chris; Menezes, Arul
+Unless otherwise noted, the following discussion is generally applicable to Alignment Template systems (Och and Ney 2004) as well.
+
+Title:W06-1628		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Cowan, Brooke; Kucerova, Ivona; Collins, Michael John
+1 Introduction Phrase-based approaches (Och and Ney, 2004) to statistical machine translation (SMT) have recently achieved impressive results, leading to significant improvements in accuracy over the original IBM models (Brown et al. , 1993).
+
+Title:W06-3115		Conference:Workshop On Statistical Machine Translation		Author:Watanabe, Taro; Tsukada, Hajime; Isozaki, Hideki
+First, manyto-many word alignments are induced by running a one-to-many word alignment model, such as GIZA++ (Och and Ney, 2003), in both directions and by combining the results based on a heuristic (Och and Ney, 2004).
+
+Title:W06-1610		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhou, Liang; Lin, Chin-Yew; Hovy, Eduard
+Phrase-based Statistical Machine Translation (SMT) systems analyze large quantities of bilingual parallel texts in order to learn translational alignments between pairs of words and phrases in two languages (Och and Ney, 2004).
+
+Title:W06-1610		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhou, Liang; Lin, Chin-Yew; Hovy, Eduard
+Phrase pairs are extracted by following the method described in (Och and Ney, 2004) where all contiguous phrase pairs having consistent alignments are extraction candidates.
+
+Title:P06-1066		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Xiong, Deyi; Liu, Qun; Lin, Shouxun
+One is distortion model (Och and Ney, 2004; Koehn et al. , 2003) which penalizes translations according to their jump distance instead of their content.
+
+Title:N06-1031		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Huang, Bryant; Knight, Kevin
+1 Introduction Recent work in statistical machine translation (MT) has sought to overcome the limitations of phrasebased models (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004) by making use of syntactic information.
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+44 language models (Och and Ney, 2004; Tillman, 2004), are too weak to help a phrase-based decoder reorder the target phrases into grammatical outputs.
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+The phrase-based-like submodels have been proved useful in phrase-based approaches to SMT (Och and Ney, 2004).
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+We use the same training corpus, 138.7M words of parallel Chinese-English data released by LDC, in order to train several statistical-based MT systems: PBMT, a strong state of the art phrase-based system that implements the alignment template model (Och and Ney, 2004); this is the system ISI has used in the 2004 and 2005 NIST evaluations.
+
+Title:W06-1606		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Marcu, Daniel; Wang, Wei; Echihabi, Abdessamad; Knight, Kevin
+1 Introduction During the last four years, various implementations and extentions to phrase-based statistical models (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004) have led to significant increases in machine translation accuracy.
+
+Title:W06-3120		Conference:Workshop On Statistical Machine Translation		Author:Costa-Juss&agrave;, Marta Ruiz; Crego, Josep M.; Gispert, Adri&agrave;; de; Lambert, Patrik; Khalilov, Maxim; Banches, Rafael E.; Mari&ntilde;o, Jos&eacute;e B.; Fonollosa, Jos&eacute;; A. R.
+2.2 Phrase Extraction Given a sentence pair and a corresponding word alignment, phrases are extracted following the criterion in Och and Ney (2004).
+
+Title:N06-1004		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Kuhn, Roland; Yuen, Denis; Simard, Michel; Paul, Patrick; Foster, George; Joanis, Eric; Johnson, Howard
+1 Introduction: Defining SCMs The work presented here was done in the context of phrase-based MT (Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:W06-1655		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Andrew, Galen
+Similarly, the machine translation system of Och and Ney uses log-probabilities of phrasal translations and other events as features in a log-linear model (Och and Ney, 2002; Och and Ney, 2004).
+
+Title:P06-1077		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+We denote the number of TATs used for decoding by K and the length of target string by I. 611 Tree String Alignment ( NR I) Bush 1:1 ( NN9d) President 1:1 ( VV?V) made 1:1 ( NN) speech 1:1 ( NP ( NR ) ( NN ) ) X1 |X2 1:2 2:1 ( NP ( NR I) ( NN ) ) X | Bush 1:2 2:1 ( NP ( NR ) ( NN9d) ) President |X 1:2 2:1 ( NP ( NR I) ( NN9d) ) President | Bush 1:2 2:1 ( VP ( VV ) ( NN ) ) X1 | a |X2 1:1 2:3 ( VP ( VV?V) ( NN ) ) made | a |X 1:1 2:3 ( VP ( VV ) ( NN) ) X | a | speech 1:1 2:3 ( VP ( VV?V) ( NN) ) made | a | speech 1:1 2:3 ( IP ( NP ) ( VP ) ) X1 |X2 1:1 2:2 Table 1: Examples of TATs extracted from the TSA in Figure 3 with h = 2 and c = 2 3 Training To extract tree-to-string alignment templates from a word-aligned, source side parsed sentence pair T(fJ1 ),eI1,A, we need first identify TSAs (TreeString-Alignment) using similar criterion as suggested in (Och and Ney, 2004).
+
+Title:P06-1077		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+Typically, phrase reordering is modeled in terms of offset positions at the word level (Koehn, 2004; Och and Ney, 2004), making little or no direct use of syntactic information.
+
+Title:P06-1077		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+1 Introduction Phrase-based translation models (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004), which go beyond the original IBM translation models (Brown et al. , 1993) 1 by modeling translations of phrases rather than individual words, have been suggested to be the state-of-theart in statistical machine translation by empirical evaluations.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+An empirical evaluation against a state-of-the-art SMT system similar to (Och and Ney, 2004) indicates positive prospects.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+Anotherpromisingprospectofourmodelseems to lie in its ability to handle non-contiguous phrases, a feature that state of the art systems such as (Och and Ney, 2004) do not incorporate.
+
+Title:P06-1121		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Galley, Michel; Graehl, Jonathan; Knight, Kevin; Marcu, Daniel; DeNeefe, Steve; Wang, Wei; Thayer, Ignacio
+We compare our syntax-based system against an implementation of the alignment template (AlTemp) approach to MT (Och and Ney, 2004), which is widely considered to represent the state of the art in the field.
+
+Title:P06-1009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Blunsom, Philip; Cohn, Trevor
+Most current SMT systems (Och and Ney, 2004; Koehn et al. , 2003) use a generative model for word alignment such as the freely available GIZA++ (Och and Ney, 2003), an implementation of the IBM alignment models (Brown et al. , 1993).
+
+Title:W06-3113		Conference:Workshop On Statistical Machine Translation		Author:Federico, Marcello; Bertoldi, Nicola
+The current state of the art is represented by the so-called phrase-based translation approach (Och and Ney, 2004; Koehn et al. , 2003).
+
+Title:W06-3602		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Tillmann, Christoph
+4(Och and Ney, 2004) defines the notion of consistency for the set of phrasal translations that are learned from wordFigure 3: Following the definition in Eq.
+
+Title:W06-3602		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Tillmann, Christoph
+6 Discussion The decoding algorithm shown here is most similar to the decoding algorithms presented in (Koehn, 2004) and (Och and Ney, 2004), the later being used for the Alignment Template Model for SMT.
+
+Title:W06-3602		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Tillmann, Christoph
+The phrase learning approach in (Och and Ney, 2004) takes two alignments: a source-to-target alignment a180 a10 and a target-to-source alignment a180 a178 . The intersection of these two alignments is computed to obtain a high-precision word alignment.
+
+Title:W06-3602		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Tillmann, Christoph
+4 Efficient Block Alignment Algorithm A common approach to phrase-based SMT is to learn phrasal translation pairs from word-aligned training data (Och and Ney, 2004).
+
+Title:N06-1001		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Wang, Wei; Knight, Kevin; Marcu, Daniel
+Obviously, the NPA is a special case of the phrase extractor in (Och and Ney, 2004) in that it considers only one phrase alignment rather than all possible ones.
+
+Title:N06-1001		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Wang, Wei; Knight, Kevin; Marcu, Daniel
+An aligned phrase pair is consistent with the word alignment if neither phrase contains any word aligning to a word outside the other phrase (Och and Ney, 2004).
+
+Title:N06-1033		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhang, Hao; Huang, Liang; Gildea, Daniel; Knight, Kevin
+We also compare the top result of our synchronous binarization system with the state-of-theart alignment-template approach (ATS) (Och and Ney, 2004).
+
+Title:N06-1057		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhou, Liang; Lin, Chin-Yew; Munteanu, Dragos Stefan; Hovy, Eduard
+Phrase pairs are extracted by following the method described in (Och and Ney, 2004) where all contiguous phrase pairs having consistent alignments are extraction candidates.
+
+Title:N06-1057		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Zhou, Liang; Lin, Chin-Yew; Munteanu, Dragos Stefan; Hovy, Eduard
+Phrase-based Statistical Machine Translation (SMT) systems analyze large quantities of bilingual parallel texts in order to learn translational alignments between pairs of words and phrases in two languages (Och and Ney, 2004).
+
+Title:W06-3601		Conference:Workshop On Computationally Hard Problems And Joint Inference In Speech And Language Processing		Author:Huang, Liang; Knight, Kevin; Joshi, Aravind K.
+2 Previous Work It is helpful to compare this approach with recent efforts in statistical MT. Phrase-based models (Koehn et al. , 2003; Och and Ney, 2004) are good at learning local translations that are pairs of (consecutive) sub-strings, but often insufficient in modeling the reorderings of phrases themselves, especially between language pairs with very different word-order.
+
+Title:P07-1002		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chang, Pi-Chuan; Toutanova, Kristina
+The sentences were annotated with alignment (using GIZA++ (Och and Ney, 2004)) and syntactic dependency structures of the source and target, obtained as described in Section 2.
+
+Title:P07-1002		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chang, Pi-Chuan; Toutanova, Kristina
+The weights of this model are trained to maximize BLEU (Och and Ney, 2004).
+
+Title:P07-1002		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chang, Pi-Chuan; Toutanova, Kristina
+The target dependency trees are obtained through projection of the source dependency trees, using the word alignment (we use GIZA++ (Och and Ney, 2004)), ensuring better parallelism of the source and target structures.
+
+Title:P07-1002		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chang, Pi-Chuan; Toutanova, Kristina
+Many state-of-the-art SMT systems do not use trees and base the ordering decisions on surface phrases (Och and Ney, 2004; Al-Onaizan and Papineni, 2006; Kuhn et al. , 2006).
+
+Title:W07-0716		Conference:Workshop on Statistical Machine Translation		Author:Madnani, Nitin; Ayan, Necip Fazil; Resnik, Philip; Dorr, Bonnie Jean
+??Initial phrase pairs are identified following the procedure typically employed in phrase based systems (Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+There have been considerable amount of efforts to improve the reordering model in SMT systems, ranging from the fundamental distance-based distortion model (Och and Ney, 2004; Koehn et al. , 2003), flat reordering model (Wu, 1996; Zens et al. , 2004; Kumar et al. , 2005), to lexicalized reordering model (Tillmann, 2004; Kumar et al. , 2005; Koehn et al. , 2005), hierarchical phrase-based model (Chiang, 2005), and maximum entropy-based phrase reordering model (Xiong et al. , 2006).
+
+Title:D07-1056		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zhang, Dongdong; Li, Mu; Li, Chi-Ho; Zhou, Ming
+In our model, we make use of bilingual phrases as well, which refer to source-target aligned phrase pairs extracted using the same criterion as most phrase-based systems (Och and Ney, 2004).
+
+Title:P07-1089		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Liu, Yang; Huang, Yun; Liu, Qun; Lin, Shouxun
+They demonstrated very promising results when compared with the state of the art phrase-based system (Och and Ney, 2004) in the NIST 2006 machine translation evaluation 1.
+
+Title:P07-1059		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Riezler, Stefan; Vasserman, Alexander; Tsochantaridis, Ioannis; Mittal, Vibhu O.; Liu, Yi
+We present two approaches to SMT-based query expansion, both of which are implemented in the framework of phrase-based SMT (Och and Ney, 2004; Koehn et al. , 2003).
+
+Title:P07-1059		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Riezler, Stefan; Vasserman, Alexander; Tsochantaridis, Ioannis; Mittal, Vibhu O.; Liu, Yi
+4 SMT-Based Query Expansion Our SMT-based query expansion techniques are based on a recent implementation of the phrasebased SMT framework (Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:P07-1108		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Wu, Hua; Wang, Haifeng
+1 Introduction For statistical machine translation (SMT), phrasebased methods (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based methods (Wu, 1997; Alshawi et al. 2000; Yamada and Knignt, 2001; Melamed, 2004; Chiang, 2005; Quick et al. , 2005; Mellebeek et al. , 2006) outperform word-based methods (Brown et al. , 1993).
+
+Title:P07-1090		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Setiawan, Hendra; Kan, Min-Yen; Li, Haizhou
+To address this issue, the algorithm uses gapping conservatively by utilizing the consistency constraint (Och and Ney, 2004) to suggest phrase level alignment of X. The algorithm exhaustively grows consistent blocks containing the most fine-grained level of X not including Yi.
+
+Title:J07-1003		Conference:Computational Linguistics		Author:Ueffing, Nicola; Ney, Hermann
+Chinese English TRAIN Sentences 7M Running words 199M 213M Vocabulary 223K 351K Dictionary entries 82K DEV (2002 evaluation set) Sentences 878 Running words 25K 105K TEST (2004 evaluation set) Sentences 1,788 Running words 52K 239K a114 The alignment template system (Och and Ney 2004) (denoted as AT in the tables), which is also a state-of-the art phrase-based translation system. (self citation)
+
+Title:D07-1008		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Cohn, Trevor; Lapata, Mirella
+The set of aligned tree pairs are extracted using the alignment template method (Och and Ney, 2004), constrained to syntactic constituent pairs: C = {(nS,nT), ((s,t) As Y(nS)t Y(nT)) (notexistential(s,t) A(s Y(nS)orunderscoret Y(nT)))} where nS and nT are source and target tree nodes (subtrees),A = {(s,t)}is theset ofword alignments (pairs of word-indices), Y() returns the yield span for a subtree and orunderscore is the exclusive-or operator.
+
+Title:D07-1030		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Hu, Xiaoguang; Wang, Haifeng; Wu, Hua
+SMT has evolved from the original word-based approach (Brown et al. , 1993) into phrase-based approaches (Koehn et al. , 2003; Och and Ney, 2004) and syntax-based approaches (Wu, 1997; Alshawi et al. , 2000; Yamada and Knignt, 2001; Chiang, 2005).
+
+Title:N07-1046		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Zhao, Bing; Bach, Nguyen; Lane, Ian; Vogel, Stephan
+The baseline is based on the refined letter-alignment from the two directions of IBM-Model-4, trained with a scheme of 15h545 using GIZA++ (Och and Ney, 2004).
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+(Och and Ney, 2004).
+
+Title:W07-0731		Conference:Workshop on Statistical Machine Translation		Author:Zollmann, Andreas; Venugopal, Ashish; Paulik, Matthias; Vogel, Stephan
+However, such models are typically applied over limited source sentence ranges to prevent errors introduced by these models and to maintain efficient decoding (Och and Ney, 2004).
+
+Title:W07-0718		Conference:Workshop on Statistical Machine Translation		Author:Callison-Burch, Chris; Fordyce, Cameron; Koehn, Philipp; Monz, Christof; Schroeder, Josh
+, 2003; Och and Ney, 2004).
+
+Title:J07-2003		Conference:Computational Linguistics		Author:Chiang, David
+Introduction The alignment template translation model (Och and Ney 2004) and related phrase-based models advanced the state of the art in machine translation by expanding the basic unit of translation from words to phrases, that is, substrings of potentially unlimited size (but not necessarily phrases in any syntactic theory).
+
+Title:J07-2003		Conference:Computational Linguistics		Author:Chiang, David
+First, we identify initial phrase pairs using the same criterion as most phrase-based systems (Och and Ney 2004), namely, there must be at least one word inside one phrase aligned to a word inside the other, but no word inside one phrase can be aligned to a word outside the other phrase.
+
+Title:J07-2003		Conference:Computational Linguistics		Author:Chiang, David
+Above the phrase level, some models perform no reordering (Zens and Ney 2004; Kumar, Deng, and Byrne 2006), some have a simple distortion model that reorders phrases independently of their content (Koehn, Och, and Marcu 2003; Och and Ney 2004), and some, for example, the Alignment Template System (Och et al. 2004; Thayer et al. 2004), hereafter ATS, and the IBM phrase-based system (Tillmann 2004; Tillmann and Zhang 2005), have phrase-reordering models that add some lexical sensitivity.
+
+Title:P07-1005		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Chan, Yee Seng; Ng, Hwee Tou; Chiang, David
+To perform translation, state-of-the-art MT systems use a statistical phrase-based approach (Marcu and Wong, 2002; Koehn et al. , 2003; Och and Ney, 2004) by treating phrases as the basic units of translation.
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+programming (Wu, 1996; Och and Ney, 2004).
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+1 Introduction Recent efforts in statistical machine translation (MT) have seen promising improvements in output quality, especially the phrase-based models (Och and Ney, 2004) and syntax-based models (Chiang, 2005; Galley et al. , 2006).
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+2.2 Adding a Language Model To integrate with a bigram language model, we can use the dynamic-programming algorithms of Och and Ney (2004) and Wu (1996) for phrase-based and SCFG-based systems, respectively, which we may think of as doing a finer-grained version of the deductions above.
+
+Title:D07-1006		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Fraser, Alexander; Marcu, Daniel
+For French/English translation we use a state of the art phrase-based MT system similar to (Och and Ney, 2004; Koehn et al. , 2003).
+
+Title:D07-1038		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:May, Jonathan; Knight, Kevin
+Examples of realistic systems are the phrase-based ATS system of Och and Ney (2004), the phrasal-syntax hybrid system Hiero (Chiang, 2005), and the GHKM syntax system (Galley et al. , 2004; Galley et al. , 2006).
+
+Title:W07-0701		Conference:Workshop on Statistical Machine Translation		Author:Menezes, Arul; Quirk, Chris
+The alignment template approach (Och & Ney, 2004) uses word classes rather than lexical items to model phrase translation.
+
+Title:W07-0701		Conference:Workshop on Statistical Machine Translation		Author:Menezes, Arul; Quirk, Chris
+An early attempt at greater generality in a purely phrasal setting was the alignment template approach (Och & Ney 2004); newer approaches include formally syntactic (Chiang 2005), and linguistically syntactic approaches (Quirk et al. 2005), (Huang et al. 2006).
+
+Title:D07-1005		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Kumar, Shankar; Och, Franz Josef; Macherey, Wolfgang
+Various feature functions (Och and Ney, 2004) are then computed over the entries in the phrase table. (self citation)
+
+Title:D07-1005		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Kumar, Shankar; Och, Franz Josef; Macherey, Wolfgang
+5.4 Phrase-based SMT system Our phrase-based SMT system is similar to the alignment template system described in Och and Ney (2004). (self citation)
+
+Title:N07-1061		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference		Author:Utiyama, Masao; Isahara, Hitoshi
+This assumes that the probability of fi is independent given e and a. pw(f|e) takes the highest pw(f|e,a) if there are multiple alignments a. This discussion, which is partly based on Section 4.1.2 of (Och and Ney, 2004), means that the lexical translation probability pw(f|e) is another probability estimated using the word translation probability w(f|e).
+
+Title:D07-1104		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Lopez, Adam
+So far, these techniques have focused on phrasebased models using contiguous phrases (Koehn et al. , 2003; Och and Ney, 2004).
+
+Title:D07-1080		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Watanabe, Taro; Suzuki, Jun; Tsukada, Hajime; Isozaki, Hideki
+1 Introduction The recent advances in statistical machine translation have been achieved by discriminatively training a small number of real-valued features based either on (hierarchical) phrase-based translation (Och and Ney, 2004; Koehn et al. , 2003; Chiang, 2005) or syntax-based translation (Galley et al. , 2006).
+
+Title:D07-1090		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Brants, Thorsten; Popat, Ashok C.; Xu, Peng; Och, Franz Josef; Dean, Jeffrey
+1 Introduction Given a source-language (e.g. , French) sentence f, the problem of machine translation is to automatically produce a target-language (e.g. , English) translation e. The mathematics of the problem were formalized by (Brown et al. , 1993), and re-formulated by (Och and Ney, 2004) in terms of the optimization e = arg maxe Msummationdisplay m=1 mhm(e,f) (1) where fhm(e,f)g is a set of M feature functions and fmg a set of weights. (self citation)
+
+Title:D07-1079		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:DeNeefe, Steve; Knight, Kevin; Wang, Wei; Marcu, Daniel
+2 Phrase-based Extraction The Alignment Template system (ATS) described by Och and Ney (2004) is representative of statistical phrase-based models.
+
+Title:D07-1079		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:DeNeefe, Steve; Knight, Kevin; Wang, Wei; Marcu, Daniel
+For this comparison, we choose a previously established statistical phrase-based model (Och and Ney, 2004) and a previously established statistical stringto-tree model (Galley et al. , 2004).
+
+Title:D07-1079		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:DeNeefe, Steve; Knight, Kevin; Wang, Wei; Marcu, Daniel
+Approaches include word substitution systems (Brown et al. , 1993), phrase substitution systems (Koehn et al. , 2003; Och and Ney, 2004), and synchronous context-free grammar systems (Wu and Wong, 1998; Chiang, 2005), all of which train on string pairs and seek to establish connections between source and target strings.
+
+Title:W08-0315		Conference:Proceedings of the Third Workshop on Statistical Machine Translation		Author:Khalilov, Maxim; Hern&aacute;ndez H., Adolfo; Costa-Juss&agrave;, Marta Ruiz; Crego, Josep M.; Henr&iacute;quez Q., Carlos A.; Lambert, Patrik; Fonollosa, Jos&eacute;; A. R.; Mari&ntilde;o, Jos&eacute;e B.; Banches, Rafael E.
+The TALP-UPC 2008 translation system, besides the bilingual translation model, which consists of a 4-gram LM of tuples with Kneser-Ney discounting (estimated with SRI Language Modeling Toolkit1), implements a log-linear combination of five additional feature models: a target language model (a 4-gram model of words, estimated with Kneser-Ney smoothing); a POS target language model (a 4-gram model of tags with Good-Turing discounting (TPOS)); a word bonus model, which is used to compensate the systems preference for short output sentences; a source-to-target lexicon model and a target-tosource lexicon model, these models use word-toword IBM Model 1 probabilities (Och and Ney, 2004) to estimate the lexical weights for each tuple in the translation table.
+
+Title:P08-1049		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Li, Zhifei; Yarowsky, David
+4.2 Baseline System Training Using the toolkit Moses (Koehn et al., 2007), we built a phrase-based baseline system by following 429 the standard procedure: running GIZA++ (Och and Ney, 2000) in both directions, applying refinement rules to obtain a many-to-many word alignment, and then extracting and scoring phrases using heuristics (Och and Ney, 2004).
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+We used GIZA++ (Och and Ney, 2004) and the heuristics grow-diag-final to generate m-to-n word alignments.
+
+Title:P08-1064		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Min; Jiang, Hongfei; Aw, Aiti; Li, Haizhou; Tan, Chew Lim; Li, Sheng
+1 Introduction Phrase-based modeling method (Koehn et al., 2003; Och and Ney, 2004a) is a simple, but powerful mechanism to machine translation since it can model local reorderings and translations of multiword expressions well.
+
+Title:W08-0310		Conference:Proceedings of the Third Workshop on Statistical Machine Translation		Author:D&eacute;chelotte, Daniel; Adda, Gilles; Allauzen, Alexandre; Bonneau-Maynard, H&eacute;l&egrave;ne; Galibert, Olivier; Gauvain, Jean-Luc; Langlais, Philippe; Yvon, Fran&ccedil;ois
+translation systems (Och and Ney, 2004; Koehn et al., 2003) and use Moses (Koehn et al., 2007) to search for the best target sentence.
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+u,,v in the source sentence f. All phrase pairs in this paper are extracted with the phrase-extract algorithm (Och and Ney, 2004), with maximum length set to 7.
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+2 Lexicalized Reordering Models We compare our re-ordering model with related work (Tillman, 2004; Koehn et al., 2007) using a log-linear approach common to many state-of-theart statistical machine translation systems (Och and Ney, 2004).
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+We assume here that phrase ei spans the word range s,,t in the target sentence e and that the phrase fai spans the range ORIENTATION MODEL oi = M oi = S oi = D word-based (Moses) 0.1750 0.0159 0.8092 phrase-based 0.3192 0.0704 0.6104 hierarchical 0.4878 0.1004 0.4116 Table 1: Class distributions of the three orientation models, estimated from 12M words of Chinese-English data using the grow-diag alignment symmetrization heuristic implemented in Moses, which is similar to the refined heuristic of (Och and Ney, 2004).
+
+Title:D08-1089		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Galley, Michel; Manning, Christopher D.
+1 Introduction Statistical phrase-based systems (Och and Ney, 2004; Koehn et al., 2003) have consistently delivered state-of-the-art performance in recent machine translation evaluations, yet these systems remain weak at handling word order changes.
+
+Title:D08-1060		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Zhao, Bing; Al-Onaizan, Yaser
+The rules we extract belong to one of the following categories: contains only words, and lscript is NULL; this corresponds to the general blocks used in phrasebased decoder (Och and Ney, 2004); contains words and variables of [X,0] and [X,1], and lscript is NULL; this corresponds to the Hiero rules as in Chiang (2005); contains words and variables in the form of [X,TAG2], in which TAG is from the LDC tagset; this defines a well formed subtree, in which at least one child (constituent) is aligned to continuous target ngrams.
+
+Title:W08-0510		Conference:Software Engineering, Testing, and Quality Assurance for Natural Language Processing		Author:Hoang, Hieu; Koehn, Philipp
+Early systems such as the Alignment Template System (ATS) (Och and Ney 2004) and Pharaoh (Koehn 2004) were widely used and accepted by the research community.
+
+Title:W08-0405		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Tillmann, Christoph
+c2008 Association for Computational Linguistics A Rule-Driven Dynamic Programming Decoder for Statistical MT Christoph Tillmann IBM T.J. Watson Research Center Yorktown Heights, N.Y. 10598 ctill@us.ibm.com Abstract The paper presents an extension of a dynamic programming (DP) decoder for phrase-based SMT (Koehn, 2004; Och and Ney, 2004) that tightly integrates POS-based re-order rules (Crego and Marino, 2006) into a left-to-right beam-search algorithm, rather than handling them in a pre-processing or re-order graph generation step.
+
+Title:W08-0405		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Tillmann, Christoph
+1 is similar to a standard phrase-based decoder (Koehn, 2004; Och and Ney, 2004), where states are tuples of the following type: [ C ; [i,j] ], (2) where C is the so-called coverage vector that keeps track of the already processed source position, [i,j] is the source interval covered by the last source phrase match.
+
+Title:W08-0405		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Tillmann, Christoph
+1 Introduction The paper presents an extension of a dynamic programming (DP) decoder for phrase-based SMT (Koehn, 2004; Och and Ney, 2004) where POSbased re-order rules (Crego and Marino, 2006) are tightly integrated into a left-to-right run over the input sentence.
+
+Title:W08-0308		Conference:Proceedings of the Third Workshop on Statistical Machine Translation		Author:Liu, Ding; Gildea, Daniel
+Forthebaselineapproach, onlythetranslation model and n-gram model for the target language are used: S = argmax S Pr(T|S) = argmax S Pr(S)Pr(S|T) Since the n-gram model tends to favor short translations, a penalty is added to the translation templates with fewer RHS symbols than LHS leaf symbols: Penalty(t) = exp(|t.RHS||t.LHSLeaf|) where |t.RHS| denotes the number of symbols in the RHS of t, and |t.LHSLeaf| denotes the number of leaves in the LHS of t. The length penalty is analogous to the length feature widely used in loglinear models for MT (Huang et al., 2006; Liu et al., 2006; Och and Ney, 2004).
+
+Title:C08-1093		Conference:International Conference On Computational Linguistics		Author:Riezler, Stefan; Liu, Yi; Vasserman, Alexander
+Och and Ney (2004) reformulate equation 3 as a linear combination of feature functions hm(e,f) and weights m, including feature functions for translation models hi(e,f) = P(f|e) and language models hj(e) = P(e): e = argmaxe Msummationdisplay m=1 mhm(e,f) (4) The translation model used in our approach is based on the sequence of alignment models described in Och and Ney (2003).
+
+Title:C08-1093		Conference:International Conference On Computational Linguistics		Author:Riezler, Stefan; Liu, Yi; Vasserman, Alexander
+738 3 Query-Snippet Translation The SMT system deployed in our approach is an implementation of the alignment template approach of Och and Ney (Och and Ney, 2004).
+
+Title:C08-1093		Conference:International Conference On Computational Linguistics		Author:Riezler, Stefan; Liu, Yi; Vasserman, Alexander
+Phrases are extracted via various heuristics as larger blocks of aligned words from best word alignments, as described in Och and Ney (2004).
+
+Title:C08-1093		Conference:International Conference On Computational Linguistics		Author:Riezler, Stefan; Liu, Yi; Vasserman, Alexander
+For applications of the system to translate unseen queries, a standard dynamic-programming beam-search decoder (Och and Ney, 2004) that tightly integrates translation model and language model is used.
+
+Title:P08-2041		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:He, Zhongjun; Liu, Qun; Lin, Shouxun
+The alignment template model (Och and Ney, 2004) enhanced phrasal generalizations by using words classes rather than the words themselves.
+
+Title:D08-1065		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Tromble, Roy W.; Kumar, Shankar; Och, Franz Josef; Macherey, Wolfgang
+Statistical MT (Brown et al., 1990; Och and Ney, 2004) can be described as a mapping of a word sequence F in the source language to a word sequence E in the target language; this mapping is produced by the MT decoder (F). (self citation)
+
+Title:D08-1065		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Tromble, Roy W.; Kumar, Shankar; Och, Franz Josef; Macherey, Wolfgang
+5http://www.nist.gov/speech/tests/mt/ 7.2 MT System Description Our phrase-based statistical MT system is similar to the alignment template system described in Och and Ney (2004). (self citation)
+
+Title:D08-1065		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Tromble, Roy W.; Kumar, Shankar; Och, Franz Josef; Macherey, Wolfgang
+Translation is performed using a standard dynamic programming beam-search decoder (Och and Ney, 2004) using two decoding passes. (self citation)
+
+Title:W08-0403		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Zhou, Bowen; Xiang, Bing; Zhu, Xiaodan; Gao, Yuqing
+There are two major elements accounting for such an improvement: namely the incorporation of phrasal translation structures adopted from widely applied phrase-based models (Och and Ney, 2004) to handle local uency, and the engagement of synchronous context-free grammars (SCFG), which enhances the generative capacity of the underlying model that is limited by nite-state machinery.
+
+Title:W08-0403		Conference:Proceedings of the ACL-08: HLT Second Workshop on Syntax and Structure in Statistical Translation (SSST-2)		Author:Zhou, Bowen; Xiang, Bing; Zhu, Xiaodan; Gao, Yuqing
+Next, bilingual phrase pairs consistent with word alignments are extracted from AU (Och and Ney, 2004).
+
+Title:P08-1012		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Zhang, Hao; Quirk, Chris; Moore, Robert C.; Gildea, Daniel
+Formally, given a word-based ITG alignment, the bootstrapping algorithm finds all the phrase pairs according to the definition of Och and Ney (2004) and Chiang (2005) with the additional constraint that each phrase pair contains at most one word link.
+
+Title:P08-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Talbot, David; Brants, Thorsten
+4.3 Machine Translation The SMT system used is based on the framework proposed in (Och and Ney, 2004) where translation is treated as the following optimization problem e = argmaxe Msummationdisplay i=1 ii(e,f).
+
+Title:P08-1102		Conference:Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue		Author:Jiang, Wenbin; Huang, Liang; Liu, Qun; L&uuml;, Yajuan
+To cope with this problem, we propose a cascaded linear model inspired by the log-linear model (Och and Ney, 2004) widely used in statistical machine translation to incorporate different kinds of knowledge sources.
+
+Title:D08-1066		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mylonakis, Markos; Sima'an, Khalil
+These heuristics define a phrase pair to consist of a source and target ngrams of a word-aligned source-target sentence pair such that if one end of an alignment is in the one ngram, the other end is in the other ngram (and there is at least one such alignment) (Och and Ney, 2004; Koehn et al., 2003).
+
+Title:D08-1066		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Mylonakis, Markos; Sima'an, Khalil
+(Koehn et al., 2003; Och and Ney, 2004)).
+
+Title:D08-1051		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Sanchis, Germ&aacute;n; Ortiz-Mart&iacute;nez, Daniel; Civera, Jorge; Casacuberta, Francisco; Vidal, Enrique; Hoang, Hieu
+The use of word graphs in IMT has been studied in (Barrachina and others, 2008) in combination with two different translation techniques, namely, the Alignment Templates technique (Och et al., 1999; Och and Ney, 2004), and the Stochastic Finite State Transducers technique (Casacuberta and Vidal, 2007).
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+Starting with bilingualphrasepairsextractedfromautomatically aligned parallel text (Och and Ney, 2004; Koehn et al., 2003), these PSCFG approaches augment each contiguous (in source and target words) phrase pair with a left-hand-side symbol (like the VP in the example above), and perform a generalization procedure to form rules that include nonterminal symbols. (self citation)
+
+Title:C08-1144		Conference:International Conference On Computational Linguistics		Author:Zollmann, Andreas; Venugopal, Ashish; Och, Franz Josef; Ponte, Jay
+In our experiments phrases are extracted by the method described in Och and Ney (2004) and reordering during decoding with the lexicalized distortion model from Zens and Ney (2006). (self citation)
+
+Title:I08-1043		Conference:Proceedings of the Third International Joint Conference on Natural Language Processing		Author:Hwang, Young-Sook; Kim, Young-Kil; Park, Sangkyu
+Phrase-based SMT(Statistical Machine Translation) models have advanced the state of the art in machine translation by expanding the basic unit of translation from words to phrases, which allows the local reordering of words and translation of multi-word expressions(Chiang, 2007) (Koehn et al., 2003) (Och and Ney, 2004).
+
+Title:C08-1136		Conference:International Conference On Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel; Chiang, David
+A pair of substrings [s,t] E and [u,v] F is a phrase pair (Och and Ney, 2004b) if and only if the subset of links emitted from [s,t] in E is equal to the subset of links emitted from [u,v] in F, and both are nonempty.
+
+Title:C08-1136		Conference:International Conference On Computational Linguistics		Author:Zhang, Hao; Gildea, Daniel; Chiang, David
+Extraction of such phrases is a common feature of state-of-the-art phrase-based and syntax-based machine translation systems (Och and Ney, 2004a; Chiang, 2005).
+
+Title:P09-1021		Conference:ACL-IJCNLP		Author:Haffari, Gholamreza; Sarkar, Anoop
+(Ueffing et al., 2007; Haffari et al., 2009) show that treating U+ as a source for a new feature function in a loglinear model for SMT (Och and Ney, 2004) allows us to maximally take advantage of unlabeled data by finding a weight for this feature using minimum error-rate training (MERT) (Och, 2003).
+
+Title:N09-1028		Conference:HLT-NAACL		Author:Xu, Peng; Kang, Jaeho; Ringgaard, Michael; Och, Franz Josef
+Phrasebased systems (Och, 2002; Koehn et.al., 2003; Och and Ney, 2004) advanced the machine translation field by allowing translations of word sequences (a.k.a., phrases) instead of single words. (self citation)
+
+Title:P09-1087		Conference:ACL-IJCNLP		Author:Galley, Michel; Manning, Christopher D.
+1 Introduction Hierarchical approaches to machine translation have proven increasingly successful in recent years (Chiang, 2005; Marcu et al., 2006; Shen et al., 2008), and often outperform phrase-based systems (Och and Ney, 2004; Koehn et al., 2003) on target-language fluency and adequacy.
+
+Title:P09-1087		Conference:ACL-IJCNLP		Author:Galley, Michel; Manning, Christopher D.
+(2004) found that various types of syntactic features provided only minor gains in performance, suggesting that phrase-based systems (Och and Ney, 2004) should exploit such information during rather than after decoding.
+
+Title:D09-1141		Conference:EMNLP		Author:Nakov, Preslav; Ng, Hwee Tou
+We then built separate directed word alignments for EnglishX andXEnglish (X{Indonesian, Spanish}) using IBM model 4 (Brown et al., 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length seven using the alignment template approach (Och and Ney, 2004).
+
+Title:D09-1073		Conference:EMNLP		Author:Zhang, Min; Li, Haizhou
+Recently, many phrase reordering methods have been proposed, ranging from simple distancebased distortion model (Koehn et al., 2003; Och and Ney, 2004), flat reordering model (Wu, 1997; Zens et al., 2004), lexicalized reordering model (Tillmann, 2004; Kumar and Byrne, 2005), to hierarchical phrase-based model (Chiang, 2005; Setiawan et al., 2007) and classifier-based reordering model with linear features (Zens and Ney, 2006; Xiong et al., 2006; Zhang et al., 2007a; Xiong et al., 2008).
+
+Title:D09-1073		Conference:EMNLP		Author:Zhang, Min; Li, Haizhou
+1 Introduction Phrase-based method (Koehn et al., 2003; Och and Ney, 2004; Koehn et al., 2007) and syntaxbased method (Wu, 1997; Yamada and Knight, 2001; Eisner, 2003; Chiang, 2005; Cowan et al., 2006; Marcu et al., 2006; Liu et al., 2007; Zhang et al., 2007c, 2008a, 2008b; Shen et al., 2008; Mi and Huang, 2008) represent the state-of-the-art technologies in statistical machine translation (SMT).
+
+Title:D09-1073		Conference:EMNLP		Author:Zhang, Min; Li, Haizhou
+GIZA++ (Och and Ney, 2004) and the heuristics growdiag-final-and are used to generate m-to-n word alignments.
+
+Title:W09-0414		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Fonollosa, Jos&eacute;; A. R.; Khalilov, Maxim; Costa-Juss&agrave;, Marta Ruiz; Mari&ntilde;o, Jos&eacute;e B.; Henr&iacute;quez Q., Carlos A.; Hern&aacute;ndez H., Adolfo; Banches, Rafael E.
+Given a sentence pair and a corresponding wordto-word alignment, phrases are extracted following the criterion in (Och and Ney, 2004).
+
+Title:D09-1114		Conference:EMNLP		Author:Duan, Nan; Li, Mu; Xiao, Tong; Zhou, Ming
+Since the success of phrase-based methods (Och and Ney, 2004; Koehn, 2004), models based on formal syntax (Chiang, 2005) or linguistic syntax (Liu et al., 2006; Marcu et al., 2006) have also achieved state-of-the-art performance.
+
+Title:W09-1804		Conference:Proceedings of the Workshop on Integer Linear Programming for Natural Language Processing		Author:Bodrumlu, Tugba; Knight, Kevin; Ravi, Sujith
+One is machine translation, where programs extract translation rules from word-aligned corpora (Och and Ney, 2004; Galley et al., 2004; Chiang, 2007; Quirk et al., 2005).
+
+Title:W09-2306		Conference:Proceedings of the Third Workshop on Syntax and Structure in Statistical Translation (SSST-3) at NAACL HLT 2009		Author:Jiang, Hongfei; Li, Sheng; Yang, Muyun; Zhao, Tiejun
+1 Introduction Phrase-based statistical machine translation models (Marcu and Wong, 2002; Koehn et al., 2003; Och and Ney, 2004; Koehn, 2004; Koehn et al., 2007) have achieved significant improvements in translation accuracy over the original IBM word-based model.
+
+Title:P09-1019		Conference:ACL-IJCNLP		Author:Kumar, Shankar; Macherey, Wolfgang; Dyer, Chris; Och, Franz Josef
+Translation is performed using a standard dynamic programming beam-search decoder (Och and Ney, 2004) using two decoding passes. (self citation)
+
+Title:P09-1019		Conference:ACL-IJCNLP		Author:Kumar, Shankar; Macherey, Wolfgang; Dyer, Chris; Och, Franz Josef
+6.2 MT System Description Our phrase-based statistical MT system is similar to the alignment template system described in (Och and Ney, 2004; Tromble et al., 2008). (self citation)
+
+Title:P09-1019		Conference:ACL-IJCNLP		Author:Kumar, Shankar; Macherey, Wolfgang; Dyer, Chris; Och, Franz Josef
+These two techniques were originally developed for N-best lists of translation hypotheses and recently extended to translation lattices (Macherey et al., 2008; Tromble et al., 2008) generated by a phrase-based SMT system (Och and Ney, 2004). (self citation)
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+The word alignment is automatically computed by using GIZA++ (Och and Ney, 2004) in both directions, which are made symmetric by using the grow-diag-final-and operation.
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+3.2 Additional features The N-gram translation system implements a loglinear combination of five additional models: an n-gram target LM; 4http://code.google.com/p/giza-pp/ a target LM of Part-of-Speech tags; a word penalty model that is used to compensate for the systems preference for short output sentences; source-to-target and target-to-source lexicon models as shown in Och and Ney (2004)).
+
+Title:E09-1049		Conference:EACL		Author:Khalilov, Maxim; Fonollosa, Jos&eacute;; A. R.
+Moreover, phrasebased models are unable to cope with global reordering because the distortion model is based on movement distance, which may face computational resource limitations (Och and Ney, 2004).
+
+Title:P09-1103		Conference:ACL-IJCNLP		Author:Sun, Jun; Zhang, Min; Tan, Chew Lim
+Between them, the phrase-based approach (Marcu and Wong, 2002; Koehn et al, 2003; Och and Ney, 2004) allows local reordering and contiguous phrase translation.
+
+Title:J09-4009		Conference:Computational Linguistics		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel; Knight, Kevin
+We also compare the top result of our synchronous binarization system with the state-of-the-art alignment-template system (ATS) (Och and Ney 2004).
+
+Title:W09-0434		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Birch, Alexandra; Blunsom, Philip; Osborne, Miles
+Phrase-based models (Och and Ney, 2004; Koehn et al., 2003) have been a major paradigm in statistical machine translation in the last few years, showing state-of-the-art performance for many language pairs.
+
+Title:W09-2309		Conference:Proceedings of the Third Workshop on Syntax and Structure in Statistical Translation (SSST-3) at NAACL HLT 2009		Author:Hashimoto, Kei; Yamamoto, Hirohumi; Okuma, Hideo; Sumita, Eiichiro; Tokuda, Keiichi
+A popular statistical machine translation paradigms is the phrase-based model (Koehn et al., 2003; Och and Ney, 2004).
+
+Title:J09-1002		Conference:Computational Linguistics		Author:Barrachina, Sergio; Bender, Oliver; Casacuberta, Francisco; Civera, Jorge; Cubel, Elsa; Khadivi, Shahram; Lagarda, Antonio L.; Ney, Hermann; Tom&aacute;s, Jes&uacute;s; Vidal, Enrique; Vilar, Juan-Miguel
+In this work, we use two closely related models: ATs (Och and Ney 2004) and PBMs (Tomas and Casacuberta 2001; Koehn, Och, and Marcu 2003; Zens and Ney 2004). (self citation)
+
+Title:J09-1002		Conference:Computational Linguistics		Author:Barrachina, Sergio; Bender, Oliver; Casacuberta, Francisco; Civera, Jorge; Cubel, Elsa; Khadivi, Shahram; Lagarda, Antonio L.; Ney, Hermann; Tom&aacute;s, Jes&uacute;s; Vidal, Enrique; Vilar, Juan-Miguel
+In practice all of these models (and possibly others) are often combined into a loglinear model for Pr(t | s) (Och and Ney 2004): t= argmax t braceleftBigg N summationdisplay i=1 i log f i (t,s) bracerightBigg (3) where f i (t,s) can be a model for Pr(s|t), a model for Pr(t|s), a target language model for Pr(t), or any model that represents an important feature for the translation. (self citation)
+
+Title:J09-1002		Conference:Computational Linguistics		Author:Barrachina, Sergio; Bender, Oliver; Casacuberta, Francisco; Civera, Jorge; Cubel, Elsa; Khadivi, Shahram; Lagarda, Antonio L.; Ney, Hermann; Tom&aacute;s, Jes&uacute;s; Vidal, Enrique; Vilar, Juan-Miguel
+More details can be found in Och (1999) and Och and Ney (2004). (self citation)
+
+Title:J09-1002		Conference:Computational Linguistics		Author:Barrachina, Sergio; Bender, Oliver; Casacuberta, Francisco; Civera, Jorge; Cubel, Elsa; Khadivi, Shahram; Lagarda, Antonio L.; Ney, Hermann; Tom&aacute;s, Jes&uacute;s; Vidal, Enrique; Vilar, Juan-Miguel
+In previous works these models have proven adequate for conventional MT (Vidal 1997; Amengual et al. 2000; Ney et al. 2000; Tomas and Casacuberta 2001; Och and Ney 2003; Casacuberta and Vidal 2004; Och and Ney 2004; Vidal and Casacuberta 2004). (self citation)
+
+Title:J09-1002		Conference:Computational Linguistics		Author:Barrachina, Sergio; Bender, Oliver; Casacuberta, Francisco; Civera, Jorge; Cubel, Elsa; Khadivi, Shahram; Lagarda, Antonio L.; Ney, Hermann; Tom&aacute;s, Jes&uacute;s; Vidal, Enrique; Vilar, Juan-Miguel
+For a more detailed description the reader is referred to Och and Ney (2004). (self citation)
+
+Title:D09-1106		Conference:EMNLP		Author:Liu, Yang; Xia, Tian; Xiao, Xinyan; Liu, Qun
+For example, given a source phrase f and a target phrase e, the phrase pair ( f,e) is said to be consistent (Och and Ney, 2004) with the alignment if and only if: (1) there must be at least one word inside one phrase aligned to a word inside the other phrase and (2) no words inside one phrase can be aligned to a word outside the other phrase.
+
+Title:D09-1106		Conference:EMNLP		Author:Liu, Yang; Xia, Tian; Xiao, Xinyan; Liu, Qun
+The methods for calculating relative frequencies (Och and Ney, 2004) and lexical weights (Koehn et al., 2003) are also adapted for the weighted matrix case.
+
+Title:D09-1106		Conference:EMNLP		Author:Liu, Yang; Xia, Tian; Xiao, Xinyan; Liu, Qun
+Word-aligned corpora have been found to be an excellent source for translation-related knowledge, not only for phrase-based models (Och and Ney, 2004; Koehn et al., 2003), but also for syntax-based models (e.g., (Chiang, 2007; Galley et al., 2006; Shen et al., 2008; Liu et al., 2006)).
+
+Title:D09-1106		Conference:EMNLP		Author:Liu, Yang; Xia, Tian; Xiao, Xinyan; Liu, Qun
+After all phrase pairs are extracted from the training corpus, their translation probabilities can be estimated as relative frequencies (Och and Ney, 2004): (e|f) = count( f, e) summationtext e count( f, e) (2) where count( f, e) indicates how often the phrase pair ( f, e) occurs in the training corpus.
+
+Title:D09-1106		Conference:EMNLP		Author:Liu, Yang; Xia, Tian; Xiao, Xinyan; Liu, Qun
+We follow Och and Ney (2004) to develop a new phrase extraction algorithm for weighted alignment matrices.
+
+Title:W09-0412		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Nakov, Preslav; Ng, Hwee Tou
+We then built separate English-to-Spanish and Spanish-to-English directed word alignments using IBM model 4 (Brown et al., 1993), combined them using the intersect+grow heuristic (Och and Ney, 2003), and extracted phrase-level translation pairs of maximum length 7 using the alignment template approach (Och and Ney, 2004).
+
+Title:P09-1065		Conference:ACL-IJCNLP		Author:Liu, Yang; Mi, Haitao; Feng, Yang; Liu, Qun
+On the other hand, other authors (e.g., (Och and Ney, 2004; Koehn et al., 2003; Chiang, 2007)) do use the expression phrase-based models.
+
+Title:C10-1041		Conference:COLING		Author:Gao, Jianfeng; Li, Xiaolong; Micol, Daniel; Quirk, Chris; Sun, Xu
+5.2 Training the Error Model Given a set of (Q, C) pairs as training data, we follow a method commonly used in SMT (Och and Ney, 2004) to extract biphrases and estimate their replacement probabilities.
+
+Title:W10-4110		Conference:Proceedings of the Joint Conference on Chinese Language Processing		Author:Lu, Bin; T'sou, Benjamin K.; Jiang, Tao; Kwong, Oi Yee; Zhu, Jingbo
+(1993), Och and Ney (2004) and Chiang (2007).
+
+Title:D10-1060		Conference:EMNLP		Author:Shen, Libin; Zhang, Bing; Matsoukas, Spyros; Xu, Jinxi; Weischedel, Ralph M.
+1 Introduction A statistical phrasal (Koehn et al., 2003; Och and Ney, 2004) or hierarchical (Chiang, 2005; Marcu et al., 2006) machine translation system usually relies on a very large set of translation rules extracted from bi-lingual training data with heuristic methods on word alignment results.
+
+Title:W10-3801		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Dymetman, Marc; Cancedda, Nicola
+1 Introduction Phrase-based (Och and Ney, 2004; Koehn et al., 2007) and Hierarchical (Hiero-style) (Chiang, 2007) models are two mainstream approaches for building Statistical Machine Translation systems, with different characteristics.
+
+Title:P10-1049		Conference:ACL		Author:Wuebker, Joern; Mauser, Arne; Ney, Hermann
+(Och and Ney, 2004) The best translation eI1 as defined by the models then can be written as eI1 = argmax I,eI1 braceleftBigg Msummationdisplay m=1 mhm(eI1,sK1 ,fJ1 ) bracerightBigg (2) In this work, we propose to directly train our phrase models by applying a forced alignment procedure where we use the decoder to find a phrase alignment between source and target sentences of the training data and then updating phrase translation probabilities based on this alignment. (self citation)
+
+Title:W10-1604		Conference:Proceedings of the NAACL HLT 2010 Young Investigators Workshop on Computational Approaches to Languages of the Americas		Author:Caseli, Helena M.; Sugiyama, Bruno Akio; Anacleto, Junia Coutinho
+Nowadays, the majority of the researches has being centered around the phrase-based statistical MT (PB-SMT) approach such as (Koehn et al., 2003) and (Och and Ney, 2004).
+
+Title:D10-1104		Conference:EMNLP		Author:Liu, Xiaohua; Han, Bo; Li, Kuan; Stiller, Stephan Hyeonjun; Zhou, Ming
+We extract paraphrasing verb expressions from a phrasal SMT translation table learnt from parallel corpora (Och and Ney, 2004).
+
+Title:C10-1051		Conference:COLING		Author:He, Yanqing; Zhou, Yu; Zong, Chengqing; Wang, Huilin
+Some of these models are contentindependent, such as distortion models (Och and Ney, 2004; Koehn et al., 2003) which penalize translation according to jump distance of phrases, and flat reordering model (Wu, 1995; Zens et al., 2004)which assigns constant probabilities for monotone order and non-monotone order.
+
+Title:D10-1016		Conference:EMNLP		Author:Genzel, Dmitriy; Uszkoreit, Jakob; Och, Franz Josef
+In addition to a statistical MT system (Och and Ney, 2004; Koehn et al., 2007), it is necessary to have the means to count the syllables in a word and to find out which ones are stressed. (self citation)
+
+Title:C10-1084		Conference:COLING		Author:Luong, Minh-Thang; Kan, Min-Yen
+Intersection links (i.e., common to both direct and inverse alignments) play an important role in creating the final alignment (Och and Ney, 2004).
+
+Title:N10-1129		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Green, Spence; Galley, Michel; Manning, Christopher D.
+Phrase pairs with a maximum target or source length of 7 tokens are extracted using the method of Och and Ney (2004).
+
+Title:N10-1129		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Green, Spence; Galley, Michel; Manning, Christopher D.
+Both generative (Tillmann, 2004; Och and Ney, 2004; Koehn et al., 2007) and discriminative training (Tillmann and Zhang, 2005; Zens and Ney, 2006; Liang et al., 2006) algorithms have been proposed.
+
+Title:N10-1129		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Green, Spence; Galley, Michel; Manning, Christopher D.
+The Moses phrase-based decoder models the posterior probability pparenleftbigeI1|fJ1parenrightbig directly according to a log-linear model (Och and Ney, 2004), which gives the decision rule e = arg max I,eI1 braceleftBigg Msummationdisplay m=1 mhmparenleftbigeI1,fJ1parenrightbig bracerightBigg wherehmparenleftbigeI1,fJ1parenrightbigareM arbitrary feature functions over sentence pairs, and m are feature weights set using a discriminative training method like MERT (Och, 2003).
+
+Title:W10-2915		Conference:Proceedings of the Fourteenth Conference on Computational Natural Language Learning		Author:Mylonakis, Markos; Sima'an, Khalil
+Chiangs Hiero system (Chiang, 2007) exemplifies the gains to be had by combining phrase-based translation (Och and Ney, 2004) with the hierarchical reordering capabilities of SCFGs, particularly originating from Binary Inversion Transduction Grammars (BITG) (Wu, 1997).
+
+Title:W10-2915		Conference:Proceedings of the Fourteenth Conference on Computational Natural Language Learning		Author:Mylonakis, Markos; Sima'an, Khalil
+Given the word-alignments, the set of phrase-pairs extracted is the set of all translational equivalents (without length upperbound) under the word-alignment as defined in (Och and Ney, 2004; Koehn et al., 2003).
+
+Title:W10-2915		Conference:Proceedings of the Fourteenth Conference on Computational Natural Language Learning		Author:Mylonakis, Markos; Sima'an, Khalil
+But each of these three kinds of latent structures may be made explicit using external resources: word-alignment could be considered solved using Giza++ (Och and Ney, 2003)), phrase pairs can be obtained from these word-alignments (Och and Ney, 2004), and the hierarchical synchronous structure can be grown over source/target linguistic syntactic trees output by an existing parser.
+
+Title:N10-1040		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Liberato, Frank; Mohit, Behrang; Hwa, Rebecca
+We can then provide these translations to the decoder, along with their scores, to incorporate them as it builds the complete translation of S. This differs from approaches such as (Och and Ney, 2004) because we generate new phrase pairs in isolation, rather than incorporating everything into the sentence-level decoder.
+
+Title:D10-1052		Conference:EMNLP		Author:Setiawan, Hendra; Dyer, Chris; Resnik, Philip
+We only enforce one criterion on Li,ST and Ri,ST : they have to be the maximal alignment blocks satisfying the consistent heuristic (Och and Ney, 2004) that end or start with Yi,ST on the source S side respectively.2 To infer these phrases, we decompose Li,ST into (o(Li,ST), d(FWi1,ST), b(s)); similarly, Ri,ST into (o(Ri,ST),d(FWi+1,ST), b(/s) )).
+
+Title:J10-3010		Conference:Computational Linguistics		Author:Riezler, Stefan; Liu, Yi
+Query Expansion Using Monolingual SMT 4.1 Linear Models for SMT The job of a translation system is defined in Och and Ney (2004) as finding the English string e that is a translation of a foreign string f using a linear combination of feature functions h m (e, f) and weights m as follows: e = arg max e M summationdisplay m=1 m h m (e, f) As is now standard in SMT, several complex features such as lexical translation models and phrase translation models, trained in source-target and target-source directions, are combined with language models and simple features such as phrase and word counts.
+
+Title:J10-3010		Conference:Computational Linguistics		Author:Riezler, Stefan; Liu, Yi
+That is, given two Viterbi alignments A 1 = {(a j , j)| a j > 0} and A 2 = {(i, b i )| b i > 0}, the alignments in the intersection are defined as A = A 1 A 2 . Phrases are extracted as larger blocks of aligned words from the alignments in the intersection, as described in Och and Ney (2004).
+
+Title:D10-1014		Conference:EMNLP		Author:Huang, Zhongqiang; Cmejrek, Martin; Zhou, Bowen
+1 Introduction In recent years, syntax-based translation models (Chiang, 2007; Galley et al., 2004; Liu et al., 2006) have shown promising progress in improving translation quality, thanks to the incorporation of phrasal translation adopted from the widely used phrase-based models (Och and Ney, 2004) to handle local fluency and the engagement of synchronous context-free grammars (SCFG) to handle non-local phrase reordering.
+
+Title:D10-1014		Conference:EMNLP		Author:Huang, Zhongqiang; Cmejrek, Martin; Zhou, Bowen
+Widely adopted in phrase-based models (Och and Ney, 2004), a pair of consecutive sequences of words from E and F is a phrase pair if all words are aligned only within the sequences and not to any word outside.
+
+Title:J10-3002		Conference:Computational Linguistics		Author:Liu, Yang; Liu, Qun; Lin, Shouxun
+The estimation of translation model parameters usually relies heavily on word-aligned corpora, not only for phrase-based and hierarchical phrase-based models (Koehn, Och, and Marcu 2003; Och and Ney 2004; Chiang 2005, 2007), but also for syntax-based models (Quirk, Menezes, and Cherry 2005; Galley et al. 2006; Liu, Liu, and Lin 2006; Marcu et al. 2006).
+
+Title:C10-1043		Conference:COLING		Author:Genzel, Dmitriy
+4 Evaluation As described above, our base system is a phrasebased statistical MT system, similar to that of Och and Ney (2004).
+
+Title:C10-1035		Conference:COLING		Author:Duan, Nan; Sun, Hong; Zhou, Ming
+Although differed on paradigms, such as phrase-based (Koehn, 2004; Och and Ney, 2004), hierarchical phrase-based (Chiang, 2007) and syntax-based (Galley et al., 2006; Shen et al., 2008; Huang, 2008), most SMT systems fol 1 This work has been done while the author was visiting Microsoft Research Asia.
+
+Title:W10-3812		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Khalilov, Maxim; Sima'an, Khalil
+(Och and Ney, 2004), deal efficiently with word reordering within a limited window of words, they are still not expected to handle all possible reorderings that involve words beyond this relatively narrow window, e.g., (Tillmann and Ney, 2003; Zens and Ney, 2003; Tillman, 2004).
+
+Title:P10-1063		Conference:ACL		Author:Soricut, Radu; Echihabi, Abdessamad
+3.3 Experimental conditions The MT system used by TrustRank (TrustRankMT) is a statistical phrase-based MT system similar to (Och and Ney, 2004).
+
+Title:W10-3810		Conference:Proceedings of the 4th Workshop on Syntax and Structure in Statistical Translation		Author:Mohaghegh, Mahsa; Sarrafzadeh, Abdolhossein; Moir, Tom
+78 Moses (Koehn, et al., 2007) is an open-source statistical machine translation system which allows one to train translation models using GIZA++ (Och & Ney, 2004).for any given language pair for which a parallel corpus exists.
+
+Title:W10-1706		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Hui, Cong; Zhao, Hai; Lu, Bao-Liang; Song, Yan
+Given a sentence pair and its corresponding word-level alignment, phrases will be extracted by using the approach in (Och and Ney, 2004).
+
+Title:N10-1140		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Galley, Michel; Manning, Christopher D.
+Unlike (Och and Ney, 2004), in this work, a sentence pair may be segmented into phrases that are not conHiero: This work: ne veux plus X je ne veux plus X do not want X anymore I do not want X anymore veux ne plus je ne plus ne veux plus je ne veux plus veux jouer do want not anymore I not anymore do not want anymore I do not want anymore do want to play je ne veux plus jouer I do not want to play anymore Figure 2: Due to hierarchical constraints, Hiero only extracts two discontinuous phrases from the alignment on the left, but our system extracts 11 (only 6 are shown).
+
+Title:N10-1140		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Galley, Michel; Manning, Christopher D.
+A pair of coverage sets (sk,tk) is said to be consistent with the word alignment A if the following condition holds: (i,j)A : isk jtk (1) For continuous phrases, finding all phrase pairs that satisfy this condition can be done in O(nm3) time (Och and Ney, 2004), where n is the length of the sentence and m is the maximum phrase length.
+
+Title:N10-1140		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Galley, Michel; Manning, Christopher D.
+1 Introduction Phrase-based machine translation models (Och and Ney, 2004) advanced the state of the art by extending the basic translation unit from words to phrases.
+
+Title:W10-1701		Conference:Proceedings of the Joint Fifth Workshop on Statistical Machine Translation and MetricsMATR		Author:Gao, Qin; Bach, Nguyen; Vogel, Stephan
+After word alignment, standard Moses phrase extraction tool (Och and Ney, 2004) is used to build the translation models and finally Moses (Koehn et.
+
+Title:P10-1028		Conference:ACL		Author:Sun, Xu; Gao, Jianfeng; Micol, Daniel; Quirk, Chris
+To this end, inspired by the phrase-based statistical machine translation (SMT) systems (Koehn et al., 2003; Och and Ney, 2004), we propose a phrase-based error model where we assume that query spelling correction is performed at the phrase level.
+
+Title:C10-2044		Conference:COLING - POSTERS		Author:He, Zhongjun; Meng, Yao; Yu, Hao
+1 Introduction The hierarchial phrase-based (HPB) model (Chiang, 2005) outperformed previous phrase-based models (Koehn et al., 2003; Och and Ney, 2004) by utilizing hierarchical phrases consisting of both words and variables.
+
+Title:P10-2003		Conference:Proceedings of the ACL 2010 Conference Short Papers		Author:Su, Jinsong; Liu, Yang; L&uuml;, Yajuan; Mi, Haitao; Liu, Qun
+1 Introduction Phrase-based translation systems (Koehn et al., 2003; Och and Ney, 2004) prove to be the stateof-the-art as they have delivered translation performance in recent machine translation evaluations.
+
+Title:P10-1096		Conference:ACL		Author:Yamangil, Elif; Shieber, Stuart M.
+One approach is to use word alignments (where these can be reliably estimated, as in our testbed application) to align subtrees and extract rules (Och and Ney, 2004; Galley et al., 2004) but this leaves open the question of finding the right level of generality of the rules how deep the rules should be and how much lexicalization they should involve necessitating resorting to heuristics such as minimality of rules, and leading to 1Throughout the paper we will use the word STSG to refer to the tree-to-tree version of the formalism, although the string-to-tree version is also commonly used.
+
+Title:N10-1139		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:Allauzen, Cyril; Kumar, Shankar; Macherey, Wolfgang; Mohri, Mehryar; Riley, Michael D.
+6 Experimental Results Lattices were generated using a phrase-based MT system similar to the alignment template system described in (Och and Ney, 2004).
+
+Title:C10-1123		Conference:COLING		Author:Tu, Zhaopeng; Liu, Yang; Hwang, Young-Sook; Liu, Qun; Lin, Shouxun
+For example, we can first extract a string-todependency rule that is consistent with the word alignment (Och and Ney, 2004): with ((a) telescope) dai wangyuanjing de Then a smaller rule (a) telescope wangyuanjing can be subtracted to obtain a rule with one nonterminal: with (X1) dai X1 de where X is a non-terminal and the subscript indicates the correspondence between non-terminals on the source and target sides.
+
+Title:D10-1015		Conference:EMNLP		Author:Luong, Minh-Thang; Nakov, Preslav; Kan, Min-Yen
+3.2 Word Boundary-aware Phrase Extraction The core translation structure of a phrase-based SMT model is the phrase table, which is learned from a bilingual parallel sentence-aligned corpus, typically using the alignment template approach (Och and Ney, 2004).
+
+Title:N10-1141		Conference:Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics		Author:DeNero, John; Kumar, Shankar; Chelba, Ciprian; Och, Franz Josef
+Our phrase-based system is similar to the alignment template system described by Och and Ney (2004). (self citation)
+
+Title:D11-1126		Conference:EMNLP		Author:Venugopal, Ashish; Uszkoreit, Jakob; Talbot, David; Och, Franz Josef; Ganitkevitch, Juri
+Using a state-of-the-art phrase-based statistical machine translation system (Och and Ney, 2004) trained on parallel documents identified by (Uszkoreit et al., 2010), we generate a set of 100 alternative translations for each source sentence. (self citation)
+
+Title:P11-2069		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Bouamor, Houda; Max, Aur&eacute;lien; Vilnat, Anne
+396 Statistical Word Alignment The GIZA++ tool (Och and Ney, 2004) computes statistical word alignment models of increasing complexity from parallel corpora.
+
+Title:W11-1007		Conference:Proceedings of Fifth Workshop on Syntax, Semantics and Structure in Statistical Translation		Author:Xiang, Bing; Ge, Niyu; Ittycheriah, Abraham
+In (Och and Ney, 2004; Tillmann, 2004; Kumar and Byrne, 2005; AlOnaizan and Papineni, 2006; Xiong et al., 2006; Zens and Ney, 2006; Ni et al., 2009), people presented models that use lexical features from the phrases to predict their orientations.
+
+Title:W11-1604		Conference:Proceedings of the Workshop on Monolingual Text-To-Text Generation		Author:Wubben, Sander; Marsi, Erwin; van den Bosch, Antal; Krahmer, Emiel
+3 Paraphrasegeneration Phrase-based MT models consider translation as a mapping of small text chunks, with possible reordering (Och and Ney, 2004).
+
+Title:W11-1604		Conference:Proceedings of the Workshop on Monolingual Text-To-Text Generation		Author:Wubben, Sander; Marsi, Erwin; van den Bosch, Antal; Krahmer, Emiel
+Prior work has explored the use of PBMT for paraphrasegeneration(Quirk et al., 2004; Bannard and Callison-Burch, 2005; Madnani et al., 2007; Callison-Burch, 2008; Zhao et al., 2009; Wubben et al., 2010) However, since many researchers believe that PBMT has reached a performance ceiling, ongoing research looks into more structural approaches to statistical MT (Marcu and Wong, 2002; Och and Ney, 2004; Khalilov and Fonollosa, 2009).
+
+Title:P11-1105		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Durrani, Nadir; Schmid, Helmut; Fraser, Alexander
+In order to improve end-to-end accuracy, we introduce new features for our model and shift from the generative6 model to the standard log-linear approach (Och and Ney, 2004) to tune7 them.
+
+Title:D11-1020		Conference:EMNLP		Author:Xie, Jun; Mi, Haitao; Liu, Qun
+The tree annotation can be accomplished by a single postorder transversal of T. The extraction of head rules from each node can be readily achieved with the same criteria as (Och and Ney, 2004).
+
+Title:D11-1020		Conference:EMNLP		Author:Xie, Jun; Mi, Haitao; Liu, Qun
+This procedure is similar with the method of (Och and Ney, 2004) except that we might extend several 221 Algorithm 1: Algorithm for Rule Acquisition Input: Source dependency structure T, target string S, alignment A Output: Translation rule set R 1 HSetACCEPTABLE HEAD(T,S,A) 2 DSetACCEPTABLE DEPENDENT(T,S,A) 3 for each node nHSet do 4 extract head rules 5 append the extracted rules to R 6 if nchild(n) nDSet 7 then 8 obtain a head-dependent fragment f 9 induce lexicalized and unlexicalized head-dependents rules from f 10 append the induced rules to R 11 end 12 end spans simultaneously.
+
+Title:P11-2117		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Coster, William; Kauchak, David
+The small amount of simplification data currently available has prevented the application of data-driven techniques like those used in other text-to-text translation areas (Och and Ney, 2004; Chiang, 2010).
+
+Title:P11-2117		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Coster, William; Kauchak, David
+Motivated by the importance of lexical changes, we used Moses, a phrase-based machine translation system (Och and Ney, 2004).3 We trained Moses on 124K pairs from the data set and the n-gram language model on the simple side of this data.
+
+Title:P11-2051		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Gao, Qin; Vogel, Stephan
+The extraction of SSRs is similar to the wellknown phrase extraction algorithm (Och and Ney, 2004).
+
+Title:P11-3007		Conference:Proceedings of the ACL 2011 Student Session		Author:Beck, Daniel Emilio
+(2003) and Och and Ney (2004), purely statistical MT systems have not achieved considerable improvements.
+
+Title:P11-1066		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zhou, Guangyou; Cai, Li; Jun, Zhao; Liu, Kang
+3 Our Approach: Phrase-Based Translation Model for Question Retrieval 3.1 Phrase-Based Translation Model Phrase-based machine translation models (Koehn et al., 2003; D. Chiang, 2005; Och and Ney, 2004) have shown superior performance compared to word-based translation models.
+
+Title:P11-1066		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Zhou, Guangyou; Cai, Li; Jun, Zhao; Liu, Kang
+To this end, inspired by the phrase-based statistical machine translation (SMT) systems (Koehn et al., 2003; Och and Ney, 2004), we propose a phrasebased translation model (P-Trans) for question retrieval, and we assume that question retrieval should be performed at the phrase level.
+
+Title:D11-1018		Conference:EMNLP		Author:DeNero, John; Uszkoreit, Jakob
+Our in-house decoder is based on the alignment template approach to translation and uses a small set of standard feature functions during decoding (Och and Ney, 2004).
+
+Title:P11-1027		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Pauls, Adam; Klein, Dan
+4.2 Exploiting Scrolling Queries Decoders with integrated language models (Och and Ney, 2004; Chiang, 2005) score partial translation hypotheses in an incremental way.
+
+Title:D11-1149		Conference:EMNLP		Author:Lu, Wei; Ng, Hwee Tou
+Following popular approaches to learning feature weights in the machine translation community (Och and Ney, 2004; Chiang, 2005), we use the minimum error rate training (MERT) (Och, 2003) algorithm to learn the feature weights that directly optimize certain automatic evaluation metric.
+
+Title:P11-1126		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Duan, Nan; Li, Mu; Zhou, Ming
+1 Introduction Besides tremendous efforts on constructing more complicated and accurate models for statistical machine translation (SMT) (Och and Ney, 2004; Chiang, 2005; Galley et al., 2006; Shen et al., 2008; Chiang 2010), many researchers have concentrated on the approaches that improve translation quality using information between hypotheses from one or more SMT systems as well.
+
+Title:P11-1043		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:DeNero, John; Macherey, Klaus
+Finally, we evaluated our bidirectional model in a large-scale end-to-end phrase-based machine translation system from Chinese to English, based on the alignment template approach (Och and Ney, 2004).
+

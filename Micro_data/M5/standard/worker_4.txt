@@ -1,0 +1,15 @@
+Using an open-source, Java toolkit of name-matching methods, we experimentally compare string distance metrics on the task of matching entity names
+We inves- tigate a number of different metrics proposed by differ- ent communities, including edit-distance metrics, fast heuristic string comparators, token-based distance met- rics, and hybrid methods
+Common approaches to entity resolution use a variety of similarity measures, often based on approximate string matching criteria [7], [4], [6]
+An important task in data integration is Entity Resolution (ER) or data de-duplication [2], [3]
+Pattern-matching techniques are commonly used in approximate string matching [8, 9, 10], which is used for data linkage [11, 12], duplicate detection [13], information retrieval [14] and correction of spelling errors [4, 8, 15]
+Jaccard and Dice’s coefficients can also be used as string similarity metrics, by seeing the strings as sets of characters or even as sets of word tokens [8]
+Name similarity between entities is measured by the Jaro Winkler distance method [6]
+Each of these functions measures the distance between strings as a function of the number of character changes that need to be made to transform one string into another [5]
+In our approach, we use the metrics Monge-Elkan [9] and Jaro-Winkler [10] to calculate the similarity among the document words, because both measures return adequate values for words with a common root
+So, we take advantage of the relatively mature field of String metrics to find the distance between strings using an open-source available library with different algorithms implementations [17]
+SoftTFIDF is chosen because it is recognized as the best existing technique with respect to average accuracy [8], [24]
+String matching [22] would be inadequate to link instances of city having such labels
+Free Java based string distance library, SecondString [3], is used in our implementation
+In the string case, for example, among the existing similarity measures (see [3] for an experimental comparison of string distances), the edit distance [18] is probably the most used
+Similarity metrics for single fields include string based metrics, for example those that use distance functions such as the edit distance [21, 6], token based similarity measures that work well for typographical errors, for example rearrangement of words such as “forename surname” versus “surname, forename” and phonetic similarity metrics that identify strings that sound similar [10]

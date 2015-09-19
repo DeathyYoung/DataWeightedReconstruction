@@ -1,0 +1,15 @@
+Also, dependency parsers are not significantly better at recovering head-based dependencies than constituent parsers based on the PTB (McDonald et al
+We trained an edge-factored dependency parser (McDonald et al
+, 2005) that constituency parsers are more accurate at producing dependencies than dependency parsers (at least when the dependencies were produced by a deterministic transformation of a constituency treebank, as is the case here)
+1 Introduction The field of syntactic parsing has received a great deal of attention and progress since the creation of the Penn Treebank (Marcus et al
+Dependency parsers have been tested on parsing sentences in English (Yamada and Matsumoto, 2003; Nivre and Scholz, 2004; McDonald et al
+This is also true for reranking and discriminative training, where the k-best list of candidates serves as an approximation of the full set (Collins, 2000; Och, 2003; McDonald et al
+One sees this clear trend in the supervised NLP literature examples include the Perceptron algorithm for tagging (Collins, 2002), MIRA for dependency parsing (McDonald et al
+Two representative methods for dependency parsing are transitionbased model like MaltParser (Nivre, 2003) and graph-based model like MSTParser 1 (McDonald et al
+Moreover, under this view, SMT becomes quite similar to sequential natural language annotation problems such as part-of-speech tagging and shallow parsing, and the novel training algorithm presented in this paper is actually most similar to work on training algorithms presented for these task, e
+1 Introduction Supervised learning algorithms still represent the state of the art approach for inferring dependency parsers from data (McDonald et al
+Alternatively, discriminative parsing is tractable with exact and efficient search based on dynamic programming (DP) if all features are restricted to be local, that is, only looking at a local window within the factored search space (Taskar et al
+The system uses as input the paired corpus, the corresponding POS tagged corpus, the paired corpus parsed using the Charniak parser (Charniak, 2000), and dependency parses from the MST parser (McDonald et al
+The observed time complexity of our DP parser is in fact linear compared to the superlinear complexity of Charniak, MST (McDonald et al
+For the dependency case, we can integrate them into the dynamic programming of a base parser; we use the discriminativelytrained MST dependency parser (McDonald et al
+Parsers For graph-based parsers, we used the projective first-order (MST1) and secondorder (MST2) variants of the freely available MST parser4 (McDonald et al

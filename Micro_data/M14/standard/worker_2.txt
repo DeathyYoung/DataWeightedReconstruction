@@ -1,0 +1,15 @@
+This paper describes a new statistical parser which is based on probabilities of dependencies between head-words in the parse tree
+Standard bigram probability estimation techniques are extended to calculate probabilities of dependencies between pairs of words
+Tests using Wall Street Journal data show that the method performs at least as well as SPATTER (Magerman 95; Jelinek et al
+We adapt a dependency model from the literature [12] to calculate edge weights
+Data smoothing can be performed using deleted interpolation, as in Collins [12]:
+Proposed have been a method to resolve the syntactic ambiguity based on the dependency structure [5], and a method to generate the translated sentence based on the dependency structure [2, 14]
+(1) The method where the dependency is generated based on the dependency constraint [7, 21] (2) The head information is attached to the grammatical rule, and the parse tree is converted to the dependency structure based on that information [4, 5, 9]
+It has been observed that crossing dependencies are rare cross-linguistically (Steedman, 1985), though there are well-known examples in certain languages such as Dutch (Bresnan, Kaplan, Peters, & Zaenen, 1982; Joshi, 1990); in dependency grammars of English, crossing dependencies are generally disallowed, or allowed only under highly constrained circumstances (Hudson, 1990; Sleator & Temperley, 1993; Collins, 1996)
+Michael Collins is also known for his work on creating an accurate PCFG parser[12], which is similar to Charniak’s, without the adherence to using strict grammar rules or considering the parent in the calculation of statistics[8]
+On the other hand, many researches have used the statistical information to increase the eciency of parsing (Charniak, 1997; Collins, 1996; Magerman, 1995; Ratnaparkhi, 1997; Stolcke, 1995)
+As the developlnent of corpus linguistics, many statistics-based parsers were proposed, such as Magerman(1995)'s statistical decision tree parser, Collins(1996)'s bigram dependency model parser, 1;/atnaparkhi(1997)'s maximum entropy model parser
+Collins, 1996) have adapted it to incorporate constituent labelling information as well as just bracketing
+The probabilistic relation between verbs and their arguments plays an important role in modern statistical parsers and supertaggers (Charniak 1995, Collins 1996/1997, Joshi and Srinivas 1994, Kim, Srinivas, and Trueswell 1997, Stolcke et al
+These techniques yielded promising results but have been largely supplanted by statistical parse decision techniques in which the probabilistic model is sensitive to details of parse context (Magerman & Weir, 1992; Briscoe & Carroll, 1993; Brill, 1993; Magerman, 1995; Collins, 1996) and integrated more closely with the parsing algorithm than with the grammar
+These parsers are trained on a tagged corpus, and they use learned probabilities of word relationships to guide the search for the best parse

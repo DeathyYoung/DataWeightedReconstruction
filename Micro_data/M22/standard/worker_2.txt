@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems
+We also give empir- ical evidence that the plans produced by Graphplan are quite sensible
+Since searches made by this approach are fundamentally different from the searches of other common planning methods, they provide a new perspective on the planning problem
+The plangraph is a datastructure that was devised for the efficient GRAPHPLAN framework of planning in STRIPS domains with restrictions on where negated propositions occur in the problem specification (Blum & Furst 1997)
+Overcoming the limitation of traditional logic-based planning, HTN planning is introduced for solving given problem using partially and hierarchically ordered set of tasks [13]
+One is graph-based planning algorithms [2] in which a compact structure called a Planning Graph is constructed and analyzed
+classical planning (Blum & Furst 1995), the model and algorithms are general ¡ª working with any semantics that defines these two quantities consistently
+POLLy consists of two parts: an AI Planner based on GraphPlan [5] and a Spoken Language Generator (SLG), as illustrated in Figure 1
+In FF, a planning graph (Blum & Furst, 1995) is built forward from the current state using relaxed actions¡ªthis is known as a relaxed planning-graph (RPG)
+Other constraint models that exploit a structure of a planning graph (Blum and Furst, 1997) have been proposed in (Do and Kambhampati, 2000) and (Lopez and Bacchus 2003)
+This is done by a Graphplan-like procedure [1], which due to the absence of deletes constructs a planning graph with no mutexes, from which a plan FF(s) is extracted backtrack-free [11]
+Intelligent planning is increasingly becoming very hot in AI and has developed a large number of attractive approaches for solving planning problems, such as Graphplan [1], propositional satisfiability methods [2], parallel search methods and so on
+Graph based planning Graph based planning utilizes planning graph [1] as a heuristic to constrain the search for plans

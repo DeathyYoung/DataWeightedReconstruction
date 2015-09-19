@@ -1,0 +1,15 @@
+We describe in this t)at)er a method for au- tomatically training tel)it, signatures--sets of related words, with associated weights, organized around head topics and illustrate with signatm'es we cre- ;tt
+First of all, when a summary in question contains sentences that do not appear in any of the model extracts, one may not be sure that those sentences are uninformative or inappropriate for inclusion in a summary
+Two methods are used: topic signature (Lin and Hovy, 2000): a topic signature is a family of related terms {topic, signature}, where topic is the target concept and signature is a vecto related s
+In summarization, such words are called signature terms and are thought to be descriptive of the input; they can be identified using the log-likelihood ratio of each word (Lin and Hovy, 2000; Gupta et al
+We implemented a topicrelated headline generator based on our previous work (Lin and Hovy, 2000) by incorporating a topic-based selector
+Such words are called signature terms in Lin and Hovy (2000) who were the first to introduce the log-likelihood weighting scheme for summarization
+In summarization, topic signatures are a set of terms indicative of a topic (Lin and Hovy, 2000)
+(2005), which uses Topic Signatures (Lin and Hovy, 2000) constructed around the target individuals name to identify sentences to be included in the biography
+The idea of topic signature terms was introduced by Lin and Hovy (Lin and Hovy, 2000) in the context of single document summarization, and was later used in several multi-document summarization systems (Conroy et al
+In addition, infobox could be considered as topic signature (Lin and Hovy, 2000) or keywords about the topic
+, 2004) and signature term (Lin and Hovy, 2000) are most remarkable
+2 Automatically retrieved Topic Signatures Topic Signatures (TS) are word vectors related to a particular topic (Lin and Hovy, 2000)
+Using these sets we obtained a set of Topic Signatures (TS) (Lin and Hovy, 2000) for the Spanish geography domain and another set of TS for the non-Spanish geography domain
+In order to generate QUABs automatically, documents identified from FERRETs automatic Q/A system are first submitted to a Topic Representation module, which computes both topic signatures (Lin and Hovy, 2000) and enhanced topic signatures (Harabagiu, 2004) in order to identify a set of topic-relevant passages
+Our next steps will be to take a closer look at the following work: clustering of similar words (Lin, 1998), topic signatures (Lin and Hovy, 2000) and Kilgariffs sketch engine (Kilgarriff et al

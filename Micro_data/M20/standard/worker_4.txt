@@ -1,0 +1,15 @@
+Libraries have traditionally used manual image annotation for indexing and then later retrieving their image collections
+However, manual image annotation is an expensive and labor intensive procedure and hence there has been great interest in coming up with automatic ways to retrieve images based on content
+Given a training set of images with annotations, we show that probabilistic models allow us to predict the probability of generating a word given the blobs in an image
+The goal of AIA techniques is to provide images with labels so that users can search for images by using keywords (Datta et al
+[72] suggest a coupling with salient regions by using the method proposed in [73], wherein scale-space peaks are detected in a multi-scale difference-of-Gaussian pyramid
+A fixed number of mixture components over visual features per keyword can be used [4], or a mixture model can be defined by using the training images as components over visual features and keywords [8, 18, 19]
+[15] introduce crossmedia relevance models (CMRM) where the joint distribution of blobs and words is learned from a training set of annotated images
+Compared with the joint probability of CMRM [3], the proposed Markov transition probability not only considers the potential correlation of different annotations, but also it is related to the image visual content I
+Our proposed method is based on a weighted nearest neighbor approach, inspired by recent successful methods [5, 11, 13, 17], that propagate the annotations of training images to new images
+The most intuitive method for image segmentation is to segment objects (or foreground subjects) from an image for region-based image matching [1,3,14,15,30], even though this is very difficult
+[5] proposed cross-media relevance model (CMRM) to estimate the joint probability of keywords and image using discrete blobs to represent regions
+In [11], the authors attempt to automatically annotate and retrieve images by applying QE in its relevance model based on a set of training images
+The probabilistic modeling-based methods [2][9][10][11][14][17] attempt to infer the correlations or joint probabilities between images and annotation keywords
+Sometimes a fixed number of mixture components over visual features per keyword is used [2], while other models use the training images as components to define a mixture model over visual features and tags [5, 11, 13]
+A representative work is the cross-media relevance model (CMRM) [8, 10] and its variants [5], concept propagation in [14], graph based semi-supervised inference [13] and others inspired from machine translation [4]

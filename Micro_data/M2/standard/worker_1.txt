@@ -1,0 +1,15 @@
+This paper describes a system that leads us to believe in the feasibility of constructing natural spoken dialogue systems in task-oriented domains
+It specifically addresses the issue of robust interpretation of speech in the presence of recognition errors
+Robustness is achieved by a combination of statistical error post-correction, syntactically- and semantically-driven robust parsing, and extensive use of the dialogue context
+We present an evaluation of the system using time-to-completion and the quality of the final solution that suggests that most native speakers of English can use the system successfully with virtually no training
+This enhanced content coverage, which is equivalent to shorter task completion times, seems to be a highly desirable and generalizable feature of spoken interactions (Allen, Miller, Ringger, & Sikorski, 1996; Damianos, Loehr, Burke, Hansen, & Viszmeg, 2003; Harris & Biermann, 2002; Litman et al, 2006)
+Though most of them deal with database retrieval and transaction processing, the target of spoken dialogue systems has been extended to cover other tasks, such as planning [3] and tutoring [4]
+As stated by Allen [3], two methods can be considered for processing NL commands: the top-down and the bottom-up approach
+(1996)), the conceptual granularity of the DA labels used varies considerably among alternative analyses, depending on the application or domain
+The customization method described here was developed in the process of adapting the TRIPS dialogue system [2] to several difierent domains, including a transportation routing system [3] and a medication scheduling system [7]
+Alternatively, the system developer might pursue the more rigorous approach based on discourse theory, attempting to model in the implemented system an understanding of the purpose behind the user’s utterance { whether it is a query, a conrmation and so on { and then getting the system to respond appropriately (Allen, Miller, Ringger and Sikorski 1996)
+As pointed out in [1], it is better to have a dialogue system that tries to guess a specific interpretation in case of ambiguity rather than ask the user for a clarification
+The use of concept spotting is common in spoken-language information systems (Ward1989; Jackson et al
+In summary, we believe our email agent represents a new level of collaborative spoken-language capabilities well beyond previous state-of-the-art non-collaborating speech systems, such as Speech Acts [5], Jupiter at MIT [2], or the Trains system at the University of Rochester [1]
+For example, in the TRAINS project [8], the user and the system collaborate to construct an agreed executable plan that has to be developed incrementally in order to incorporate new constraints that arise during the course of the dialogue
+A similar solution was adopted in the TRAINS system [8] in which, when faced with ambiguity, the system chose a specific interpretation, running the risk of making a mistake, as opposed to generating a clarification sub-dialogue

@@ -1,0 +1,882 @@
+Title:P97-1003		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Collins, Michael John
+In this paper we first propose a new sta- tistical parsing model, which is a genera- tive model of lexicalised context-free gram- mar. We then extend the model to in- clude a probabilistic treatment of both sub- categorisation and wh-movement. Results on Wall Street Journal text show that the parser performs at 88.1/87.5% constituent precision/recall, an average improvement of 2.3% over (Collins 96). 
+
+Title:P98-2234		Conference:COLING-ACL		Author:Vilain, Marc B.; Yeh, Alexander S.
+The 75.4% results may seen low compared to parsing results like the 88% precision and recall in (Collins, 1997), but those parsing results include many easier-to-parse constructs.
+
+Title:P98-1091		Conference:COLING-ACL		Author:Hwa, Rebecca
+Examples of formalisms using this approach include the work of Magerman (1995), Charniak (1997), Collins (1997), and Goodman (1997).
+
+Title:W98-1206		Conference:Workshop On New Methods In Language Processing And Computational Natural Language Learning		Author:Johnson, Mark
+In addition, many more sophisticated parsing models are elaborations of such PCFG models, so understanding the properties of PCFGs is likely to be useful (Charniak, 1997; Collins, 1997).
+
+Title:P98-2148		Conference:COLING-ACL		Author:Mori, Shinsuke; Nagao, Makoto
+Recently some researchers have pointed out the importance of the lexicon and proposed lexicalized models (Jelinek et al. , 1994; Collins, 1997).
+
+Title:W98-1116		Conference:Workshop On Very Large Corpora		Author:Merlo, Paola; Stevenson, Suzanne
+In agreement with recent resuits on parsing with lexicalised probabilistic grammars (Collins, 1997; Srinivas, 1997), we find that statistics over lexical, as opposed to structural, features best correspond to human intuitive.judgments and to experimental findings.
+
+Title:W98-1116		Conference:Workshop On Very Large Corpora		Author:Merlo, Paola; Stevenson, Suzanne
+NJ 08903 U.S.A. suzanne~ruccs, rutgers, edu Empirically-induced models that learn a linguistically meaningflll grammar (Collins, 1997) seem to give tile best practical results in statistical natural language processing.
+
+Title:W98-1116		Conference:Workshop On Very Large Corpora		Author:Merlo, Paola; Stevenson, Suzanne
+In agreement with recent results on parsing with lexicalised probabilistic grammars (Collins, 1997; Srinivas, 1997; Charniak, 1997), our main result is that statistics over lexical features best correspond to independently established truman intuitive preferences and experimental findings.
+
+Title:P98-1106		Conference:COLING-ACL		Author:Kahane, Sylvain; Nasr, Alexis; Rambow, Owen
+(owenOcogentex.com) 1 Introduction Dependency grammar has a long tradition in syntactic theory, dating back to at least Tesni~re's work from the thirties3 Recently, it has gained renewed attention as empirical methods in parsing are discovering the importance of relations between words (see, e.g., (Collins, 1997)), which is what dependency grammars model explicitly do, but context-free phrasestructure grammars do not.
+
+Title:W98-1115		Conference:Workshop On Very Large Corpora		Author:Charniak, Eugene; Goldwater, Sharon; Johnson, Mark
+One can imagine the same techniques coupled with more informative probability distributions, such as lexicalized PCFGs (Charniak, 1997), or even grammars not based upon literal rules, but probability distributions that describe how rules are built up from smaller components (Magerman, 1995; Collins, 1997).
+
+Title:W99-0622		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Seagull, Amon; Schubert, Lenhart K.
+Also, adding a constituent size/distance effect, as described by Schubert (1986) and as used by some researchers in parsing (e.g. Lesmo and Torasso (1985) and Collins (1997)) would almost certainly improve parsing.
+
+Title:W99-0622		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Seagull, Amon; Schubert, Lenhart K.
+While these approaches have had som e success to date (Collins, 1997; Charniak, 1997a), their usability as parsers in systems for natural language understanding is suspect.
+
+Title:E99-1007		Conference:Conference Of The European Association For Computational Linguistics		Author:Stevenson, Suzanne; Merlo, Paola
+For causativity, the same counting scripts were used for both groups of verbs, but the input to the counting programs was determined by manual inspection of the corpus for verbs belonging to group 1, while it was extracted automatically from a parsed corpus for group 2 (WSJ 1988, parsed with the parser from (Collins, 1997).
+
+Title:E99-1007		Conference:Conference Of The European Association For Computational Linguistics		Author:Stevenson, Suzanne; Merlo, Paola
+First, for each verb occurrence subjects and objects were extracted from a parsed corpus (Collins 1997).
+
+Title:W99-0629		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Buchholz, Sabine; Veenstra, Jorn; Daelemans, Walter
+(Collins, 1997; Ratnaparkhi, 1997) use cascaded processing for full parsing with good results.
+
+Title:W99-0623		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Henderson, John C.; Brill, Eric
+The corpus-based statistical parsing community has many fast and accurate automated parsing systems, including systems produced by Collins (1997), Charniak (1997) and Ratnaparkhi (1997).
+
+Title:P99-1059		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Eisner, Jason M.; Satta, Giorgio
+three models in (Collins, 1997) are susceptible to the O(n 3) method (cf.
+
+Title:P99-1059		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Eisner, Jason M.; Satta, Giorgio
+Several recent real-world parsers have improved state-of-the-art parsing accuracy by relying on probabilistic or weighted versions of bilexical grammars (Alshawi, 1996; Eisner, 1996; Charniak, 1997; Collins, 1997).
+
+Title:A00-2036		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Nederhof, Mark-Jan; Satta, Giorgio
+Bilexical context-free grammars have been presented in (Eisner and Satta, 1999) as an abstraction of language models that have been adopted in several recent real-world parsers, improving state-of-the-art parsing accuracy (A1shawl, 1996; Eisner, 1996; Charniak, 1997; Collins, 1997).
+
+Title:C00-2105		Conference:International Conference On Computational Linguistics		Author:Schmid, Helmut; Schulte Im Walde, Sabine
+:~ The difl'erent kinds of noun chunks covered by our grmnmar are listed below and illustrated with exmnples: a combination of a non-obligatory deternfiner, optional adjectives or cardinals and the noun 1Other types of lexicalised PCFGs have been (h!scrib('.d in (Charniak, 1997), (Collins, 1997), (G'oodman, 1997), (Chcll)a and .lelinek, 1998) mid (Eisner and Sat:a, 1999).
+
+Title:P00-1061		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Riezler, Stefan; Prescher, Detlef; Kuhn, Jonas; Johnson, Mark
+Such word-based lexicalizations of probability models are used successfully in the statistical parsing models of, e.g., Collins (1997), Charniak (1997), or Ratnaparkhi (1997).
+
+Title:W00-1320		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Bikel, Daniel M.
+This includes both the parsers that attach probabilities to parser moves (Magerman, 1995; Ratnaparkhi, 1997), but also those of the lexicalized PCFG variety (Collins, 1997; Charniak, 1997).
+
+Title:W00-1320		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Bikel, Daniel M.
+Related to this issue, we note that the head rules, which were nearly identical to those used in (Collins, 1997), have not been tuned at all to this task.
+
+Title:W00-1320		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Bikel, Daniel M.
+, Models 2 and 3 of (Collins, 1997).
+
+Title:C00-1011		Conference:International Conference On Computational Linguistics		Author:Bod, Rens
+It also shows that DOP's frontier lexicalization is a viable alternative to constituent lexicalization (as proposed in Charniak 1997; Collins 1997, 99; Eisner 1997).
+
+Title:C00-1011		Conference:International Conference On Computational Linguistics		Author:Bod, Rens
+These scores are higher than those of several other parsers (e.g. Collins 1997, 99; Charniak 1997), but remain behind tim scores of Charniak (2000) who obtains 90.1% LP and 90.1% LR for sentences _< 40 words.
+
+Title:C00-1011		Conference:International Conference On Computational Linguistics		Author:Bod, Rens
+As in other work, we collapsed AI)VP and Pl?Jl" to the same label when calculating these scores (see Collins 1997; I~,atnaparkhi 1999; Charniak 1997).
+
+Title:W00-1201		Conference:Chinese Language Processing Workshop		Author:Bikel, Daniel M.; Chiang, David
+2.1 Model 2 of (Collins, 1997) Both parsing models discussed in this paper inherit a great deal from this model, so we briefly describe its "progenitive" features here, describing only how each of the two models of this paper differ in the subsequent two sections.
+
+Title:W00-1201		Conference:Chinese Language Processing Workshop		Author:Bikel, Daniel M.; Chiang, David
+In the BB.N model, as with Model 2 of (Collins, 1997), modifying nonterminals are generated conditioning both on the parent P and its head child H. Unlike Model 2 of (Collins, 1997), they are also generated conditioning on the previously generated modifying nonterminal, L/-1 or Pq-1, and there is no subcat frame or distance feature.
+
+Title:W00-1201		Conference:Chinese Language Processing Workshop		Author:Bikel, Daniel M.; Chiang, David
+During training each example is broken into elementary trees using head rules and argument/adjunct rules similar to those of (Collins, 1997).
+
+Title:W00-1201		Conference:Chinese Language Processing Workshop		Author:Bikel, Daniel M.; Chiang, David
+While the BBN model does not perform at the level of Model 2 of (Collins, 1997) on Wall Street Journal text, it is also less language-dependent, eschewing the distance metric (which relied on specific features of the English Treebank) in favor of the "bigrams on nonterminals" model.
+
+Title:W00-1201		Conference:Chinese Language Processing Workshop		Author:Bikel, Daniel M.; Chiang, David
+The lexicalized PCFG that sits behind Model 2 of (Collins, 1997) has rules of the form P ~ LnLn-I"'" LIHRI"".Rn-IRn (1) S(will-MD) NP(AppI,~NNP) VP(wilI-MD) NNP I Apple MD VP (buy-VB) VB PRT(out-RP) NP(Microsoft--NNP) I [ I buy RP NNP I I out Microsoft Figure 1: A sample sentence with parse tree.
+
+Title:A00-2005		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Henderson, John C.; Brill, Eric
+The parser induction algorithm used in all of the experiments in this paper was a distribution of Collins's model 2 parser (Collins, 1997).
+
+Title:C00-1029		Conference:International Conference On Computational Linguistics		Author:Clark, Stephen; Weir, David
+Further work will look at how to integrate probabilities such as p(clv, r) into a model of dependency structure, similar to that of Collins (1996) and Collins (1997), which can be used ['or parse selection.
+
+Title:C00-2099		Conference:International Conference On Computational Linguistics		Author:Samuelsson, Christer
+This is the same separation of arguments and adjuncts as that employed by (Collins, 1997).
+
+Title:C00-1081		Conference:International Conference On Computational Linguistics		Author:Mori, Shinsuke; Nishimura, Masafumi; Itoh, Nobuyasu; Ogino, Shiho; Watanabe, Hideo
+Also, in a, sta.te-ofthe-a.rt English pa.rser (Collins, 1997) only the words tha, t occur more tha,n d times in training data.
+
+Title:C00-1081		Conference:International Conference On Computational Linguistics		Author:Mori, Shinsuke; Nishimura, Masafumi; Itoh, Nobuyasu; Ogino, Shiho; Watanabe, Hideo
+Recently, in the area of parsers based oll a. stochastic context-fi:ee grammar (SCFG), some researchers have pointed out the importance of t.he lexicon and proposed lexiealized models (Charniak, 1997; Collins, 1997).
+
+Title:W00-0740		Conference:Conference On Computational Natural Language Learning And Of The Second Learning Language In Logic Workshop CoNLL And LLL		Author:Cussens, James; Pulman, Stephen G.
+Giving the increasing sophistication of probabilistic linguistic models (for example, Collins (1997) has a statistical approach to learning gap-threading rules) a probabilistic extension of our work is attractive--it will be interesting to see how far an integration of 'logical' and statistical can go.
+
+Title:C00-2135		Conference:International Conference On Computational Linguistics		Author:Yamamoto, Kaoru; Matsumoto, Yuji
+The progress in parsing technology are noteworthy, and in particular, various statistical dependency models have been proposed(Collins, 1997),, (Ratnaparkhi, 1997), (Charniak, 2000).
+
+Title:A00-2031		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Blaheta, Don; Charniak, Eugene
+1 Introduction Parsing sentences using statistical information gathered from a treebank was first examined a decade ago in (Chitrao and Grishman, 1990) and is by now a fairly well-studied problem ((Charniak, 1997), (Collins, 1997), (Ratnaparkhi, 1997)).
+
+Title:A00-2031		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Blaheta, Don; Charniak, Eugene
+234 ADV Non-specific adverbial BNF Benefemtive CLF It-cleft CLR 'Closely related' DIR Direction DTV Dative EXT Extent HLN Headline LGS Logical subject L0C Location MNI~ Manner N0M Nominal PRD Predicate PRP Purpose PUT Locative complement of 'put' SBJ Subject TMP Temporal TPC Topic TTL Title V0C Vocative Grammatical DTV 0.48% LGS 3.0% PRD 18.% PUT 0.26% SBJ 78.% v0c 0.025% Figure 1: Penn treebank function tags 53.% Form/Function 37.% Topicalisation 2.2% 0.25% NOM 6.8% 2.5% TPC 100% 2.2% 1.5% ADV 11.% 4.2% 9.3% BN'F 0.072% 0.026% 0.13% DIR 8.3% 3.0% 41.% EXT 3.2% 1.2% 0.013% LOC 25.% 9.2% MNR 6.2% 2.3% PI~ 5.2% 1.9% 33.% 12.% Miscellaneous 9.5% CLR 94.% 8.8% CLF 0.34% 0.03% HLN 2.6% 0.25% TTL 3.1% 0.29% Figure 2: Categories of function tags and their relative frequencies one project that used them at all: (Collins, 1997) defines certain constituents as complements based on a combination of label and function tag information.
+
+Title:C00-1051		Conference:International Conference On Computational Linguistics		Author:Inui, Takashi; Inui, Kentaro
+(1998) directly estimate DPs tbr :~ given int)ut, whereas other models su('h as PCFOt)ased tel)down generation mod(;ls P(H,,,s) do not, (Charnink, 1997; Collins, 1997; Shir~fi et ~rl.
+
+Title:W00-1306		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Hwa, Rebecca
+The success of recent high-quality parsers (Charniak, 1997; Collins, 1997) relies on the availability of such treebank corpora.
+
+Title:C00-2109		Conference:International Conference On Computational Linguistics		Author:Sekine, Satoshi; Uchimoto, Kiyotaka; Isahara, Hitoshi
+There have been a lot of prol)OS~fls for statistical analysis, in ninny languages, in particular in English and Japanese (Magerman, 1995) (Sekine and Grishman, 1995) (Collins, 1997) (I/atnal)arkhi, 1997) (K.Shirai et.al, 1998) (Fujio and Matsnlnoto, 1998) (Itaruno ct.al, 1997)(Ehara, 1998).
+
+Title:W00-1307		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Xia, Fei; Palmer, Martha; Joshi, Aravind K.
+Our strategy for choosing heads is similar to the one in (Collins, 1997).
+
+Title:W00-1307		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Xia, Fei; Palmer, Martha; Joshi, Aravind K.
+A Head Percolation Table has previously been used in several statistical parsers (Magerman, 1995; Collins, 1997) to find heads of phrases.
+
+Title:W00-1307		Conference:Joint SIGDAT Conference On Empirical Methods In Natural Language Processing And Very Large Corpora		Author:Xia, Fei; Palmer, Martha; Joshi, Aravind K.
+We choose those sections because several state-of-thwart parsers (Collins, 1997; Ratnaparkhi, 1998; Charniak, 1997) are trained on Section 2-21 and tested on Section 23.
+
+Title:A00-2016		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Hermjakob, Ulf
+Training on about 40,000 sentences (Collins, 1997) achieves a crossing brackets rate of 1.07, a better value than our 1.63 value for regular parsing or the 1.13 value assuming perfect segmentation/tagging, but even for similar text types, comparisons across languages are of course problematic.
+
+Title:C00-2118		Conference:International Conference On Computational Linguistics		Author:Stevenson, Suzanne; Merlo, Paola
+The last two counts (CAUS and ANIM) were performed on a 29-million word parsed corpus (gall Street Journal 1988, provided by Michael Collins (Collins, 1997)).
+
+Title:C00-1023		Conference:International Conference On Computational Linguistics		Author:Chao, Gerald; Dyer, Michael G.
+The InoCollins, 1997).
+
+Title:C00-1052		Conference:International Conference On Computational Linguistics		Author:Johnson, Mark; Roark, Brian
+Ultinmtely, however, it seems that a more complex ai)t)roach incorporating back-off and smoothing is necessary ill order to achieve the parsing accuracy achieved by Charniak (1997) and Collins (1997).
+
+Title:A00-2030		Conference:Applied Natural Language Processing Conference And Meeting Of The North American Association For Computational Linguistics		Author:Miller, Scott; Fox, Heidi J.; Ramshaw, Lance A.; Weischedel, Ralph M.
+Finally, our newly constructed parser, like that of (Collins 1997), was based on a generative statistical model.
+
+Title:P00-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Sui, Zhifang; Jun, Zhao; Wu, Dekai
+Many probabilistic evaluation models have been published inspired by one or more of these feature types [Black, 1992] [Briscoe, 1993] [Charniak, 1997] [Collins, 1996] [Collins, 1997] [Magerman, 1995] [Eisner, 1996], but discrepancies between training sets, algorithms, and hardware environments make it difficult, if not impossible, to compare the models objectively.
+
+Title:P00-1060		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Sui, Zhifang; Jun, Zhao; Wu, Dekai
+1 Introduction In the field of statistical parsing, various probabilistic evaluation models have been proposed where different models use different feature types [Black, 1992] [Briscoe, 1993] [Brown, 1991] [Charniak, 1997] [Collins, 1996] [Collins, 1997] [Magerman, 1991] [Magerman, 1992] [Magerman, 1995] [Eisner, 1996].
+
+Title:W01-0812		Conference:Workshop On Natural Language Generation EWNLG		Author:Humphreys, Kevin; Calcagno, Mike; Weise, David
+A statistical language model a lexicalized PCFG (similar to that of Collins, 1997) is derived from the analysis grammar by processing a corpus using the same grammar with no statistical model and recording frequencies of substructures built by each rule.
+
+Title:W01-0706		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Li, Xin; Roth, Dan
+The reported results for the full parse tree (on section 23) are recall/precision of 88.1/87.5 (Collins, 1997).
+
+Title:W01-0706		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Li, Xin; Roth, Dan
+For the full parser, we use the one developed by Michael Collins (Collins, 1996; Collins, 1997) one of the most accurate full parsers around.
+
+Title:W01-0706		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Li, Xin; Roth, Dan
+Thus, over the past few years, along with advances in the use of learning and statistical methods for acquisition of full parsers (Collins, 1997; Charniak, 1997a; Charniak, 1997b; Ratnaparkhi, 1997), significant progress has been made on the use of statistical learning methods to recognize shallow parsing patterns syntactic phrases or words that participate in a syntactic relationship (Church, 1988; Ramshaw and Marcus, 1995; Argamon et al. , 1998; Cardie and Pierce, 1998; Munoz et al. , 1999; Punyakanok and Roth, 2001; Buchholz et al. , 1999; Tjong Kim Sang and Buchholz, 2000).
+
+Title:W01-0706		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Li, Xin; Roth, Dan
+However, since work in this direction has started, a significant progress has also been made in the research on statistical learning of full parsers, both in terms of accuracy and processing time (Charniak, 1997b; Charniak, 1997a; Collins, 1997; Ratnaparkhi, 1997).
+
+Title:W01-0707		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Gaussier, Eric; Cancedda, Nicola
+So the sequence with a fork, which corresponds to only one nucleus is treated as a three word sequence in model C. Apart from this difference, model C directly relies on a combination of equations (10) and (12), namely conditioning by a80a7a81a49a82a9a12, a74a61a8a65a75a57a12 and a74a61a8a65a75a57a14a61a86, both the probability of generating a74a61a8a65a75 a47 and the one of generating a80a7a81a49a82 a47 . Thus, model C uses a reduced version of equation (12) and an extended version of 2Other models, as (Collins and Brooks, 1995; Merlo et al. , 1998) for PP-attachment resolution, or (Collins, 1997; Samuelsson, 2000) for probabilistic parsing, are somewhat related, but their supervised nature makes any direct comparison impossible.
+
+Title:W01-1403		Conference:Workshop On Data-Driven Methods In Machine Translation		Author:Lavoie, Benoit; White, Michael; Korelsky, Tanya
+(1997) and the English parser developed by Collins (1997).
+
+Title:J01-3003		Conference:Computational Linguistics		Author:Merlo, Paola; Stevenson, Suzanne
+This corpus of 29 million words was provided to us by Michael Collins, and was automatically parsed with the parser described in Collins (1997).
+
+Title:J01-1004		Conference:Computational Linguistics		Author:Rambow, Owen; Weir, David; Vijay-Shanker, K.
+recent advances in parsing technology are due to the explicit stochastic modeling of dependency information (Collins 1997).
+
+Title:W01-0714		Conference:Workshop On Computational Natural Language Learning CoNLL		Author:Klein, Dan; Manning, Christopher D.
+Because of these kinds of results, the vast majority of statistical parsing work has focused on parsing as a supervised learning problem (Collins, 1997; Charniak, 2000).
+
+Title:J01-2004		Conference:Computational Linguistics		Author:Roark, Brian
+It has been shown repeatedly--e.g. , Briscoe and Carroll (1993), Charniak (1997), Collins (1997), Inui et al.
+
+Title:J01-2004		Conference:Computational Linguistics		Author:Roark, Brian
+Examples of this are bilexical grammars--such as Eisner and Satta (1999), Charniak (1997), Collins (1997)--where the lexical heads of each constituent are annotated on both the rightand left-hand sides of the context-free rules, under the constraint that every constituent inherits the lexical head from exactly one of its children, and the lexical head of a POS is its terminal item.
+
+Title:J01-2004		Conference:Computational Linguistics		Author:Roark, Brian
+(1997), Johnson (1998)--that conditioning the probabilities of structures on the context within which they appear, for example on the lexical head of a constituent (Charniak 1997; Collins 1997), on the label of its parent nonterrninal (Johnson 1998), or, ideally, on both and many other things besides, leads to a much better parsing model and results in higher parsing accuracies.
+
+Title:W02-1014		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Prolo, Carlos A.
+are the labeled parsing recall and precision, respectively, as defined in (Collins, 1997) (slightly different from (Black et al. , 1991)).
+
+Title:W02-1014		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Prolo, Carlos A.
+This is similar to (Collins, 1997)s and Charniak97s definition of a separate category for auxiliary verbs.
+
+Title:P02-1043		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Hockenmaier, Julia; Steedman, Mark
+Like the models of Goodman (1997), the additional features in our model are generated probabilistically, whereas in the parser of Collins (1997) distance measures are assumed to be a function of the already generated structure and are not generated explicitly.
+
+Title:P02-1043		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Hockenmaier, Julia; Steedman, Mark
+Distance measures for CCG Our distance measures are related to those proposed by Goodman (1997), which are appropriate for binary trees (unlike those of Collins (1997)).
+
+Title:P02-1043		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Hockenmaier, Julia; Steedman, Mark
+5.2 Adding lexical information Gildea (2001) shows that removing the lexical dependencies in Model 1 of Collins (1997) (that is, not conditioning on w h when generating w s )decreases labeled precision and recall by only 0.5%.
+
+Title:J02-3001		Conference:Computational Linguistics		Author:Gildea, Daniel; Jurafsky, Daniel
+Collins (1997) reports 88% labeled precision and recall on individual parse constituents on data from the Penn Treebank, roughly consistent with our finding of at least 13% error.
+
+Title:J02-3001		Conference:Computational Linguistics		Author:Gildea, Daniel; Jurafsky, Daniel
+We used Collins (1997) statistical parser trained on examples from the Penn Treebank to generate parses of the same format for the sentences in our data.
+
+Title:P02-1057		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Daum&eacute;; III, Hal; Marcu, Daniel
+tactic parser (Collins, 1997).
+
+Title:W02-0813		Conference:Workshop On Word Sense Disambiguation: Recent Successes And Future Directions		Author:Dang, Hoa Trang; Palmer, Martha
+In order to extract the linguistic features necessary for the model, all sentences were first automatically part-of-speech-tagged using a maximum entropy tagger (Ratnaparkhi, 1998) and parsed using the Collins parser (Collins, 1997).
+
+Title:W02-2030		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Toutanova, Kristina; Manning, Christopher D.
+In most recent parsing work the history consists of a small number of manually selected features (Charniak, 1997; Collins, 1997).
+
+Title:W02-2030		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Toutanova, Kristina; Manning, Christopher D.
+This model is very similar to the markovized rule models in Collins (1997).
+
+Title:C02-1003		Conference:International Conference On Computational Linguistics		Author:L&uuml;, Yajuan; Li, Sheng; Zhao, Tiejun; Yang, Muyun
+Substantial improvements have been made to parse western language such as English, and many powerful models have been proposed (Brill 1993, Collins 1997).
+
+Title:C02-1132		Conference:International Conference On Computational Linguistics		Author:Gildea, Daniel
+3TheData For our experiments we used a version of the British National Corpus parsed with the statistical parser of Collins (1997).
+
+Title:P02-1018		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Johnson, Mark
+(Collins (1997) discusses the recovery of one kind of empty node, viz.
+
+Title:C02-2026		Conference:International Conference On Computational Linguistics - Project Notes		Author:Rambow, Owen; Bangalore, Srinivas; Butt, Tahir; Nasr, Alexis; Sproat, Richard W.
+Several general-purpose off-the-shelf (OTS) parsers have become widely available (Lin, 1994; Collins, 1997).
+
+Title:J02-2002		Conference:Computational Linguistics		Author:Bozsahin, H. Cem
+Statistical techniques developed for lexicalized grammars (e.g. , Collins 1997), readily apply to CCG to improve the average parsing performance in large-scale practical applications (Hockenmaier, Bierner, and Baldridge 2000).
+
+Title:C02-2025		Conference:International Conference On Computational Linguistics - Project Notes		Author:Oepen, Stephan; Toutanova, Kristina; Shieber, Stuart M.; Manning, Christopher D.; Flickinger, Daniel P.; Brants, Thorsten
+Most probabilistic parsing research including, for example, work by by Collins (1997), and Charniak (1997) is based on branching process models (Harris, 1963).
+
+Title:W02-1504		Conference:Workshop On Grammar Engineering And Evaluation		Author:Campbell, Richard; Lozano, Carmen; Pinkham, Jessie; Smets, Martine
+The most common answer is component testing, where the component is compared against a standard of goodness, usually the Penn Treebank for English (Marcus et al. , 1993), allowing a numerical score of precision and recall (e.g. Collins, 1997).
+
+Title:C02-1143		Conference:International Conference On Computational Linguistics		Author:Dang, Hoa Trang; Chia, Ching-Yi; Palmer, Martha; Chiou, Fu-Dong
+In order to extract the linguistic features necessary for the model, all sentences were first automatically part-of-speech-tagged using a maximum entropy tagger (Ratnaparkhi, 1998) and parsed using the Collins parser (Collins, 1997).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+Section 3 describes two standard lexicalized models (Carroll and Rooth, 1998; Collins, 1997), as well as an unlexicalized baseline model.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+Section 5 presents an error analysis for Collinss (1997) lexicalized model, which shows that the head-head dependencies used in this model fail to cope well with the flat structures in Negra.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+In Experiment 1, we applied three standard parsing models from the literature to Negra: an unlexicalized PCFG model (the baseline), Carroll and Rooths (1998) head-lexicalized model, and Collinss (1997) model based on head-head dependencies.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+(1999) and Bikel and Chiang (2000) has demonstrated the applicability of the Collins (1997) model for Czech and Chinese.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+3.3 Collinss Head-Lexicalized Model In contrast to Carroll and Rooths (1998) approach, the model proposed by Collins (1997) does not compute rule probabilities directly.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+We first added sister-head dependencies for NPs (following Collinss (1997) original proposal) and then for PPs, which are flat in Negra, and thus similar in structure to NPs (see Section 2.2).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+The lexicalized model proposed by Collins (1997) (henceforth Collins model) was re-implemented by one of the authors.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+Prominent among these properties is the semi-free Language Size LR LP Source English 40,000 87.4% 88.1% (Collins, 1997) Chinese 3,484 69.0% 74.8% (Bikel and Chiang, 2000) Czech 19,000 80.0% (Collins et al. , 1999) Table 1: Results for the Collins (1997) model for various languages (dependency precision for Czech) wordorder, i.e., German wordorder is fixed in some respects, but variable in others.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+sister head tag X Table 4: Linguistic features in the current model compared to the models of Carroll and Rooth (1998), Collins (1997), and Charniak (2000) Negra, based on Collinss (1997) model for nonrecursive NPs in the Penn Treebank (which are also flat).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+Table 4 shows the linguistic features of the resulting model compared to the models of Carroll and Rooth (1998), Collins (1997), and Charniak (2000).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+However, the learning curve for Negra (see Figure 1) indicates that the performance of the Collins (1997) model is stable, even for small training sets.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+The reader is referred to Schmid (2000) and Collins (1997) for details.
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+Lexicalization can increase parsing performance dramatically for English (Carroll and Rooth, 1998; Charniak, 1997, 2000; Collins, 1997), and the lexicalized model proposed by Collins (1997) has been successfully applied to Czech (Collins et al. , 1999) and Chinese (Bikel and Chiang, 2000).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+The progression in the probabilistic parsing literature has been to start with lexical head-head dependencies (Collins, 1997) and then add non-lexical sis2 This result generalizes to Ss, which are also flat in Negra (see Section 2.2).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+3 Probabilistic Parsing Models 3.1 Probabilistic Context-Free Grammars Lexicalization has been shown to improve parsing performance for the Penn Treebank (e.g. , Carroll and Rooth 1998; Charniak 1997, 2000; Collins 1997).
+
+Title:P03-1013		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dubey, Amit; Keller, Frank
+1 Introduction Treebank-based probabilistic parsing has been the subject of intensive research over the past few years, resulting in parsing models that achieve both broad coverage and high parsing accuracy (e.g. , Collins 1997; Charniak 2000).
+
+Title:W03-1007		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Fleischman, Michael; Kwon, Namhee; Hovy, Eduard
+Features For each frame element, features are extracted from the surface text of the sentence and from an automatically generated syntactic parse tree (Collins, 1997).
+
+Title:P03-1055		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dienes, Peter; Dubey, Amit
+First, we extend the mechanism of adding gap variables for nodes dominating a site of discontinuity (Collins, 1997).
+
+Title:P03-1055		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dienes, Peter; Dubey, Amit
+The idea of threading EEs to their antecedents in a stochastic parser was proposed by Collins (1997), following the GPSG tradition (Gazdar et al. , 1985).
+
+Title:P03-1055		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dienes, Peter; Dubey, Amit
+However, such constructions prove to be difficult for stochastic parsers (Collins et al. , 1999) and they either avoid tackling the problem (Charniak, 2000; Bod, 2003) or only deal with a subset of the problematic cases (Collins, 1997).
+
+Title:P03-1055		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dienes, Peter; Dubey, Amit
+controlled NP-traces (NPNP), we follow the standard technique of marking nodes dominating the empty element up to but not including the parent of the antecedent as defective (missing an argument) with a gap feature (Gazdar et al. , 1985; Collins, 1997).1 Furthermore, to make antecedent co-indexation possible with many types of EEs, we generalize Collins approach by enriching the annotation of non-terminals with the type of the EE in question (eg.
+
+Title:W03-0401		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Miyao, Yusuke; Tsujii, Jun'ichi
+However, existing models of disambiguation with lexicalized grammars are a mere extension of lexicalized probabilistic context-free grammars (LPCFG) (Collins, 1996; Collins, 1997; Charniak, 1997), which are based on the decomposition of parsing results into the syntactic/semantic dependencies of two words in a sentence under the assumption of independence of the dependencies.
+
+Title:W03-0401		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Miyao, Yusuke; Tsujii, Jun'ichi
+2.1 Lexicalized parse trees The first successful work on syntactic disambiguation was based on lexicalized probabilistic context-free grammar (LPCFG) (Collins, 1997; Charniak, 1997).
+
+Title:W03-0401		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Miyao, Yusuke; Tsujii, Jun'ichi
+what does student want to write your Figure 3: A derivation tree of lexicalized parse trees, such as the distinction of arguments/modifiers and unbounded dependencies (Collins, 1997), are elegantly represented in derivation trees.
+
+Title:W03-0401		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Miyao, Yusuke; Tsujii, Jun'ichi
+Since an existing study incorporates these relations ad hoc (Collins, 1997), they are apparently crucial in accurate disambiguation.
+
+Title:J03-4003		Conference:Computational Linguistics		Author:Collins, Michael John
+The models were originally introduced in Collins (1997); the current article 1 gives considerably more detail about the models and discusses them in greater depth. (self citation)
+
+Title:J03-4003		Conference:Computational Linguistics		Author:Collins, Michael John
+Previous workthe generative models described in Collins (1996) and the earlier version of these models described in Collins (1997)conditioned on punctuation as surface features of the string, treating it quite differently from lexical items. (self citation)
+
+Title:J03-4003		Conference:Computational Linguistics		Author:Collins, Michael John
+7 In the models described in Collins (1997), there was a third question concerning punctuation: (3) Does the string contain 0, 1, 2 or more than 2 commas? (self citation)
+
+Title:J03-4003		Conference:Computational Linguistics		Author:Collins, Michael John
+In particular, the model in Collins (1997) failed to generate punctuation, a deficiency of the model. (self citation)
+
+Title:W03-0501		Conference:Workshop On Text Summarization		Author:Dorr, Bonnie Jean; Zajic, David; Schwartz, Richard M.
+(1998), the BBN parser builds augmented parse trees according to a process similar to that described in Collins (1997).
+
+Title:W03-1707		Conference:SIGHAN Workshop On Chinese Language Processing		Author:Xue, Nianwen; Palmer, Martha
+The creation of the Penn English Treebank (Marcus et al. , 1993), a syntactically interpreted corpus, played a crucial role in the advances in natural language parsing technology (Collins, 1997; Collins, 2000; Charniak, 2000) for English.
+
+Title:N03-2008		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Fleischman, Michael; Hovy, Eduard
+We analyze our results using syntactic features extracted from a parse tree generated by Collins parser (Collins, 1997) and compare those to models built using features extracted from FrameNets human annotations.
+
+Title:W03-0403		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Baldridge, Jason; Osborne, Miles
+Most statistical parsing research, such as Collins (1997), has centered on training probabilistic context-free grammars using the Penn Treebank.
+
+Title:P03-1002		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Surdeanu, Mihai; Harabagiu, Sanda M.; Williams, John; Aarseth, Paul
+This statistical technique of labeling predicate argument operates on the output of the probabilistic parser reported in (Collins, 1997).
+
+Title:P03-1002		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Surdeanu, Mihai; Harabagiu, Sanda M.; Williams, John; Aarseth, Paul
+At last, the dependency parser presented in (Collins, 1997) is used to generate the full parse.
+
+Title:N03-1029		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Shieber, Stuart M.; Tao, Xiaopeng
+In the sequel, we use Collinss statistical parser (Collins, 1997) as our canonical automated approximation of the Treebank.
+
+Title:W03-1025		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Luo, Xiaoqiang
+Bikel and Chiang (2000) in fact contains two parsers: one is a lexicalized probabilistic contextfree grammar (PCFG) similar to (Collins, 1997); the other is based on statistical TAG (Chiang, 2000).
+
+Title:N03-1017		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Koehn, Philipp; Och, Franz Josef; Marcu, Daniel
+We then parse both sides of the corpus with syntactic parsers [Collins, 1997; Schmidt and Schulte im Walde, 2000].
+
+Title:N03-1017		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Koehn, Philipp; Och, Franz Josef; Marcu, Daniel
+To identify these, we use a word-aligned corpus annotated with parse trees generated by statistical syntactic parsers [Collins, 1997; Schmidt and Schulte im Walde, 2000].
+
+Title:N03-3010		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Student Research Workshop		Author:Feng, Donghui
+3.2 Statistical Learning Model 3.2.1 Nave Bayes Learning Nave Bayes learning has been widely used in natural language processing with good results such as statistical syntactic parsing (Collins, 1997; Charniak, 1997), hidden language understanding (Miller et al. , 1994).
+
+Title:W03-1711		Conference:SIGHAN Workshop On Chinese Language Processing		Author:Zhou, Guodong; Su, Jian
+Function P R F Speed Partial Parsing 85.1 82.5 83.8 4500 wps Full Parsing 77.1 70.3 73.7 2100 wps Table 3: Performances of 1 st -level Partial Parsing and Full Parsing (wps: words per second) Table 3 shows that the performances of partial parsing and full parsing are quite low, compared to those of state-of-art partial parsing and full parsing for the English language (Zhou et al 2000a; Collins 1997).
+
+Title:N03-1027		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Roark, Brian; Bacchiani, Michiel
+The PCFG is a Markov grammar (Collins, 1997; Charniak, 2000), i.e. the production probabilities are estimated by decomposing the joint probability of the categories on the right-hand side into a product of conditionals via the chain rule, and making a Markov assumption.
+
+Title:W03-1706		Conference:SIGHAN Workshop On Chinese Language Processing		Author:Sun, Honglin; Jurafsky, Daniel
+To make the model more practical in parameter estimation, we assume the features in feature set FS are independent from each other, thus: = FSFi AFiPAFSP ),|(),|( (5) Under this PCFG+PF model, the goal of a parser is to choose a parse that maximizes the following score: )|,(maxarg)|( 1 AFS i i i n i T PSTScore = = (6) Our model is thus a simplification of more sophisticated models which integrate PCFGs with features, such as those in Magerman(1995), Collins(1997) and Goodman(1997).
+
+Title:W04-2003		Conference:Workshop On RObust Methods In Analysis Of Natural Language Data ROMAND		Author:Schneider, Gerold; Dowdall, James; Rinaldi, Fabio
+Statistical disambiguation such as (Collins and Brooks, 1995) for PP-attachment or (Collins, 1997; Charniak, 2000) for generative parsing greatly improve disambiguation, but as they model by imitation instead of by understanding, complete soundness has to remain elusive.
+
+Title:P04-1082		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Campbell, Richard
+Previous approaches to the problem (Collins, 1997; Johnson, 2002; Dienes and Dubey, 2003a,b; Higgins, 2003) have all been learning-based; the primary difference between the present algorithm and earlier ones is that it is not learned, but explicitly incorporates principles of GovernmentBinding theory (Chomsky, 1981), since that theory underlies the annotation.
+
+Title:P04-1082		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Campbell, Richard
+Collins (1997) Model 3 integrates the detection and resolution of WH-traces in relative clauses into a lexicalized PCFG.
+
+Title:P04-1047		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:O'Donovan, Ruth; Burke, Michael; Cahill, Aoife; van Genabith, Josef; Way, Andy
+Both techniques implement variations on the approaches of (Magerman, 1994) and (Collins, 1997) for the purpose of differentiating between complement and adjunct.
+
+Title:W04-0845		Conference:SENSEVAL International Workshop On The Evaluation Of Systems For The Semantic Analysis Of Text		Author:Ngai, Grace; Wu, Dekai; Carpuat, Marine; Wang, Chi-Shing; Wang, Chi-Yung
+Head word (and its part-of-speech tag) of the constituent After POS tagging, a syntactic parser (Collins, 1997) was then used to obtain the parse tree for the sentence.
+
+Title:W04-1503		Conference:Workshop On Recent Advances In Dependency Grammar		Author:Nasr, Alexis; Rambow, Owen
+Recently, it has gained renewed attention as empirical methods in parsing have emphasized the importance of relations between words (see, e.g., (Collins, 1997)), which is what dependency grammars model explicitly, but context-free phrase-structure grammars do not.
+
+Title:W04-0308		Conference:Workshop On Incremental Parsing: Bringing Engineering And Cognition Together		Author:Nivre, Joakim
+Parsers that attempt to disambiguate the input completely full parsing typically first employ some kind of dynamic programming algorithm to derive a packed parse forest and then applies a probabilistic top-down model in order to select the most probable analysis (Collins, 1997; Charniak, 2000).
+
+Title:W04-2504		Conference:Workshop On Pragmatics Of Question Answering		Author:Chai, Joyce; Jin, Rong
+Specifically, the following information can be either automatically identified or manually annotated: Syntactic structures automatically identified from a parser (Collins, 1997); Semantic roles of entities in the question (Gildea and Jurafsky 2002; Gildea and Palmer 2002; Surdeanu et al. , 2003); Discourse roles either manually annotated or identified by rules that map directly from semantic roles to discourse roles.
+
+Title:C04-1040		Conference:International Conference On Computational Linguistics		Author:Isozaki, Hideki; Kazawa, Hideto; Hirao, Tsutomu
+Here, we extract part-of-speech tags from the Collins parsers output (Collins, 1997) for section 23 instead of reinventing a tagger.
+
+Title:J04-3001		Conference:Computational Linguistics		Author:Hwa, Rebecca
+In the second experiment, the basic learning model is Collinss (1997) Model 2 parser, which uses a history-based learning algorithm that takes statistics directly over the treebank.
+
+Title:W04-2506		Conference:Workshop On Pragmatics Of Question Answering		Author:Moschitti, Alessandro; Harabagiu, Sanda M.
+Step 3) Answer Extraction: We select the top 5 ranked sentences and return them as Collins, 1997), can be used to capture the binary dependencies between the head of each phrase.
+
+Title:P04-1043		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Moschitti, Alessandro
+The sentences were processed using Collins parser (Collins, 1997) to generate parse-trees automatically.
+
+Title:W04-0819		Conference:SENSEVAL International Workshop On The Evaluation Of Systems For The Semantic Analysis Of Text		Author:Bejan, Cosmin Adrian; Moschitti, Alessandro; Morarescu, Paul; Nicolae, Gabriel; Harabagiu, Sanda M.
+These sentences were parsed with the Collins parser (Collins, 1997).
+
+Title:N04-1014		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Graehl, Jonathan; Knight, Kevin
+summarization (Knight and Marcu, 2002), paraphrasing (Pang, Knight, and Marcu, 2003), natural language generation (Langkilde and Knight, 1998; Bangalore and Rambow, 2000; Corston-Oliver et al. , 2002), and language modeling (Baker, 1979; Lari and Young, 1990; Collins, 1997; Chelba and Jelinek, 2000; Charniak, 2001; Klein and Manning, 2003).
+
+Title:J04-4004		Conference:Computational Linguistics		Author:Bikel, Daniel M.
+Another consequence of not generating posthead conjunctions and punctuation as first-class words is that they 19 In fact, if punctuation occurs before the head, it is not generated at alla deficiency in the parsing model that appears to be a holdover from the deficient punctuation handling in the model of Collins (1997).
+
+Title:W04-2002		Conference:Workshop On RObust Methods In Analysis Of Natural Language Data ROMAND		Author:Keller, Frank
+These models include a standard unlexicalized PCFG parser, a head-lexicalized parser (Collins, 1997), and a maximum-entropy inspired parser (Charniak, 2000).
+
+Title:N04-2004		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Student Research Workshop		Author:Lin, Jimmy
+Due to advances in statistical syntactic parsing techniques (Collins, 1997; Charniak, 2001), attention has recently shifted towards the harder question of analyzing the meaning of natural language sentences.
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+As a side product, we find empirical evidence to suggest that the effectiveness of rule lexicalization techniques (Collins, 1997; Simaan, 2000) and parent annotation techniques (Klein and Manning, 2003) is due to the fact that both lead to a reduction in perplexity in the automata induced from training corpora.
+
+Title:P04-1058		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Infante-Lopez, Gabriel; de Rijke, Maarten
+One attempt to implement this idea is lexicalization: increasing the information in the POS tag by adding the lemma to it (Collins, 1997; Simaan, 2000).
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+Moreover, the deterministic dependency parser of Yamada and Matsumoto (2003), when trained on the Penn Treebank, gives a dependency accuracy that is almost as good as that of Collins (1997) and Charniak (2000).
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+This permits us to make exact comparisons with the parser of Yamada and Matsumoto (2003), but also the parsers of Collins (1997) and Charniak (2000), which are evaluated on the same data set in Yamada and Matsumoto (2003).
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+On the other hand, the best available parsers trained on the Penn Treebank, those of Collins (1997) and Charniak (2000), use statistical models for disambiguation that make crucial use of dependency relations.
+
+Title:C04-1010		Conference:International Conference On Computational Linguistics		Author:Nivre, Joakim; Scholz, Mario
+Table 2 shows the dependency accuracy, root accuracy and complete match scores for our best parser (Model 2 with label set B) in comparison with Collins (1997) (Model 3), Charniak (2000), and Yamada and Matsumoto (2003).5 It is clear that, with respect to unlabeled accuracy, our parser does not quite reach state-of-the-art performance, even if we limit the competition to deterministic methods such as that of Yamada and Matsumoto (2003).
+
+Title:H05-1024		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ayan, Necip Fazil; Dorr, Bonnie Jean; Monz, Christof
+In our experiments, we used a dependency parser only in English (a version of the Collins parser (Collins, 1997) that has been adapted for building dependencies) but not in the other language.
+
+Title:P05-1018		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Barzilay, Regina; Lapata, Mirella
+We employ a robust statistical parser (Collins, 1997) to determine the constituent structure for each sentence, from which subjects (s), objects (o), and relations other than subject or object (x) are identified.
+
+Title:W05-0305		Conference:Workshop On Frontiers In Corpus Annotations II: Pie In The Sky		Author:Dinesh, Nikhil; Lee, Alan; Miltsakaki, Eleni; Prasad, Rashmi; Joshi, Aravind K.; Webber, Bonnie Lynn
+The parser implementation in (Bikel, 2002) was used in this experiment and it was run in a mode which emulated the Collins (1997) parser.
+
+Title:W05-1516		Conference:International Workshop On Parsing Technology		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+1 Introduction There has been a great deal of progress in statistical parsing in the past decade (Collins, 1996; Collins, 1997; Chaniak, 2000).
+
+Title:W05-1516		Conference:International Workshop On Parsing Technology		Author:Wang, Qin Iris; Schuurmans, Dale; Lin, Dekang
+Performance of Alternative Models 157 5 Related Work Previous parsing models (e.g. , Collins, 1997; Charniak, 2000) maximize the joint probability P(S, T) of a sentence S and its parse tree T. We maximize the conditional probability P(T | S).
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+In the following section, we follow the notation in (Collins, 1997).
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+Only one word is labeled with the concept; the syntactic head word (Collins, 1997) is preferred.
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+The syntactic parameters are the same as in Section 5.1 and are smoothed as in (Collins, 1997).
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+All words occurring less than 3 times in the training data, and words in test data that were not seen in training, are unknown words and are replaced with the UNKNOWN token. Note this threshold is smaller than the one used in (Collins, 1997) since the corpora used in our experiments are smaller.
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+Otherwise they are generated along with the words using the same approach as in (Collins, 1997).
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+As in (Collins, 1997), the parameter C8 D0 B4C4 CX B4D0D8 CX BND0DB CX B5CYC8BNC0BNDBBND8BNA1BNC4BVB5 is further smoothed as follows: C8 D0BD B4C4 CX CYC8BNC0BNDBBND8BNA1BNC4BVB5 A2 C8 D0BE B4D0D8 CX CYC8BNC0BNDBBND8BNA1BNC4BVBNC4 CX B5A2 C8 D0BF B4D0DB CX CYC8BNC0BNDBBND8BNA1BNC4BVBNC4 CX B4D0D8 CX B5B5 Note this smoothing is different from the syntactic counterpart.
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+The probabilities from these back-off levels are interpolated using the techniques in (Collins, 1997).
+
+Title:W05-0602		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Ge, Ruifang; Mooney, Raymond J.
+We augment Collins head-driven model 2 (Collins, 1997) to incorporate a semantic label on each internal node.
+
+Title:H05-2018		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing - Interactive Demonstrations		Author:Wilson, Theresa; Hoffmann, Paul; Somasundaran, Swapna; Kessler, Jason; Wiebe, Janyce; Choi, Yejin; Cardie, Claire; Riloff, Ellen; Patwardhan, Siddharth
+In batch mode, OpinionFinder parses the data again, this time to obtain constituency parse trees (Collins, 1997), which are then converted to dependency parse trees (Xia and Palmer, 2001).
+
+Title:W05-1504		Conference:International Workshop On Parsing Technology		Author:Eisner, Jason M.; Smith, Noah A.
+In parsing, the most relevant previous work is due to Collins (1997), who considered three binary features of the intervening material: did it contain (a) any word tokens at all, (b) any verbs, (c) any commas or colons?
+
+Title:W05-1504		Conference:International Workshop On Parsing Technology		Author:Eisner, Jason M.; Smith, Noah A.
+5 Related Work As discussed in footnote 3, Collins (1997) and McDonald et al.
+
+Title:P05-1036		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Turner, Jenine; Charniak, Eugene
+We use a program to label syntactic arguments with the roles they are playing (Blaheta and Charniak, 2000), and the rules for complement/adjunct distinction given by (Collins, 1997) to never allow deletion of the complement.
+
+Title:J05-3003		Conference:Computational Linguistics		Author:O'Donovan, Ruth; Burke, Michael; Cahill, Aoife; van Genabith, Josef; Way, Andy
+Manually defined heuristics are used to automatically annotate each tree in the treebank with partially specified HPSG derivation trees: Head/argument/modifier distinctions are made for each node in the tree based on Magerman (1994) and Collins (1997); 336 ODonovan et al. Large-Scale Induction and Evaluation of Lexical Resources the whole tree is then converted to a binary tree; heuristics are applied to deal with phenomena such as LDDs and coordination and to correct some errors in the treebank, and finally an HPSG category is assigned to each node in the tree in accordance with its CFG category.
+
+Title:J05-3003		Conference:Computational Linguistics		Author:O'Donovan, Ruth; Burke, Michael; Cahill, Aoife; van Genabith, Josef; Way, Andy
+The extraction procedure consists of three steps: First, the bracketing of the trees in the Penn Treebank is corrected and extended based on the approaches of Magerman (1994) and Collins (1997).
+
+Title:J05-3003		Conference:Computational Linguistics		Author:O'Donovan, Ruth; Burke, Michael; Cahill, Aoife; van Genabith, Josef; Way, Andy
+The first step is to label each node as either a head, complement, or adjunct based on the approaches of Magerman (1994) and Collins (1997).
+
+Title:J05-3003		Conference:Computational Linguistics		Author:O'Donovan, Ruth; Burke, Michael; Cahill, Aoife; van Genabith, Josef; Way, Andy
+The extraction procedure utilizes a head percolation table as introduced by Magerman (1995) in combination with a variation of Collinss (1997) approach to the differentiation between complement and adjunct.
+
+Title:H05-1099		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Hollingshead, Kristy; Fisher, Seeger; Roark, Brian
+The output of a contextfree parser, such as that of Collins (1997) or Charniak (2000), can be transformed into a sequence of shallow constituents for comparison with the output of a shallow parser.
+
+Title:H05-1099		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Hollingshead, Kristy; Fisher, Seeger; Roark, Brian
+Perhaps the most widely accepted convention is that of ignoring punctuation for the purposes of assigning constituent span, under the perspective that, fun788 Phrase Evaluation Scenario System Type (a) (b) (c) Modified All 98.37 99.72 99.72 Truth VP 92.14 98.70 98.70 Li and Roth All 94.64 (2001) VP 95.28 Collins (1997) All 92.16 93.42 94.28 VP 88.15 94.31 94.42 Charniak All 93.88 95.15 95.32 (2000) VP 88.92 95.11 95.19 Table 1: F-measure shallow bracketing accuracy under three different evaluation scenarios: (a) baseline, used in Li and Roth (2001), with original chunklink script converting treebank trees and context-free parser output; (b) same as (a), except that empty subject NPs are inserted into every unary SVP production; and (c) same as (b), except that punctuation is ignored for setting constituent span.
+
+Title:H05-1099		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Hollingshead, Kristy; Fisher, Seeger; Roark, Brian
+To compare the output of their shallow parser with the output of the well-known Collins (1997) parser, Li and Roth applied the chunklink conversion script to extract the shallow constituents from the output of the Collins parser on WSJ section 00.
+
+Title:W05-0211		Conference:Workshop On Building Educational Applications Using NLP		Author:Hempelmann, Christian F.; Rus, Vasile; Graesser, Arthur C.; McNamara, Danielle S.
+2.3 Collinss (Bikels) Parser Collinss statistical parser (CBP; (Collins, 1997)), improved by Bikel (Bikel, 2004), is based on the probabilities between head-words in parse trees.
+
+Title:H05-1009		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Ayan, Necip Fazil; Dorr, Bonnie Jean; Monz, Christof
+Dependency relations are produced using a version of the Collins parser (Collins, 1997) that has been adapted for building dependencies.
+
+Title:W05-1513		Conference:International Workshop On Parsing Technology		Author:Sagae, Kenji; Lavie, Alon
+Although state-of-the-art statistical parsers (Collins, 1997; Charniak, 2000) are more accurate, the simplicity and efficiency of deterministic parsers make them attractive in a number of situations requiring fast, light-weight parsing, or parsing of large amounts of data.
+
+Title:W05-1513		Conference:International Workshop On Parsing Technology		Author:Sagae, Kenji; Lavie, Alon
+Table 1 shows a summary of the results of our experiments with SVMpar and MBLpar, and also results obtained with the Charniak (2000) parser, the Bikel (2003) implementation of the Collins (1997) parser, and the Ratnaparkhi (1997) parser.
+
+Title:H05-1044		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Wilson, Theresa; Wiebe, Janyce; Hoffmann, Paul
+The modify features involve the dependency parse tree for the sentence, obtained by first parsing the sentence (Collins, 1997) and then converting the tree into its dependency representation (Xia and Palmer, 2001).
+
+Title:W05-1002		Conference:SIGLEX Workshop On Deep Lexical Acquisition		Author:Moschitti, Alessandro; Basili, Roberto
+Both training and testing sentences were processed using Collins parser (Collins, 1997) to generate parse-tree automatically.
+
+Title:H05-1105		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Nakov, Preslav; Hearst, Marti A.
+(Collins parser (Collins, 1997) always predicts a flat NP for such configurations).
+
+Title:P05-1038		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Arun, Abhishek; Keller, Frank
+The lexicalized parsing experiments were run using Dan Bikels probabilistic parsing engine (Bikel, 2002) which in addition to replicating the models described by Collins (1997) also provides a convenient interface to develop corresponding parsing models for other languages.
+
+Title:P05-1038		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Arun, Abhishek; Keller, Frank
+Furthermore, Bikel (2004) provides evidence that lexical information (in the form of bi-lexical dependencies) only makes a small contribution to the performance of parsing models such as Collinss (1997).
+
+Title:P05-1038		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Arun, Abhishek; Keller, Frank
+Previous work for English (e.g. , Magerman, 1995; Collins, 1997) has shown that lexicalization leads to a sizable improvement in parsing performance.
+
+Title:P05-1038		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Arun, Abhishek; Keller, Frank
+In general, these authors have found that existing lexicalized parsing models for English (e.g. , Collins 1997) do not straightforwardly generalize to new languages; this typically manifests itself in a severe reduction in parsing performance compared to the results for English.
+
+Title:P05-1038		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Arun, Abhishek; Keller, Frank
+Moreover, as Collins (1997) mentions, some of the benefits of Model 2 are already captured by inclusion of the distance measure.
+
+Title:W05-1507		Conference:International Workshop On Parsing Technology		Author:Huang, Liang; Zhang, Hao; Gildea, Daniel
+Bilexical CFG is at the heart of most modern statistical parsers (Collins, 1997; Charniak, 1997), because the statistics associated with word-specific rules are more informative for disambiguation purposes.
+
+Title:P05-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Dang, Hoa Trang; Palmer, Martha
+In order to extract the linguistic features necessary for the models, all sentences containing the target word were automatically part-of-speech-tagged using a maximum entropy tagger (Ratnaparkhi, 1998) and parsed using the Collins parser (Collins, 1997).
+
+Title:W05-1512		Conference:International Workshop On Parsing Technology		Author:Prescher, Detlef
+(2005) 86.6 86.7 1.19 Klein and Manning (2003) 86.9 85.7 86.3 30.9 1.10 Charniak (1997) 87.4 87.5 1.00 Collins (1997) 88.6 88.1 0.91 Table 3: Comparison with other parsers (sentences of length 40) as head information.
+
+Title:W05-1512		Conference:International Workshop On Parsing Technology		Author:Prescher, Detlef
+By contrast, alternative approaches, like Collins (1997), apply an additional transformation to each tree in the tree-bank, splitting each rule into small parts, which finally results in a new grammar covering many more sentences than the explicit one.
+
+Title:W05-1512		Conference:International Workshop On Parsing Technology		Author:Prescher, Detlef
+2 Head Lexicalization As previously shown (Charniak (1997), Collins (1997), Carroll and Rooth (1998), etc.), ContextFree Grammars (CFGs) can be transformed to lexicalized CFGs, provided that a head-marking scheme for rules is given.
+
+Title:W05-1512		Conference:International Workshop On Parsing Technology		Author:Prescher, Detlef
+The most important tree-bank transformation in the literature is lexicalization: Each node in a tree is labeled with its head word, the most important word of the constituent under the node (Magerman (1995), Collins (1996), Charniak (1997), Collins (1997), Carroll and Rooth (1998), etc.).
+
+Title:H05-1091		Conference:Human Language Technology Conference And Empirical Methods In Natural Language Processing		Author:Bunescu, Razvan C.; Mooney, Raymond J.
+In our experiments, we used the full parse output from Collins parser (Collins, 1997), in which every non-terminal node is already annotated with head information.
+
+Title:P05-1022		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Charniak, Eugene; Johnson, Mark
+The Collins parser (Collins, 1997) does use dynamic programming in its search.
+
+Title:P06-2041		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Hall, Johan; Nivre, Joakim; Nilsson, Jens
+1 Introduction Mainstream approaches in statistical parsing are based on nondeterministic parsing techniques, usually employing some kind of dynamic programming, in combination with generative probabilistic models that provide an n-best ranking of the set of candidate analyses derived by the parser (Collins, 1997; Collins, 1999; Charniak, 2000).
+
+Title:N06-1024		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Gabbard, Ryan; Kulick, Seth; Marcus, Mitchell P.
+An early exception to this was (Collins, 1997) itself, where Model 2 used function tags during the training process for heuristics to identify arguments (e.g. , the TMP tag on the NP in Figure 1 disqualifies the NP-TMP from being treated as an argument).
+
+Title:P06-3009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Student Research Worskhop		Author:Tsarfaty, Reut
+6 Conclusion Traditional approaches for devising parsing models, smoothing techniques and evaluation metrics are not well suited for MH, as they presuppose 13The lack of head marking, for instance, precludes the use of lexicalized models a la (Collins, 1997).
+
+Title:P06-3009		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Student Research Worskhop		Author:Tsarfaty, Reut
+Parsing models have been developed for different languages and state-of-the-art results have been reported for, e.g., English (Collins, 1997; Charniak, 2000).
+
+Title:P06-2034		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Ge, Ruifang; Mooney, Raymond J.
+SCISSOR is implemented by augmenting Collins (1997) head-driven parsing model II to incorporate the generation of semantic labels on internal nodes.
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+For example, smoothing methods have played a central role in probabilistic approaches (Collins, 1997; Wang et al. , 2005), and yet they are not being used in current large margin training algorithms.
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+1 Introduction Over the past decade, there has been tremendous progress on learning parsing models from treebank data (Collins, 1997; Charniak, 2000; Wang et al. , 2005; McDonald et al. , 2005).
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+Most of the early work in this area was based on postulating generative probability models of language that included parse structure (Collins, 1997).
+
+Title:W06-2904		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Wang, Qin Iris; Cherry, Colin; Lizotte, Dan; Schuurmans, Dale
+Learning in this context consisted of estimating the parameters of the model with simple likelihood based techniques, but incorporating various smoothing and back-off estimation tricks to cope with the sparse data problems (Collins, 1997; Bikel, 2004).
+
+Title:W06-1638		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Dreyer, Markus; Eisner, Jason M.
+317 Citation Observed data Hidden data Collins (1997) Treebank tree with head child annotated on each nonterminal No hidden data.
+
+Title:W06-1638		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Dreyer, Markus; Eisner, Jason M.
+Eisner (1996), Charniak (1997), Collins (1997), and many subsequent researchers1 annotated every node with lexical features passed up from its head child, in order to more precisely reflect the nodes inside contents.
+
+Title:W06-2902		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Titov, Ivan; Henderson, James B.
+In addition to portability experiments with the parsing model of (Collins, 1997), (Gildea, 2001) provided a comprehensive analysis of parser portability.
+
+Title:N06-1022		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Charniak, Eugene; Johnson, Mark; Elsner, Micha; Austerweil, Joseph; Ellis, David; Haxton, Isaac; Hill, Catherine; Shrivaths, R.; Moore, Jeremy; Pozar, Michael; Vu, Theresa
+(2005) have implemented a dependency parser with good accuracy (it is almost as good at dependency parsing as Charniak (2000)) and very impressive speed (it is about ten times faster than Collins (1997) and four times faster than Charniak (2000)).
+
+Title:P06-2089		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Sagae, Kenji; Lavie, Alon
+Some of the more popular and more accurate of these approaches to data-driven parsing (Charniak, 2000; Collins, 1997; Klein and Manning, 2002) have been based on generative models that are closely related to probabilistic contextfree grammars.
+
+Title:P06-1033		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Nilsson, Jens; Nivre, Joakim; Hall, Johan
+This is well illustrated by the Collins parser (Collins, 1997; Collins, 1999), scrutinized by Bikel (2004), where several transformations are applied in order to improve the analysis of noun phrases, coordination and punctuation.
+
+Title:P06-2004		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Atterer, Michaela; Sch&uuml;tze, Hinrich
+The supervised component is Collins parser (Collins, 1997), trained on the Wall Street Journal.
+
+Title:P06-2004		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Atterer, Michaela; Sch&uuml;tze, Hinrich
+Our baseline method for ambiguity resolution is the Collins parser as implemented by Bikel (Collins, 1997; Bikel, 2004).
+
+Title:W06-1668		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Toutanova, Kristina
+This kind of smoothing has also been used in the generative parser of (Collins, 1997) and has been shown to have a relatively good performance for language modeling (Goodman, 2001).
+
+Title:W06-1668		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Toutanova, Kristina
+To avoid this problem, generative models for NLP tasks have often been manually designed to achieve an appropriate representation of the joint distribution, such as in the parsing models of (Collins, 1997; Charniak, 2000).
+
+Title:E06-1012		Conference:Conference Of The European Association For Computational Linguistics		Author:Eryi&#x11F;it, G&uuml;l&scedil;en; Oflazer, Kemal
+(1999) applied the parser of Collins (1997) developed for English, to Czech, and found thatthe performance wassubstantially lower when compared to the results for English.
+
+Title:P06-1072		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics		Author:Smith, Noah A.; Eisner, Jason M.
+This was done for supervised parsing in different ways by Collins (1997), Klein and Manning (2003), and McDonald et al.
+
+Title:W06-2920		Conference:Conference On Computational Natural Language Learning CoNLL		Author:Buchholz, Sabine; Marsi, Erwin
+Collins (1997)s parser and its reimplementation and extension by Bikel (2002) have by now been applied to a variety of languages: English (Collins, 1999), Czech (Collins et al. , 1999), German (Dubey and Keller, 2003), Spanish (Cowan and Collins, 2005), French (Arun and Keller, 2005), Chinese (Bikel, 2002) and, according to Dan Bikels web page, Arabic.
+
+Title:E06-1015		Conference:Conference Of The European Association For Computational Linguistics		Author:Moschitti, Alessandro
+Note that, since the FrameNet data does not include deep syntactic tree annotation, we processed the FrameNet data with Collins parser (Collins, 1997), consequently, the experiments on FrameNet relate to automatic syntactic parse trees.
+
+Title:N06-1040		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics		Author:Mohri, Mehryar; Roark, Brian
+Probability estimates of the RHS given the LHS are often smoothed by making a Markov assumption regarding the conditional independence of a category on those more than k categories away (Collins, 1997; Charniak, 2000): P(X Y1Yn)= P(Y1|X) nY i=2 P(Yi|X,Y1 Yi1) P(Y1|X) nY i=2 P(Yi|X,Yik Yi1).
+
+Title:P06-2105		Conference:International Conference On Computational Linguistics And Annual Meeting Of The Association For Computational Linguistics - Poster Sessions		Author:Tatu, Marta; Moldovan, Dan
+In order to objectively evaluate our representation, we derived it from two different sources: constituency parse trees (generated with our implementation of (Collins, 1997)) and dependency parse trees (created using Minipar (Lin, 1998))1.
+
+Title:W06-1636		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Headden III, William P.; Charniak, Eugene; Johnson, Mark
+Instead researchers condition parsing decisions on many other features, such as parent phrase-marker, and, famously, the lexical-head of the phrase (Magerman, 1995; Collins, 1996; Collins, 1997; Johnson, 1998; Charniak, 2000; Henderson, 2003; Klein and Manning, 2003; Matsuzaki et al. , 2005) (and others).
+
+Title:N06-2025		Conference:Human Language Technology Conference And Meeting Of The North American Association For Computational Linguistics - Short Papers		Author:Moschitti, Alessandro
+The sentences were processed with the Collins parser (Collins, 1997) to generate automatic parse trees.
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+For example, smoothing methods have played a central role in probabilistic approaches (Collins, 1997; Wang et al. , 2005), and yet they are not being used in current large margin training algorithms.
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+Most of the early work in this area was based on postulating generative probability models of language that included parse structures (Magerman, 1995; Collins, 1997; Charniak, 1997).
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+Furthermore, I based training on maximizing the conditional probability of a parse tree given a sentence, unlike most previous generative models (Magerman, 1995; Collins, 1997; Charniak, 1997), which focus on maximizing the joint probability of the parse tree and the sentence.
+
+Title:N07-3002		Conference:NAACL-HLT 2007 Doctoral Consortium		Author:Wang, Qin Iris
+Learning in this context consisted of estimating the parameters of the model with simple likelihood based techniques, but incorporating various smoothing and back-off estimation tricks to cope with the sparse data problems (Collins, 1997; Bikel, 2004).
+
+Title:P07-1011		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Sun, Guihua; Liu, Xiaohua; Cong, Gao; Zhou, Ming; Xiong, Zhongyang; Lee, John; Lin, Chin-Yew
+To measure the coherence of sentences, we use a statistical parser Toolkit (Collins, 1997) to assign each sentence a parsers score that is the related log probability of parsing.
+
+Title:D07-1096		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Nivre, Joakim; Hall, Johan; K&uuml;bler, Sandra; McDonald, Ryan; Nilsson, Jens; Riedel, Sebastian; Yuret, Deniz
+Even before the 2006 shared task, the parsers of Collins (1997) and Charniak (2000), originally developed for English, had been adapted for dependency parsing of Czech, and the parsing methodology proposed by Kudo and Matsumoto (2002) and Yamada and Matsumoto (2003) had been evaluated on both Japanese and English.
+
+Title:D07-1078		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Wang, Wei; Knight, Kevin; Marcu, Daniel
+Binarizing the syntax trees for syntax-based machine translation is similar in spirit to generalizing parsing models via markovization (Collins, 1997; Charniak, 2000).
+
+Title:D07-1078		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Wang, Wei; Knight, Kevin; Marcu, Daniel
+The parse trees on the English side of the bitexts were generated using a parser (Soricut, 2004) implementing the Collins parsing models (Collins, 1997).
+
+Title:D07-1116		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Habash, Nizar; Gabbard, Ryan; Rambow, Owen; Kulick, Seth; Marcus, Mitchell P.
+Sometimes, due to data sparseness and/or limitations in the machine learning paradigm used, we need to extract features from the available representation in a manner that profoundly changes the representation (as is done in bilexical parsing (Collins, 1997)).
+
+Title:D07-1058		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zuidema, Willem
+Moreover, as P-DOP is formulated as an enrichment of the treebank Probabilistic Context-free Grammar (PCFG), it allows for much easier comparison to alternative approaches to statistical parsing (Collins, 1997; Charniak, 1997; Johnson, 1998; Klein and Manning, 2003; Petrov et al. , 2006).
+
+Title:D07-1058		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Zuidema, Willem
+All state-of-the-art wide-coverage parsers relax this assumption in some way, for instance by (i) changing the parser in step (3), such that the application of rules is conditioned on other steps in the derivation process (Collins, 1997; Charniak, 1997), or by (ii) enriching the nonterminal labels in step (1) with context-information (Johnson, 1998; Klein and Manning, 2003), along with suitable backtransforms in step (4).
+
+Title:J07-3004		Conference:Computational Linguistics		Author:Hockenmaier, Julia; Steedman, Mark
+Typically, frequency information for rare words in the training data is used to estimate parameters for unknown words (and when these rare or unknown words are encountered during parsing, additional information may be obtained from a POS-tagger (Collins 1997)).
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+These forest rescoring algorithms have potential applications to other computationally intensive tasks involving combinations of different models, for example, head-lexicalized parsing (Collins, 1997); joint parsing and semantic role labeling (Sutton and McCallum, 2005); or tagging and parsing with nonlocal features.
+
+Title:P07-1019		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Huang, Liang; Chiang, David
+The data set is same as in Section 5.1, except that we also parsed the English-side using a variant of the Collins (1997) parser, and then extracted 24.7M tree-to-string rules using the algorithm of (Galley et al. , 2006).
+
+Title:P07-3002		Conference:Annual Meeting Of The Association For Compuational Linguistics - Student Research Workshop		Author:Ponvert, Elias
+In particular, Hockenmaier and Steedman (2001) report a generative model for CCG parsing roughly akin to the Collins parser (Collins, 1997) specific to CCG.
+
+Title:P07-1028		Conference:45th Annual Meeting of the Association of Computational Linguistics		Author:Erk, Katrin
+To determine headwords of the semantic roles, the corpus was parsed using the Collins (1997) parser.
+
+Title:D07-1077		Conference:2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)		Author:Wang, Chao; Collins, Michael John; Koehn, Philipp
+presented in Collins (1997). (self citation)
+
+Title:N07-2024		Conference:Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Companion Volume, Short Papers		Author:Lee, John; Zhou, Ming; Liu, Xiaohua
+Parse Parse score from Model 2 of the statistical parser (Collins, 1997), normalized by the number of words.
+
+Title:P08-1006		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Miyao, Yusuke; S&aelig;tre, Rune; Sagae, Kenji; Matsuzaki, Takuya; Tsujii, Jun'ichi
+We first determine lexical heads of nonterminal nodes by using Bikels implementation of Collins head detection algorithm9 (Bikel, 2004; Collins, 1997).
+
+Title:P08-1021		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Lee, John; Seneff, Stephanie
+Using these patterns, we introduced verb form errors into AQUAINT, then re-parsed the corpus (Collins, 1997), and compiled the changes in the disturbed trees into a catalog.
+
+Title:P08-1021		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Lee, John; Seneff, Stephanie
+For example, the sentence My father is *work in the laboratory is parsed (Collins, 1997) as: (S (NP My father) (VP is (NP work)) (PP in the laboratory)) 2The abbreviations s (is or has) and d (would or had) compound the ambiguities.
+
+Title:P08-1021		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Lee, John; Seneff, Stephanie
+After parsing the corpus (Collins, 1997), we artificially introduced verb form errors into these sentences, and observed the resulting disturbances to the parse trees.
+
+Title:C08-1050		Conference:International Conference On Computational Linguistics		Author:Johansson, Richard; Nugues, Pierre
+Typical approaches to conversion of constituent structures into dependencies are based on handconstructed head percolation rules, an idea that has its roots in lexicalized constituent parsing (Magerman, 1994; Collins, 1997).
+
+Title:C08-1050		Conference:International Conference On Computational Linguistics		Author:Johansson, Richard; Nugues, Pierre
+A constituent-based system using Collins parser (Collins, 1997).
+
+Title:C08-1050		Conference:International Conference On Computational Linguistics		Author:Johansson, Richard; Nugues, Pierre
+By habit, most systems for automatic role-semantic analysis have used Pennstyle constituents (Marcus et al., 1993) produced by Collins (1997) or Charniaks (2000) parsers.
+
+Title:W08-2219		Conference:Semantics in Text Processing. STEP 2008 Conference Proceedings		Author:van Durme, Benjamin; Schubert, Lenhart K.
+Parse each sentence using a Treebank-trained parser (Collins, 1997; Charniak, 1999).
+
+Title:P08-1087		Conference:Annual Meeting Of The Association For Computational Linguistics		Author:Avramidis, Eleftherios; Koehn, Philipp
+For getting the syntax trees, the latest version of Collins parser (Collins, 1997) was used.
+
+Title:C08-1025		Conference:International Conference On Computational Linguistics		Author:Deoskar, Tejaswini
+As is common (Collins, 1997; Johnson, 1998; Klein and Manning, 2003; Schmid, 2006), the treebank is first transformed in various ways, in order to give an accurate PCFG.
+
+Title:W08-2102		Conference:CoNLL 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning		Author:Carreras, Xavier; Collins, Michael John; Koo, Terry
+To achieve step (1), we first apply a set of headfinding rules which are similar to those described in (Collins, 1997). (self citation)
+
+Title:W08-2102		Conference:CoNLL 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning		Author:Carreras, Xavier; Collins, Michael John; Koo, Terry
+(For test or development data, we used the part-of-speech tags generated by the parser of (Collins, 1997). (self citation)
+
+Title:C08-1116		Conference:International Conference On Computational Linguistics		Author:van Durme, Benjamin; Qian, Ting; Schubert, Lenhart K.
+For our studies here, the parser employed was that of Collins (1997) applied to the sentences of the British National Corpus (BNC Consortium, 2001).
+
+Title:J08-3004		Conference:Computational Linguistics		Author:Graehl, Jonathan; Knight, Kevin; May, Jonathan
+Recently, specic probabilistic tree-based models have been proposed not only for machine translation (Wu 1997; Alshawi, Bangalore, and Douglas 2000; Yamada and Knight 2001; Eisner 2003; Gildea 2003), but also for summarization (Knight and Marcu 2002), paraphrasing (Pang, Knight, and Marcu 2003), natural language generation (Langkilde and Knight 1998; Bangalore and Rambow 2000; Corston-Oliver et al. 2002), parsing, and language modeling (Baker 1979; Lari and Young 1990; Collins 1997; Chelba and Jelinek 2000; Charniak 2001; Klein Information Sciences Institute, 4676 Admiralty Way, Marina del Rey, CA 90292.
+
+Title:D08-1018		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Song, Xinying; Ding, Shilin; Lin, Chin-Yew
+The last issue is how our binarization performs on a lexicalized parser, like Collins (1997).
+
+Title:D08-1018		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Song, Xinying; Ding, Shilin; Lin, Chin-Yew
+Therefore in Collins (1997) grammar rules are already factorized into a set of probabilities.
+
+Title:D08-1018		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Song, Xinying; Ding, Shilin; Lin, Chin-Yew
+In order to capture the dependency relationship between lexcial heads Collins (1997) breaks down the rules from head outwards, which prevents us from factorizing them in other ways.
+
+Title:D08-1018		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Song, Xinying; Ding, Shilin; Lin, Chin-Yew
+It is equipped with head binarization to help improve parsing accuracy, following the traditional linguistic insight that phrases are organized around the head (Collins, 1997; Klein and Manning, 2003b).
+
+Title:D08-1018		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Song, Xinying; Ding, Shilin; Lin, Chin-Yew
+Our intuition is that we cannot apply our binarization to Collins (1997).
+
+Title:J08-3003		Conference:Computational Linguistics		Author:Eryi&#x11F;it, G&uuml;l&scedil;en; Nivre, Joakim; Oflazer, Kemal
+The results so far mainly come from studies where a parser originally developed for English,such as the Collins parser (Collins 1997,1999), is applied to a new language,which often leads to a signicant decrease in the measured accuracy (Collins et al. 1999; Bikel and Chiang 2000; Dubey and Keller 2003; Levy and Manning 2003; Corazza et al. 2004).
+
+Title:W08-1112		Conference:Proceedings of the Fifth International Natural Language Generation Conference		Author:Guo, Yuqing; Wang, Haifeng; van Genabith, Josef
+It is interesting to note that, while the study of how the granularity of context-free grammars (CFG) affects the performance of a parser (e.g. in the form 86 n1:IP [=] n2:NP [SUBJ=] n4:NR [=] GSC4ES JiangZemin n3:VP [=] n5:VV [=] ESDO interview n6:NP [OBJ=] n7:NR [ADJUNCT] AIC1 Thai n8:NN [=] D3D2 president f1 PRED ESDO SUBJ f2 PRED GSC4ESNTYPE proper NUM sg OBJ f3 PRED D3D2 NTYPE common NUM sg ADJUNCT f4 PRED AIC1NTYPE proper NUM sg : N F (n1)=(n3)=(n5)=f1 (n2)=(n4)=f2 (n6)=(n8)=f3 (n7)=f4 Figure 1: Cand f-structures with links for the sentence GSC4ESESDOAIC1D3D2 of grammar transforms (Johnson, 1998) and lexicalisation (Collins, 1997)) has attracted substantial attention, to our knowledge, there has been a lot less research on this subject for surface realisation, a process that is generally regarded as the reverse process of parsing.
+
+Title:W08-1112		Conference:Proceedings of the Fifth International Natural Language Generation Conference		Author:Guo, Yuqing; Wang, Haifeng; van Genabith, Josef
+As, from a linguistic perspective, it is the modifier 2We use a mechanism similar to (Collins, 1997) but adapted to Chinese data to find lexical heads in the treebank data.
+
+Title:W08-1112		Conference:Proceedings of the Fifth International Natural Language Generation Conference		Author:Guo, Yuqing; Wang, Haifeng; van Genabith, Josef
+3.1 A History-Based Model The history-based (HB) approach which incorporates more context information has worked well in parsing (Collins, 1997; Charniak, 2000).
+
+Title:W08-1112		Conference:Proceedings of the Fifth International Natural Language Generation Conference		Author:Guo, Yuqing; Wang, Haifeng; van Genabith, Josef
+Methodologies such as lexicalisation (Collins, 1997; Charniak, 2000) and tree transformations (Johnson, 1998), weaken the independence assumptions and have been applied successfully to parsing and shown significant improvements over simple PCFGs.
+
+Title:D08-1050		Conference:Conference On Empirical Methods In Natural Language Processing		Author:Rimell, Laura; Clark, Stephen
+(2006) produced a corpus of 4,000 questions annotated with syntactic trees, and obtained an improvement in parsing accuracy for Bikels reimplementation of the Collins parser (Collins, 1997) by training a new parser model with a combination of newspaper and question data.
+
+Title:D09-1119		Conference:EMNLP		Author:Goldberg, Yoav; Elhadad, Michael
+While it was initially believed that lexicalization of PCFG parsers (Collins, 1997; Charniak, 2000) is crucial for obtaining good parsing results, Gildea (2001) demonstrated that the lexicalized Model-1 parser of Collins (1997) does not benefit from bilexical information when tested on a new text domain, and only marginally benefits from such information when tested on the same text domain as the training corpora.
+
+Title:N09-1063		Conference:HLT-NAACL		Author:Pauls, Adam; Klein, Dan
+For example, the lexicalized grammars of Collins (1997) and Charniak (1997) and the statesplit grammars of Petrov et al.
+
+Title:N09-1039		Conference:HLT-NAACL		Author:Schuler, William
+Since this transform takes a probabilistic grammar as input, it can also easily accommodate horizontal and vertical Markovisation (annotating grammar symbols with parent and sibling categories) as described by Collins (1997) and subsequently.
+
+Title:W09-0429		Conference:Proceedings of the Fourth Workshop on Statistical Machine Translation		Author:Koehn, Philipp; Haddow, Barry
+2.4 GermanEnglish For GermanEnglish, we additionally incorporated rule-based reordering We parse the input using the Collins parser (Collins, 1997) and apply a set of reordering rules to re-arrange the German sentence so that it corresponds more closely English word order (Collins et al., 2005).
+
+Title:E09-1092		Conference:EACL		Author:van Durme, Benjamin; Michalak, Phillip; Schubert, Lenhart K.
+((:I (:Q DET NAMED-ENTITY) ENTER[V] (:Q THE ROOM[N])) (:I (:Q DET FEMALE-INDIVIDUAL) HAVE[V] (:Q DET ROOM[N])) (:I (:Q DET FEMALE-INDIVIDUAL) SLEEP[V]) (:I (:Q DET FEMALE-INDIVIDUAL) HAVE[V] (:Q DET (:F PLUR CLOTHE[N]))) (:I (:Q DET (:F PLUR CLOTHE[N])) WASHED[A])) Here the upper-case sentences are automatically generated verbalizations of the abstracted LFs shown beneath them.1 The initial development of KNEXT was based on the hand-constructed parse trees in the Penn Treebank version of the Brown corpus, but subsequently Schubert and collaborators refined and extended the system to work with parse trees obtained with statistical parsers (e.g., that of Collins (1997) or Charniak (2000)) applied to larger corpora, such as the British National Corpus (BNC), a 100 million-word, mixed genre collection, along with Web corpora of comparable size (see work of Van Durme et al.
+
+Title:D09-1085		Conference:EMNLP		Author:Rimell, Laura; Clark, Stephen; Steedman, Mark
+The Stanford parser is representative of a large number of PTB parsers, exemplified by Collins (1997) and Charniak (2000).
+
+Title:D09-1021		Conference:EMNLP		Author:Carreras, Xavier; Collins, Michael John
+This procedure uses the head finding rules of (Collins, 1997). (self citation)
+
+Title:N09-1025		Conference:HLT-NAACL		Author:Chiang, David; Knight, Kevin; Wang, Wei
+the syntax-based system, we ran a reimplementation of the Collins parser (Collins, 1997) on the English half of the bitext to produce parse trees, then restructured and relabeled them as described in Section 3.2.
+
+Title:D09-1135		Conference:EMNLP		Author:Lin, Xiaojun; Fan, Yang; Zhang, Meng; Wu, Xihong; Chi, Huisheng
+Lexicalized PCFGs use the structural features on the lexical head of phrasal node in a tree, and get significant improvements for parsing (Collins, 1997; Charniak, 1997; Collins, 1999; Charniak, 2000).
+
+Title:J09-1003		Conference:Computational Linguistics		Author:Karamanis, Nikiforos; Mellish, Chris S.; Poesio, Massimo; Oberlander, Jon
+More specically, they used a parser (Collins 1997) to determine the constituent structure of the sentences from which the grammatical function for each NP was derived.
+
+Title:E09-1011		Conference:EACL		Author:Badr, Ibrahim; Zbib, Rabih; Glass, James R.
+We parse the data using the Collins Parser (Collins, 1997), and then tag person, location and organization names using the Stanford Named Entity Recognizer (Finkel et al., 2005).
+
+Title:N09-1037		Conference:HLT-NAACL		Author:Finkel, Jenny Rose; Manning, Christopher D.
+6 Related Work A pioneering antecedent for our work is (Miller et al., 2000), who trained a Collins-style generative parser (Collins, 1997) over a syntactic structure augmented with the template entity and template relations annotations for the MUC-7 shared task.
+
+Title:P10-1074		Conference:ACL		Author:Finkel, Jenny Rose; Manning, Christopher D.
+No discussion of joint modeling would be complete without mention of (Miller et al., 2000), who trained a Collinsstyle generative parser (Collins, 1997) over a syntactic structure augmented with the template entity and template relations annotations for the MUC-7 shared task.
+
+Title:P10-1146		Conference:ACL		Author:Chiang, David
+We parsed the source sides of both parallel texts using the Berkeley parser (Petrov et al., 2006), trained on the Chinese Treebank 6 and Arabic Treebank parts 13, and the English sides using a reimplementation of the Collins parser (Collins, 1997).
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+(Magerman, 1995; Collins, 1997; Charniak, 2000; Chiang, 2000; Bod, 2003; Charniak and Johnson, 2005; Petrov et al., 2006; Huang, 2008; Finkel et al., 2008; Carreras et al., 2008)).
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+2.2 Parsing MRLs Pushing the envelope of constituency parsing: The Head-Driven models of the type proposed by Collins (1997) have been ported to parsing many MRLs, often via the implementation of Bikel (2002).
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+3 For Spanish and French, it was shown by Cowan and Collins (2005) and in (Arun and Keller, 2005; Schluter and van Genabith, 2007), that restructuring the treebanks native annotation scheme to match the PTB annotation style led to a significant gain in parsing performance of Head-Driven models of the kind proposed in (Collins, 1997).
+
+Title:W10-1401		Conference:Proceedings of the NAACL HLT 2010 First Workshop on Statistical Parsing of Morphologically-Rich Languages		Author:Tsarfaty, Reut; Seddah, Djam&eacute; ; Goldberg, Yoav; K&uuml;bler, Sandra; Versley, Yannick; Candito, Marie; Foster, Jennifer; Rehbein, Ines; Tounsi, Lamia
+(2004) used the Stanford parser and Bikels parser emulation of Collins model 2 (Collins, 1997) on the ISST treebank, and obtained significantly lower results compared to English.
+
+Title:W11-0417		Conference:Proceedings of the 5th Linguistic Annotation Workshop		Author:G. S. K., Chaitanya; Husain, Samar; Mannem, Prashanth
+There have been many approaches for the recovery of empty categories in the treebanks like Penn treebank, both ML based (Collins, 1997; Johnson, 2002; Dienes and Dubey, 2003a,b; Higgins, 2003) and rule based (R Campbell, 2004).
+
+Title:P11-1046		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Crescenzi, Pierluigi; Gildea, Daniel; Marino, Andrea; Rossi, Gianluca; Satta, Giorgio
+Head-driven strategies allow for the techniques of lexicalization and Markovization that are widely used in (projective) statistical parsing (Collins, 1997).
+
+Title:D11-1006		Conference:EMNLP		Author:McDonald, Ryan; Petrov, Slav; Hall, Keith
+This includes work on phrasestructure parsing (Collins, 1997; Charniak, 2000; Petrov et al., 2006), dependency parsing (McDonald et al., 2005; Nivre et al., 2006) as well as a number of other formalisms (Clark and Curran, 2004; Wang and Harper, 2004; Shen and Joshi, 2008).
+
+Title:P11-2119		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Bodenstab, Nathan; Hollingshead, Kristy; Roark, Brian
+Additional transforms include (4) removing XX unary productions for all non-terminals X, (5) collapsing unary chains to a single (possibly composite) unary production (Klein and Manning, 2001), (6) introducing new categories such as AUX (Charniak, 1997), and (7) collapsing of categories such as PRT and ADVP (Collins, 1997).
+
+Title:W11-0303		Conference:Proceedings of the Fifteenth Conference on Computational Natural Language Learning		Author:Spitkovsky, Valentin I.; Alshawi, Hiyan; Jurafsky, Daniel
+Statistical parsers reap dramatic gains from punctuation (Engel et al., 2002; Roark, 2001; Charniak, 2000; Johnson, 1998; Collins, 1997, inter alia).
+
+Title:P11-1123		Conference:Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies		Author:Luo, Xiaoqiang; Zhao, Bing
+1 Introduction Syntactic parsing has made tremendous progress in the past 2 decades (Magerman, 1994; Ratnaparkhi, 1997; Collins, 1997; Charniak, 2000; Klein and Manning, 2003; Carreras et al., 2008), and accurate syntactic parsing is often assumed when developing other natural language applications.
+
+Title:W11-0131		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Wu, Stephen; Schuler, William
+The structured vectorial semantic framework subsumes variants of several common parsing algorithms, two of which will be discussed: lexicalized parsing (Charniak, 1996; Collins, 1997, etc.) and relational clustering (akin to latent annotations (Matsuzaki et al., 2005; Petrov et al., 2006; Gesmundo et al., 2009)).
+
+Title:W11-0131		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Wu, Stephen; Schuler, William
+Subsequently, each branch was annotated with a head relation nullID or a modifier relation nullMOD according to a binarized version of headword percolation rules (Magerman, 1995; Collins, 1997), and the headword was propagated up from its head constituent.
+
+Title:W11-0131		Conference:Proceedings of the Ninth International Conference on Computational Semantics (IWCS 2011)		Author:Wu, Stephen; Schuler, William
+Parsing hasattimesaddedsemanticannotationsthatunwittinglycarrysomesemanticvalue: headwords(Collins, 1997) are one-word concepts that subsume the words below them; latent annotations (Matsuzaki et al., 2005) are clustered concepts that touch on both syntactic and semantic information at a node.
+
+Title:D11-1017		Conference:EMNLP		Author:Katz-Brown, Jason; Petrov, Slav; McDonald, Ryan; Och, Franz Josef; Talbot, David; Ichikawa, Hiroshi; Seno, Masakazu; Kazawa, Hideto
+1 Introduction The field of syntactic parsing has received a great deal of attention and progress since the creation of the Penn Treebank (Marcus et al., 1993; Collins, 1997; Charniak, 2000; McDonald et al., 2005; Petrov et al., 2006; Nivre, 2008).
+

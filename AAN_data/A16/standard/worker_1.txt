@@ -1,0 +1,15 @@
+In this paper we first propose a new sta- tistical parsing model, which is a genera- tive model of lexicalised context-free gram- mar
+We then extend the model to in- clude a probabilistic treatment of both sub- categorisation and wh-movement
+Most statistical parsing research, such as Collins (1997), has centered on training probabilistic context-free grammars using the Penn Treebank
+In addition, many more sophisticated parsing models are elaborations of such PCFG models, so understanding the properties of PCFGs is likely to be useful (Charniak, 1997; Collins, 1997)
+Binarizing the syntax trees for syntax-based machine translation is similar in spirit to generalizing parsing models via markovization (Collins, 1997; Charniak, 2000)
+Such word-based lexicalizations of probability models are used successfully in the statistical parsing models of, e
+The corpus-based statistical parsing community has many fast and accurate automated parsing systems, including systems produced by Collins (1997), Charniak (1997) and Ratnaparkhi (1997)
+Head-driven strategies allow for the techniques of lexicalization and Markovization that are widely used in (projective) statistical parsing (Collins, 1997)
+Because of these kinds of results, the vast majority of statistical parsing work has focused on parsing as a supervised learning problem (Collins, 1997; Charniak, 2000)
+1 Introduction Mainstream approaches in statistical parsing are based on nondeterministic parsing techniques, usually employing some kind of dynamic programming, in combination with generative probabilistic models that provide an n-best ranking of the set of candidate analyses derived by the parser (Collins, 1997; Collins, 1999; Charniak, 2000)
+In order to objectively evaluate our representation, we derived it from two different sources: constituency parse trees (generated with our implementation of (Collins, 1997)) and dependency parse trees (created using Minipar (Lin, 1998))1
+In parsing, the most relevant previous work is due to Collins (1997), who considered three binary features of the intervening material: did it contain (a) any word tokens at all, (b) any verbs, (c) any commas or colons?
+These models include a standard unlexicalized PCFG parser, a head-lexicalized parser (Collins, 1997), and a maximum-entropy inspired parser (Charniak, 2000)
+To determine headwords of the semantic roles, the corpus was parsed using the Collins (1997) parser
+This kind of smoothing has also been used in the generative parser of (Collins, 1997) and has been shown to have a relatively good performance for language modeling (Goodman, 2001)

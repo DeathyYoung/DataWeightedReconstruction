@@ -1,0 +1,15 @@
+We present a novel sentence reduction system for automatically removing extraneous phrases from sentences that are extracted from a document for summarization purpose.
+The system uses multiple sources of knowledge to decide which phrases in an extracted sentence can be removed, including syn- tactic knowledge, context information, and statistics computed from a corpus which consists of examples written by human professionals. 
+Reduction can sig- nificantly improve the conciseness of automatic sum- maries. 
+Motivation Current automatic summarizers usually rely on sen- tence extraction to produce summaries. 
+Human pro- fessionals also often reuse the input documents to generate summaries; however, rather than simply extracting sentences and stringing them together, as most current summarizers
+Sentence simplification systems (Chandrasekar et al. , 1996; Mahesh, 1997; Carroll et al. , 1998; Grefenstette, 1998; Jing, 2000; Knight and Marcu, 2000) are capable of compressing long sentences by deleting unimportant words and phrases.
+In contrast to Jing (2000), the bulk of the research on sentence compression relies exclusively on corpus data for modelling the compression process without recourse to extensive knowledge sources (e.g. , WordNet).
+In addition, an automatic evaluation method based on context-free deletion decisions has been proposed by Jing (2000).
+1 Introduction Sentence compression is the task of producing a shorter form of a single given sentence, so that the new form is grammatical and retains the most important information of the original one (Jing, 2000).
+N03-1026:17 To overcome this problem, linguistic parsing and generation systems are used in the sentence condensation approaches of Knight and Marcu (2000) and Jing (2000).
+Interfacing extractive summarization with a sentence compression module could improve the conciseness of the generated summaries and render them more informative (Jing, 2000; Lin, 2003; Zajic et al., 2007).
+Extractive methods are generally simpler and have dominated the sentence compression literature (Jing, 2000; Knight and Marcu, 2002; McDonald, 2006; Cohn and Lapata, 2007; Clarke and Lapata, 2008; Cohn and Lapata, 2009; Nomoto, 2009; Galanis and Androutsopoulos, 2010; Yamangil and Shieber, 2010).
+Given the need to ensure grammatical sentences, a number of researchers have used syntax-directed approaches that perform transformations on the output of syntactic parsers (Jing, 2000; Dorr et al. , 2003).
+To overcome this problem, linguistic parsing and generation systems are used in the sentence condensation approaches of Knight and Marcu (2000) and Jing (2000).
+Jing and McKeown(H. Jing, 2000) studied a new method to remove extraneous phrase from sentences by using multiple source of knowledge to decide which phrase in the sentences can be removed.

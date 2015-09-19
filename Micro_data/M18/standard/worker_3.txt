@@ -1,0 +1,15 @@
+We introduce a new approach to planning in STRIPS-like domains based on con- structing and analyzing a compact structure we call a Planning Graph.
+Graphplan always returns a shortest- possible partial-order plan, or states that no valid plan exists.
+We provide empirical evidence in favor of this approach, showing that Graphplan outperforms the total-order planner, Prodigy, and the partial-order planner, UCPOP, on a variety of interesting natural and artificial planning problems. 
+We also give empir-ical evidence that the plans produced by Graphplan are quite sensible.
+Since searches made by this approach are fundamentally different from the searches of other common planning methods, they provide a new perspective on the planning problem.
+Our planning-structures, like FDP planning-structures, are closed to Graphplan planning graph [2]...
+This is done by a Graphplan-like procedure [1], which due to the absence of deletes constructs a planning graph with no mutexes, from which a plan FF(s) is extracted backtrack-free [11]...
+The action graph data structure was initially defined as a particular class of subgraphs of the planning graph representation [3], and subsequently it has been modified and extended for representing temporal information [15,17]
+starting with [9]), where highly-sophisticated planning algorithms have been developed, such that complex, real-world planning problems can now be efficiently solved
+The relaxed plan is computed using a Graphplan-style (Blum & Furst, 1997) technique combining a forward chaining graph construction phase with a backward chaining plan extraction phase
+Blackbox is a Graphplan-based [3] planner that transforms the planning graph into a large propositional satisfiability problem
+To compute the heuristic function a Graphplan-style planning graph [5] is expanded until all the goal facts appear in a fact node
+In the probabilistic planning problem, the effects of action are uncertainly, so the exclusion relations among action nodes are different from the Graphplan [1]
+The overall strategy of using an approximate backward search followed by a forward search is reminiscent of Graphplan [5], although the details are quite dierent
+Although similar problems have been studied in the past using artificial intelligence techniques to search the domain of potential solutions [1-3], the cases described in this paper presented a number of formidable challenges both methodologically and computationally

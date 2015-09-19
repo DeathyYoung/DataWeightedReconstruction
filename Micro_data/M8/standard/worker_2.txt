@@ -1,0 +1,15 @@
+While some systems [20, 3] have incorporated tracking of fine motion actions or visual gesture, none have included top-down dialogue context as part of the visual recognition process
+To build systems which accomplish such multimodal interactions, some studies discussed computational models of multimodal interactions [3, 4]
+We investigate the verbal and nonverbal means for Based on these results, we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state
+In addition, direction-followers in that study attempted to establish eye contact with direction-givers more often at points of confusion or potential trouble (see also Nakano, Reinstein, Stocky, & Cassell, 2003)
+Nakano and colleagues [25] explored the relation between various dialogue acts and non-verbal behaviors and showed that speakers look at their partners in order to ground references to new entities
+Previous studies in multimodal user interfaces and intelligent virtual agents presented many interesting applications by exploiting such sensing technologies [1, 2]
+In Mack [21], the authors achieved natural nonverbal grounding via a statistical model conducted from the results of Wizard-of-Orz (woz) experiments
+The timing of gesture stroke relative to utterance was also coded as: before utterance, beginning of utterance (first three words), ending of utterance (last 3 words), middle of utterance, or continued from previous utterance (following [26])
+The MACK system described in [5] uses a head tracker to determine a user’s gaze in a direction-giving task, whereby an animated agent monitors lack of negative feedback and positive feedback in the grounding process
+IRIs appear to be important interaction patterns in conversation (Nakano et al
+The dialogue manager merges information from the input devices with the history and the discourse model [16,17]
+Nakano et al [9] found that gaze at a map and lack of negative feedback were indicative that humans considered the previous utterance grounded and only looked at the interlocutor when they required more information to ground
+Empirical studies show that the visual access to the interlocutor’s body affects the conversation in the way that non-verbal behaviors are used as communicative signals (Nakano et al
+While some systems [12, 2] have incorporated tracking of fine motion actions or visual gesture, none have included top-down dialogue context as part of the visual recognition process
+In the interactive use, a system responds to the observed eye movements and can thus be seen as an input modality [12, 7, 17]

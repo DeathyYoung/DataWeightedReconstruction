@@ -1,0 +1,15 @@
+This paper presents an approach to automatically optimizing the retrieval quality of search engines using clickthrough data
+Intuitively, a good information retrieval system should present relevant documents high in the ranking, with less relevant documents following below
+While previous approaches to learning retrieval functions from examples exist, they typically require training data generated from relevance judgments by experts
+This makes them difficult and expensive to apply
+The goal of this paper is to develop a method that utilizes clickthrough data for training, namely the query-log of the search engine in connection with the log of links the users clicked on in the presented ranking
+Such clickthrough data is available in abundance and can be recorded at very low cost
+Taking a Support Vector Machine (SVM) approach, this paper presents a method for learning retrieval functions
+From a theoretical perspective, this method is shown to be well-founded in a risk minimization framework
+Furthermore, it is shown to be feasible even for large sets of queries and features
+The theoretical results are verified in a controlled experiment
+It shows that the method can effectively adapt the retrieval function of a meta-search engine to a particular group of users, outperforming Google in terms of retrieval quality after only a couple of hundred training examples
+, [6, 7, 17, 19, 22, 31]) are designed to optimize loss functions loosely related to the IR performance measures, not loss functions directly based on the measures
+In particular, preferences between documents [10] and between document lists [18] can be inferred and have been shown to contain sufficient information for learning effective ranking functions [9]
+Using a data set of name-alias pairs, we train a ranking support vector machine [24] to rank candidate aliases according to their strength of association with a name
+Using the regularization term will (1)impose smoothness conditions on possible solutions; (2)make the algorithm select a w resulting in a largest margin, which depicts the distance between the closest two projections within all target rankings geometrically [3]

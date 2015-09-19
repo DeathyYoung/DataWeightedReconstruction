@@ -1,0 +1,15 @@
+Classification is an important problem in the data mining domain, but current classification methods for XML documents use IR-based methods in which each document is treated as a bag of words
+Such techniques ignore a significant amount of information hidden inside the documents
+In this paper we discuss the problem of rule based classification of XML data by using frequent discriminatory substructures within XML documents
+Such a technique is more capable of finding the classification characteristics of documents
+XRules [43] utilizes frequent tree-patterns to build a rule based classifier for XML data
+Peer clustering is based on rules that associate the presence of each path expression of a cluster description in the documents of the peers to the likelihood of the peer belonging to this cluster, an idea presented in XRules [25], a centralized algorithm for clustering XML data that uses discriminatory structural patterns to determine the cluster each document belongs to
+Existing work on mining XML data includes frequent substructure mining [6, 7, 9, 10], classiflcation [11] and association rule mining [1]
+XRules [55] assigns the documents to categories through a rule based classiflcation approach that relates the presence of a particular structural pattern in an XML document to its likelihood of belonging to a particular category
+As we reviewed in Section 2, XRULE [41] is a classifler that classifles XML documents according to the discriminatory structures extracted from each class of XML documents by some algorithm of frequent subtree mining
+There has been recently more specific work on finding the structural similarity between XML documents, based on the general assumption that the structure of an XML document is described as an ordered tree [11, 5, 23, 20]
+Tree mining can lead to many practical applications in the areas of computer networks [6], bioinformatics [7], [8], and XML documents databases mining [9], [10] and hence have received a lot of attention from the research community in recent years
+The applications of associative classification are also involved in text categorization domain [4,5,10,12]
+In [41], Zaki proposed an algorithm to construct structural rules in order to classify XML documents
+1 Data Sets We performed the experiments on two real datasets namely the CSLOG dataset created and used by Zaki and Aggarwal [21] and a subset of the Wikipedia XML dataset [10]
+In the field of classification from structured data [1], there are three common ways of dealing with this kind of representation: relational rule learning [2], kernel approaches [3,4] or propositionalisation [5,6,7]
